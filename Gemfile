@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', platforms: :ruby
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
@@ -25,11 +25,10 @@ gem 'aws-sdk'
 gem 'gon'
 # Use postgresql as the database for Active Record
 gem 'pg'
-#gem 'bootstrap-sass'
 gem 'devise'
-gem 'jquery-rails'
-gem 'jquery-ui-rails'
-gem 'jquery-fileupload-rails'
+#gem 'jquery-rails'
+#gem 'jquery-ui-rails'
+#gem 'jquery-fileupload-rails'
 gem 'wicked'
 gem 'soundcloud'
 gem "figaro", ">= 0.5.3"
@@ -39,11 +38,12 @@ gem 'haml-rails'
 gem 'json'
 gem 'faker'
 gem 'activemerchant'
-gem 'bootstrap-datetimepicker-rails'
 gem 'mail_form'
 gem 'recaptcha'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
+gem 'less'
+#gem 'bootstrap-sass', '~> 3.1.1'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 gem 'gmaps4rails'
@@ -55,6 +55,9 @@ gem "premailer-rails"
 gem "simple-rss"
 gem "htmlentities"
 gem 'newrelic_rpm'
+gem 'countries'
+gem 'country_select'
+gem 'simple_form'
 
 
 group :assets do

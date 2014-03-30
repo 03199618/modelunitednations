@@ -1,9 +1,11 @@
 Modelunitednations::Application.routes.draw do
-  devise_for :users do
-
-  end
+  mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
+  devise_for :users, path: "auth", path_names: { sign_in: 'login', sign_out: 'logout'}
 
   root to: "welcome#index"
+  get "theme", to: 'welcome#theme'
+
+  resource :conferences
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

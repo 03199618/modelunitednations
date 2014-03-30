@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Modelunitednations</title>
+  <title>Model United Nations</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<p class="notice"><%= notice %></p>
-<p class="alert"><%= alert %></p>
+<div id="wrapper">
+  <!--
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
+  -->
+  <%= render partial: "layouts/navigation" %>
+  <%= render partial: "layouts/side_navigation" %>
+  <div id="page-wrapper">
+    <%= yield %>
+  </div>
+  <!-- /#page-wrapper -->
 
-<%= yield %>
+</div>
+<!-- /#wrapper -->
+
+<%= javascript_tag  "jquery.metisMenu.js" %>
+<%= javascript_tag  "raphael-2.1.0.min.js" %>
+<%= javascript_tag  "morris.js" %>
+<%= javascript_tag  "sb-admin.js" %>
+<%= javascript_tag  "dashboard-demo.js" %>
 
 </body>
 </html>
