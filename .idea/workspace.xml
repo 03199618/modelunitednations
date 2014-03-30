@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230275e5-48d9-4aa0-bf99-afe6cd5b3d7f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/conference.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/conferences.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20140329182848_participant_roles_to_participant.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Production__modelunitednations.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Production__modelunitednations.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_side_navigation.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_side_navigation.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/ability.rb" afterPath="$PROJECT_DIR$/app/models/ability.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/conference.rb" afterPath="$PROJECT_DIR$/app/models/conference.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/conferences_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/conferences_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/conferences_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/conferences_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/devise.rb" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modelunitednations.iml" afterPath="$PROJECT_DIR$/.idea/modelunitednations.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/conferences/new.html.haml" afterPath="$PROJECT_DIR$/app/views/conferences/new.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/pariticipant_role.rb" afterPath="$PROJECT_DIR$/app/models/pariticipant_role.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/participant.rb" afterPath="$PROJECT_DIR$/app/models/participant.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/sb-admin.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/sb-admin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/sb-admin.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/sb-admin.css.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_landing.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_landing.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/grayscale.css.erb" afterPath="$PROJECT_DIR$/app/assets/stylesheets/grayscale.css.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="modelunitednations.iws" />
@@ -82,7 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20140329155449_add_delegation_id_to_participant.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140329155654_add_name_to_users.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140329153554_participant_to_comittee.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
@@ -99,7 +80,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20140329183025_user_to_roles.rb" />
         <option value="$PROJECT_DIR$/app/controllers/conference_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/conferenceS_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/welcome/index.html" />
         <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
@@ -125,14 +105,16 @@
         <option value="$PROJECT_DIR$/app/controllers/conferences_controller.rb" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/support/spec_test_helper.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/grayscale.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/grayscale.css" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/grayscale.css.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/sb-admin.css" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_landing.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/grayscale.css.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_landing.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/grayscale.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/sb-admin.css.erb" />
       </list>
     </option>
   </component>
@@ -212,6 +194,32 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="welcome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modelunitednations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modelunitednations-rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -274,6 +282,24 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modelunitednations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modelunitednations-rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -294,6 +320,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modelunitednations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modelunitednations-rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -728,6 +776,15 @@
       <created>1396100618302</created>
       <updated>1396100618302</updated>
     </task>
+    <task id="LOCAL-00001" summary="Bootstrap theme SB admin v2&#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;# On branch master&#10;# Your branch is up-to-date with 'origin/master'.&#10;#&#10;# Changes to be committed:&#10;#&#9;modified:   .idea/.generators&#10;#&#9;modified:   .idea/.rakeTasks&#10;#&#9;modified:   .idea/dataSources.ids&#10;#&#9;modified:   .idea/dataSources.xml&#10;#&#9;modified:   .idea/modelunitednations.iml&#10;#&#9;new file:   .idea/runConfigurations/Development__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/Production__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/spec__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/test__modelunitednations.xml&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#9;modified:   Gemfile&#10;#&#9;modified:   Gemfile.lock&#10;#&#9;modified:   app/assets/javascripts/application.js&#10;#&#9;new file:   app/assets/javascripts/bootstrap.min.js&#10;#&#9;new file:   app/assets/javascripts/conference.js&#10;#&#9;new file:   app/assets/javascripts/conferences.js&#10;#&#9;new file:   app/assets/javascripts/jquery-1.10.2.js&#10;#&#9;new file:   app/assets/javascripts/plugins/dataTables/dataTables.bootstrap.js&#10;#&#9;new file:   app/assets/javascripts/plugins/dataTables/jquery.dataTables.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/dashboard-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/flot-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/morris-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/excanvas.min.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.pie.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.resize.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.tooltip.min.js&#10;#&#9;new file:   app/assets/javascripts/plugins/metisMenu/jquery.metisMenu.js&#10;#&#9;new file:   app/assets/javascripts/plugins/morris/morris.js&#10;#&#9;new file:   app/assets/javascripts/plugins/morris/raphael-2.1.0.min.js&#10;#&#9;new file:   app/assets/javascripts/sb-admin.js&#10;#&#9;modified:   app/assets/stylesheets/application.css&#10;#&#9;new file:   app/assets/stylesheets/bootstrap.min.css&#10;#&#9;new file:   app/assets/stylesheets/conference.css.scss&#10;#&#9;new file:   app/assets/stylesheets/conferences.css.scss&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/css/font-awesome.css&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/css/font-awesome.min.css&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/FontAwesome.otf&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.eot&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.svg&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.ttf&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.woff&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.eot&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.svg&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.ttf&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.woff&#10;#&#9;new file:   app/assets/stylesheets/plugins/dataTables/dataTables.bootstrap.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/morris/morris-0.4.3.min.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/social-buttons/social-buttons.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/timeline/timeline.css&#10;#&#9;new file:   app/assets/stylesheets/sb-admin.css&#10;#&#9;modified:   app/controllers/application_controller.rb&#10;#&#9;new file:   app/controllers/conferences_controller.rb&#10;#&#9;modified:   app/controllers/welcome_controller.rb&#10;#&#9;new file:   app/helpers/conferences_helper.rb&#10;#&#9;new file:   app/models/ability.rb&#10;#&#9;new file:   app/models/announcement.rb&#10;#&#9;new file:   app/models/comittee.rb&#10;#&#9;new file:   app/models/conference.rb&#10;#&#9;new file:   app/models/delegation.rb&#10;#&#9;new file:   app/models/pariticipant_role.rb&#10;#&#9;new file:   app/models/participant.rb&#10;#&#9;new file:   app/models/participant_group.rb&#10;#&#9;new file:   app/models/role.rb&#10;#&#9;modified:   app/models/user.rb&#10;#&#9;new file:   app/views/conferences/create.html.haml&#10;#&#9;new file:   app/views/conferences/destroy.html.haml&#10;#&#9;new file:   app/views/conferences/edit.html.haml&#10;#&#9;new file:   app/views/conferences/index.html.haml&#10;#&#9;new file:   app/views/conferences/new.html.haml&#10;#&#9;new file:   app/views/conferences/update.html.haml&#10;#&#9;modified:   app/views/devise/sessions/new.html.erb&#10;#&#9;new file:   app/views/layouts/_content.html.erb&#10;#&#9;new file:   app/views/layouts/_navigation.html.erb&#10;#&#9;new file:   app/views/layouts/_side_navigation.html.erb&#10;#&#9;modified:   app/views/layouts/application.html.erb&#10;#&#9;new file:   app/views/welcome/index.html&#10;#&#9;deleted:    app/views/welcome/index.html.erb&#10;#&#9;new file:   app/views/welcome/theme.html&#10;#&#9;new file:   config/initializers/rails_admin.rb&#10;#&#9;modified:   config/routes.rb&#10;#&#9;new file:   db/migrate/20140329151251_create_conferences.rb&#10;#&#9;new file:   db/migrate/20140329151539_create_comittees.rb&#10;#&#9;new file:   db/migrate/20140329152006_add_name_to_conference.rb&#10;#&#9;new file:   db/migrate/20140329152410_create_participants.rb&#10;#&#9;new file:   db/migrate/20140329152611_create_roles.rb&#10;#&#9;new file:   db/migrate/20140329152838_add_conference_id_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329153310_create_participant_groups.rb&#10;#&#9;new file:   db/migrate/20140329153428_participant_to_participant_group.rb&#10;#&#9;new file:   db/migrate/20140329153818_add_name_to_participant_group.rb&#10;#&#9;new file:   db/migrate/20140329154140_create_announcements.rb&#10;#&#9;new file:   db/migrate/20140329154206_add_conference_id_to_announcements.rb&#10;#&#9;new file:   db/migrate/20140329154915_create_delegations.rb&#10;#&#9;new file:   db/migrate/20140329155449_add_delegation_id_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329155654_add_name_to_users.rb&#10;#&#9;new file:   db/migrate/20140329155859_add_surname_to_users.rb&#10;#&#9;new file:   db/migrate/20140329161931_comittee_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329182641_create_pariticipant_roles.rb&#10;#&#9;new file:   db/migrate/20140329182848_participant_roles_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329183025_user_to_roles.rb&#10;#&#9;modified:   db/schema.rb&#10;#&#9;modified:   db/seeds.rb&#10;#&#9;new file:   db/structure.sql&#10;#&#9;new file:   erd.pdf&#10;#&#9;new file:   spec/controllers/conferences_controller_spec.rb&#10;#&#9;new file:   spec/factories/announcements.rb&#10;#&#9;new file:   spec/factories/chairs.rb&#10;#&#9;new file:   spec/factories/comittees.rb&#10;#&#9;new file:   spec/factories/conference_managers.rb&#10;#&#9;new file:   spec/factories/conferences.rb&#10;#&#9;new file:   spec/factories/delegates.rb&#10;#&#9;new file:   spec/factories/delegations.rb&#10;#&#9;new file:   spec/factories/pariticipant_roles.rb&#10;#&#9;new file:   spec/factories/participant_groups.rb&#10;#&#9;new file:   spec/factories/participants.rb&#10;#&#9;new file:   spec/factories/roles.rb&#10;#&#9;new file:   spec/helpers/conferences_helper_spec.rb&#10;#&#9;new file:   spec/models/announcement_spec.rb&#10;#&#9;new file:   spec/models/chair_spec.rb&#10;#&#9;new file:   spec/models/comittee_spec.rb&#10;#&#9;new file:   spec/models/conference_manager_spec.rb&#10;#&#9;new file:   spec/models/conference_spec.rb&#10;#&#9;new file:   spec/models/delegate_spec.rb&#10;#&#9;new file:   spec/models/delegation_spec.rb&#10;#&#9;new file:   spec/models/pariticipant_role_spec.rb&#10;#&#9;new file:   spec/models/participant_group_spec.rb&#10;#&#9;new file:   spec/models/participant_spec.rb&#10;#&#9;new file:   spec/models/role_spec.rb&#10;#&#9;new file:   spec/views/conferences/create.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/destroy.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/edit.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/index.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/new.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/update.html.haml_spec.rb&#10;#&#10;">
+      <created>1396192500657</created>
+      <updated>1396192500657</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Bootstrap theme SB admin v2&#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;# On branch master&#10;# Your branch is up-to-date with 'origin/master'.&#10;#&#10;# Changes to be committed:&#10;#&#9;modified:   .idea/.generators&#10;#&#9;modified:   .idea/.rakeTasks&#10;#&#9;modified:   .idea/dataSources.ids&#10;#&#9;modified:   .idea/dataSources.xml&#10;#&#9;modified:   .idea/modelunitednations.iml&#10;#&#9;new file:   .idea/runConfigurations/Development__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/Production__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/spec__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/test__modelunitednations.xml&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#9;modified:   Gemfile&#10;#&#9;modified:   Gemfile.lock&#10;#&#9;modified:   app/assets/javascripts/application.js&#10;#&#9;new file:   app/assets/javascripts/bootstrap.min.js&#10;#&#9;new file:   app/assets/javascripts/conference.js&#10;#&#9;new file:   app/assets/javascripts/conferences.js&#10;#&#9;new file:   app/assets/javascripts/jquery-1.10.2.js&#10;#&#9;new file:   app/assets/javascripts/plugins/dataTables/dataTables.bootstrap.js&#10;#&#9;new file:   app/assets/javascripts/plugins/dataTables/jquery.dataTables.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/dashboard-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/flot-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/morris-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/excanvas.min.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.pie.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.resize.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.tooltip.min.js&#10;#&#9;new file:   app/assets/javascripts/plugins/metisMenu/jquery.metisMenu.js&#10;#&#9;new file:   app/assets/javascripts/plugins/morris/morris.js&#10;#&#9;new file:   app/assets/javascripts/plugins/morris/raphael-2.1.0.min.js&#10;#&#9;new file:   app/assets/javascripts/sb-admin.js&#10;#&#9;modified:   app/assets/stylesheets/application.css&#10;#&#9;new file:   app/assets/stylesheets/bootstrap.min.css&#10;#&#9;new file:   app/assets/stylesheets/conference.css.scss&#10;#&#9;new file:   app/assets/stylesheets/conferences.css.scss&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/css/font-awesome.css&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/css/font-awesome.min.css&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/FontAwesome.otf&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.eot&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.svg&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.ttf&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.woff&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.eot&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.svg&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.ttf&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.woff&#10;#&#9;new file:   app/assets/stylesheets/plugins/dataTables/dataTables.bootstrap.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/morris/morris-0.4.3.min.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/social-buttons/social-buttons.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/timeline/timeline.css&#10;#&#9;new file:   app/assets/stylesheets/sb-admin.css&#10;#&#9;modified:   app/controllers/application_controller.rb&#10;#&#9;new file:   app/controllers/conferences_controller.rb&#10;#&#9;modified:   app/controllers/welcome_controller.rb&#10;#&#9;new file:   app/helpers/conferences_helper.rb&#10;#&#9;new file:   app/models/ability.rb&#10;#&#9;new file:   app/models/announcement.rb&#10;#&#9;new file:   app/models/comittee.rb&#10;#&#9;new file:   app/models/conference.rb&#10;#&#9;new file:   app/models/delegation.rb&#10;#&#9;new file:   app/models/pariticipant_role.rb&#10;#&#9;new file:   app/models/participant.rb&#10;#&#9;new file:   app/models/participant_group.rb&#10;#&#9;new file:   app/models/role.rb&#10;#&#9;modified:   app/models/user.rb&#10;#&#9;new file:   app/views/conferences/create.html.haml&#10;#&#9;new file:   app/views/conferences/destroy.html.haml&#10;#&#9;new file:   app/views/conferences/edit.html.haml&#10;#&#9;new file:   app/views/conferences/index.html.haml&#10;#&#9;new file:   app/views/conferences/new.html.haml&#10;#&#9;new file:   app/views/conferences/update.html.haml&#10;#&#9;modified:   app/views/devise/sessions/new.html.erb&#10;#&#9;new file:   app/views/layouts/_content.html.erb&#10;#&#9;new file:   app/views/layouts/_navigation.html.erb&#10;#&#9;new file:   app/views/layouts/_side_navigation.html.erb&#10;#&#9;modified:   app/views/layouts/application.html.erb&#10;#&#9;new file:   app/views/welcome/index.html&#10;#&#9;deleted:    app/views/welcome/index.html.erb&#10;#&#9;new file:   app/views/welcome/theme.html&#10;#&#9;new file:   config/initializers/rails_admin.rb&#10;#&#9;modified:   config/routes.rb&#10;#&#9;new file:   db/migrate/20140329151251_create_conferences.rb&#10;#&#9;new file:   db/migrate/20140329151539_create_comittees.rb&#10;#&#9;new file:   db/migrate/20140329152006_add_name_to_conference.rb&#10;#&#9;new file:   db/migrate/20140329152410_create_participants.rb&#10;#&#9;new file:   db/migrate/20140329152611_create_roles.rb&#10;#&#9;new file:   db/migrate/20140329152838_add_conference_id_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329153310_create_participant_groups.rb&#10;#&#9;new file:   db/migrate/20140329153428_participant_to_participant_group.rb&#10;#&#9;new file:   db/migrate/20140329153818_add_name_to_participant_group.rb&#10;#&#9;new file:   db/migrate/20140329154140_create_announcements.rb&#10;#&#9;new file:   db/migrate/20140329154206_add_conference_id_to_announcements.rb&#10;#&#9;new file:   db/migrate/20140329154915_create_delegations.rb&#10;#&#9;new file:   db/migrate/20140329155449_add_delegation_id_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329155654_add_name_to_users.rb&#10;#&#9;new file:   db/migrate/20140329155859_add_surname_to_users.rb&#10;#&#9;new file:   db/migrate/20140329161931_comittee_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329182641_create_pariticipant_roles.rb&#10;#&#9;new file:   db/migrate/20140329182848_participant_roles_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329183025_user_to_roles.rb&#10;#&#9;modified:   db/schema.rb&#10;#&#9;modified:   db/seeds.rb&#10;#&#9;new file:   db/structure.sql&#10;#&#9;new file:   erd.pdf&#10;#&#9;new file:   spec/controllers/conferences_controller_spec.rb&#10;#&#9;new file:   spec/factories/announcements.rb&#10;#&#9;new file:   spec/factories/chairs.rb&#10;#&#9;new file:   spec/factories/comittees.rb&#10;#&#9;new file:   spec/factories/conference_managers.rb&#10;#&#9;new file:   spec/factories/conferences.rb&#10;#&#9;new file:   spec/factories/delegates.rb&#10;#&#9;new file:   spec/factories/delegations.rb&#10;#&#9;new file:   spec/factories/pariticipant_roles.rb&#10;#&#9;new file:   spec/factories/participant_groups.rb&#10;#&#9;new file:   spec/factories/participants.rb&#10;#&#9;new file:   spec/factories/roles.rb&#10;#&#9;new file:   spec/helpers/conferences_helper_spec.rb&#10;#&#9;new file:   spec/models/announcement_spec.rb&#10;#&#9;new file:   spec/models/chair_spec.rb&#10;#&#9;new file:   spec/models/comittee_spec.rb&#10;#&#9;new file:   spec/models/conference_manager_spec.rb&#10;#&#9;new file:   spec/models/conference_spec.rb&#10;#&#9;new file:   spec/models/delegate_spec.rb&#10;#&#9;new file:   spec/models/delegation_spec.rb&#10;#&#9;new file:   spec/models/pariticipant_role_spec.rb&#10;#&#9;new file:   spec/models/participant_group_spec.rb&#10;#&#9;new file:   spec/models/participant_spec.rb&#10;#&#9;new file:   spec/models/role_spec.rb&#10;#&#9;new file:   spec/views/conferences/create.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/destroy.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/edit.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/index.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/new.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/update.html.haml_spec.rb&#10;#&#10;">
+      <created>1396192516575</created>
+      <updated>1396192516575</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -754,6 +811,7 @@
     <frame x="130" y="22" width="1622" height="1083" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299595" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -766,7 +824,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -781,6 +838,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Bootstrap theme SB admin v2&#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;# On branch master&#10;# Your branch is up-to-date with 'origin/master'.&#10;#&#10;# Changes to be committed:&#10;#&#9;modified:   .idea/.generators&#10;#&#9;modified:   .idea/.rakeTasks&#10;#&#9;modified:   .idea/dataSources.ids&#10;#&#9;modified:   .idea/dataSources.xml&#10;#&#9;modified:   .idea/modelunitednations.iml&#10;#&#9;new file:   .idea/runConfigurations/Development__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/Production__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/spec__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/test__modelunitednations.xml&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#9;modified:   Gemfile&#10;#&#9;modified:   Gemfile.lock&#10;#&#9;modified:   app/assets/javascripts/application.js&#10;#&#9;new file:   app/assets/javascripts/bootstrap.min.js&#10;#&#9;new file:   app/assets/javascripts/conference.js&#10;#&#9;new file:   app/assets/javascripts/conferences.js&#10;#&#9;new file:   app/assets/javascripts/jquery-1.10.2.js&#10;#&#9;new file:   app/assets/javascripts/plugins/dataTables/dataTables.bootstrap.js&#10;#&#9;new file:   app/assets/javascripts/plugins/dataTables/jquery.dataTables.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/dashboard-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/flot-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/morris-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/excanvas.min.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.pie.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.resize.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.tooltip.min.js&#10;#&#9;new file:   app/assets/javascripts/plugins/metisMenu/jquery.metisMenu.js&#10;#&#9;new file:   app/assets/javascripts/plugins/morris/morris.js&#10;#&#9;new file:   app/assets/javascripts/plugins/morris/raphael-2.1.0.min.js&#10;#&#9;new file:   app/assets/javascripts/sb-admin.js&#10;#&#9;modified:   app/assets/stylesheets/application.css&#10;#&#9;new file:   app/assets/stylesheets/bootstrap.min.css&#10;#&#9;new file:   app/assets/stylesheets/conference.css.scss&#10;#&#9;new file:   app/assets/stylesheets/conferences.css.scss&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/css/font-awesome.css&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/css/font-awesome.min.css&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/FontAwesome.otf&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.eot&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.svg&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.ttf&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.woff&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.eot&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.svg&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.ttf&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.woff&#10;#&#9;new file:   app/assets/stylesheets/plugins/dataTables/dataTables.bootstrap.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/morris/morris-0.4.3.min.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/social-buttons/social-buttons.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/timeline/timeline.css&#10;#&#9;new file:   app/assets/stylesheets/sb-admin.css&#10;#&#9;modified:   app/controllers/application_controller.rb&#10;#&#9;new file:   app/controllers/conferences_controller.rb&#10;#&#9;modified:   app/controllers/welcome_controller.rb&#10;#&#9;new file:   app/helpers/conferences_helper.rb&#10;#&#9;new file:   app/models/ability.rb&#10;#&#9;new file:   app/models/announcement.rb&#10;#&#9;new file:   app/models/comittee.rb&#10;#&#9;new file:   app/models/conference.rb&#10;#&#9;new file:   app/models/delegation.rb&#10;#&#9;new file:   app/models/pariticipant_role.rb&#10;#&#9;new file:   app/models/participant.rb&#10;#&#9;new file:   app/models/participant_group.rb&#10;#&#9;new file:   app/models/role.rb&#10;#&#9;modified:   app/models/user.rb&#10;#&#9;new file:   app/views/conferences/create.html.haml&#10;#&#9;new file:   app/views/conferences/destroy.html.haml&#10;#&#9;new file:   app/views/conferences/edit.html.haml&#10;#&#9;new file:   app/views/conferences/index.html.haml&#10;#&#9;new file:   app/views/conferences/new.html.haml&#10;#&#9;new file:   app/views/conferences/update.html.haml&#10;#&#9;modified:   app/views/devise/sessions/new.html.erb&#10;#&#9;new file:   app/views/layouts/_content.html.erb&#10;#&#9;new file:   app/views/layouts/_navigation.html.erb&#10;#&#9;new file:   app/views/layouts/_side_navigation.html.erb&#10;#&#9;modified:   app/views/layouts/application.html.erb&#10;#&#9;new file:   app/views/welcome/index.html&#10;#&#9;deleted:    app/views/welcome/index.html.erb&#10;#&#9;new file:   app/views/welcome/theme.html&#10;#&#9;new file:   config/initializers/rails_admin.rb&#10;#&#9;modified:   config/routes.rb&#10;#&#9;new file:   db/migrate/20140329151251_create_conferences.rb&#10;#&#9;new file:   db/migrate/20140329151539_create_comittees.rb&#10;#&#9;new file:   db/migrate/20140329152006_add_name_to_conference.rb&#10;#&#9;new file:   db/migrate/20140329152410_create_participants.rb&#10;#&#9;new file:   db/migrate/20140329152611_create_roles.rb&#10;#&#9;new file:   db/migrate/20140329152838_add_conference_id_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329153310_create_participant_groups.rb&#10;#&#9;new file:   db/migrate/20140329153428_participant_to_participant_group.rb&#10;#&#9;new file:   db/migrate/20140329153818_add_name_to_participant_group.rb&#10;#&#9;new file:   db/migrate/20140329154140_create_announcements.rb&#10;#&#9;new file:   db/migrate/20140329154206_add_conference_id_to_announcements.rb&#10;#&#9;new file:   db/migrate/20140329154915_create_delegations.rb&#10;#&#9;new file:   db/migrate/20140329155449_add_delegation_id_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329155654_add_name_to_users.rb&#10;#&#9;new file:   db/migrate/20140329155859_add_surname_to_users.rb&#10;#&#9;new file:   db/migrate/20140329161931_comittee_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329182641_create_pariticipant_roles.rb&#10;#&#9;new file:   db/migrate/20140329182848_participant_roles_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329183025_user_to_roles.rb&#10;#&#9;modified:   db/schema.rb&#10;#&#9;modified:   db/seeds.rb&#10;#&#9;new file:   db/structure.sql&#10;#&#9;new file:   erd.pdf&#10;#&#9;new file:   spec/controllers/conferences_controller_spec.rb&#10;#&#9;new file:   spec/factories/announcements.rb&#10;#&#9;new file:   spec/factories/chairs.rb&#10;#&#9;new file:   spec/factories/comittees.rb&#10;#&#9;new file:   spec/factories/conference_managers.rb&#10;#&#9;new file:   spec/factories/conferences.rb&#10;#&#9;new file:   spec/factories/delegates.rb&#10;#&#9;new file:   spec/factories/delegations.rb&#10;#&#9;new file:   spec/factories/pariticipant_roles.rb&#10;#&#9;new file:   spec/factories/participant_groups.rb&#10;#&#9;new file:   spec/factories/participants.rb&#10;#&#9;new file:   spec/factories/roles.rb&#10;#&#9;new file:   spec/helpers/conferences_helper_spec.rb&#10;#&#9;new file:   spec/models/announcement_spec.rb&#10;#&#9;new file:   spec/models/chair_spec.rb&#10;#&#9;new file:   spec/models/comittee_spec.rb&#10;#&#9;new file:   spec/models/conference_manager_spec.rb&#10;#&#9;new file:   spec/models/conference_spec.rb&#10;#&#9;new file:   spec/models/delegate_spec.rb&#10;#&#9;new file:   spec/models/delegation_spec.rb&#10;#&#9;new file:   spec/models/pariticipant_role_spec.rb&#10;#&#9;new file:   spec/models/participant_group_spec.rb&#10;#&#9;new file:   spec/models/participant_spec.rb&#10;#&#9;new file:   spec/models/role_spec.rb&#10;#&#9;new file:   spec/views/conferences/create.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/destroy.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/edit.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/index.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/new.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/update.html.haml_spec.rb&#10;#&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap theme SB admin v2&#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;# On branch master&#10;# Your branch is up-to-date with 'origin/master'.&#10;#&#10;# Changes to be committed:&#10;#&#9;modified:   .idea/.generators&#10;#&#9;modified:   .idea/.rakeTasks&#10;#&#9;modified:   .idea/dataSources.ids&#10;#&#9;modified:   .idea/dataSources.xml&#10;#&#9;modified:   .idea/modelunitednations.iml&#10;#&#9;new file:   .idea/runConfigurations/Development__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/Production__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/spec__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/test__modelunitednations.xml&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#9;modified:   Gemfile&#10;#&#9;modified:   Gemfile.lock&#10;#&#9;modified:   app/assets/javascripts/application.js&#10;#&#9;new file:   app/assets/javascripts/bootstrap.min.js&#10;#&#9;new file:   app/assets/javascripts/conference.js&#10;#&#9;new file:   app/assets/javascripts/conferences.js&#10;#&#9;new file:   app/assets/javascripts/jquery-1.10.2.js&#10;#&#9;new file:   app/assets/javascripts/plugins/dataTables/dataTables.bootstrap.js&#10;#&#9;new file:   app/assets/javascripts/plugins/dataTables/jquery.dataTables.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/dashboard-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/flot-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/morris-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/excanvas.min.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.pie.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.resize.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.tooltip.min.js&#10;#&#9;new file:   app/assets/javascripts/plugins/metisMenu/jquery.metisMenu.js&#10;#&#9;new file:   app/assets/javascripts/plugins/morris/morris.js&#10;#&#9;new file:   app/assets/javascripts/plugins/morris/raphael-2.1.0.min.js&#10;#&#9;new file:   app/assets/javascripts/sb-admin.js&#10;#&#9;modified:   app/assets/stylesheets/application.css&#10;#&#9;new file:   app/assets/stylesheets/bootstrap.min.css&#10;#&#9;new file:   app/assets/stylesheets/conference.css.scss&#10;#&#9;new file:   app/assets/stylesheets/conferences.css.scss&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/css/font-awesome.css&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/css/font-awesome.min.css&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/FontAwesome.otf&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.eot&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.svg&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.ttf&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.woff&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.eot&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.svg&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.ttf&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.woff&#10;#&#9;new file:   app/assets/stylesheets/plugins/dataTables/dataTables.bootstrap.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/morris/morris-0.4.3.min.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/social-buttons/social-buttons.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/timeline/timeline.css&#10;#&#9;new file:   app/assets/stylesheets/sb-admin.css&#10;#&#9;modified:   app/controllers/application_controller.rb&#10;#&#9;new file:   app/controllers/conferences_controller.rb&#10;#&#9;modified:   app/controllers/welcome_controller.rb&#10;#&#9;new file:   app/helpers/conferences_helper.rb&#10;#&#9;new file:   app/models/ability.rb&#10;#&#9;new file:   app/models/announcement.rb&#10;#&#9;new file:   app/models/comittee.rb&#10;#&#9;new file:   app/models/conference.rb&#10;#&#9;new file:   app/models/delegation.rb&#10;#&#9;new file:   app/models/pariticipant_role.rb&#10;#&#9;new file:   app/models/participant.rb&#10;#&#9;new file:   app/models/participant_group.rb&#10;#&#9;new file:   app/models/role.rb&#10;#&#9;modified:   app/models/user.rb&#10;#&#9;new file:   app/views/conferences/create.html.haml&#10;#&#9;new file:   app/views/conferences/destroy.html.haml&#10;#&#9;new file:   app/views/conferences/edit.html.haml&#10;#&#9;new file:   app/views/conferences/index.html.haml&#10;#&#9;new file:   app/views/conferences/new.html.haml&#10;#&#9;new file:   app/views/conferences/update.html.haml&#10;#&#9;modified:   app/views/devise/sessions/new.html.erb&#10;#&#9;new file:   app/views/layouts/_content.html.erb&#10;#&#9;new file:   app/views/layouts/_navigation.html.erb&#10;#&#9;new file:   app/views/layouts/_side_navigation.html.erb&#10;#&#9;modified:   app/views/layouts/application.html.erb&#10;#&#9;new file:   app/views/welcome/index.html&#10;#&#9;deleted:    app/views/welcome/index.html.erb&#10;#&#9;new file:   app/views/welcome/theme.html&#10;#&#9;new file:   config/initializers/rails_admin.rb&#10;#&#9;modified:   config/routes.rb&#10;#&#9;new file:   db/migrate/20140329151251_create_conferences.rb&#10;#&#9;new file:   db/migrate/20140329151539_create_comittees.rb&#10;#&#9;new file:   db/migrate/20140329152006_add_name_to_conference.rb&#10;#&#9;new file:   db/migrate/20140329152410_create_participants.rb&#10;#&#9;new file:   db/migrate/20140329152611_create_roles.rb&#10;#&#9;new file:   db/migrate/20140329152838_add_conference_id_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329153310_create_participant_groups.rb&#10;#&#9;new file:   db/migrate/20140329153428_participant_to_participant_group.rb&#10;#&#9;new file:   db/migrate/20140329153818_add_name_to_participant_group.rb&#10;#&#9;new file:   db/migrate/20140329154140_create_announcements.rb&#10;#&#9;new file:   db/migrate/20140329154206_add_conference_id_to_announcements.rb&#10;#&#9;new file:   db/migrate/20140329154915_create_delegations.rb&#10;#&#9;new file:   db/migrate/20140329155449_add_delegation_id_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329155654_add_name_to_users.rb&#10;#&#9;new file:   db/migrate/20140329155859_add_surname_to_users.rb&#10;#&#9;new file:   db/migrate/20140329161931_comittee_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329182641_create_pariticipant_roles.rb&#10;#&#9;new file:   db/migrate/20140329182848_participant_roles_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329183025_user_to_roles.rb&#10;#&#9;modified:   db/schema.rb&#10;#&#9;modified:   db/seeds.rb&#10;#&#9;new file:   db/structure.sql&#10;#&#9;new file:   erd.pdf&#10;#&#9;new file:   spec/controllers/conferences_controller_spec.rb&#10;#&#9;new file:   spec/factories/announcements.rb&#10;#&#9;new file:   spec/factories/chairs.rb&#10;#&#9;new file:   spec/factories/comittees.rb&#10;#&#9;new file:   spec/factories/conference_managers.rb&#10;#&#9;new file:   spec/factories/conferences.rb&#10;#&#9;new file:   spec/factories/delegates.rb&#10;#&#9;new file:   spec/factories/delegations.rb&#10;#&#9;new file:   spec/factories/pariticipant_roles.rb&#10;#&#9;new file:   spec/factories/participant_groups.rb&#10;#&#9;new file:   spec/factories/participants.rb&#10;#&#9;new file:   spec/factories/roles.rb&#10;#&#9;new file:   spec/helpers/conferences_helper_spec.rb&#10;#&#9;new file:   spec/models/announcement_spec.rb&#10;#&#9;new file:   spec/models/chair_spec.rb&#10;#&#9;new file:   spec/models/comittee_spec.rb&#10;#&#9;new file:   spec/models/conference_manager_spec.rb&#10;#&#9;new file:   spec/models/conference_spec.rb&#10;#&#9;new file:   spec/models/delegate_spec.rb&#10;#&#9;new file:   spec/models/delegation_spec.rb&#10;#&#9;new file:   spec/models/pariticipant_role_spec.rb&#10;#&#9;new file:   spec/models/participant_group_spec.rb&#10;#&#9;new file:   spec/models/participant_spec.rb&#10;#&#9;new file:   spec/models/role_spec.rb&#10;#&#9;new file:   spec/views/conferences/create.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/destroy.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/edit.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/index.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/new.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/update.html.haml_spec.rb&#10;#&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -789,13 +848,6 @@
     <entry file="file://$PROJECT_DIR$/app/models/role.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="32" selection-start="64" selection-end="64" vertical-scroll-proportion="0.023659306" vertical-offset="0" max-vertical-offset="634" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="213" selection-end="213" vertical-scroll-proportion="0.14195584" vertical-offset="0" max-vertical-offset="634">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/passwords/new.html.erb">
@@ -870,13 +922,6 @@
     <entry file="file://$PROJECT_DIR$/app/models/ability.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="6" selection-start="687" selection-end="687" vertical-scroll-proportion="0.6151419" vertical-offset="0" max-vertical-offset="634">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="283" selection-end="283" vertical-scroll-proportion="0.16561514" vertical-offset="0" max-vertical-offset="1065">
           <folding />
         </state>
       </provider>
@@ -1012,13 +1057,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="67" selection-start="1891" selection-end="1891" vertical-scroll-proportion="0.4755245" vertical-offset="898" max-vertical-offset="1470">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/theme.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="448" column="15" selection-start="10850" selection-end="20234" vertical-scroll-proportion="0.75783974" vertical-offset="6285" max-vertical-offset="41145">
@@ -1068,37 +1106,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/grayscale.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="73" selection-start="3398" selection-end="3398" vertical-scroll-proportion="3.2176657" vertical-offset="0" max-vertical-offset="2130">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="44" selection-start="548" selection-end="548" vertical-scroll-proportion="0.36231884" vertical-offset="0" max-vertical-offset="621">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="21" selection-start="643" selection-end="643" vertical-scroll-proportion="0.33816424" vertical-offset="0" max-vertical-offset="621">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/grayscale.css.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="47" selection-start="201" selection-end="201" vertical-scroll-proportion="0.29508197" vertical-offset="0" max-vertical-offset="5310">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/sb-admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="306" column="1" selection-start="4860" selection-end="4860" vertical-scroll-proportion="7.2397475" vertical-offset="0" max-vertical-offset="4680">
           <folding />
         </state>
       </provider>
@@ -1113,13 +1123,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="621">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_landing.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="39" selection-start="2619" selection-end="2619" vertical-scroll-proportion="0.37688443" vertical-offset="735" max-vertical-offset="1785">
           <folding />
         </state>
       </provider>
@@ -1141,9 +1144,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/grayscale.css.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="38" selection-start="423" selection-end="423" vertical-scroll-proportion="0.33123028" vertical-offset="0" max-vertical-offset="634">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="63" selection-start="711" selection-end="711" vertical-scroll-proportion="0.451505" vertical-offset="0" max-vertical-offset="598">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="9" selection-start="417" selection-end="420" vertical-scroll-proportion="0.33277312" vertical-offset="27" max-vertical-offset="1470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/grayscale.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="73" selection-start="3398" selection-end="3398" vertical-scroll-proportion="3.2176657" vertical-offset="0" max-vertical-offset="2130">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_landing.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="25" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.7788945" vertical-offset="0" max-vertical-offset="1830">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="280" selection-end="280" vertical-scroll-proportion="0.22110553" vertical-offset="3" max-vertical-offset="675">
+        <state line="9" column="24" selection-start="297" selection-end="297" vertical-scroll-proportion="0.22110553" vertical-offset="3" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="29" selection-start="283" selection-end="283" vertical-scroll-proportion="0.16908212" vertical-offset="0" max-vertical-offset="1065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/sb-admin.css.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="293" column="61" selection-start="5508" selection-end="5508" vertical-scroll-proportion="0.5163934" vertical-offset="4080" max-vertical-offset="9990">
           <folding />
         </state>
       </provider>
