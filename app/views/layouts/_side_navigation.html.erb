@@ -18,14 +18,13 @@
       <li>
         <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Conferences<span class="fa arrow"></span></a>
         <ul class="nav nav-second-level">
+          <% current_user.conferences.each do |conference|%>
+            <li>
+              <%= link_to conference.name, conference_path(id: conference.id) %>
+            </li>
+           <% end %>
           <li>
-            <a href="../../../../../../Downloads/sb-admin-v2-2/flot.html">BIGMUN</a>
-          </li>
-          <li>
-            <a href="../../../../../../Downloads/sb-admin-v2-2/morris.html">MUNAU</a>
-          </li>
-          <li>
-            <%= link_to "+ New conferences", new_conferences_path%>
+            <%= link_to "+ New conference", new_conference_path%>
           </li>
         </ul>
         <!-- /.nav-second-level -->

@@ -2384,6 +2384,10 @@
       <column name="is_cycled" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
       <column name="is_called" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
     </table>
+    <table name="comittees_participants" schema="public" catalog="modelunitednations_development" type="TABLE">
+      <column name="comittee_id" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="participant_id" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>
+    </table>
     <table name="conference_managers" schema="public" catalog="modelunitednations_development" type="TABLE">
       <column name="id" sqlType="serial" length="10" precision="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgnY29uZmVyZW5jZV9tYW5hZ2Vyc19pZF9zZXEnOjpyZWdjbGFzcyk=" autoIncrement="true"/>
       <column name="user_id" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>
@@ -2408,6 +2412,7 @@
       <column name="created_at" sqlType="timestamp" length="29" precision="6" nullable="true" jdbcType="93"/>
       <column name="updated_at" sqlType="timestamp" length="29" precision="6" nullable="true" jdbcType="93"/>
       <column name="name" sqlType="text" length="2147483647" precision="0" nullable="true" jdbcType="12"/>
+      <column name="public" sqlType="bool" length="1" precision="0" nullable="true" jdbcType="-7" def="dHJ1ZQ=="/>
       <primary-key name="conferences_pkey" columns="id"/>
     </table>
     <table name="conferences_id_seq" schema="public" catalog="modelunitednations_development" type="SEQUENCE">
@@ -2462,6 +2467,25 @@
       <column name="is_cycled" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
       <column name="is_called" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
     </table>
+    <table name="pariticipant_roles" schema="public" catalog="modelunitednations_development" type="TABLE">
+      <column name="id" sqlType="serial" length="10" precision="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgncGFyaXRpY2lwYW50X3JvbGVzX2lkX3NlcSc6OnJlZ2NsYXNzKQ==" autoIncrement="true"/>
+      <column name="name" sqlType="text" length="2147483647" precision="0" nullable="true" jdbcType="12"/>
+      <column name="created_at" sqlType="timestamp" length="29" precision="6" nullable="true" jdbcType="93"/>
+      <column name="updated_at" sqlType="timestamp" length="29" precision="6" nullable="true" jdbcType="93"/>
+      <primary-key name="pariticipant_roles_pkey" columns="id"/>
+    </table>
+    <table name="pariticipant_roles_id_seq" schema="public" catalog="modelunitednations_development" type="SEQUENCE">
+      <column name="sequence_name" sqlType="name" length="2147483647" precision="0" nullable="false" jdbcType="12"/>
+      <column name="last_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="start_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="increment_by" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="max_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="min_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="cache_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="log_cnt" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="is_cycled" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
+      <column name="is_called" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
+    </table>
     <table name="participant_groups" schema="public" catalog="modelunitednations_development" type="TABLE">
       <column name="id" sqlType="serial" length="10" precision="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgncGFydGljaXBhbnRfZ3JvdXBzX2lkX3NlcSc6OnJlZ2NsYXNzKQ==" autoIncrement="true"/>
       <column name="conference_id" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>
@@ -2471,6 +2495,25 @@
       <primary-key name="participant_groups_pkey" columns="id"/>
     </table>
     <table name="participant_groups_id_seq" schema="public" catalog="modelunitednations_development" type="SEQUENCE">
+      <column name="sequence_name" sqlType="name" length="2147483647" precision="0" nullable="false" jdbcType="12"/>
+      <column name="last_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="start_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="increment_by" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="max_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="min_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="cache_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="log_cnt" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="is_cycled" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
+      <column name="is_called" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
+    </table>
+    <table name="participant_roles" schema="public" catalog="modelunitednations_development" type="TABLE">
+      <column name="id" sqlType="serial" length="10" precision="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgncGFydGljaXBhbnRfcm9sZXNfaWRfc2VxJzo6cmVnY2xhc3Mp" autoIncrement="true"/>
+      <column name="name" sqlType="text" length="2147483647" precision="0" nullable="true" jdbcType="12"/>
+      <column name="created_at" sqlType="timestamp" length="29" precision="6" nullable="true" jdbcType="93"/>
+      <column name="updated_at" sqlType="timestamp" length="29" precision="6" nullable="true" jdbcType="93"/>
+      <primary-key name="participant_roles_pkey" columns="id"/>
+    </table>
+    <table name="participant_roles_id_seq" schema="public" catalog="modelunitednations_development" type="SEQUENCE">
       <column name="sequence_name" sqlType="name" length="2147483647" precision="0" nullable="false" jdbcType="12"/>
       <column name="last_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
       <column name="start_value" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
@@ -2511,9 +2554,17 @@
       <column name="participant_id" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>
       <column name="participant_group_id" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>
     </table>
+    <table name="participants_participant_roles" schema="public" catalog="modelunitednations_development" type="TABLE">
+      <column name="participant_id" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="participant_role_id" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>
+    </table>
     <table name="participants_roles" schema="public" catalog="modelunitednations_development" type="TABLE">
       <column name="participant_id" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>
       <column name="role_id" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>
+    </table>
+    <table name="participants_roles_participants" schema="public" catalog="modelunitednations_development" type="TABLE">
+      <column name="participants_roles_id" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="participants_id" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>
     </table>
     <table name="roles" schema="public" catalog="modelunitednations_development" type="TABLE">
       <column name="id" sqlType="serial" length="10" precision="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgncm9sZXNfaWRfc2VxJzo6cmVnY2xhc3Mp" autoIncrement="true"/>
@@ -2533,6 +2584,10 @@
       <column name="log_cnt" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
       <column name="is_cycled" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
       <column name="is_called" sqlType="bool" length="1" precision="0" nullable="false" jdbcType="-7"/>
+    </table>
+    <table name="roles_users" schema="public" catalog="modelunitednations_development" type="TABLE">
+      <column name="user_id" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="role_id" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4"/>
     </table>
     <table name="schema_migrations" schema="public" catalog="modelunitednations_development" type="TABLE">
       <column name="version" sqlType="varchar" length="255" precision="0" nullable="false" jdbcType="12"/>

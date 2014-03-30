@@ -23,6 +23,8 @@ class Ability
     elsif user.has_role? :director
 
     else
+
+      can :manage, :all
       can :read, Conference do |conference|
         conference.public?
       end

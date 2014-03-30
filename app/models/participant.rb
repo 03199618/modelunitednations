@@ -1,5 +1,5 @@
 class Participant < ActiveRecord::Base
-  has_and_belongs_to_many :participant_roles
+  has_and_belongs_to_many :participant_roles, join_table: "participants_participant_roles"
   has_and_belongs_to_many :comittees
   belongs_to :delegation
   belongs_to :conference

@@ -1,2 +1,3 @@
-%h1 Conference#new
-%p Find me in app/views/conferences/new.html.haml
+= simple_form_for @conference do |f|
+  = f.input :name
+  = f.button :submit

@@ -6,6 +6,7 @@ class User < ActiveRecord::Base
 
   has_and_belongs_to_many :roles
   has_many :participants
+  has_many :conferences, through: :participants
 
   def initial_role=(role_name)
     @initial_role = role_name

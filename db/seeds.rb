@@ -3,7 +3,7 @@
 #Participant roles
 roles = ["manager", "chair", "delegate", "director", "ambassador"]
 roles.each do |name, i|
-  role = Role.new
+  role = ParticipantRole.new
   role.name = name
   if ParticipantRole.where(name: role.name).blank?
     puts "Role:" << role.name

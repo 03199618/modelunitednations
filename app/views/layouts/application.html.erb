@@ -6,28 +6,34 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
 
-<div id="wrapper">
-  <!--
+<% if !current_user.nil? %>
+    <body>
+
+    <div id="wrapper">
+      <!--
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>
   -->
-  <%= render partial: "layouts/navigation" %>
-  <%= render partial: "layouts/side_navigation" %>
-  <div id="page-wrapper">
-    <%= yield %>
-  </div>
-  <!-- /#page-wrapper -->
+      <%= render partial: "layouts/navigation" %>
+      <%= render partial: "layouts/side_navigation" %>
+      <div id="page-wrapper">
+        <%= yield %>
+      </div>
+      <!-- /#page-wrapper -->
 
-</div>
-<!-- /#wrapper -->
+    </div>
+    <!-- /#wrapper -->
 
-<%= javascript_tag  "jquery.metisMenu.js" %>
-<%= javascript_tag  "raphael-2.1.0.min.js" %>
-<%= javascript_tag  "morris.js" %>
-<%= javascript_tag  "sb-admin.js" %>
-<%= javascript_tag  "dashboard-demo.js" %>
+    <%= javascript_tag  "jquery.metisMenu.js" %>
+    <%= javascript_tag  "raphael-2.1.0.min.js" %>
+    <%= javascript_tag  "morris.js" %>
+    <%= javascript_tag  "sb-admin.js" %>
+    <%= javascript_tag  "dashboard-demo.js" %>
 
-</body>
+    </body>
+
+<% else %>
+    <%= render partial: "layouts/landing" %>
+<% end %>
 </html>
