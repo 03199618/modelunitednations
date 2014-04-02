@@ -1,0 +1,7 @@
+= simple_form_for @delegate do |f|
+  = f.input :delegation_id, :collection => @conference.delegations, :label_method => :name, :value_method => :id,:label => "Delegation" ,:include_blank => false
+  = f.input :comittee_id, :collection => @conference.comittees, :label_method => :name, :value_method => :id,:label => "Comittee" ,:include_blank => false
+  = f.input :participant_id, :collection => @conference.participants, :label_method => :name, :value_method => :id,:label => "Participant" ,:include_blank => false
+  = f.input :position_paper, :as => :ckeditor, :input_html => { :ckeditor => {:toolbar => 'Basic'} }
+  = f.button :submit
+

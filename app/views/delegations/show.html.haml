@@ -1,0 +1,48 @@
+.row
+  .col-lg-12
+    %h1.page-header
+      = @delegation.name
+      .btn-group
+        %button.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
+          %i.fa.fa-gear.fa-fw
+          %span.caret
+        %ul.dropdown-menu.pull-right{role: "menu"}
+          %li
+            %a{href: edit_delegate_path(@delegation)}
+              Edit
+              = @delegation.name
+          %li
+            %a{href: "#"} Another action
+          %li
+            %a{href: "#"} Something else here
+          %li.divider
+          %li
+            %a{href: "#"} Separated link
+
+
+  .col-lg-4
+    .panel.panel-default
+      .panel-heading
+        = "Delegations"
+        .pull-right
+          .btn-group
+            %button.btn.btn-default.btn-xs.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
+              Actions
+              %span.caret
+            %ul.dropdown-menu.pull-right{role: "menu"}
+              %li
+                %a{href: new_delegate_path(delegation_id: @delegation.id)} Add delegate
+              %li
+                %a{href: "#"} Another action
+              %li
+                %a{href: "#"} Something else here
+              %li.divider
+              %li
+                %a{href: "#"} Separated link
+      .panel-body
+        - @delegation.delegates.each do |delegate|
+          = link_to delegate.username, delegate_path(delegate)
+          %br
+
+      .panel-footer
+        = "#{@delegation.delegates.count} delegates"

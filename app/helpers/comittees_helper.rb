@@ -1,0 +1,2 @@
+module ComitteesHelper
+end

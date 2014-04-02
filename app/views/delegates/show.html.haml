@@ -1,0 +1,61 @@
+.row
+  .col-lg-12
+    %h1.page-header
+      = @delegate.name
+      .btn-group
+        %button.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
+          %i.fa.fa-gear.fa-fw
+          %span.caret
+        %ul.dropdown-menu.pull-right{role: "menu"}
+          %li
+            %a{href: edit_delegate_path(@delegate)}
+              Edit
+              = @delegate.name
+          %li
+            %a{href: "#"} Another action
+          %li
+            %a{href: "#"} Something else here
+          %li.divider
+          %li
+            %a{href: "#"} Separated link
+
+- if @delegate.position_paper
+  .row
+    .col-lg-12
+      .panel.panel-default
+        .panel-heading
+          Position paper
+        .panel-body
+          = @delegate.position_paper.html_safe
+
+
+- if @delegate.participant.nil?
+  .col-lg-12
+    .panel.panel-default
+      .panel-heading
+        = @delegate.username
+        .pull-right
+          .btn-group
+            %button.btn.btn-default.btn-xs.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
+              Actions
+              %span.caret
+            %ul.dropdown-menu.pull-right{role: "menu"}
+              %li
+                %a{href: "#"} Action
+              %li
+                %a{href: "#"} Another action
+              %li
+                %a{href: "#"} Something else here
+              %li.divider
+              %li
+                %a{href: "#"} Separated link
+      .panel-body
+        - if @delegate.user
+          = link_to @delegate.username, user_path(id: @delegate.user.id)
+
+
+
+
+      .panel-footer
+- else
+  Not assigned.
