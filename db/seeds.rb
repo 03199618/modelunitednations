@@ -1,5 +1,18 @@
 #MANDATORY
 
+#Participant group roles
+roles = ["manager", "member"]
+roles.each do |name, i|
+  role = ParticipantGroupRole.new
+  role.name = name
+  if ParticipantGroupRole.where(name: role.name).blank?
+    puts "Role:" << role.name
+    role.save
+  else
+    puts "Skipped role:" << role.name
+  end
+end
+
 #Participant roles
 roles = ["manager", "chair", "delegate", "director", "ambassador"]
 roles.each do |name, i|

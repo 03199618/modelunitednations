@@ -2,10 +2,110 @@
   .col-lg-12
     %h1.page-header
       = @conference.name
+      .btn-group
+        %button.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
+          %i.fa.fa-gear.fa-fw
+          Edit
+          %span.caret
+        %ul.dropdown-menu.pull-right{role: "menu"}
+          %li
+            %a{href: edit_conference_path(@conference)}
+              Edit
+              = @conference.name
+          %li
+            %a{href: "#"} Another action
+          %li
+            %a{href: "#"} Something else here
+          %li.divider
+          %li
+            %a{href: "#"} Separated link
+
+
+
+  .col-lg-4
+    .panel.panel-default
+      .panel-heading
+        = "Delegations"
+        .pull-right
+          .btn-group
+            %button.btn.btn-default.btn-xs.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
+              Actions
+              %span.caret
+            %ul.dropdown-menu.pull-right{role: "menu"}
+              %li
+                %a{href: new_delegation_path(conference_id: @conference.id)} Add delegation
+              %li
+                %a{href: "#"} Another action
+              %li
+                %a{href: "#"} Something else here
+              %li.divider
+              %li
+                %a{href: "#"} Separated link
+      .panel-body
+        - @conference.delegations.each do |delegation|
+          = link_to delegation.name, delegation_path(delegation)
+          %br
+        = link_to "+ Add delegation", new_delegation_path(conference_id: @conference.id)
+
+
+      .panel-footer
+        = "#{pluralize(@conference.delegations.count, "delegation")}"
+  .col-lg-4
+    .panel.panel-default
+      .panel-heading
+        = "Comittees"
+        .pull-right
+          .btn-group
+            %button.btn.btn-default.btn-xs.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
+              Actions
+              %span.caret
+            %ul.dropdown-menu.pull-right{role: "menu"}
+              %li
+                %a{href: new_comittee_path(conference_id: @conference.id)} Add comittee
+              %li
+                %a{href: "#"} Another action
+              %li
+                %a{href: "#"} Something else here
+              %li.divider
+              %li
+                %a{href: "#"} Separated link
+      .panel-body
+        - @conference.comittees.each do |comittee|
+          = link_to comittee.name, comittee_path(comittee)
+          %br
+        = link_to "+ Add comittee", new_comittee_path(conference_id: @conference.id)
+      .panel-footer
+        = "#{pluralize(@conference.comittees.count, "comittees")}"
+  .col-lg-4
+    .panel.panel-default
+      .panel-heading
+        = "Participant groups"
+        .pull-right
+          .btn-group
+            %button.btn.btn-default.btn-xs.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
+              Actions
+              %span.caret
+            %ul.dropdown-menu.pull-right{role: "menu"}
+              %li
+                %a{href: new_comittee_path(conference_id: @conference.id)} Add comittee
+              %li
+                %a{href: "#"} Another action
+              %li
+                %a{href: "#"} Something else here
+              %li.divider
+              %li
+                %a{href: "#"} Separated link
+      .panel-body
+        - @conference.participant_groups.each do |participant_group|
+          = link_to participant_group.name, participant_group_path(participant_group)
+          %br
+        = link_to "+ Add participant group", new_comittee_path(conference_id: @conference.id)
+
+      .panel-footer
+        = "#{pluralize(@conference.participant_groups.count, "groups")}"
+
 
   .col-lg-8
-
-
     .panel.panel-default
       .panel-heading
         %i.fa.fa-clock-o.fa-fw

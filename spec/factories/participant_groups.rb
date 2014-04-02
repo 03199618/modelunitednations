@@ -3,5 +3,6 @@
 FactoryGirl.define do
   factory :participant_group do
     conference_id 1
+    name "MyText"
   end
 end

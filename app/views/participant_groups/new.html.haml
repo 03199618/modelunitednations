@@ -1,0 +1,4 @@
+= simple_form_for @participant_group do |f|
+  = f.hidden_field :conference_id, value: params[:conference_id]
+  = f.input :name
+  = f.button :submit

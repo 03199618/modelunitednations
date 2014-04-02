@@ -1,2 +1,14 @@
-%h1 Conference#index
-%p Find me in app/views/conferences/index.html.haml
+.row
+  .col-lg-12
+    %h1.page-header
+      Conferences
+.row
+  - @conferences.each do |conference|
+    .col-lg-4
+    .panel.panel-default
+      .panel-heading
+        = conference.name
+      .panel-body
+        = conference.description
+      .panel-footer
+        = link_to "Go to #{conference.name}", conference_path(conference)

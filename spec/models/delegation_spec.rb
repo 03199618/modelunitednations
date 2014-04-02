@@ -1,5 +1,12 @@
 require 'spec_helper'
 
 describe Delegation do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe "name" do
+    it "should have a name" do
+      delegation = FactoryGirl.build(:delegation)
+      delegation.name = nil
+
+      delegation.should_not be_valid
+    end
+  end
 end

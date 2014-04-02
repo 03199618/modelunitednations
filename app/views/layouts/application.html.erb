@@ -7,17 +7,35 @@
   <%= csrf_meta_tags %>
 </head>
 
-<% if !current_user.nil? %>
+<% if false #@welcomecontroller %>
+    <%= render partial: "layouts/landing" %>
+<% else %>
+
     <body>
 
     <div id="wrapper">
-      <!--
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
-  -->
+
+
+
+
       <%= render partial: "layouts/navigation" %>
       <%= render partial: "layouts/side_navigation" %>
       <div id="page-wrapper">
+        <% if notice %>
+            <p class="notice alert alert alert-danger"><%= notice %></p>
+        <% end %>
+        <% if alert %>
+            <p class="alert alert alert-warning"><%= alert %></p>
+        <% end %>
+
+        <%- flash.each do |name, message| %>
+            <% if name == "alert" %>
+              <p><i class="alert alert-danger"><%= "#{name}: #{message}" %></i></p>
+            <% else %>
+                <p><i class="alert alert-warning"><%= "#{name}: #{message}" %></i></p>
+            <% end %>
+
+        <% end %>
         <%= yield %>
       </div>
       <!-- /#page-wrapper -->
@@ -32,8 +50,5 @@
     <%= javascript_tag  "dashboard-demo.js" %>
 
     </body>
-
-<% else %>
-    <%= render partial: "layouts/landing" %>
 <% end %>
 </html>

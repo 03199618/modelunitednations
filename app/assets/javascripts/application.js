@@ -14,5 +14,7 @@
 //= require jquery_ujs
 //= require gmaps/google
 //= require gmaps/base
+//= require ckeditor/override
+//= require ckeditor/init
 // require turbolinks
 //= require_tree .

@@ -21,26 +21,18 @@ class ConferencesController < ApplicationController
   end
 
   def create
-    @conference = Conference.new(params[:conference].permit(:name))
+    @conference = Conference.new(params[:conference].permit(:name, :description))
     authorize! :create, @conference
+
+    @conference.addManager(current_user)
 
     if @conference.save
       flash[:success] = t("general.conferenceCreated")
-
-      @participant = Participant.new(user_id: current_user.id)
-      @participant.participant_roles << ParticipantRole.find_by_name("manager")
-
-      @conference.participants <<  @participant
-      if @conference.save
-
         respond_to do |format|
           format.xml {render :xml => @conference}
           format.json {render :json => @conference}
           format.html {redirect_to conference_path(id: @conference.id)}
         end
-      else
-      render "new"
-      end
     else
       render 'new'
     end

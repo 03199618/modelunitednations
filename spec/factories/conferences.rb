@@ -1,6 +1,7 @@
 # Read about factories at https://github.com/thoughtbot/factory_girl
 
 FactoryGirl.define do
-  factory :conferences do
+  factory :conference do
+    name "BIGMUN"
   end
 end

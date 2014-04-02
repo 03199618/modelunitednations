@@ -41,4 +41,19 @@ RSpec.configure do |config|
   config.order = "random"
 
   config.include SpecTestHelper, :type => :controller
+
+  config.include FactoryGirl::Syntax::Methods
+
+  # Clean the database after each test-instance
+  config.before(:suite) do
+    DatabaseCleaner.strategy = :truncation, {:except => %w[roles, participant_roles]}
+    DatabaseCleaner.clean_with(:truncation, {:except => %w[roles, participant_roles]})
+    #load "#{Rails.root}/db/seeds.rb"
+  end
+  config.before(:each) do
+    DatabaseCleaner.start
+  end
+  config.after(:each) do
+    DatabaseCleaner.clean
+  end
 end

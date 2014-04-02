@@ -14,6 +14,8 @@ gem 'jbuilder', '~> 1.2'
 
 #Plugins being implemented
 gem 'gmaps-autocomplete-rails'
+gem 'public_activity'
+gem 'ckeditor'
 
 #MANDATORY
 gem 'google-analytics-rails'

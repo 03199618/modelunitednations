@@ -1,0 +1,32 @@
+.row
+  .col-lg-12
+    %h1.page-header
+      = @participant_group.name
+
+
+  .col-lg-4
+    .panel.panel-default
+      .panel-heading
+        = "Members"
+        .pull-right
+          .btn-group
+            %button.btn.btn-default.btn-xs.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
+              Actions
+              %span.caret
+            %ul.dropdown-menu.pull-right{role: "menu"}
+              %li
+                %a{href: member_participant_group_path} Add member
+              %li
+                %a{href: "#"} Another action
+              %li
+                %a{href: "#"} Something else here
+              %li.divider
+              %li
+                %a{href: "#"} Separated link
+      .panel-body
+        - @participant_group.users.each do |member|
+          = link_to member.name, user_path(member)
+          %br
+
+      .panel-footer
+        = "#{pluralize(@participant_group.users.count, "member")}"

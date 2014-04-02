@@ -1,5 +1,10 @@
 class Delegation < ActiveRecord::Base
   belongs_to :conference
-  has_one :ambassador, class_name: "Participant", foreign_key: "ambassador"
-  has_many :participants
+  has_many :delegates
+
+  validates_presence_of :name
+
+  def ambassador=(delegate)
+    self.ambassador_id = delegate.id
+  end
 end

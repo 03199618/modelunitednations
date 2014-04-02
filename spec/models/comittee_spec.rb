@@ -1,5 +1,12 @@
 require 'spec_helper'
 
 describe Comittee do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe "name" do
+    it "should have a name" do
+      comittee = FactoryGirl.build(:comittee)
+      comittee.name = nil
+
+      comittee.should_not be_valid
+    end
+  end
 end

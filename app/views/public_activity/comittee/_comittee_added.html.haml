@@ -1,0 +1,11 @@
+%a{href: comittee_path(activity.trackable)}
+  %div
+    %i.fa.fa-comments.fa-fw
+    - if activity.trackable
+      = activity.trackable.conference.name
+      added the comittee
+      = activity.trackable.name
+    - else
+      added a comittee which has since been removed.
+    %span.pull-right.text-muted.small
+      = time_ago_in_words(activity.created_at)

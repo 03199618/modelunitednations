@@ -1,6 +1,7 @@
 <nav class="navbar-default navbar-static-side" role="navigation">
   <div class="sidebar-collapse">
     <ul class="nav" id="side-menu">
+      <% if !current_user.nil? %>
       <!--<li class="sidebar-search">
         <!--<div class="input-group custom-search-form">
           <input type="text" class="form-control" placeholder="Search...">
@@ -13,10 +14,10 @@
         <!-- /input-group -->
       <!--</li> -->
       <li>
-        <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+        <a href="<%= root_path %>"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
       </li>
       <li>
-        <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Conferences<span class="fa arrow"></span></a>
+        <a href="<%= conferences_path %>"><i class="fa fa-bar-chart-o fa-fw"></i> Conferences<span class="fa arrow"></span></a>
         <ul class="nav nav-second-level">
           <% current_user.conferences.each do |conference|%>
             <li>
@@ -33,23 +34,25 @@
       <li>
         <a href="../../../../../../Downloads/sb-admin-v2-2/tables.html"><i class="fa fa-table fa-fw"></i> Delegations</a>
         <ul class="nav nav-second-level">
-          <li>
-            <a href="../../../../../../Downloads/sb-admin-v2-2/flot.html">Germany</a>
-          </li>
-          <li>
-            <a href="../../../../../../Downloads/sb-admin-v2-2/morris.html">USA</a>
-          </li>
+          <% current_user.delegations.each do |delegation|%>
+              <li>
+                <%= link_to delegation.name, delegation_path(id: delegation.id) %>
+              </li>
+          <% end %>
+
         </ul>
         <!-- /.nav-second-level -->
       </li>
       <li>
         <a href="#"><i class="fa fa-wrench fa-fw"></i> Groups<span class="fa arrow"></span></a>
         <ul class="nav nav-second-level">
+          <% #current_user.participant_groups.each do |participant_group|%>
+              <li>
+                <% #= link_to participant_group.name, participant_group_path(id: participant_group.id) %>
+              </li>
+          <% #end %>
           <li>
-            <a href="../../../../../../Downloads/sb-admin-v2-2/panels-wells.html">LWG</a>
-          </li>
-          <li>
-            <a href="../../../../../../Downloads/sb-admin-v2-2/buttons.html">Birkerod</a>
+            <%= link_to "+ New participant group", new_participant_group_path%>
           </li>
         </ul>
         <!-- /.nav-second-level -->
@@ -99,6 +102,7 @@
     </ul>   -->
       <!-- /.nav-second-level -->
       <!--</li>  -->
+        <% end %>
     </ul>
     <!-- /#side-menu -->
   </div>

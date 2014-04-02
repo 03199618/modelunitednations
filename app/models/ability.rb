@@ -13,11 +13,6 @@ class Ability
       can :access, :rails_admin       # only allow admin users to access Rails Admin
       can :dashboard                  # allow access to dashboard
 
-      elsif user.has_role? :manager
-      can :manage, Conference do |conference|
-        conference.managers.user_id == user.id
-      end
-
     elsif user.has_role? :delegate
 
     elsif user.has_role? :director
@@ -25,6 +20,9 @@ class Ability
     else
 
       can :manage, :all
+      can :create, Conference do
+        !user.id.nil?
+      end
       can :read, Conference do |conference|
         conference.public?
       end
