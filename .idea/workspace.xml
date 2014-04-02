@@ -2,62 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230275e5-48d9-4aa0-bf99-afe6cd5b3d7f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140402144660_user_to_participant_group.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_activity_navigation.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/public_activity/comittee/_comittee_added.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/public_activity/comittee/_create.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/public_activity/comittee/_update.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/participant_groups/create.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/participant_groups/destroy.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/participant_groups/edit.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/participant_groups/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/participant_groups/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/participant_groups/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/participant_groups/update.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/users.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/controllers/welcome_controller_spec.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/factories/chairs.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/factories/conference_managers.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/factories/delegates.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erd.pdf" afterPath="$PROJECT_DIR$/erd.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_landing.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_landing.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_side_navigation.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_side_navigation.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/ability.rb" afterPath="$PROJECT_DIR$/app/models/ability.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/comittee.rb" afterPath="$PROJECT_DIR$/app/models/comittee.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/comittee_spec.rb" afterPath="$PROJECT_DIR$/spec/models/comittee_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/conference.rb" afterPath="$PROJECT_DIR$/app/models/conference.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/conference_spec.rb" afterPath="$PROJECT_DIR$/spec/models/conference_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/conferences.rb" afterPath="$PROJECT_DIR$/spec/factories/conferences.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/conferences_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/conferences_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/delegate_spec.rb" afterPath="$PROJECT_DIR$/spec/models/delegate_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/delegation.rb" afterPath="$PROJECT_DIR$/app/models/delegation.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/delegation_spec.rb" afterPath="$PROJECT_DIR$/spec/models/delegation_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/conferences/index.html.haml" afterPath="$PROJECT_DIR$/app/views/conferences/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modelunitednations.iml" afterPath="$PROJECT_DIR$/.idea/modelunitednations.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/conferences/new.html.haml" afterPath="$PROJECT_DIR$/app/views/conferences/new.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/participant.rb" afterPath="$PROJECT_DIR$/app/models/participant.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/participant_group.rb" afterPath="$PROJECT_DIR$/app/models/participant_group.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/participant_group_spec.rb" afterPath="$PROJECT_DIR$/spec/models/participant_group_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/participant_groups.rb" afterPath="$PROJECT_DIR$/spec/factories/participant_groups.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/participant_spec.rb" afterPath="$PROJECT_DIR$/spec/models/participant_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/sb-admin.css.erb" afterPath="$PROJECT_DIR$/app/assets/stylesheets/sb-admin.css.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/conferences/show.html.haml" afterPath="$PROJECT_DIR$/app/views/conferences/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/theme.html" afterPath="$PROJECT_DIR$/app/views/welcome/theme.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="modelunitednations.iws" />
@@ -803,7 +747,19 @@
       <created>1396200623125</created>
       <updated>1396200623125</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Major changes">
+      <created>1396477460459</created>
+      <updated>1396477460459</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Major changes&#10;">
+      <created>1396477478210</created>
+      <updated>1396477478210</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Major changes&#10;">
+      <created>1396477504193</created>
+      <updated>1396477504193</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -859,7 +815,9 @@
     </option>
     <MESSAGE value="Bootstrap theme SB admin v2&#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;# On branch master&#10;# Your branch is up-to-date with 'origin/master'.&#10;#&#10;# Changes to be committed:&#10;#&#9;modified:   .idea/.generators&#10;#&#9;modified:   .idea/.rakeTasks&#10;#&#9;modified:   .idea/dataSources.ids&#10;#&#9;modified:   .idea/dataSources.xml&#10;#&#9;modified:   .idea/modelunitednations.iml&#10;#&#9;new file:   .idea/runConfigurations/Development__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/Production__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/spec__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/test__modelunitednations.xml&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#9;modified:   Gemfile&#10;#&#9;modified:   Gemfile.lock&#10;#&#9;modified:   app/assets/javascripts/application.js&#10;#&#9;new file:   app/assets/javascripts/bootstrap.min.js&#10;#&#9;new file:   app/assets/javascripts/conference.js&#10;#&#9;new file:   app/assets/javascripts/conferences.js&#10;#&#9;new file:   app/assets/javascripts/jquery-1.10.2.js&#10;#&#9;new file:   app/assets/javascripts/plugins/dataTables/dataTables.bootstrap.js&#10;#&#9;new file:   app/assets/javascripts/plugins/dataTables/jquery.dataTables.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/dashboard-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/flot-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/morris-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/excanvas.min.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.pie.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.resize.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.tooltip.min.js&#10;#&#9;new file:   app/assets/javascripts/plugins/metisMenu/jquery.metisMenu.js&#10;#&#9;new file:   app/assets/javascripts/plugins/morris/morris.js&#10;#&#9;new file:   app/assets/javascripts/plugins/morris/raphael-2.1.0.min.js&#10;#&#9;new file:   app/assets/javascripts/sb-admin.js&#10;#&#9;modified:   app/assets/stylesheets/application.css&#10;#&#9;new file:   app/assets/stylesheets/bootstrap.min.css&#10;#&#9;new file:   app/assets/stylesheets/conference.css.scss&#10;#&#9;new file:   app/assets/stylesheets/conferences.css.scss&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/css/font-awesome.css&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/css/font-awesome.min.css&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/FontAwesome.otf&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.eot&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.svg&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.ttf&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.woff&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.eot&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.svg&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.ttf&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.woff&#10;#&#9;new file:   app/assets/stylesheets/plugins/dataTables/dataTables.bootstrap.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/morris/morris-0.4.3.min.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/social-buttons/social-buttons.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/timeline/timeline.css&#10;#&#9;new file:   app/assets/stylesheets/sb-admin.css&#10;#&#9;modified:   app/controllers/application_controller.rb&#10;#&#9;new file:   app/controllers/conferences_controller.rb&#10;#&#9;modified:   app/controllers/welcome_controller.rb&#10;#&#9;new file:   app/helpers/conferences_helper.rb&#10;#&#9;new file:   app/models/ability.rb&#10;#&#9;new file:   app/models/announcement.rb&#10;#&#9;new file:   app/models/comittee.rb&#10;#&#9;new file:   app/models/conference.rb&#10;#&#9;new file:   app/models/delegation.rb&#10;#&#9;new file:   app/models/pariticipant_role.rb&#10;#&#9;new file:   app/models/participant.rb&#10;#&#9;new file:   app/models/participant_group.rb&#10;#&#9;new file:   app/models/role.rb&#10;#&#9;modified:   app/models/user.rb&#10;#&#9;new file:   app/views/conferences/create.html.haml&#10;#&#9;new file:   app/views/conferences/destroy.html.haml&#10;#&#9;new file:   app/views/conferences/edit.html.haml&#10;#&#9;new file:   app/views/conferences/index.html.haml&#10;#&#9;new file:   app/views/conferences/new.html.haml&#10;#&#9;new file:   app/views/conferences/update.html.haml&#10;#&#9;modified:   app/views/devise/sessions/new.html.erb&#10;#&#9;new file:   app/views/layouts/_content.html.erb&#10;#&#9;new file:   app/views/layouts/_navigation.html.erb&#10;#&#9;new file:   app/views/layouts/_side_navigation.html.erb&#10;#&#9;modified:   app/views/layouts/application.html.erb&#10;#&#9;new file:   app/views/welcome/index.html&#10;#&#9;deleted:    app/views/welcome/index.html.erb&#10;#&#9;new file:   app/views/welcome/theme.html&#10;#&#9;new file:   config/initializers/rails_admin.rb&#10;#&#9;modified:   config/routes.rb&#10;#&#9;new file:   db/migrate/20140329151251_create_conferences.rb&#10;#&#9;new file:   db/migrate/20140329151539_create_comittees.rb&#10;#&#9;new file:   db/migrate/20140329152006_add_name_to_conference.rb&#10;#&#9;new file:   db/migrate/20140329152410_create_participants.rb&#10;#&#9;new file:   db/migrate/20140329152611_create_roles.rb&#10;#&#9;new file:   db/migrate/20140329152838_add_conference_id_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329153310_create_participant_groups.rb&#10;#&#9;new file:   db/migrate/20140329153428_participant_to_participant_group.rb&#10;#&#9;new file:   db/migrate/20140329153818_add_name_to_participant_group.rb&#10;#&#9;new file:   db/migrate/20140329154140_create_announcements.rb&#10;#&#9;new file:   db/migrate/20140329154206_add_conference_id_to_announcements.rb&#10;#&#9;new file:   db/migrate/20140329154915_create_delegations.rb&#10;#&#9;new file:   db/migrate/20140329155449_add_delegation_id_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329155654_add_name_to_users.rb&#10;#&#9;new file:   db/migrate/20140329155859_add_surname_to_users.rb&#10;#&#9;new file:   db/migrate/20140329161931_comittee_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329182641_create_pariticipant_roles.rb&#10;#&#9;new file:   db/migrate/20140329182848_participant_roles_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329183025_user_to_roles.rb&#10;#&#9;modified:   db/schema.rb&#10;#&#9;modified:   db/seeds.rb&#10;#&#9;new file:   db/structure.sql&#10;#&#9;new file:   erd.pdf&#10;#&#9;new file:   spec/controllers/conferences_controller_spec.rb&#10;#&#9;new file:   spec/factories/announcements.rb&#10;#&#9;new file:   spec/factories/chairs.rb&#10;#&#9;new file:   spec/factories/comittees.rb&#10;#&#9;new file:   spec/factories/conference_managers.rb&#10;#&#9;new file:   spec/factories/conferences.rb&#10;#&#9;new file:   spec/factories/delegates.rb&#10;#&#9;new file:   spec/factories/delegations.rb&#10;#&#9;new file:   spec/factories/pariticipant_roles.rb&#10;#&#9;new file:   spec/factories/participant_groups.rb&#10;#&#9;new file:   spec/factories/participants.rb&#10;#&#9;new file:   spec/factories/roles.rb&#10;#&#9;new file:   spec/helpers/conferences_helper_spec.rb&#10;#&#9;new file:   spec/models/announcement_spec.rb&#10;#&#9;new file:   spec/models/chair_spec.rb&#10;#&#9;new file:   spec/models/comittee_spec.rb&#10;#&#9;new file:   spec/models/conference_manager_spec.rb&#10;#&#9;new file:   spec/models/conference_spec.rb&#10;#&#9;new file:   spec/models/delegate_spec.rb&#10;#&#9;new file:   spec/models/delegation_spec.rb&#10;#&#9;new file:   spec/models/pariticipant_role_spec.rb&#10;#&#9;new file:   spec/models/participant_group_spec.rb&#10;#&#9;new file:   spec/models/participant_spec.rb&#10;#&#9;new file:   spec/models/role_spec.rb&#10;#&#9;new file:   spec/views/conferences/create.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/destroy.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/edit.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/index.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/new.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/update.html.haml_spec.rb&#10;#&#10;" />
     <MESSAGE value="Design" />
-    <option name="LAST_COMMIT_MESSAGE" value="Design" />
+    <MESSAGE value="Major changes" />
+    <MESSAGE value="Major changes&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Major changes&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
