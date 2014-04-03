@@ -1,0 +1,33 @@
+.row
+  .col-lg-12
+    %h1.page-header
+      Topic:
+      = @topic.name
+      .btn-group
+        %button.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
+          %i.fa.fa-gear.fa-fw
+          %span.caret
+        %ul.dropdown-menu.pull-right{role: "menu"}
+          %li
+            %a{href: edit_topic_path(@topic)}
+              Edit
+              = @topic.name
+          %li
+            %a{href: "#"} Another action
+          %li
+            %a{href: "#"} Something else here
+          %li.divider
+          %li
+            %a{href: "#"} Separated link
+
+- if @topic.resolutions
+  .row
+    .col-lg-12
+      .panel.panel-default
+        .panel-heading
+          Resolutions
+        .panel-body
+          - @topic.resolutions.each do |resolution|
+            //= link_to resolution.main_submitter, delegation_path(delegation)
+            = link_to resolution.submitters.first, resoltuion_path(resolution)
+            %br

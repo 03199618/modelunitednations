@@ -1,0 +1,5 @@
+= simple_form_for @topic do |f|
+  = f.hidden_field :comittee_id, value: params[:comittee_id]
+  = f.input :name
+  = f.input :content, :as => :ckeditor, :input_html => { :ckeditor => {:toolbar => 'Basic'} }
+  = f.button :submit

@@ -46,11 +46,11 @@
       <li>
         <a href="#"><i class="fa fa-wrench fa-fw"></i> Groups<span class="fa arrow"></span></a>
         <ul class="nav nav-second-level">
-          <% #current_user.participant_groups.each do |participant_group|%>
+          <% current_user.participant_groups.each do |participant_group|%>
               <li>
-                <% #= link_to participant_group.name, participant_group_path(id: participant_group.id) %>
+                <%= link_to participant_group.name, participant_group_path(id: participant_group.id) %>
               </li>
-          <% #end %>
+          <% end %>
           <li>
             <%= link_to "+ New participant group", new_participant_group_path%>
           </li>

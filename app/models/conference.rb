@@ -1,6 +1,6 @@
 class Conference < ActiveRecord::Base
   include PublicActivity::Model
-  tracked
+  tracked except: :create
 
   has_many :announcements
   has_many :participants

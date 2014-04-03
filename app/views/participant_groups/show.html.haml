@@ -24,9 +24,9 @@
               %li
                 %a{href: "#"} Separated link
       .panel-body
-        - @participant_group.users.each do |member|
-          = link_to member.name, user_path(member)
+        - @participant_group.participant_group_members.each do |member|
+          = link_to member.name, user_path(member.user)
           %br
 
       .panel-footer
-        = "#{pluralize(@participant_group.users.count, "member")}"
+        = "#{pluralize(@participant_group.participant_group_members.count, "member")}"

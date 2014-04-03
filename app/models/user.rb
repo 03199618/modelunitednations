@@ -7,7 +7,7 @@ class User < ActiveRecord::Base
   has_and_belongs_to_many :roles
   has_many :participants
   has_many :conferences, through: :participants
-  #has_many :participant_groups, through: :participant_group_members
+  has_many :participant_groups, through: :participant_group_members
   has_many :delegations, through: :participants
   has_many :participant_group_members
 
@@ -23,5 +23,9 @@ class User < ActiveRecord::Base
 
   def pariticipant_groups
     nil
+  end
+
+  def name
+    return "#{firstname} #{surname}"
   end
 end

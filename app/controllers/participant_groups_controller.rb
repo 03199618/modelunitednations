@@ -20,7 +20,7 @@ class ParticipantGroupsController < ApplicationController
   end
 
   def create
-    @participant_group = current_user.participant_groups.new(params[:participant_group].permit(:name))
+    @participant_group = ParticipantGroup.new(params[:participant_group].permit(:name))
     authorize! :create, @participant_group
 
     @participant_group.addManager(current_user)

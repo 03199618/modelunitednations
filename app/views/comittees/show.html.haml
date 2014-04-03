@@ -19,25 +19,28 @@
           %li
             %a{href: "#"} Separated link
 
-- if @comittee.description
-  .row
-    .col-lg-12
+.row
+  - if @comittee.description
+
+    .col-lg-4
       .panel.panel-default
         .panel-heading
           Description
         .panel-body
           = @comittee.description
-- if @comittee.topic
-  .row
-    .col-lg-12
+  - if @comittee.topics
+    .col-lg-4
       .panel.panel-default
         .panel-heading
           Topics
         .panel-body
-          = @comittee.topic
+          - @comittee.topics.each do |topic|
+            = link_to "#{topic.name}", topic_path(topic)
+            %br
+          = link_to "+ Add topic", new_topic_path(comittee_id: @comittee.id)
 
 
-.row
+
   .col-lg-4
     .panel.panel-default
       .panel-heading

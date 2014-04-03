@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="272477200">
+  <component name="DataSourceManagerImpl" format="xml" hash="4172364892">
     <data-source source="LOCAL" name="Rails modelunitednations: development" uuid="126ee1be-48a5-44fb-a594-d0100ccf641a">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
@@ -20,6 +20,13 @@
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:modelunitednations_production</jdbc-url>
+      <user-name>modelunitednations</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails modelunitednations: cucumber" uuid="802acd68-f10f-49f8-99bf-08dbb26d2d8f">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:modelunitednations_test</jdbc-url>
       <user-name>modelunitednations</user-name>
       <libraries />
     </data-source>

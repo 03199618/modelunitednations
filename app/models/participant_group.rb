@@ -1,6 +1,6 @@
 class ParticipantGroup < ActiveRecord::Base
   belongs_to :conference
-  has_and_belongs_to_many :participant_group_members
+  has_and_belongs_to_many :participant_group_members, join_table: "participant_groups_participant_group_members"
 
   validates_presence_of :name
 

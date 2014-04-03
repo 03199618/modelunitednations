@@ -9,4 +9,15 @@ describe Comittee do
       comittee.should_not be_valid
     end
   end
+
+  describe "topics" do
+    it "it should be able to add a topic" do
+      topic = FactoryGirl.create(:topic)
+      comittee = FactoryGirl.create(:comittee)
+
+      comittee.addTopic(topic)
+
+      expect(comittee.topics).to include(topic)
+    end
+  end
 end
