@@ -2,6 +2,6 @@
 
 FactoryGirl.define do
   factory :conference do
-    name "BIGMUN"
+    name "Conference #{Faker::Name.name}"
   end
 end

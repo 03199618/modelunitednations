@@ -16,6 +16,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'gmaps-autocomplete-rails'
 gem 'public_activity'
 gem 'ckeditor'
+gem 'non-stupid-digest-assets', '~> 1.0.4'
 
 #MANDATORY
 gem 'google-analytics-rails'

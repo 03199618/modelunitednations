@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140403164452) do
+ActiveRecord::Schema.define(version: 20140404195859) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -41,12 +41,6 @@ ActiveRecord::Schema.define(version: 20140403164452) do
     t.integer  "conference_id"
   end
 
-  create_table "chairs", force: true do |t|
-    t.integer  "user_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "comittees", force: true do |t|
     t.text     "name"
     t.text     "description"
@@ -63,12 +57,6 @@ ActiveRecord::Schema.define(version: 20140403164452) do
   create_table "comittees_topics", id: false, force: true do |t|
     t.integer "topic_id"
     t.integer "comittee_id"
-  end
-
-  create_table "conference_managers", force: true do |t|
-    t.integer  "user_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
   end
 
   create_table "conferences", force: true do |t|
@@ -106,6 +94,7 @@ ActiveRecord::Schema.define(version: 20140403164452) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "user_id"
+    t.integer  "participant_group_id"
   end
 
   create_table "participant_group_members_users", id: false, force: true do |t|
@@ -132,11 +121,6 @@ ActiveRecord::Schema.define(version: 20140403164452) do
     t.integer  "manager_id"
   end
 
-  create_table "participant_groups_participant_group_members", id: false, force: true do |t|
-    t.integer "participant_group_member_id"
-    t.integer "participant_group_id"
-  end
-
   create_table "participant_groups_users", id: false, force: true do |t|
     t.integer "user_id"
     t.integer "participant_group_id"
@@ -156,11 +140,6 @@ ActiveRecord::Schema.define(version: 20140403164452) do
     t.integer  "delegation_id"
   end
 
-  create_table "participants_comittees", id: false, force: true do |t|
-    t.integer "participant_id"
-    t.integer "comittee_id"
-  end
-
   create_table "participants_participant_groups", id: false, force: true do |t|
     t.integer "participant_id"
     t.integer "participant_group_id"
@@ -171,9 +150,32 @@ ActiveRecord::Schema.define(version: 20140403164452) do
     t.integer "participant_role_id"
   end
 
-  create_table "participants_roles", id: false, force: true do |t|
-    t.integer "participant_id"
-    t.integer "role_id"
+  create_table "registrations", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "conference_id"
+    t.integer  "participant_group_id"
+    t.boolean  "withdrawn"
+    t.boolean  "accepted"
+    t.boolean  "rejected"
+  end
+
+  create_table "resolution_submitter_roles", force: true do |t|
+    t.text     "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "resolution_submitter_roles_resolution_submitters", id: false, force: true do |t|
+    t.integer "resolution_submitter_id"
+    t.integer "resolution_submitter_role_id"
+  end
+
+  create_table "resolution_submitters", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "delegate_id"
+    t.integer  "resolution_id"
   end
 
   create_table "resolutions", force: true do |t|
@@ -181,6 +183,11 @@ ActiveRecord::Schema.define(version: 20140403164452) do
     t.integer  "comittee_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "resolutions_delegates", id: false, force: true do |t|
+    t.integer "delegate_id"
+    t.integer "resolution_id"
   end
 
   create_table "resolutions_topics", id: false, force: true do |t|

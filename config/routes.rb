@@ -6,7 +6,8 @@ Modelunitednations::Application.routes.draw do
   root to: "welcome#index"
   get "theme", to: 'welcome#theme'
 
-  resources :conferences
+  resources :conferences do
+  end
   resources :comittees
   resources :delegations
   resources :delegates
@@ -19,7 +20,14 @@ Modelunitednations::Application.routes.draw do
     end
   end
   resources :resolutions
+  resources :position_papers
   resources :topics
+  resources :registrations do
+    member do
+      put 'withdraw'
+      put 'accept'
+    end
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

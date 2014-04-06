@@ -1,0 +1,13 @@
+.row
+  .col-lg-12
+    %h1.page-header
+      = @resolution.topic
+
+- if @resolution.content
+  .row
+    .col-lg-12
+      .panel.panel-default
+        .panel-heading
+          Resolution
+        .panel-body
+          = @resolution.content.html_safe

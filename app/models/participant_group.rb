@@ -1,13 +1,14 @@
 class ParticipantGroup < ActiveRecord::Base
   belongs_to :conference
-  has_and_belongs_to_many :participant_group_members, join_table: "participant_groups_participant_group_members"
+  has_many :participant_group_members
+  has_many :registrations
 
   validates_presence_of :name
 
   def addManager(user)
-    participant_group_member = ParticipantGroupMember.new(user_id: user.id)
+    participant_group_member = ParticipantGroupMember.new(user_id: user.id, participant_group_id: self.id)
     participant_group_member.addParticipantGroupRole("manager")
-
-    self.participant_group_members << participant_group_member
+    participant_group_member.save
+    puts participant_group_member.inspect
   end
 end

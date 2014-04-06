@@ -3,7 +3,6 @@
 FactoryGirl.define do
   factory :resolution do
     content "MyText"
-    name "MyText"
     comittee_id 1
   end
 end

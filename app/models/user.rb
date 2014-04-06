@@ -10,6 +10,9 @@ class User < ActiveRecord::Base
   has_many :participant_groups, through: :participant_group_members
   has_many :delegations, through: :participants
   has_many :participant_group_members
+  has_many :participants
+  has_many :delegates, through: :participants
+  has_many :resolutions, through: :delegates
 
   def initial_role=(role_name)
     @initial_role = role_name
@@ -19,10 +22,6 @@ class User < ActiveRecord::Base
 
   def has_role?(role)
     return !!self.roles.find_by_name(role.to_s.camelize)
-  end
-
-  def pariticipant_groups
-    nil
   end
 
   def name

@@ -19,7 +19,7 @@
       <li>
         <a href="<%= conferences_path %>"><i class="fa fa-bar-chart-o fa-fw"></i> Conferences<span class="fa arrow"></span></a>
         <ul class="nav nav-second-level">
-          <% current_user.conferences.each do |conference|%>
+          <% current_user.conferences.distinct.each do |conference|%>
             <li>
               <%= link_to conference.name, conference_path(id: conference.id) %>
             </li>
@@ -59,13 +59,13 @@
       </li>
 
       <li>
-        <a href="#"><i class="fa fa-files-o fa-fw"></i> Guides<span class="fa arrow"></span></a>
+        <a href="#"><i class="fa fa-files-o fa-fw"></i> Collaborate<span class="fa arrow"></span></a>
         <ul class="nav nav-second-level">
           <li>
-            <a href="../../../../../../Downloads/sb-admin-v2-2/blank.html">Resolutions</a>
+            <%= link_to "Resolutions", resolutions_path%>
           </li>
           <li>
-            <a href="../../../../../../Downloads/sb-admin-v2-2/login.html">In Comittee</a>
+            <%= link_to "Position paper", position_papers_path%>
           </li>
         </ul>
         <!-- /.nav-second-level -->

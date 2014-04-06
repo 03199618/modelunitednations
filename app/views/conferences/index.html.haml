@@ -12,3 +12,5 @@
         = conference.description
       .panel-footer
         = link_to "Go to #{conference.name}", conference_path(conference)
+        ,
+        = link_to "Register at #{conference.name}", new_registration_path(conference_id: conference.id)

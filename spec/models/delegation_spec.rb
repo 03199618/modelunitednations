@@ -9,4 +9,12 @@ describe Delegation do
       delegation.should_not be_valid
     end
   end
+
+  describe "conference" do
+    it "should have a conference" do
+      delegation = FactoryGirl.build(:delegation)
+      delegation.conference = nil
+      delegation.should_not be_valid
+    end
+  end
 end

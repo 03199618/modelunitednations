@@ -7,6 +7,7 @@ class Conference < ActiveRecord::Base
   has_many :delegations
   has_many :comittees
   has_many :participant_groups
+  has_many :registrations
 
   validates :name, presence: true
 
@@ -31,6 +32,18 @@ class Conference < ActiveRecord::Base
 
     self.participants << participant
   end
+
+  def addParticipantGroup(participant_group)
+    participant_group.participant_group_members.each do |participant_group_member|
+      addParticipant(participant_group_member)
+    end
+  end
+
+  def addParticipant(participant_group_member)
+    participant = Participant.new(participant_group_member_id: participant_group_member.id)
+    self.participants << participant
+  end
+
 
   def participantForUser(user)
     participant = Participant.where(user_id: user.id).first

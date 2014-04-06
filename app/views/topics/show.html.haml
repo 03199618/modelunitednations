@@ -20,6 +20,7 @@
           %li
             %a{href: "#"} Separated link
 
+
 - if @topic.resolutions
   .row
     .col-lg-12
@@ -29,5 +30,6 @@
         .panel-body
           - @topic.resolutions.each do |resolution|
             //= link_to resolution.main_submitter, delegation_path(delegation)
-            = link_to resolution.submitters.first, resoltuion_path(resolution)
+            = link_to resolution.main_submitter.name, resolution_path(resolution)
             %br
+          = link_to "+ Submit resolution", new_resolution_path(topic_id: @topic.id)

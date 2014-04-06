@@ -6,7 +6,8 @@ FactoryGirl.define do
   end
 
   factory :user do
-    name Faker::Name.name
+    firstname Faker::Name.first_name
+    surname Faker::Name.last_name
     email
     password "changeme"
     password_confirmation "changeme"

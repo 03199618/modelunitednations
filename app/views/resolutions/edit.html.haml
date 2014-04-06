@@ -1,0 +1,5 @@
+= simple_form_for @resolution do |f|
+  = f.hidden_field :topic_id, value: params[:topic_id]
+  = f.input :content, :as => :ckeditor, :input_html => { :ckeditor => {:toolbar => 'Basic'} }
+  = f.button :submit
+

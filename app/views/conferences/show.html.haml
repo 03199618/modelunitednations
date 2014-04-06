@@ -25,6 +25,34 @@
   .col-lg-4
     .panel.panel-default
       .panel-heading
+        = "Registrations"
+        .pull-right
+          .btn-group
+            %button.btn.btn-default.btn-xs.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
+              Actions
+              %span.caret
+            %ul.dropdown-menu.pull-right{role: "menu"}
+              %li
+                %a{href: new_delegation_path(conference_id: @conference.id)} Show all registrations
+              %li
+                %a{href: "#"} Another action
+              %li
+                %a{href: "#"} Something else here
+              %li.divider
+              %li
+                %a{href: "#"} Separated link
+      .panel-body
+        - @conference.registrations.each do |registration|
+          = link_to registration.participant_group.name, registration_path(registration)
+          %br
+        = link_to "See all", registration_path(conference_id: @conference.id)
+      .panel-footer
+        = "#{pluralize(@conference.registrations.count, "registration")}"
+
+
+  .col-lg-4
+    .panel.panel-default
+      .panel-heading
         = "Delegations"
         .pull-right
           .btn-group
@@ -104,6 +132,32 @@
       .panel-footer
         = "#{pluralize(@conference.participant_groups.count, "groups")}"
 
+  .col-lg-4
+    .panel.panel-default
+      .panel-heading
+        = "Participants"
+        .pull-right
+          .btn-group
+            %button.btn.btn-default.btn-xs.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
+              Actions
+              %span.caret
+            %ul.dropdown-menu.pull-right{role: "menu"}
+              %li
+                %a{href: participants_path(conference_id: @conference.id)} Show all participants
+              %li
+                %a{href: "#"} Another action
+              %li
+                %a{href: "#"} Something else here
+              %li.divider
+              %li
+                %a{href: "#"} Separated link
+      .panel-body
+        - @conference.participants.each do |participant|
+          = link_to participant.name, participant_path(participant)
+          %br
+        = link_to "See all", participants_path(conference_id: @conference.id)
+      .panel-footer
+        = "#{pluralize(@conference.participants.count, "participant")}"
 
   .col-lg-8
     .panel.panel-default

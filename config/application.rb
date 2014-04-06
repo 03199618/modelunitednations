@@ -25,6 +25,12 @@ module Modelunitednations
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
-    config.assets.precompile = ['*.js', '*.css', '*.css.erb']
+    config.assets.initialize_on_precompile = false
+
+    config.assets.precompile = ['*.js', '*.css', '*.css.erb', '*.svg', '*.ttf', '*.woff']
+    config.assets.precompile += ['rails_admin/rails_admin.css', 'rails_admin/rails_admin.js']
+    config.autoload_paths += %W(#{config.root}/app/models/ckeditor)
+    config.assets.precompile += Ckeditor.assets
+    config.assets.precompile += %w(ckeditor/*)
   end
 end

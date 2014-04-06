@@ -1,0 +1,2 @@
+class PositionPapersController < ApplicationController
+end

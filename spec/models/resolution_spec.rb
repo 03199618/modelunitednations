@@ -1,5 +1,16 @@
 require 'spec_helper'
 
 describe Resolution do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe "submitter" do
+    it "it should be able to add a submitter" do
+      resolution = FactoryGirl.create(:resolution)
+      delegation = FactoryGirl.create(:delegation)
+
+      topic.addDelegate(resolution)
+      topic.save
+
+      expect(topic.resolutions).to include(resolution)
+    end
+
+  end
 end

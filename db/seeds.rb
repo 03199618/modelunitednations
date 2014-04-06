@@ -13,6 +13,19 @@ roles.each do |name, i|
   end
 end
 
+#Resolution submitters roles
+roles = ["mainsubmitter", "cosubmitter"]
+roles.each do |name, i|
+  role = ResolutionSubmitterRole.new
+  role.name = name
+  if ResolutionSubmitterRole.where(name: role.name).blank?
+    puts "Role:" << role.name
+    role.save
+  else
+    puts "Skipped role:" << role.name
+  end
+end
+
 #Participant roles
 roles = ["manager", "chair", "delegate", "director", "ambassador"]
 roles.each do |name, i|
@@ -41,9 +54,9 @@ end
 
 
 
-#administrator = User.find_or_create_by_email :name => "Administrator".dup, :email => "admin@un.org".dup, :password => "munmunmun".dup, :password_confirmation => "munmunmun".dup
-#administrator.initial_role = "administrator"
-#puts 'Administrator: ' << administrator.name
+administrator = User.find_or_create_by_email :name => "Jakob Zeitler".dup, :email => "mail@jakob-zeitler.de".dup, :password => "munmunmun".dup, :password_confirmation => "munmunmun".dup
+administrator.initial_role = "administrator"
+puts 'Administrator: ' << administrator.name
 
 
 #ENVIRONMENTS

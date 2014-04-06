@@ -1,12 +1,24 @@
 class Participant < ActiveRecord::Base
   include PublicActivity::Model
-  tracked
+  tracked except: :create
 
   has_and_belongs_to_many :participant_roles, join_table: "participants_participant_roles"
   has_and_belongs_to_many :comittees
   belongs_to :delegation
   belongs_to :conference
+  belongs_to :participant_group_member
   belongs_to :user
+  has_one :delegate
+  has_many :resolutions, through: :delegate
+
+
+  before_save :role
+
+  def role
+    if participant_roles.none?
+      addParticipantRole("delegate")
+    end
+  end
 
   def initial_role=(role_name)
     @initial_role = role_name
@@ -28,10 +40,13 @@ class Participant < ActiveRecord::Base
   end
 
   def name
-    if user
-      return self.user.name
+
+    if user_id.nil?
+      return "UNKNOWN"
     else
-      return self.participant_roles.first.name
+      name = self.user.name
+      name = name + ", " + self.participant_roles.first.name.capitalize unless self.participant_roles.first.name == "delegate"
+      return name
     end
   end
 

@@ -23,14 +23,17 @@ class ParticipantGroupsController < ApplicationController
     @participant_group = ParticipantGroup.new(params[:participant_group].permit(:name))
     authorize! :create, @participant_group
 
-    @participant_group.addManager(current_user)
+
 
     if @participant_group.save
-      flash[:success] = t("general.participant_groupCreated")
-      respond_to do |format|
-        format.xml {render :xml => @participant_group}
-        format.json {render :json => @participant_group}
-        format.html {redirect_to participant_group_path(id: @participant_group.id)}
+      @participant_group.addManager(current_user)
+      if @participant_group.save
+        flash[:success] = t("general.participant_groupCreated")
+        respond_to do |format|
+          format.xml {render :xml => @participant_group}
+          format.json {render :json => @participant_group}
+          format.html {redirect_to participant_group_path(id: @participant_group.id)}
+        end
       end
     else
       puts @participant_group.errors.inspect
