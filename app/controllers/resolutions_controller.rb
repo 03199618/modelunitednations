@@ -5,7 +5,7 @@ class ResolutionsController < ApplicationController
   end
 
   def index
-    @resolutions = current_user.resolutions
+    @resolutions = current_user.resolutions.order('updated_at DESC')
     authorize! :show, @resolutions
   end
 

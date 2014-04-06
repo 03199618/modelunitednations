@@ -28,6 +28,7 @@ class Registration < ActiveRecord::Base
   def name
     name = conference.name
     name = name + " (withdrawn)" unless !withdrawn
+    name = name + " (accepted)" unless !accepted
     return name
   end
 end

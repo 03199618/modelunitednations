@@ -1,269 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="230275e5-48d9-4aa0-bf99-afe6cd5b3d7f" name="Default" comment="Changes&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-0fde4f03fc0a10225597871b76d80c09.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-4003c8b0bc0117a072e96bbffc6546d2.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-496ef867d5058eaa2accc36ccafc02b8.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-3b6e0926d4a26cdd5161eadb58c7282f.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-affix-b430512b7787ca8b02be8b7cc01e63b9.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-alert-ec57ae015b63d7692927d23e1418434f.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-button-2258a423fca7fcd43a8629cdac231189.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-carousel-37c2be1e4f7e3954c6e2e7a4fc720a51.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-collapse-d7f4150e8045d3fc658162d941c4061d.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-dropdown-4af096b88bae05760d72f49e9f0c4a22.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-modal-fb7ebc38c361931baf30bcda9984fd41.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-popover-ff3f8d3e2761e52ce45454e1110c0956.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-scrollspy-44b7fa340a0e4350f959cb37e2f2d104.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-tab-28d8eac45205ef8b7ffa9f9767867838.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-tooltip-c3897f05db77bc55d02e6da772311e45.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-transition-f7ee99f9b4e872b03af5b77a78398486.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-typeahead-8eb9bc97694385a602210820c406d161.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap.min-043a814c8d3dfc37d8d73479dc940241.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap.min-92f5695b4c3c4b3463a9ce97a736d0a4.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/color_codes-d0b54dd563966c42aad5fd85b1c1f713.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/comittees-d0b54dd563966c42aad5fd85b1c1f713.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/comittees-d0b54dd563966c42aad5fd85b1c1f713.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/conference-d0b54dd563966c42aad5fd85b1c1f713.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/conferences-d0b54dd563966c42aad5fd85b1c1f713.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/demo/dashboard-demo-d1ce7e1087bc707ecc68e9729e110c5f.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/dataTables/dataTables.bootstrap-73549ecc4bf8c9432749c2dd158b94f1.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/dataTables/dataTables.bootstrap-bd0f98f89c558c587cde32b5decbfa5f.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/delegates-d0b54dd563966c42aad5fd85b1c1f713.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/delegates-d0b54dd563966c42aad5fd85b1c1f713.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/delegations-d0b54dd563966c42aad5fd85b1c1f713.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/delegations-d0b54dd563966c42aad5fd85b1c1f713.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/flot/excanvas.min-c69f767f6ee759d65294b1d52753a882.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/demo/flot-demo-42232db331288fdf034a67e6c8230970.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/base/font-awesome-4-compability-88d174cc756e4abaa976f895770f59ea.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/font-awesome/css/font-awesome-b55ac8df441b5a5cd588fc7e81a4b78e.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/font-awesome/css/font-awesome.min-dbe881ef0692f0539f2b5866915951f0.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/font-awesome/fonts/fontawesome-webfont-69b0f4550dbb8738458172d11513538d.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/font-awesome/fonts/fontawesome-webfont-9a3b8f90662fe9149f07a059f1a4c782.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular-1837a54d175259b84d7e0a0481535bb5.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular-1b3690c46cea789082015677ba9e5db2.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/grayscale-7004885405b6e8a29b447089b7b3c779.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/grayscale-d0b54dd563966c42aad5fd85b1c1f713.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-1.10.2-b609a31405ac2d5350eabbe33f1aafb7.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/aristo/jquery-ui-1.8.7.custom-8b3e4c4101a7d1d79e164f430e636b13.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/jquery.colorpicker-42add35c57085c956cb7b2cc18d33ddb.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/dataTables/jquery.dataTables-89476c0febcbe12f0e8fecb3293330fe.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/flot/jquery.flot-e3c741210c407707ce29248d0969f25e.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/flot/jquery.flot.pie-47fabfa21aaf186a28f256d61d8c9444.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/flot/jquery.flot.resize-c1b8a3d07a83a0fddb2b1bd018f721d7.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/flot/jquery.flot.tooltip.min-1d89db5ef04c8bbc2ced765cd18ece75.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/metisMenu/jquery.metisMenu-e10c185773426f06716a0b22f498d897.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/jquery.pjax-ca8dce14e13be2ef95eb4b60857b52f1.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/jquery.remotipart.fixed-2116cabc381c30cb41151db0e7ab01a2.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/jquery.ui.timepicker-0ea0c7c38c00cccd735e54d9e86a3550.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/base/mixins-d0b54dd563966c42aad5fd85b1c1f713.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/morris/morris-0.4.3.min-172c2baba64f5610ea5d89408918c3ef.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/morris/morris-a6d4a1a1bb437abca413183477025eeb.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/demo/morris-demo-2ec6033bf76ef32ee6bcfc891c146a6c.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/participant_groups-d0b54dd563966c42aad5fd85b1c1f713.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/participant_groups-d0b54dd563966c42aad5fd85b1c1f713.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/participants-d0b54dd563966c42aad5fd85b1c1f713.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/participants-d0b54dd563966c42aad5fd85b1c1f713.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/ra.datetimepicker-aa1fe051da76834ab2ad9134a550cb68.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/ra.filter-box-c2700e5f4aeba585028a2ca272f8d854.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/ra.filtering-multiselect-10e8b533acce9174f3b668166c4dadaa.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/ra.filtering-select-82d5e848f062608700dcd557712d75ac.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/ra.i18n-cc5300ba86ac422a7a2251f962d45aa6.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/ra.nested-form-hooks-27a8920eb2b4e95602106eb860763bf4.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/ra.remote-form-5bc419d7259b124f6487baa73ed03e3c.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/ra.widgets-68956cbb5e7de8e01c6b97a3dfee8b38.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/rails_admin-730e4f39a02cb2535434e2881a0f7351.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/morris/raphael-2.1.0.min-6877369834965f7e15f251aac9c97042.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/registrations-d0b54dd563966c42aad5fd85b1c1f713.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/registrations-d0b54dd563966c42aad5fd85b1c1f713.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/sb-admin-01d4737894b3effe4e7379617be585b7.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/sb-admin-7cf424c9e6c521a9e3af8fae4979d8e3.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/social-buttons/social-buttons-a3f620817ef978e59f252df2377b1abc.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/timeline/timeline-5361a951d78f1f668c02e9e407b16a3f.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/topics-d0b54dd563966c42aad5fd85b1c1f713.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/topics-d0b54dd563966c42aad5fd85b1c1f713.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/ui-8b0775d0e1457d7c47050ae36dfaaed9.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/custom/ui-8bd0eba24cb2455d6dff538e23db8afc.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/users-d0b54dd563966c42aad5fd85b1c1f713.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/users-d0b54dd563966c42aad5fd85b1c1f713.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/welcome-8bd0eba24cb2455d6dff538e23db8afc.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/welcome-d0b54dd563966c42aad5fd85b1c1f713.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140403190003_create_registrations.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140403190118_add_conference_id_to_registration.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140403190732_add_participant_group_id_to_registration.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140403192902_add_withdrawn_to_registration.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140403195644_add_accepted_to_registration.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140403195709_add_rejected_to_registration.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140403204803_add_participant_group_id_to_participant_group_member.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140404182117_resolution_to_delegate.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140404192835_create_resolution_submitters.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140404193312_add_delegate_id_to_resolution_submitter.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140404194341_create_resolution_submitter_roles.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140404194449_resolution_submitter_to_resolution_submitter_role.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140404195859_add_resolution_id_to_resolution_submitter.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/devise/sessions/_new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-0fde4f03fc0a10225597871b76d80c09.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-4003c8b0bc0117a072e96bbffc6546d2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-496ef867d5058eaa2accc36ccafc02b8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-3b6e0926d4a26cdd5161eadb58c7282f.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-affix-b430512b7787ca8b02be8b7cc01e63b9.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-alert-ec57ae015b63d7692927d23e1418434f.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-button-2258a423fca7fcd43a8629cdac231189.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-carousel-37c2be1e4f7e3954c6e2e7a4fc720a51.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-collapse-d7f4150e8045d3fc658162d941c4061d.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-dropdown-4af096b88bae05760d72f49e9f0c4a22.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-modal-fb7ebc38c361931baf30bcda9984fd41.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-popover-ff3f8d3e2761e52ce45454e1110c0956.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-scrollspy-44b7fa340a0e4350f959cb37e2f2d104.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-tab-28d8eac45205ef8b7ffa9f9767867838.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-tooltip-c3897f05db77bc55d02e6da772311e45.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-transition-f7ee99f9b4e872b03af5b77a78398486.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/bootstrap-typeahead-8eb9bc97694385a602210820c406d161.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap.min-043a814c8d3dfc37d8d73479dc940241.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bootstrap.min-92f5695b4c3c4b3463a9ce97a736d0a4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/color_codes-d0b54dd563966c42aad5fd85b1c1f713.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/color_codes.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/comittees-d0b54dd563966c42aad5fd85b1c1f713.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/comittees-d0b54dd563966c42aad5fd85b1c1f713.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/conference-d0b54dd563966c42aad5fd85b1c1f713.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/conferences-d0b54dd563966c42aad5fd85b1c1f713.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/support/controller_macros.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/demo/dashboard-demo-d1ce7e1087bc707ecc68e9729e110c5f.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/dataTables/dataTables.bootstrap-73549ecc4bf8c9432749c2dd158b94f1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/dataTables/dataTables.bootstrap-bd0f98f89c558c587cde32b5decbfa5f.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/delegates-d0b54dd563966c42aad5fd85b1c1f713.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/delegates-d0b54dd563966c42aad5fd85b1c1f713.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/delegations-d0b54dd563966c42aad5fd85b1c1f713.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/delegations-d0b54dd563966c42aad5fd85b1c1f713.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/resolutions/edit.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/flot/excanvas.min-c69f767f6ee759d65294b1d52753a882.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/demo/flot-demo-42232db331288fdf034a67e6c8230970.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/base/font-awesome-4-compability-88d174cc756e4abaa976f895770f59ea.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/font-awesome/css/font-awesome-b55ac8df441b5a5cd588fc7e81a4b78e.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/font-awesome/css/font-awesome.min-dbe881ef0692f0539f2b5866915951f0.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/font-awesome/fonts/fontawesome-webfont-51b69bdec08f19b3142dcd085ba6238a.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular-db16ef179f96cbd0198908c13e47d5e1.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/grayscale-7004885405b6e8a29b447089b7b3c779.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/grayscale-d0b54dd563966c42aad5fd85b1c1f713.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/resolutions/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-1.10.2-b609a31405ac2d5350eabbe33f1aafb7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/aristo/jquery-ui-1.8.7.custom-8b3e4c4101a7d1d79e164f430e636b13.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/jquery.colorpicker-42add35c57085c956cb7b2cc18d33ddb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/dataTables/jquery.dataTables-89476c0febcbe12f0e8fecb3293330fe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/flot/jquery.flot-e3c741210c407707ce29248d0969f25e.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/flot/jquery.flot.pie-47fabfa21aaf186a28f256d61d8c9444.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/flot/jquery.flot.resize-c1b8a3d07a83a0fddb2b1bd018f721d7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/flot/jquery.flot.tooltip.min-1d89db5ef04c8bbc2ced765cd18ece75.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/metisMenu/jquery.metisMenu-e10c185773426f06716a0b22f498d897.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/jquery.pjax-ca8dce14e13be2ef95eb4b60857b52f1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/jquery.remotipart.fixed-2116cabc381c30cb41151db0e7ab01a2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/jquery.ui.timepicker-0ea0c7c38c00cccd735e54d9e86a3550.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/base/mixins-d0b54dd563966c42aad5fd85b1c1f713.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/morris/morris-0.4.3.min-172c2baba64f5610ea5d89408918c3ef.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/morris/morris-a6d4a1a1bb437abca413183477025eeb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/demo/morris-demo-2ec6033bf76ef32ee6bcfc891c146a6c.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/registrations/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/resolutions/new.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/participant_groups-d0b54dd563966c42aad5fd85b1c1f713.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/participant_groups-d0b54dd563966c42aad5fd85b1c1f713.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/participants-d0b54dd563966c42aad5fd85b1c1f713.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/participants-d0b54dd563966c42aad5fd85b1c1f713.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/position_papers.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/position_papers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/position_papers_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/controllers/position_papers_controller_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/position_papers_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/helpers/position_papers_helper_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/ra.datetimepicker-aa1fe051da76834ab2ad9134a550cb68.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/ra.filter-box-c2700e5f4aeba585028a2ca272f8d854.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/ra.filtering-multiselect-10e8b533acce9174f3b668166c4dadaa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/ra.filtering-select-82d5e848f062608700dcd557712d75ac.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/ra.i18n-cc5300ba86ac422a7a2251f962d45aa6.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/ra.nested-form-hooks-27a8920eb2b4e95602106eb860763bf4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/ra.remote-form-5bc419d7259b124f6487baa73ed03e3c.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/ra.widgets-68956cbb5e7de8e01c6b97a3dfee8b38.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/rails_admin-730e4f39a02cb2535434e2881a0f7351.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/morris/raphael-2.1.0.min-6877369834965f7e15f251aac9c97042.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/registration.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/registration_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/registrations-d0b54dd563966c42aad5fd85b1c1f713.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/registrations-d0b54dd563966c42aad5fd85b1c1f713.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/registrations.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/registrations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/registrations.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/registrations_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/controllers/registrations_controller_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/registrations_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/helpers/registrations_helper_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/resolution_submitter.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/resolution_submitter_role.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/resolution_submitter_role_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/resolution_submitter_roles.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/resolution_submitter_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/resolution_submitters.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/resolutions.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/resolutions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/resolutions_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/controllers/resolutions_controller_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/resolutions_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/helpers/resolutions_helper_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/sb-admin-01d4737894b3effe4e7379617be585b7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/sb-admin-7cf424c9e6c521a9e3af8fae4979d8e3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/registrations/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/resolutions/show.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/social-buttons/social-buttons-a3f620817ef978e59f252df2377b1abc.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/timeline/timeline-5361a951d78f1f668c02e9e407b16a3f.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/topics-d0b54dd563966c42aad5fd85b1c1f713.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/topics-d0b54dd563966c42aad5fd85b1c1f713.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/ui-8b0775d0e1457d7c47050ae36dfaaed9.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/rails_admin/custom/ui-8bd0eba24cb2455d6dff538e23db8afc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/users-d0b54dd563966c42aad5fd85b1c1f713.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/users-d0b54dd563966c42aad5fd85b1c1f713.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/welcome-8bd0eba24cb2455d6dff538e23db8afc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/welcome-d0b54dd563966c42aad5fd85b1c1f713.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20140402154330_participant_group_members_to_participant_group.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/first.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erd.pdf" afterPath="$PROJECT_DIR$/erd.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/first.jpg" afterPath="$PROJECT_DIR$/app/assets/images/first.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_landing.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_landing.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_side_navigation.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_side_navigation.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/conference.rb" afterPath="$PROJECT_DIR$/app/models/conference.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/conferences.rb" afterPath="$PROJECT_DIR$/spec/factories/conferences.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+    <list default="true" id="230275e5-48d9-4aa0-bf99-afe6cd5b3d7f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140406210056_add_participant_group_member_id_to_participant.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/participant_groups/invite.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/delegate.rb" afterPath="$PROJECT_DIR$/app/models/delegate.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/delegation.rb" afterPath="$PROJECT_DIR$/app/models/delegation.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/delegation_spec.rb" afterPath="$PROJECT_DIR$/spec/models/delegation_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/comittees/edit.html.haml" afterPath="$PROJECT_DIR$/app/views/comittees/edit.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/conferences/index.html.haml" afterPath="$PROJECT_DIR$/app/views/conferences/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/resolutions/index.html.haml" afterPath="$PROJECT_DIR$/app/views/resolutions/index.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modelunitednations.iml" afterPath="$PROJECT_DIR$/.idea/modelunitednations.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/participant.rb" afterPath="$PROJECT_DIR$/app/models/participant.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/participant_group.rb" afterPath="$PROJECT_DIR$/app/models/participant_group.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/participant_group_member.rb" afterPath="$PROJECT_DIR$/app/models/participant_group_member.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/participant_group_spec.rb" afterPath="$PROJECT_DIR$/spec/models/participant_group_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/participant_groups_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/participant_groups_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/participant_groups_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/participant_groups_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/registration.rb" afterPath="$PROJECT_DIR$/app/models/registration.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/resolution.rb" afterPath="$PROJECT_DIR$/app/models/resolution.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/resolution_spec.rb" afterPath="$PROJECT_DIR$/spec/models/resolution_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/resolutions.rb" afterPath="$PROJECT_DIR$/spec/factories/resolutions.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/resolutions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/resolutions_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/sb-admin.css.erb" afterPath="$PROJECT_DIR$/app/assets/stylesheets/sb-admin.css.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/comittees/show.html.haml" afterPath="$PROJECT_DIR$/app/views/comittees/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/conferences/show.html.haml" afterPath="$PROJECT_DIR$/app/views/conferences/show.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/participant_groups/show.html.haml" afterPath="$PROJECT_DIR$/app/views/participant_groups/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/topics/show.html.haml" afterPath="$PROJECT_DIR$/app/views/topics/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/topic.rb" afterPath="$PROJECT_DIR$/app/models/topic.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/topic_spec.rb" afterPath="$PROJECT_DIR$/spec/models/topic_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/users.rb" afterPath="$PROJECT_DIR$/spec/factories/users.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/welcome_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/welcome_controller_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="modelunitednations.iws" />
@@ -276,51 +32,58 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/modelunitednations@db_create__modelunitednations.coverage" NAME="db:create: modelunitednations Coverage Results" MODIFIED="1396183160282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Run_spec__index_html_haml_spec___modelunitednations.coverage" NAME="Run spec 'index.html.haml_spec': modelunitednations Coverage Results" MODIFIED="1396629377913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Conference_manager_it_should_return_all_managers__modelunitednations.coverage" NAME="Conference manager it should return all managers: modelunitednations Coverage Results" MODIFIED="1396302284139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@db_setup__modelunitednations.coverage" NAME="db:setup: modelunitednations Coverage Results" MODIFIED="1396559150152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroup_manager__modelunitednations.coverage" NAME="ParticipantGroup manager: modelunitednations Coverage Results" MODIFIED="1396453144324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Comittee_topics_it_should_be_able_to_add_a_topic__modelunitednations.coverage" NAME="Comittee topics it should be able to add a topic: modelunitednations Coverage Results" MODIFIED="1396540031216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@db_rollback__modelunitednations.coverage" NAME="db:rollback: modelunitednations Coverage Results" MODIFIED="1396107046024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@db_drop__modelunitednations.coverage" NAME="db:drop: modelunitednations Coverage Results" MODIFIED="1396559037890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@WelcomeController_GET__index__modelunitednations.coverage" NAME="WelcomeController GET #index: modelunitednations Coverage Results" MODIFIED="1396629941068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Conference_delegate__modelunitednations.coverage" NAME="Conference delegate: modelunitednations Coverage Results" MODIFIED="1396302485513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Production__modelunitednations.coverage" NAME="Production: modelunitednations Coverage Results" MODIFIED="1396184029986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@Conference_delegate__modelunitednations.coverage" NAME="Conference delegate: modelunitednations Coverage Results" MODIFIED="1396302485513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@WelcomeController_GET__index__modelunitednations.coverage" NAME="WelcomeController GET #index: modelunitednations Coverage Results" MODIFIED="1396629941068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Delegation_name__modelunitednations.coverage" NAME="Delegation name: modelunitednations Coverage Results" MODIFIED="1396390377009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@db_migrate__modelunitednations.coverage" NAME="db:migrate: modelunitednations Coverage Results" MODIFIED="1396641656254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Topic_resolution__modelunitednations.coverage" NAME="Topic resolution: modelunitednations Coverage Results" MODIFIED="1396638742909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@db_migrate__modelunitednations.coverage" NAME="db:migrate: modelunitednations Coverage Results" MODIFIED="1396818771466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@erd__modelunitednations.coverage" NAME="erd: modelunitednations Coverage Results" MODIFIED="1396551818421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Delegate_ambassador_should_be_able_to_return_its_ambassador_status__modelunitednations.coverage" NAME="Delegate ambassador should be able to return its ambassador status: modelunitednations Coverage Results" MODIFIED="1396448755242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Delegate_associations__modelunitednations.coverage" NAME="Delegate associations: modelunitednations Coverage Results" MODIFIED="1396392060762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroupsController_should_have_a_current_user__modelunitednations.coverage" NAME="ParticipantGroupsController should have a current_user: modelunitednations Coverage Results" MODIFIED="1396819624087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroup_manager_it_should_be_able_to_add_a_manager__modelunitednations.coverage" NAME="ParticipantGroup manager it should be able to add a manager: modelunitednations Coverage Results" MODIFIED="1396453598139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@Delegation_name_should_have_a_ambassador__modelunitednations.coverage" NAME="Delegation name should have a ambassador: modelunitednations Coverage Results" MODIFIED="1396389389119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@Registrations__modelunitednations.coverage" NAME="Registrations: modelunitednations Coverage Results" MODIFIED="1396552081834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroup_name__modelunitednations.coverage" NAME="ParticipantGroup name: modelunitednations Coverage Results" MODIFIED="1396450626825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@assets_clobber__modelunitednations.coverage" NAME="assets:clobber: modelunitednations Coverage Results" MODIFIED="1396626920131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@Comittee_name_should_have_a_name__modelunitednations.coverage" NAME="Comittee name should have a name: modelunitednations Coverage Results" MODIFIED="1396447012180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@rails_admin_install__modelunitednations.coverage" NAME="rails_admin:install: modelunitednations Coverage Results" MODIFIED="1396109070911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroupsController_GET__invite__modelunitednations.coverage" NAME="ParticipantGroupsController GET #invite: modelunitednations Coverage Results" MODIFIED="1396820796019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@Participant_name__modelunitednations.coverage" NAME="Participant name: modelunitednations Coverage Results" MODIFIED="1396473082477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@ResolutionsController__modelunitednations.coverage" NAME="ResolutionsController: modelunitednations Coverage Results" MODIFIED="1396635311731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroupsController__modelunitednations.coverage" NAME="ParticipantGroupsController: modelunitednations Coverage Results" MODIFIED="1396820664134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroup_key__modelunitednations.coverage" NAME="ParticipantGroup key: modelunitednations Coverage Results" MODIFIED="1396820603329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroupsController_GET__join__modelunitednations.coverage" NAME="ParticipantGroupsController GET #join: modelunitednations Coverage Results" MODIFIED="1396820233332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@ResolutionsController_GET__show__modelunitednations.coverage" NAME="ResolutionsController GET #show: modelunitednations Coverage Results" MODIFIED="1396638167340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@db_create__modelunitednations.coverage" NAME="db:create: modelunitednations Coverage Results" MODIFIED="1396183160282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@Conference_manager_it_should_return_all_managers__modelunitednations.coverage" NAME="Conference manager it should return all managers: modelunitednations Coverage Results" MODIFIED="1396302284139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@Run_spec__index_html_haml_spec___modelunitednations.coverage" NAME="Run spec 'index.html.haml_spec': modelunitednations Coverage Results" MODIFIED="1396629377913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@db_setup__modelunitednations.coverage" NAME="db:setup: modelunitednations Coverage Results" MODIFIED="1396559150152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroup_join__modelunitednations.coverage" NAME="ParticipantGroup join: modelunitednations Coverage Results" MODIFIED="1396820151460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@db_drop__modelunitednations.coverage" NAME="db:drop: modelunitednations Coverage Results" MODIFIED="1396559037890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@Topic_resolution__modelunitednations.coverage" NAME="Topic resolution: modelunitednations Coverage Results" MODIFIED="1396638742909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@Delegate_ambassador_should_be_able_to_return_its_ambassador_status__modelunitednations.coverage" NAME="Delegate ambassador should be able to return its ambassador status: modelunitednations Coverage Results" MODIFIED="1396448755242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Registrations_conferences_should_have_a_conference__modelunitednations.coverage" NAME="Registrations conferences should have a conference: modelunitednations Coverage Results" MODIFIED="1396552004792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@ConferencesController_GET__index__modelunitednations.coverage" NAME="ConferencesController GET #index: modelunitednations Coverage Results" MODIFIED="1396189787895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@db_seed__modelunitednations.coverage" NAME="db:seed: modelunitednations Coverage Results" MODIFIED="1396643418229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroup_manager_it_should_be_able_to_add_a_manager__modelunitednations.coverage" NAME="ParticipantGroup manager it should be able to add a manager: modelunitednations Coverage Results" MODIFIED="1396453598139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Conference__modelunitednations.coverage" NAME="Conference: modelunitednations Coverage Results" MODIFIED="1396302736962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Delegation_name_should_have_a_ambassador__modelunitednations.coverage" NAME="Delegation name should have a ambassador: modelunitednations Coverage Results" MODIFIED="1396389389119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Delegation_conference_should_have_a_conference__modelunitednations.coverage" NAME="Delegation conference should have a conference: modelunitednations Coverage Results" MODIFIED="1396552434558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroup_name__modelunitednations.coverage" NAME="ParticipantGroup name: modelunitednations Coverage Results" MODIFIED="1396450626825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Registrations__modelunitednations.coverage" NAME="Registrations: modelunitednations Coverage Results" MODIFIED="1396552081834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Conference_manager__modelunitednations.coverage" NAME="Conference manager: modelunitednations Coverage Results" MODIFIED="1396302676117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Comittee_topics__modelunitednations.coverage" NAME="Comittee topics: modelunitednations Coverage Results" MODIFIED="1396540096738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@assets_clobber__modelunitednations.coverage" NAME="assets:clobber: modelunitednations Coverage Results" MODIFIED="1396626920131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Participant_participant_role_it_should_raise_an_error_on_incorrect_participant_role__modelunitednations.coverage" NAME="Participant participant role it should raise an error on incorrect participant role: modelunitednations Coverage Results" MODIFIED="1396301522420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Comittee_name_should_have_a_name__modelunitednations.coverage" NAME="Comittee name should have a name: modelunitednations Coverage Results" MODIFIED="1396447012180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Conference_name__modelunitednations.coverage" NAME="Conference name: modelunitednations Coverage Results" MODIFIED="1396302141609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@ResolutionsController_GET__index__modelunitednations.coverage" NAME="ResolutionsController GET #index: modelunitednations Coverage Results" MODIFIED="1396633542267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@rails_admin_install__modelunitednations.coverage" NAME="rails_admin:install: modelunitednations Coverage Results" MODIFIED="1396109070911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@db_reset__modelunitednations.coverage" NAME="db:reset: modelunitednations Coverage Results" MODIFIED="1396109202351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Participant_name__modelunitednations.coverage" NAME="Participant name: modelunitednations Coverage Results" MODIFIED="1396473082477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@db_schema_dump__modelunitednations.coverage" NAME="db:schema:dump: modelunitednations Coverage Results" MODIFIED="1396187167970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ResolutionsController__modelunitednations.coverage" NAME="ResolutionsController: modelunitednations Coverage Results" MODIFIED="1396635311731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@welcome_index_html_erb__modelunitednations.coverage" NAME="welcome/index.html.erb: modelunitednations Coverage Results" MODIFIED="1396629251995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Participant__modelunitednations.coverage" NAME="Participant: modelunitednations Coverage Results" MODIFIED="1396300786623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@assets_precompile__modelunitednations.coverage" NAME="assets:precompile: modelunitednations Coverage Results" MODIFIED="1396628509472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Development__modelunitednations.coverage" NAME="Development: modelunitednations Coverage Results" MODIFIED="1396635978421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@Development__modelunitednations.coverage" NAME="Development: modelunitednations Coverage Results" MODIFIED="1396816897002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Delegate_ambassador__modelunitednations.coverage" NAME="Delegate ambassador: modelunitednations Coverage Results" MODIFIED="1396448274943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@participant_groups_controller.coverage" NAME="participant_groups_controller Coverage Results" MODIFIED="1396820159355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@db_structure_dump__modelunitednations.coverage" NAME="db:structure:dump: modelunitednations Coverage Results" MODIFIED="1396109320459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ResolutionsController_GET__show__modelunitednations.coverage" NAME="ResolutionsController GET #show: modelunitednations Coverage Results" MODIFIED="1396638167340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Participant_participant_role_it_should_be_able_to_add_a_participant_role__modelunitednations.coverage" NAME="Participant participant role it should be able to add a participant role: modelunitednations Coverage Results" MODIFIED="1396301286273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Registration__modelunitednations.coverage" NAME="Registration: modelunitednations Coverage Results" MODIFIED="1396552425181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
   </component>
@@ -351,14 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20140403200652_change_participant_user_to_participant_group_member.rb" />
-        <option value="$PROJECT_DIR$/app/models/conference.rb" />
-        <option value="$PROJECT_DIR$/app/models/registration.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20140403201803_add_participant_group_id_to_participant_group_member.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20140403203037_add_user_id_to_participant.rb" />
-        <option value="$PROJECT_DIR$/app/models/participant_group_member.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/participant_groups_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/participant_group.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/color_codes.css.scss" />
         <option value="$PROJECT_DIR$/lib/tasks/ckeditor.rb" />
         <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p451@modelunitednations/gems/rails_admin-0.6.1/app/assets/stylesheets/rails_admin/base/theming.scss" />
@@ -374,17 +129,12 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_landing.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/sb-admin.css.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_side_navigation.html.erb" />
         <option value="$PROJECT_DIR$/app/views/conferences/show.html.haml" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/factories/users.rb" />
-        <option value="$PROJECT_DIR$/spec/support/controller_macros.rb" />
         <option value="$PROJECT_DIR$/spec/factories/resolutions.rb" />
-        <option value="$PROJECT_DIR$/app/views/resolutions/index.html.haml" />
         <option value="$PROJECT_DIR$/db/migrate/20140404182117_resolution_to_delegate.rb" />
-        <option value="$PROJECT_DIR$/app/models/participant.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/resolutions/edit.html.haml" />
         <option value="$PROJECT_DIR$/app/views/resolutions/new.html.haml" />
         <option value="$PROJECT_DIR$/spec/controllers/resolutions_controller_spec.rb" />
@@ -393,15 +143,28 @@
         <option value="$PROJECT_DIR$/app/views/comittees/show.html.haml" />
         <option value="$PROJECT_DIR$/spec/models/resolution_spec.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140404194449_resolution_submitter_to_resolution_submitter_role.rb" />
-        <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/app/models/delegate.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/resolutions_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/topic.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/models/resolution_submitter.rb" />
         <option value="$PROJECT_DIR$/app/models/resolution_submitter_role.rb" />
         <option value="$PROJECT_DIR$/app/views/topics/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/models/delegate.rb" />
         <option value="$PROJECT_DIR$/app/models/resolution.rb" />
+        <option value="$PROJECT_DIR$/app/models/topic.rb" />
+        <option value="$PROJECT_DIR$/app/views/resolutions/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/resolutions_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/models/participant.rb" />
+        <option value="$PROJECT_DIR$/db/schema.rb" />
+        <option value="$PROJECT_DIR$/app/models/registration.rb" />
+        <option value="$PROJECT_DIR$/spec/support/controller_macros.rb" />
+        <option value="$PROJECT_DIR$/spec/support/spec_test_helper.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/spec/models/participant_group_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/participant_group.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/participant_groups_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/participant_groups/invite.html.haml" />
+        <option value="$PROJECT_DIR$/spec/controllers/participant_groups_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/participant_groups/show.html.haml" />
       </list>
     </option>
   </component>
@@ -493,7 +256,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -507,7 +274,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="participant_groups" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -521,11 +296,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -548,11 +319,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/participant_groups" />
       <recent name="$PROJECT_DIR$/app/views/resolutions" />
       <recent name="$PROJECT_DIR$/app/views/registrations" />
       <recent name="$PROJECT_DIR$/app/views/devise/sessions" />
       <recent name="$PROJECT_DIR$/app/views/topics" />
-      <recent name="$PROJECT_DIR$/app/views/public_activity/comittee" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/assets/images" />
@@ -562,36 +333,8 @@
       <recent name="$PROJECT_DIR$/app/views/conferences" />
     </key>
   </component>
-  <component name="RunManager" selected="Rake.db:seed: modelunitednations">
-    <configuration default="false" name="db:migrate: modelunitednations" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
-      <module name="modelunitednations" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="development" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ResolutionsController: modelunitednations" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+  <component name="RunManager" selected="RSpec.ParticipantGroupsController GET #invite: modelunitednations">
+    <configuration default="false" name="ParticipantGroupsController GET #join: modelunitednations" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="modelunitednations" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -612,10 +355,10 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/resolutions_controller_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/participant_groups_controller_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ResolutionsController" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ParticipantGroupsController GET #join" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -627,87 +370,15 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="ResolutionsController GET #show: modelunitednations" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+    <configuration default="false" name="participant_groups_controller" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="modelunitednations" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/resolutions_controller_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ResolutionsController GET #show" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Topic resolution: modelunitednations" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="modelunitednations" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/topic_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Topic resolution" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="db:seed: modelunitednations" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
-      <module name="modelunitednations" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/app/controllers" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
       <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
@@ -715,12 +386,116 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:seed" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/app/controllers/participant_groups_controller.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ParticipantGroupsController GET #invite: modelunitednations" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="modelunitednations" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/participant_groups_controller_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ParticipantGroupsController GET #invite" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ParticipantGroup key: modelunitednations" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="modelunitednations" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/participant_group_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ParticipantGroup key" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ParticipantGroupsController: modelunitednations" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="modelunitednations" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/participant_groups_controller_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ParticipantGroupsController" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
@@ -903,19 +678,19 @@
       <item index="1" class="java.lang.String" itemvalue="Rake.spec: modelunitednations" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: modelunitednations" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: modelunitednations" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate: modelunitednations" />
-      <item index="5" class="java.lang.String" itemvalue="RSpec.ResolutionsController: modelunitednations" />
-      <item index="6" class="java.lang.String" itemvalue="RSpec.ResolutionsController GET #show: modelunitednations" />
-      <item index="7" class="java.lang.String" itemvalue="RSpec.Topic resolution: modelunitednations" />
-      <item index="8" class="java.lang.String" itemvalue="Rake.db:seed: modelunitednations" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.ParticipantGroupsController GET #join: modelunitednations" />
+      <item index="5" class="java.lang.String" itemvalue="Ruby.participant_groups_controller" />
+      <item index="6" class="java.lang.String" itemvalue="RSpec.ParticipantGroupsController GET #invite: modelunitednations" />
+      <item index="7" class="java.lang.String" itemvalue="RSpec.ParticipantGroup key: modelunitednations" />
+      <item index="8" class="java.lang.String" itemvalue="RSpec.ParticipantGroupsController: modelunitednations" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Rake.db:seed: modelunitednations" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Topic resolution: modelunitednations" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.ResolutionsController GET #show: modelunitednations" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.ResolutionsController: modelunitednations" />
-        <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate: modelunitednations" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.ParticipantGroupsController GET #invite: modelunitednations" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.ParticipantGroupsController: modelunitednations" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.ParticipantGroup key: modelunitednations" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.ParticipantGroupsController GET #join: modelunitednations" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.participant_groups_controller" />
       </list>
     </recent_temporary>
   </component>
@@ -975,7 +750,11 @@
       <created>1396544728994</created>
       <updated>1396544728994</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Changes&#10;">
+      <created>1396816893407</created>
+      <updated>1396816893407</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1002,7 +781,8 @@
     <frame x="169" y="22" width="1622" height="1083" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32828283" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32793522" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1014,7 +794,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1040,120 +819,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/controllers/participants_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/position_papers_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/registrations_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="613" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_side_navigation.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="57" selection-start="2659" selection-end="2659" vertical-scroll-proportion="0.9463987" vertical-offset="440" max-vertical-offset="1740" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/support/spec_test_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="611" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="34" selection-start="811" selection-end="811" vertical-scroll-proportion="0.52675587" vertical-offset="0" max-vertical-offset="1035" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/factories/resolutions.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="20" selection-start="137" selection-end="137" vertical-scroll-proportion="0.09819967" vertical-offset="0" max-vertical-offset="611" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/factories/users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="241" selection-end="241" vertical-scroll-proportion="0.22094926" vertical-offset="0" max-vertical-offset="611" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140403152241_resolution_to_topic.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="34" selection-start="237" selection-end="237" vertical-scroll-proportion="0.28061223" vertical-offset="0" max-vertical-offset="588" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/support/controller_macros.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="363" selection-end="363" vertical-scroll-proportion="0.30100334" vertical-offset="0" max-vertical-offset="598" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/resolutions/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="40" selection-start="835" selection-end="854" vertical-scroll-proportion="0.72864324" vertical-offset="0" max-vertical-offset="597" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/delegates/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="598" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/conferences/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="611" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/participant_groups/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="64" selection-start="46" selection-end="108" vertical-scroll-proportion="0.025553662" vertical-offset="0" max-vertical-offset="587" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/resolutions/edit.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="24" selection-start="206" selection-end="206" vertical-scroll-proportion="0.078397214" vertical-offset="0" max-vertical-offset="574" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/conferences/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5715">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="44" selection-start="640" selection-end="640" vertical-scroll-proportion="0.33123028" vertical-offset="0" max-vertical-offset="634" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/resolutions/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="24" selection-start="91" selection-end="91" vertical-scroll-proportion="0.12562814" vertical-offset="0" max-vertical-offset="597" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/conferences_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="2" selection-start="54" selection-end="143" vertical-scroll-proportion="0.024549918" vertical-offset="0" max-vertical-offset="825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/delegates_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="25" selection-start="312" selection-end="312" vertical-scroll-proportion="0.28985506" vertical-offset="0" max-vertical-offset="1395" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/participant_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="7" selection-start="49" selection-end="800" vertical-scroll-proportion="0.6270903" vertical-offset="0" max-vertical-offset="795" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/resolutions_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="0" selection-start="2471" selection-end="2471" vertical-scroll-proportion="2.4080267" vertical-offset="0" max-vertical-offset="1590" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/resolutions/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="36" selection-start="96" selection-end="96" vertical-scroll-proportion="0.14754099" vertical-offset="0" max-vertical-offset="610" />
@@ -1176,22 +841,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140402151955_create_participant_group_members.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140404193312_add_delegate_id_to_resolution_submitter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="46" selection-start="152" selection-end="152" vertical-scroll-proportion="0.13837638" vertical-offset="0" max-vertical-offset="542" />
+        <state line="5" column="46" selection-start="152" selection-end="152" vertical-scroll-proportion="0.13837638" vertical-offset="0" max-vertical-offset="542">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140404192835_create_resolution_submitters.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140404182117_resolution_to_delegate.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="2" selection-start="55" selection-end="244" vertical-scroll-proportion="0.027675277" vertical-offset="0" max-vertical-offset="542" />
+        <state line="1" column="2" selection-start="55" selection-end="244" vertical-scroll-proportion="0.027675277" vertical-offset="0" max-vertical-offset="542">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/resolution_spec.rb">
@@ -1204,61 +877,39 @@
         <state line="3" column="33" selection-start="71" selection-end="71" vertical-scroll-proportion="0.078397214" vertical-offset="0" max-vertical-offset="1125" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="36" selection-start="5014" selection-end="5034" vertical-scroll-proportion="0.33216783" vertical-offset="2240" max-vertical-offset="3615" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140404195859_add_resolution_id_to_resolution_submitter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="81" selection-end="81" vertical-scroll-proportion="0.024549918" vertical-offset="0" max-vertical-offset="611" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/conference.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="24" selection-start="1233" selection-end="1251" vertical-scroll-proportion="0.7584541" vertical-offset="234" max-vertical-offset="855">
+        <state line="1" column="12" selection-start="81" selection-end="81" vertical-scroll-proportion="0.024549918" vertical-offset="0" max-vertical-offset="611">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/participant.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="8" selection-start="734" selection-end="1040" vertical-scroll-proportion="0.942029" vertical-offset="0" max-vertical-offset="885" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/participant_group.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="167" selection-end="440" vertical-scroll-proportion="0.17558528" vertical-offset="0" max-vertical-offset="598" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/delegate.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="48" selection-start="241" selection-end="241" vertical-scroll-proportion="0.14195584" vertical-offset="0" max-vertical-offset="660" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/participant_group_member.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="2" selection-start="338" selection-end="702" vertical-scroll-proportion="0.19323671" vertical-offset="0" max-vertical-offset="621" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="28" selection-start="478" selection-end="478" vertical-scroll-proportion="0.4830918" vertical-offset="0" max-vertical-offset="1650" />
+        <state line="8" column="2" selection-start="338" selection-end="702" vertical-scroll-proportion="0.19323671" vertical-offset="0" max-vertical-offset="621">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140404194449_resolution_submitter_to_resolution_submitter_role.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="66" selection-start="109" selection-end="157" vertical-scroll-proportion="0.050167225" vertical-offset="0" max-vertical-offset="598" />
+        <state line="2" column="66" selection-start="109" selection-end="157" vertical-scroll-proportion="0.050167225" vertical-offset="0" max-vertical-offset="598">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/resolution_submitter_role.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="47" selection-start="98" selection-end="98" vertical-scroll-proportion="0.025083613" vertical-offset="0" max-vertical-offset="598" />
+        <state line="1" column="47" selection-start="98" selection-end="98" vertical-scroll-proportion="0.025083613" vertical-offset="0" max-vertical-offset="598">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140404194341_create_resolution_submitter_roles.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="75" selection-end="75" vertical-scroll-proportion="0.024549918" vertical-offset="0" max-vertical-offset="611" />
+        <state line="1" column="12" selection-start="75" selection-end="75" vertical-scroll-proportion="0.024549918" vertical-offset="0" max-vertical-offset="611">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a28c0db/126ee1be-48a5-44fb-a594-d0100ccf641a/modelunitednations_development.public.resolution_submitter_roles_resolution_submitters">
@@ -1277,21 +928,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/resolutions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="31" selection-start="650" selection-end="650" vertical-scroll-proportion="0.65217394" vertical-offset="0" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/topics/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="43" selection-start="897" selection-end="897" vertical-scroll-proportion="0.80487806" vertical-offset="18" max-vertical-offset="615" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/topic.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="30" selection-start="261" selection-end="261" vertical-scroll-proportion="0.23659305" vertical-offset="0" max-vertical-offset="634" />
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a28c0db/126ee1be-48a5-44fb-a594-d0100ccf641a/modelunitednations_development.public.resolution_submitter_roles">
@@ -1302,16 +941,234 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/resolution.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/resolution_submitter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="97" selection-start="192" selection-end="192" vertical-scroll-proportion="0.072463766" vertical-offset="0" max-vertical-offset="621">
+        <state line="0" column="25" selection-start="6" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/resolution_submitter.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/resolution.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="25" selection-start="6" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
+        <state line="11" column="16" selection-start="410" selection-end="410" vertical-scroll-proportion="0.2657005" vertical-offset="0" max-vertical-offset="621">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/resolutions/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="15" selection-start="979" selection-end="979" vertical-scroll-proportion="0.75376886" vertical-offset="0" max-vertical-offset="597">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/delegate.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="11" selection-start="204" selection-end="204" vertical-scroll-proportion="0.14195584" vertical-offset="0" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/topic.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="19" selection-start="303" selection-end="303" vertical-scroll-proportion="0.33123028" vertical-offset="0" max-vertical-offset="634">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/resolutions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="62" selection-start="225" selection-end="225" vertical-scroll-proportion="0.16908212" vertical-offset="0" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a28c0db/126ee1be-48a5-44fb-a594-d0100ccf641a/modelunitednations_development.public.delegations">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/participant.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="41" selection-start="415" selection-end="415" vertical-scroll-proportion="0.31304348" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a28c0db/126ee1be-48a5-44fb-a594-d0100ccf641a/modelunitednations_development.public.participants">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="47" selection-start="550" selection-end="550" vertical-scroll-proportion="0.30757096" vertical-offset="0" max-vertical-offset="634">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_side_navigation.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="57" selection-start="2659" selection-end="2659" vertical-scroll-proportion="1.2060301" vertical-offset="285" max-vertical-offset="1740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/delegates_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="25" selection-start="312" selection-end="312" vertical-scroll-proportion="-0.13043478" vertical-offset="261" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140406210056_add_participant_group_member_id_to_participant.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="12" selection-start="85" selection-end="85" vertical-scroll-proportion="0.024549918" vertical-offset="0" max-vertical-offset="611">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="47" selection-start="4275" selection-end="4275" vertical-scroll-proportion="0.30756304" vertical-offset="1827" max-vertical-offset="3645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/conference.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="6" selection-start="859" selection-end="859" vertical-scroll-proportion="0.46859902" vertical-offset="234" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/registrations_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.4154589" vertical-offset="879" max-vertical-offset="1500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/registration.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="58" selection-start="548" selection-end="548" vertical-scroll-proportion="0.531401" vertical-offset="0" max-vertical-offset="621">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/registrations/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/delegations_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.41955835" vertical-offset="266" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/registrations_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="634">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="62" selection-start="1810" selection-end="1810" vertical-scroll-proportion="0.44816053" vertical-offset="437" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/support/controller_macros.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="18" selection-start="496" selection-end="496" vertical-scroll-proportion="0.31400967" vertical-offset="0" max-vertical-offset="621">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/support/spec_test_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.26025236" vertical-offset="0" max-vertical-offset="634">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="28" selection-start="478" selection-end="478" vertical-scroll-proportion="0.4832776" vertical-offset="11" max-vertical-offset="1650">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/resolutions_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="12" selection-start="59" selection-end="69" vertical-scroll-proportion="0.072463766" vertical-offset="0" max-vertical-offset="1590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="17" selection-start="476" selection-end="476" vertical-scroll-proportion="0.41062802" vertical-offset="0" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/participant_group.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="44" selection-start="627" selection-end="627" vertical-scroll-proportion="0.52675587" vertical-offset="0" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/participant_groups_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="27" selection-start="684" selection-end="684" vertical-scroll-proportion="0.5518395" vertical-offset="0" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/participant_groups/invite.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="14" selection-start="210" selection-end="210" vertical-scroll-proportion="0.30664396" vertical-offset="0" max-vertical-offset="587">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/participant_groups/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="68" selection-start="683" selection-end="683" vertical-scroll-proportion="0.6010453" vertical-offset="0" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/participant_group_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="56" selection-start="880" selection-end="880" vertical-scroll-proportion="0.3478261" vertical-offset="189" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/participant_groups_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="5" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.6247987" vertical-offset="497" max-vertical-offset="1230">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

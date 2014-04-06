@@ -1,0 +1,14 @@
+.row
+  .col-lg-12
+    %h1.page-header
+      = @participant_group.name
+
+
+  .col-lg-4
+    .panel.panel-default
+      .panel-heading
+        = "Invite for"
+        = params[:email]
+      .panel-body
+        = @key
+

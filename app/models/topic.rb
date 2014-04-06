@@ -10,4 +10,8 @@ class Topic < ActiveRecord::Base
   def conference
     comittees.first.conference
   end
+
+  def comittee
+    comittees.first
+  end
 end

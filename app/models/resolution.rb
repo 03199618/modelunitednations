@@ -9,7 +9,7 @@ class Resolution < ActiveRecord::Base
   end
 
   def topic
-    topics.first.name
+    topics.first
   end
 
   def addResolutionSubmitter(delegate, role)

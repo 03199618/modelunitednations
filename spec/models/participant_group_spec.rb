@@ -21,4 +21,28 @@ describe ParticipantGroup do
       expect(participant_group.manager.pluck(:id)).to include(participant_group_member.id)
     end
   end
+
+  describe "join" do
+    it "it should be possible to join the group" do
+      participant_group = FactoryGirl.create(:participant_group)
+      user = FactoryGirl.create(:user)
+
+      key = Digest::MD5.hexdigest(participant_group.created_at.to_s+user.email)
+
+      expect(participant_group.join(user, key)).to be true
+
+    end
+  end
+
+  describe "key" do
+    it "it should be possible to retrieve a key" do
+      participant_group = FactoryGirl.create(:participant_group)
+      email = "mail@jakob-zeitler.de"
+
+      key = Digest::MD5.hexdigest(participant_group.created_at.to_s+email)
+
+      expect(participant_group.key(email)).to eq key
+
+    end
+  end
 end

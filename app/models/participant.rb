@@ -4,12 +4,13 @@ class Participant < ActiveRecord::Base
 
   has_and_belongs_to_many :participant_roles, join_table: "participants_participant_roles"
   has_and_belongs_to_many :comittees
-  belongs_to :delegation
+
   belongs_to :conference
   belongs_to :participant_group_member
   belongs_to :user
   has_one :delegate
   has_many :resolutions, through: :delegate
+  has_one :delegation, through: :delegate
 
 
   before_save :role

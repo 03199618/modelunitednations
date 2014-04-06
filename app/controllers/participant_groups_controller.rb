@@ -50,5 +50,27 @@ class ParticipantGroupsController < ApplicationController
   def destroy
   end
 
+  def invite
+    @participant_group = ParticipantGroup.find(params[:id])
+    authorize! :join, @participant_groupend
+
+    @key = Digest::MD5.hexdigest(@participant_group.created_at.to_s+params[:email])
+
+    @participant_group = ParticipantGroup.find(params[:id])
+  end
+
+
+  def join
+    @participant_group = ParticipantGroup.find(params[:id])
+    authorize! :join, @participant_group
+
+    puts params[:key]
+
+    if @participant_group.join(current_user, params[:key])
+      redirect_to participant_group_path(id:@participant_group.id), notice: "You have joined the group."
+    else
+      redirect_to participant_group_path(id:@participant_group.id), notice: "The key seems to be wrong."
+    end
+  end
 
 end

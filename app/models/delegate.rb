@@ -4,7 +4,8 @@ class Delegate < ActiveRecord::Base
   has_one :conference, through: :delegation
   belongs_to :participant
   has_one :user, through: :participant
-  has_and_belongs_to_many :resolution_submitters
+  has_many :resolution_submitters
+  has_many :resolutions, through: :resolution_submitters
 
   validates_presence_of :delegation
 

@@ -8,9 +8,10 @@ class User < ActiveRecord::Base
   has_many :participants
   has_many :conferences, through: :participants
   has_many :participant_groups, through: :participant_group_members
-  has_many :delegations, through: :participants
+
   has_many :participant_group_members
   has_many :participants
+  has_many :delegations, through: :participants
   has_many :delegates, through: :participants
   has_many :resolutions, through: :delegates
 

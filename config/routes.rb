@@ -15,8 +15,8 @@ Modelunitednations::Application.routes.draw do
   resources :participants
   resources :participant_groups do
     member do
-      get 'member'
-      post 'addmember'
+      get 'invite'
+      get 'join'
     end
   end
   resources :resolutions
