@@ -5,6 +5,7 @@ class Conference < ActiveRecord::Base
   has_many :announcements
   has_many :participants
   has_many :delegations
+  has_many :delegates, through: :delegations
   has_many :comittees
   has_many :participant_groups
   has_many :registrations
@@ -47,5 +48,17 @@ class Conference < ActiveRecord::Base
 
   def participantForUser(user)
     participant = Participant.where(user_id: user.id).first
+  end
+
+  def placards
+    pdf = Prawn::Document.new
+    delegates.each do |delegate|
+      move 100,100
+      pdf.text "#{delegate.delegation.name}", rotate: 90
+      move 200,200
+      pdf.text "#{delegate.delegation.name}", rotate: -90
+      start_new_page
+    end
+    return pdf
   end
 end

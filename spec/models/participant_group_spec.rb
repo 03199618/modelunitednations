@@ -27,7 +27,7 @@ describe ParticipantGroup do
       participant_group = FactoryGirl.create(:participant_group)
       user = FactoryGirl.create(:user)
 
-      key = Digest::MD5.hexdigest(participant_group.created_at.to_s+user.email)
+      key = Digest::MD5.hexdigest(participant_group.created_at.time.to_i.to_s+user.email)
 
       expect(participant_group.join(user, key)).to be true
 
@@ -39,7 +39,7 @@ describe ParticipantGroup do
       participant_group = FactoryGirl.create(:participant_group)
       email = "mail@jakob-zeitler.de"
 
-      key = Digest::MD5.hexdigest(participant_group.created_at.to_s+email)
+      key = Digest::MD5.hexdigest(participant_group.created_at.time.to_i.to_s+email)
 
       expect(participant_group.key(email)).to eq key
 

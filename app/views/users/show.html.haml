@@ -18,3 +18,16 @@
           %li.divider
           %li
             %a{href: "#"} Separated link
+
+.row
+  .col-lg-12
+    .panel.panel-default
+      .panel-heading
+        Information
+      .panel-body
+        Email:
+        = @user.email
+        %br
+        Joined
+        = time_ago_in_words(@user.created_at)
+        ago

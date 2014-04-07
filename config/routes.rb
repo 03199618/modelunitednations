@@ -1,12 +1,20 @@
 Modelunitednations::Application.routes.draw do
 
   mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
-  devise_for :users, path: "auth", path_names: { sign_in: 'login', sign_out: 'logout'}
+  devise_for :users, path: "auth", path_names: { sign_in: 'login', sign_out: 'logout'}, :controllers  => {:registrations => 'devise/signups', :omniauth_callbacks => "users/omniauth_callbacks" } do
+    get   "auth/registration" => "devise/registrations#new", :as => :user
+    post "auth/registration" => "devise/registrations#create", :as => :user
+    get 'sign_out', :to => 'devise/sessions#destroy', :as => :destroy_user_session
+  end
+
 
   root to: "welcome#index"
   get "theme", to: 'welcome#theme'
 
   resources :conferences do
+    member do
+      get 'placards'
+    end
   end
   resources :comittees
   resources :delegations
@@ -16,7 +24,9 @@ Modelunitednations::Application.routes.draw do
   resources :participant_groups do
     member do
       get 'invite'
+      post 'invite'
       get 'join'
+
     end
   end
   resources :resolutions

@@ -9,4 +9,24 @@ class UsersController < ApplicationController
       format.html { @user }
     end
   end
+
+  def edit
+    @user = User.find(params[:id])
+    authorize! :update, @user
+  end
+
+  def update
+    @user = User.find(params[:id])
+    authorize! :update, @user
+
+    respond_to do |format|
+      if @user.update(params[:delegate].permit(:surname, :firstname))
+        format.html { redirect_to(@user, :notice => t("user.succesfullyUpdated")) }
+        format.json { @user }
+      else
+        format.html { render :action => "edit" }
+        format.json { @user }
+      end
+    end
+  end
 end

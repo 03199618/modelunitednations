@@ -7,6 +7,7 @@ class ConferencesController < ApplicationController
       format.xml {render :xml => @conference}
       format.json {render :json => @conference}
       format.html { @conference }
+
     end
   end
 
@@ -39,11 +40,35 @@ class ConferencesController < ApplicationController
   end
 
   def edit
+    @conference = Conference.find(params[:id])
+    authorize! :update, @conference
   end
 
   def update
+    @conference = Conference.find(params[:id])
+    authorize! :update, @conference
+
+    respond_to do |format|
+      if @conference.update(params[:conference].permit(:name, :acronym))
+        format.html { redirect_to(@conference, :notice => t("conference.succesfullyUpdated")) }
+        format.json { @conference }
+      else
+        format.html { render :action => "edit" }
+        format.json { @conference }
+      end
+    end
   end
 
   def destroy
   end
+
+  def placards
+    @conference = Conference.find(params[:id])
+    authorize! :show, @conference
+
+    respond_to do |format|
+      format.pdf { send_data @conference.placards.render, :filename => "x.pdf", :type => "application/pdf" }
+    end
+  end
+
 end

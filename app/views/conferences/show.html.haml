@@ -2,6 +2,8 @@
   .col-lg-12
     %h1.page-header
       = @conference.name
+      - if @conference.acronym
+        = "(#{@conference.acronym})"
       .btn-group
         %button.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
           %i.fa.fa-gear.fa-fw
@@ -11,9 +13,10 @@
           %li
             %a{href: edit_conference_path(@conference)}
               Edit
-              = @conference.name
+              = @conference.acronym
           %li
-            %a{href: "#"} Another action
+            = link_to "Print placards", placards_conference_path(@conference, format: "pdf")
+
           %li
             %a{href: "#"} Something else here
           %li.divider

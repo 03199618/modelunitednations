@@ -13,7 +13,7 @@ class ParticipantGroup < ActiveRecord::Base
   end
 
   def key(email)
-    return Digest::MD5.hexdigest(self.created_at.to_s+email)
+    return Digest::MD5.hexdigest(self.created_at.time.to_i.to_s+email)
   end
 
 

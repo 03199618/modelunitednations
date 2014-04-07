@@ -8,8 +8,18 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
+
  *= require_self
- *= require_tree .
+
+ *= require ./plugins/dataTables/dataTables.bootstrap
+ *= require ./plugins/morris/morris-0.4.3.min
+ *= require ./plugins/social-buttons/social-buttons
+ *= require ./plugins/timeline/timeline
+ *= require ./plugins/bootstrap/bootstrap.min
+
+
+ *= require ./font-awesome/css/font-awesome.min
+ *= require introjs
  */
 
 

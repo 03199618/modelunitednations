@@ -1,0 +1,11 @@
+%a{href: conference_path(activity.trackable)}
+  %div
+    %i.fa.fa-comments.fa-fw
+    - if activity.trackable
+      = activity.trackable.acronym
+      has been updated.
+    - else
+      = activity.trackable.acronym
+      has been updated and has since been removed.
+    %span.pull-right.text-muted.small
+      = time_ago_in_words(activity.created_at)

@@ -4,11 +4,22 @@
       = @participant_group.name
 
 
-  .col-lg-4
-    .panel.panel-default
-      .panel-heading
-        = "Invite for"
-        = params[:email]
-      .panel-body
-        = @key
+  - if !@key.nil?
+    .col-lg-4
+      .panel.panel-default
+        .panel-heading
+          = "Invite for"
+          = params[:email]
+        .panel-body
+          = link_to "Copy this link", join_participant_group_path(id: @participant_group.id, key: @key)
+  - else
+    .col-lg-4
+      .panel.panel-default
+        .panel-heading
+          = "Invite"
+
+        .panel-body
+          Email
+          = form_tag
+          = text_field_tag :email
 

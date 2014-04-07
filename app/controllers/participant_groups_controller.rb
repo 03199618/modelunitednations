@@ -54,7 +54,9 @@ class ParticipantGroupsController < ApplicationController
     @participant_group = ParticipantGroup.find(params[:id])
     authorize! :join, @participant_groupend
 
-    @key = Digest::MD5.hexdigest(@participant_group.created_at.to_s+params[:email])
+    if !params[:email].nil?
+      @key = @participant_group.key(params[:email])
+    end
 
     @participant_group = ParticipantGroup.find(params[:id])
   end
@@ -63,8 +65,6 @@ class ParticipantGroupsController < ApplicationController
   def join
     @participant_group = ParticipantGroup.find(params[:id])
     authorize! :join, @participant_group
-
-    puts params[:key]
 
     if @participant_group.join(current_user, params[:key])
       redirect_to participant_group_path(id:@participant_group.id), notice: "You have joined the group."
