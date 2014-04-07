@@ -730,7 +730,11 @@
       <created>1396890699888</created>
       <updated>1396890699888</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Workplace Rubymine">
+      <created>1396891090882</created>
+      <updated>1396891090882</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -791,7 +795,8 @@
     <MESSAGE value="Changes&#10;" />
     <MESSAGE value="Invite" />
     <MESSAGE value="Facebook login, Layout, Intro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Facebook login, Layout, Intro" />
+    <MESSAGE value="Workplace Rubymine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Workplace Rubymine" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
