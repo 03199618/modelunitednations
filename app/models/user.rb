@@ -15,6 +15,8 @@ class User < ActiveRecord::Base
   has_many :delegates, through: :participants
   has_many :resolutions, through: :delegates
 
+  before_save :calculate_completeness
+
   def initial_role=(role_name)
     @initial_role = role_name
     role = Role.find_by_name(role_name)
@@ -39,4 +41,66 @@ class User < ActiveRecord::Base
       user.image = auth.info.image # assuming the user model has an image
     end
   end
+
+
+  def intro
+    if read_attribute(:intro)
+      write_attribute(:intro, false)
+      self.save
+      return true
+    else
+      return false
+    end
+
+
+  end
+
+  def position_papers_due
+    return position_papers_due_helper(delegates)
+  end
+
+  def completeness
+    return read_attribute(:completeness).to_i
+  end
+
+  def calculate_completeness
+    self.completeness = completeness_helper([:surname, :firstname])
+  end
+  private
+
+  def completeness_helper(attributes)
+    counter = 1.0
+    denominator = 1.0
+
+    attributes.each do |a|
+      if self.send(a).nil? || self.send(a) == ""
+        denominator +=1
+      else
+        #puts self.send(a)
+        counter +=1
+        denominator +=1
+        #puts counter
+        #puts denominator
+      end
+    end
+    #puts "result"
+    #puts (counter / denominator)
+    return ((counter / denominator) *100).round
+  end
+
+  def position_papers_due_helper(delegates)
+    counter = 1.0
+    denominator = 1.0
+
+    delegates.each do |d|
+      if d.position_paper_due
+        denominator +=1
+      else
+        counter +=1
+        denominator +=1
+      end
+    end
+    return ((counter / denominator) *100).round
+  end
+
 end

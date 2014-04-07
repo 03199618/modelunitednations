@@ -16,8 +16,8 @@
       <li>
         <a href="<%= root_path %>"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
       </li>
-      <li id="step-side-navigation-conferences">
-        <a href="<%= conferences_path %>"><i class="fa fa-bar-chart-o fa-fw"></i> Conferences<!--<span class="fa arrow"></span>--></a>
+      <li >
+        <a href="<%= conferences_path %>" id="step-side-navigation-conferences"><i class="fa fa-bar-chart-o fa-fw"></i> Conferences<!--<span class="fa arrow"></span>--></a>
         <ul class="nav nav-second-level">
           <% current_user.conferences.distinct.each do |conference|%>
             <li>
@@ -31,8 +31,8 @@
         <!-- /.nav-second-level -->
       </li>
 
-      <li id="step-side-navigation-delegations">
-        <a href="../../../../../../Downloads/sb-admin-v2-2/tables.html"><i class="fa fa-table fa-fw"></i> Delegations</a>
+      <li >
+        <a href="#" id="step-side-navigation-delegations"><i class="fa fa-table fa-fw"></i> Delegations</a>
         <ul class="nav nav-second-level">
           <% current_user.delegations.distinct.each do |delegation|%>
               <li>
@@ -43,8 +43,8 @@
         </ul>
         <!-- /.nav-second-level -->
       </li>
-      <li id="step-side-navigation-groups">
-        <a href="#"><i class="fa fa-wrench fa-fw"></i> Groups<!--<span class="fa arrow"></span>--></a>
+      <li >
+        <a href="#" id="step-side-navigation-groups"><i class="fa fa-wrench fa-fw"></i> Groups<!--<span class="fa arrow"></span>--></a>
         <ul class="nav nav-second-level">
           <% current_user.participant_groups.distinct.each do |participant_group|%>
               <li>

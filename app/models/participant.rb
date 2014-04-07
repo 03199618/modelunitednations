@@ -7,7 +7,7 @@ class Participant < ActiveRecord::Base
 
   belongs_to :conference
   belongs_to :participant_group_member
-  belongs_to :user
+  has_one :user, through: :participant_group_member
   has_one :delegate
   has_many :resolutions, through: :delegate
   has_one :delegation, through: :delegate
@@ -42,7 +42,7 @@ class Participant < ActiveRecord::Base
 
   def name
 
-    if user_id.nil?
+    if user.nil?
       return "UNKNOWN"
     else
       name = self.user.name

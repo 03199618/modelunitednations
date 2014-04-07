@@ -20,7 +20,7 @@ class UsersController < ApplicationController
     authorize! :update, @user
 
     respond_to do |format|
-      if @user.update(params[:delegate].permit(:surname, :firstname))
+      if @user.update(params[:user].permit(:surname, :firstname, :intro))
         format.html { redirect_to(@user, :notice => t("user.succesfullyUpdated")) }
         format.json { @user }
       else

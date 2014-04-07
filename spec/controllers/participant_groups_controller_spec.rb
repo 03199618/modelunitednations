@@ -18,6 +18,11 @@ describe ParticipantGroupsController do
       page.should have_content(participant_group.name)
       page.should have_content("joined")
     end
+
+    it "should not allow me to join twice" do
+      page.should have_content(participant_group.name)
+      page.should have_content("joined")
+    end
   end
 
   describe "GET #invite" do

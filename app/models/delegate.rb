@@ -27,6 +27,10 @@ class Delegate < ActiveRecord::Base
     return "#{comittee.name}" unless comittee.nil?
   end
 
+  def position_paper_due
+    return ((position_paper.nil? || position_paper == "") && comittee.deadline_position_paper.to_i > DateTime.now.to_i)
+  end
+
   private
 
   def position

@@ -71,6 +71,14 @@ class DelegatesController < ApplicationController
   end
 
   def destroy
+    @delegate = Delegate.find(params[:id])
+    authorize! :destroy, @delegate
+
+    @delegation = @delegate.delegation
+
+    @delegate.destroy
+    flash[:success] = t("delegate.sucessfullyDeleted")
+    redirect_to @delegation
   end
 
   private

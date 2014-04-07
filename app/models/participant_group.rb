@@ -19,17 +19,21 @@ class ParticipantGroup < ActiveRecord::Base
 
   def join(user, key)
     if self.key(user.email) == key
-      self.addParticipantGroupMember(user)
-      return true
+
+      return self.addParticipantGroupMember(user)
     else
       return false
     end
   end
 
   def addParticipantGroupMember(user)
-    participant_group_member = ParticipantGroupMember.new(user_id: user.id, participant_group_id: self.id)
-    participant_group_member.addParticipantGroupRole("member")
-    participant_group_member.save
-    puts participant_group_member.inspect
+    if ParticipantGroupMember.where(user_id: user.id, participant_group_id: self.id).any?
+      return false
+    else
+      participant_group_member = ParticipantGroupMember.new(user_id: user.id, participant_group_id: self.id)
+      participant_group_member.addParticipantGroupRole("member")
+      participant_group_member.save
+      return true
+    end
   end
 end

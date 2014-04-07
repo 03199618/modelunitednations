@@ -1,6 +1,8 @@
 class WelcomeController < ApplicationController
   def index
-    @welcomecontroller = true
+    if user_signed_in?
+      gon.push({:intro => current_user.intro })
+    end
   end
 
   def theme

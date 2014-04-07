@@ -2,6 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230275e5-48d9-4aa0-bf99-afe6cd5b3d7f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-1a8c243133677884feb23ef7a5dd0a36.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-f3110e7c48ed8ced2dd808ff26178e36.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap/bootstrap.min-043a814c8d3dfc37d8d73479dc940241.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/landing-e33ced321e16e7827ff787d9819f18dd.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/position_papers-d0b54dd563966c42aad5fd85b1c1f713.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/position_papers-d0b54dd563966c42aad5fd85b1c1f713.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/resolutions-d0b54dd563966c42aad5fd85b1c1f713.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/resolutions-d0b54dd563966c42aad5fd85b1c1f713.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140407202119_add_intro_to_user.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140407210508_add_completeness_to_users.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140407213112_add_deadline_position_paper_to_comittee.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-1a8c243133677884feb23ef7a5dd0a36.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-f3110e7c48ed8ced2dd808ff26178e36.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap/bootstrap.min-043a814c8d3dfc37d8d73479dc940241.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/intros/welcome/index.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/landing-e33ced321e16e7827ff787d9819f18dd.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/position_papers-d0b54dd563966c42aad5fd85b1c1f713.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/position_papers-d0b54dd563966c42aad5fd85b1c1f713.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/resolutions-d0b54dd563966c42aad5fd85b1c1f713.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/resolutions-d0b54dd563966c42aad5fd85b1c1f713.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/users_spec.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-0fde4f03fc0a10225597871b76d80c09.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-0fde4f03fc0a10225597871b76d80c09.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-4003c8b0bc0117a072e96bbffc6546d2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-4003c8b0bc0117a072e96bbffc6546d2.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-496ef867d5058eaa2accc36ccafc02b8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-496ef867d5058eaa2accc36ccafc02b8.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap.min-043a814c8d3dfc37d8d73479dc940241.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap.min-043a814c8d3dfc37d8d73479dc940241.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/grayscale-d0b54dd563966c42aad5fd85b1c1f713.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/grayscale-d0b54dd563966c42aad5fd85b1c1f713.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/second.jpg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/welcome/index.html" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/sb-admin-01d4737894b3effe4e7379617be585b7.css.gz" afterPath="$PROJECT_DIR$/public/assets/sb-admin-01d4737894b3effe4e7379617be585b7.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/second.jpg" afterPath="$PROJECT_DIR$/app/assets/images/second.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_side_navigation.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_side_navigation.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/conference.rb" afterPath="$PROJECT_DIR$/app/models/conference.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/delegate.rb" afterPath="$PROJECT_DIR$/app/models/delegate.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/delegates_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/delegates_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/delegates_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/delegates_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/delegation.rb" afterPath="$PROJECT_DIR$/app/models/delegation.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/edit.html.haml" afterPath="$PROJECT_DIR$/app/views/users/edit.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modelunitednations.iml" afterPath="$PROJECT_DIR$/.idea/modelunitednations.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/participant.rb" afterPath="$PROJECT_DIR$/app/models/participant.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/participant_group.rb" afterPath="$PROJECT_DIR$/app/models/participant_group.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/participant_group_member.rb" afterPath="$PROJECT_DIR$/app/models/participant_group_member.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/participant_group_spec.rb" afterPath="$PROJECT_DIR$/spec/models/participant_group_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/participant_groups_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/participant_groups_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/delegations/show.html.haml" afterPath="$PROJECT_DIR$/app/views/delegations/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="modelunitednations.iws" />
@@ -16,31 +71,35 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroup_manager__modelunitednations.coverage" NAME="ParticipantGroup manager: modelunitednations Coverage Results" MODIFIED="1396453144324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Comittee_topics_it_should_be_able_to_add_a_topic__modelunitednations.coverage" NAME="Comittee topics it should be able to add a topic: modelunitednations Coverage Results" MODIFIED="1396540031216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroup_join_it_should_not_be_possible_to_join_the_group_twice__modelunitednations.coverage" NAME="ParticipantGroup join it should not be possible to join the group twice: modelunitednations Coverage Results" MODIFIED="1396907175709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@db_rollback__modelunitednations.coverage" NAME="db:rollback: modelunitednations Coverage Results" MODIFIED="1396107046024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Production__modelunitednations.coverage" NAME="Production: modelunitednations Coverage Results" MODIFIED="1396184029986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Conference_delegate__modelunitednations.coverage" NAME="Conference delegate: modelunitednations Coverage Results" MODIFIED="1396302485513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@WelcomeController_GET__index__modelunitednations.coverage" NAME="WelcomeController GET #index: modelunitednations Coverage Results" MODIFIED="1396629941068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@db_migrate__modelunitednations.coverage" NAME="db:migrate: modelunitednations Coverage Results" MODIFIED="1396883247919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@db_migrate__modelunitednations.coverage" NAME="db:migrate: modelunitednations Coverage Results" MODIFIED="1396907187968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Delegation_name__modelunitednations.coverage" NAME="Delegation name: modelunitednations Coverage Results" MODIFIED="1396390377009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@erd__modelunitednations.coverage" NAME="erd: modelunitednations Coverage Results" MODIFIED="1396882148543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Delegate_associations__modelunitednations.coverage" NAME="Delegate associations: modelunitednations Coverage Results" MODIFIED="1396392060762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroupsController_should_have_a_current_user__modelunitednations.coverage" NAME="ParticipantGroupsController should have a current_user: modelunitednations Coverage Results" MODIFIED="1396819624087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroup_manager_it_should_be_able_to_add_a_manager__modelunitednations.coverage" NAME="ParticipantGroup manager it should be able to add a manager: modelunitednations Coverage Results" MODIFIED="1396453598139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Delegation_name_should_have_a_ambassador__modelunitednations.coverage" NAME="Delegation name should have a ambassador: modelunitednations Coverage Results" MODIFIED="1396389389119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Registrations__modelunitednations.coverage" NAME="Registrations: modelunitednations Coverage Results" MODIFIED="1396552081834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroup_name__modelunitednations.coverage" NAME="ParticipantGroup name: modelunitednations Coverage Results" MODIFIED="1396450626825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@assets_clobber__modelunitednations.coverage" NAME="assets:clobber: modelunitednations Coverage Results" MODIFIED="1396626920131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@Registrations__modelunitednations.coverage" NAME="Registrations: modelunitednations Coverage Results" MODIFIED="1396552081834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@User_completeness_it_should_return_a_profile_completeness__modelunitednations.coverage" NAME="User completeness it should return a profile completeness: modelunitednations Coverage Results" MODIFIED="1396903968845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@assets_clobber__modelunitednations.coverage" NAME="assets:clobber: modelunitednations Coverage Results" MODIFIED="1396901790296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Comittee_name_should_have_a_name__modelunitednations.coverage" NAME="Comittee name should have a name: modelunitednations Coverage Results" MODIFIED="1396447012180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@rails_admin_install__modelunitednations.coverage" NAME="rails_admin:install: modelunitednations Coverage Results" MODIFIED="1396109070911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroupsController_GET__invite__modelunitednations.coverage" NAME="ParticipantGroupsController GET #invite: modelunitednations Coverage Results" MODIFIED="1396820796019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Participant_name__modelunitednations.coverage" NAME="Participant name: modelunitednations Coverage Results" MODIFIED="1396473082477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroupsController_GET__invite__modelunitednations.coverage" NAME="ParticipantGroupsController GET #invite: modelunitednations Coverage Results" MODIFIED="1396820796019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@ResolutionsController__modelunitednations.coverage" NAME="ResolutionsController: modelunitednations Coverage Results" MODIFIED="1396635311731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@UsersController_GET__edit__modelunitednations.coverage" NAME="UsersController GET #edit: modelunitednations Coverage Results" MODIFIED="1396878949726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroupsController__modelunitednations.coverage" NAME="ParticipantGroupsController: modelunitednations Coverage Results" MODIFIED="1396820664134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@UsersController_GET__edit__modelunitednations.coverage" NAME="UsersController GET #edit: modelunitednations Coverage Results" MODIFIED="1396878949726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@registrations_controller.coverage" NAME="registrations_controller Coverage Results" MODIFIED="1396877937796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers/devise" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@DelegatesController_DELETE__destroy__modelunitednations.coverage" NAME="DelegatesController DELETE #destroy: modelunitednations Coverage Results" MODIFIED="1396905897025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroup_key__modelunitednations.coverage" NAME="ParticipantGroup key: modelunitednations Coverage Results" MODIFIED="1396875827311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroupsController_GET__join__modelunitednations.coverage" NAME="ParticipantGroupsController GET #join: modelunitednations Coverage Results" MODIFIED="1396820233332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@ResolutionsController_GET__show__modelunitednations.coverage" NAME="ResolutionsController GET #show: modelunitednations Coverage Results" MODIFIED="1396638167340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@User_intro__modelunitednations.coverage" NAME="User intro: modelunitednations Coverage Results" MODIFIED="1396902748462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@db_create__modelunitednations.coverage" NAME="db:create: modelunitednations Coverage Results" MODIFIED="1396183160282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Conference_manager_it_should_return_all_managers__modelunitednations.coverage" NAME="Conference manager it should return all managers: modelunitednations Coverage Results" MODIFIED="1396302284139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Run_spec__index_html_haml_spec___modelunitednations.coverage" NAME="Run spec 'index.html.haml_spec': modelunitednations Coverage Results" MODIFIED="1396629377913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
@@ -64,8 +123,9 @@
     <SUITE FILE_PATH="coverage/modelunitednations@db_schema_dump__modelunitednations.coverage" NAME="db:schema:dump: modelunitednations Coverage Results" MODIFIED="1396187167970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@welcome_index_html_erb__modelunitednations.coverage" NAME="welcome/index.html.erb: modelunitednations Coverage Results" MODIFIED="1396629251995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Participant__modelunitednations.coverage" NAME="Participant: modelunitednations Coverage Results" MODIFIED="1396300786623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@assets_precompile__modelunitednations.coverage" NAME="assets:precompile: modelunitednations Coverage Results" MODIFIED="1396628509472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Development__modelunitednations.coverage" NAME="Development: modelunitednations Coverage Results" MODIFIED="1396888464305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@User_completeness__modelunitednations.coverage" NAME="User completeness: modelunitednations Coverage Results" MODIFIED="1396903825725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@assets_precompile__modelunitednations.coverage" NAME="assets:precompile: modelunitednations Coverage Results" MODIFIED="1396901806943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/modelunitednations@Development__modelunitednations.coverage" NAME="Development: modelunitednations Coverage Results" MODIFIED="1396901188268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@Delegate_ambassador__modelunitednations.coverage" NAME="Delegate ambassador: modelunitednations Coverage Results" MODIFIED="1396448274943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@participant_groups_controller.coverage" NAME="participant_groups_controller Coverage Results" MODIFIED="1396820159355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers" MODULE_NAME="modelunitednations" />
     <SUITE FILE_PATH="coverage/modelunitednations@db_structure_dump__modelunitednations.coverage" NAME="db:structure:dump: modelunitednations Coverage Results" MODIFIED="1396109320459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
@@ -83,7 +143,35 @@
     <favorites_list name="modelunitednations" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="participant_groups_controller_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/controllers/participant_groups_controller_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="41" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="participant_group_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/models/participant_group_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="26" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0" vertical-offset="235" max-vertical-offset="1005">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="participant_group.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/participant_group.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="42" selection-start="687" selection-end="687" vertical-scroll-proportion="0.625" vertical-offset="0" max-vertical-offset="675">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -99,23 +187,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/resolution_submitter.rb" />
-        <option value="$PROJECT_DIR$/app/models/resolution_submitter_role.rb" />
-        <option value="$PROJECT_DIR$/app/views/topics/show.html.haml" />
-        <option value="$PROJECT_DIR$/app/models/delegate.rb" />
-        <option value="$PROJECT_DIR$/app/models/resolution.rb" />
-        <option value="$PROJECT_DIR$/app/models/topic.rb" />
-        <option value="$PROJECT_DIR$/app/views/resolutions/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/controllers/resolutions_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/participant.rb" />
-        <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/app/models/registration.rb" />
-        <option value="$PROJECT_DIR$/spec/support/controller_macros.rb" />
         <option value="$PROJECT_DIR$/spec/support/spec_test_helper.rb" />
-        <option value="$PROJECT_DIR$/spec/controllers/participant_groups_controller_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/participant_groups/show.html.haml" />
         <option value="$PROJECT_DIR$/app/views/participant_groups/invite.html.haml" />
-        <option value="$PROJECT_DIR$/spec/models/participant_group_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/sb-admin.css.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/landing.css.scss" />
@@ -125,16 +199,12 @@
         <option value="$PROJECT_DIR$/app/views/delegations/new.html.haml" />
         <option value="$PROJECT_DIR$/spec/controllers/users_controller_spec.rb" />
         <option value="$PROJECT_DIR$/app/controllers/participant_groups_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/participant_group.rb" />
         <option value="$PROJECT_DIR$/spec/controllers/conferences_controller_spec.rb" />
-        <option value="$PROJECT_DIR$/app/views/users/edit.html.haml" />
-        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/public_activity/conference/_update.html.haml" />
         <option value="$PROJECT_DIR$/app/views/conferences/edit.html.haml" />
         <option value="$PROJECT_DIR$/config/initializers/simple_form.rb" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/users/omniauth_callbacks_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/devise/shared/_links.erb" />
         <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
@@ -142,14 +212,32 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/conferences_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/conferences/show.html.haml" />
-        <option value="$PROJECT_DIR$/app/models/conference.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/welcome/index.html" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_side_navigation.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140407202119_add_intro_to_user.rb" />
+        <option value="$PROJECT_DIR$/app/views/welcome/index.html" />
+        <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/intros/welcome/index.js.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/users/edit.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/models/users_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/delegation.rb" />
+        <option value="$PROJECT_DIR$/app/views/delegations/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/delegates_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/delegates_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/participant.rb" />
+        <option value="$PROJECT_DIR$/app/models/conference.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/models/participant_group_member.rb" />
+        <option value="$PROJECT_DIR$/app/models/delegate.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/participant_groups_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/participant_group_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/participant_group.rb" />
       </list>
     </option>
   </component>
@@ -211,8 +299,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -241,11 +329,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -259,29 +343,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conferences" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modelunitednations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modelunitednations-rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -312,108 +378,14 @@
       <recent name="$PROJECT_DIR$/app/views/registrations" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/assets/stylesheets/plugins/bootstrap" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
+      <recent name="$PROJECT_DIR$/app/assets/stylesheets/plugins/bootstrap" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/app/views" />
       <recent name="$PROJECT_DIR$/app/views/mun" />
     </key>
   </component>
   <component name="RunManager" selected="Rake.db:migrate: modelunitednations">
-    <configuration default="false" name="registrations_controller" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="modelunitednations" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/app/controllers/devise" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/app/controllers/devise/registrations_controller.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="UsersController GET #edit: modelunitednations" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="modelunitednations" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/users_controller_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="UsersController GET #edit" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ConferencesController GET #edit: modelunitednations" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="modelunitednations" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/conferences_controller_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ConferencesController GET #edit" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="db:migrate: modelunitednations" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="modelunitednations" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -422,7 +394,7 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <envs>
-        <env name="RAILS_ENV" value="development" />
+        <env name="RAILS_ENV" value="test" />
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
@@ -442,15 +414,19 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="erd: modelunitednations" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+    <configuration default="false" name="User completeness: modelunitednations" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="modelunitednations" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
@@ -458,12 +434,126 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="erd" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/users_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="User completeness" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="User completeness it should return a profile completeness: modelunitednations" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="modelunitednations" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/users_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="User completeness it should return a profile completeness" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DelegatesController DELETE #destroy: modelunitednations" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="modelunitednations" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/delegates_controller_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="DelegatesController DELETE #destroy" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ParticipantGroup join it should not be possible to join the group twice: modelunitednations" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="modelunitednations" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/participant_group_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ParticipantGroup join it should not be possible to join the group twice" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
@@ -646,19 +736,19 @@
       <item index="1" class="java.lang.String" itemvalue="Rake.spec: modelunitednations" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: modelunitednations" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: modelunitednations" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.registrations_controller" />
-      <item index="5" class="java.lang.String" itemvalue="RSpec.UsersController GET #edit: modelunitednations" />
-      <item index="6" class="java.lang.String" itemvalue="RSpec.ConferencesController GET #edit: modelunitednations" />
-      <item index="7" class="java.lang.String" itemvalue="Rake.db:migrate: modelunitednations" />
-      <item index="8" class="java.lang.String" itemvalue="Rake.erd: modelunitednations" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate: modelunitednations" />
+      <item index="5" class="java.lang.String" itemvalue="RSpec.User completeness: modelunitednations" />
+      <item index="6" class="java.lang.String" itemvalue="RSpec.User completeness it should return a profile completeness: modelunitednations" />
+      <item index="7" class="java.lang.String" itemvalue="RSpec.DelegatesController DELETE #destroy: modelunitednations" />
+      <item index="8" class="java.lang.String" itemvalue="RSpec.ParticipantGroup join it should not be possible to join the group twice: modelunitednations" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate: modelunitednations" />
-        <item index="1" class="java.lang.String" itemvalue="Rake.erd: modelunitednations" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.ConferencesController GET #edit: modelunitednations" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.UsersController GET #edit: modelunitednations" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.registrations_controller" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.ParticipantGroup join it should not be possible to join the group twice: modelunitednations" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.DelegatesController DELETE #destroy: modelunitednations" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.User completeness it should return a profile completeness: modelunitednations" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.User completeness: modelunitednations" />
       </list>
     </recent_temporary>
   </component>
@@ -761,19 +851,19 @@
     <frame x="169" y="22" width="1622" height="1083" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32793522" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32692307" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21299255" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26455697" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26772153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21299255" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37651822" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -802,274 +892,24 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/sb-admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-6.696721" vertical-offset="4085" max-vertical-offset="4695">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/landing.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="348" column="1" selection-start="5928" selection-end="5928" vertical-scroll-proportion="0.9690171" vertical-offset="4313" max-vertical-offset="5310">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="30" selection-start="732" selection-end="732" vertical-scroll-proportion="0.30877572" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/devise/signups_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_landing.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="20" selection-start="2987" selection-end="2987" vertical-scroll-proportion="0.88624054" vertical-offset="352" max-vertical-offset="1830">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/delegations/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="102" selection-end="119" vertical-scroll-proportion="0.051107325" vertical-offset="0" max-vertical-offset="587">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a28c0db/126ee1be-48a5-44fb-a594-d0100ccf641a/modelunitednations_development.public.participant_group_members">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/participant_group_role.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="634">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/participant_group_member.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="18" selection-start="714" selection-end="714" vertical-scroll-proportion="0.41062802" vertical-offset="0" max-vertical-offset="621">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a28c0db/126ee1be-48a5-44fb-a594-d0100ccf641a/modelunitednations_development.public.participant_group_roles_participant_group_member">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/participant_group.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="30" selection-start="625" selection-end="625" vertical-scroll-proportion="0.5072464" vertical-offset="0" max-vertical-offset="621">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/participant_groups_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="28" selection-start="1631" selection-end="1631" vertical-scroll-proportion="1.2173913" vertical-offset="264" max-vertical-offset="1230">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/delegations_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.2539432" vertical-offset="161" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/delegates_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="9" selection-start="1361" selection-end="1923" vertical-scroll-proportion="0.68599033" vertical-offset="624" max-vertical-offset="1395">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/resolutions_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="2" selection-start="1505" selection-end="2520" vertical-scroll-proportion="-0.1352657" vertical-offset="969" max-vertical-offset="1590">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/participant_groups_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="27" selection-start="684" selection-end="684" vertical-scroll-proportion="0.5518395" vertical-offset="0" max-vertical-offset="705">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/participants_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="634">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/comittees_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/delegates_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.41955835" vertical-offset="266" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/users_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2" selection-start="53" selection-end="987" vertical-scroll-proportion="0.07097792" vertical-offset="0" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140407143958_add_acronym_to_conference.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="67" selection-end="67" vertical-scroll-proportion="0.024549918" vertical-offset="0" max-vertical-offset="611">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/edit.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="23" selection-start="18" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="587">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/conferences_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="5" selection-start="999" selection-end="999" vertical-scroll-proportion="0.5220949" vertical-offset="281" max-vertical-offset="1065">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="16" selection-start="296" selection-end="300" vertical-scroll-proportion="0.31400967" vertical-offset="0" max-vertical-offset="621">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/public_activity/conference/_update.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="34" selection-start="213" selection-end="213" vertical-scroll-proportion="0.17213115" vertical-offset="0" max-vertical-offset="610">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140407144500_add_topic_to_conference.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="65" selection-end="65" vertical-scroll-proportion="0.024549918" vertical-offset="0" max-vertical-offset="611">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140407144559_add_website_url_to_conference.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="6" selection-start="64" selection-end="70" vertical-scroll-proportion="0.024549918" vertical-offset="0" max-vertical-offset="611">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140407144639_add_organizer_to_conference.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="69" selection-end="69" vertical-scroll-proportion="0.024549918" vertical-offset="0" max-vertical-offset="611">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/simple_form.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="55" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.46859902" vertical-offset="534" max-vertical-offset="1215">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/conferences/edit.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="39" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140407145950_add_facebook_to_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="63" selection-end="63" vertical-scroll-proportion="0.023659306" vertical-offset="0" max-vertical-offset="634">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/registrations/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="621">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="611">
-          <folding />
-        </state>
+        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="611" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/shared/_links.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="12" selection-start="938" selection-end="938" vertical-scroll-proportion="0.5487805" vertical-offset="0" max-vertical-offset="574">
-          <folding />
-        </state>
+        <state line="21" column="12" selection-start="938" selection-end="938" vertical-scroll-proportion="0.5487805" vertical-offset="0" max-vertical-offset="574" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="79" selection-start="96" selection-end="96" vertical-scroll-proportion="0.025125628" vertical-offset="0" max-vertical-offset="597">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="5" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.8067633" vertical-offset="99" max-vertical-offset="720">
-          <folding />
-        </state>
+        <state line="1" column="79" selection-start="96" selection-end="96" vertical-scroll-proportion="0.025125628" vertical-offset="0" max-vertical-offset="597" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users/omniauth_callbacks_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="5" selection-start="604" selection-end="604" vertical-scroll-proportion="0.28985506" vertical-offset="0" max-vertical-offset="621">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="236" column="39" selection-start="11958" selection-end="11958" vertical-scroll-proportion="0.5596639" vertical-offset="3207" max-vertical-offset="3930">
           <folding />
         </state>
       </provider>
@@ -1083,9 +923,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/conferences/show.pdf.prawn">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="634">
-          <folding />
-        </state>
+        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="634" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/conferences_controller.rb">
@@ -1095,79 +933,312 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/conference.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="27" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.589372" vertical-offset="399" max-vertical-offset="1050">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/conferences/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="90" selection-start="588" selection-end="588" vertical-scroll-proportion="0.42713568" vertical-offset="0" max-vertical-offset="5760">
-          <folding />
-        </state>
+        <state line="17" column="90" selection-start="588" selection-end="588" vertical-scroll-proportion="0.42713568" vertical-offset="0" max-vertical-offset="5760" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451@global/gems/bundler-1.5.3/lib/bundler.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="8" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="6420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="32" selection-start="78" selection-end="78" vertical-scroll-proportion="0.04918033" vertical-offset="0" max-vertical-offset="610">
-          <folding />
-        </state>
+        <state line="55" column="8" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="6420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="25" selection-start="725" selection-end="725" vertical-scroll-proportion="0.4264214" vertical-offset="0" max-vertical-offset="598">
-          <folding />
-        </state>
+        <state line="17" column="25" selection-start="725" selection-end="725" vertical-scroll-proportion="0.4264214" vertical-offset="0" max-vertical-offset="598" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="47" selection-start="812" selection-end="812" vertical-scroll-proportion="0.4830918" vertical-offset="0" max-vertical-offset="621">
+        <state line="20" column="47" selection-start="812" selection-end="812" vertical-scroll-proportion="0.4830918" vertical-offset="0" max-vertical-offset="621" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_side_navigation.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="32" selection-start="682" selection-end="682" vertical-scroll-proportion="0.37942123" vertical-offset="92" max-vertical-offset="1740">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140407202119_add_intro_to_user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="34" selection-start="478" selection-end="478" vertical-scroll-proportion="0.31400967" vertical-offset="60" max-vertical-offset="1560">
+        <state line="5" column="36" selection-start="125" selection-end="125" vertical-scroll-proportion="0.13227513" vertical-offset="0" max-vertical-offset="567">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="63" selection-start="2201" selection-end="2233" vertical-scroll-proportion="0.42211056" vertical-offset="873" max-vertical-offset="1680">
+        <state line="13" column="20" selection-start="401" selection-end="401" vertical-scroll-proportion="0.36792454" vertical-offset="0" max-vertical-offset="945">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_side_navigation.html.erb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="56" selection-start="2551" selection-end="2551" vertical-scroll-proportion="0.42713568" vertical-offset="660" max-vertical-offset="1740">
+        <state line="30" column="8" selection-start="760" selection-end="763" vertical-scroll-proportion="0.33333334" vertical-offset="274" max-vertical-offset="1560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/topic_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="48" selection-start="203" selection-end="203" vertical-scroll-proportion="0.2495379" vertical-offset="0" max-vertical-offset="541">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/intros/welcome/index.js.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="12" selection-start="1504" selection-end="1504" vertical-scroll-proportion="0.81306714" vertical-offset="257" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="43" selection-start="368" selection-end="368" vertical-scroll-proportion="0.44347826" vertical-offset="0" max-vertical-offset="575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/edit.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="32" selection-start="107" selection-end="107" vertical-scroll-proportion="0.07978723" vertical-offset="0" max-vertical-offset="564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="7" selection-start="138" selection-end="138" vertical-scroll-proportion="0.10204082" vertical-offset="0" max-vertical-offset="588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="231" column="0" selection-start="11478" selection-end="11478" vertical-scroll-proportion="0.3321739" vertical-offset="3274" max-vertical-offset="3930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/users_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="264" selection-end="264" vertical-scroll-proportion="0.38265306" vertical-offset="0" max-vertical-offset="588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140407210508_add_completeness_to_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="89" selection-start="123" selection-end="123" vertical-scroll-proportion="0.12755102" vertical-offset="0" max-vertical-offset="588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="240" column="18" selection-start="7224" selection-end="7229" vertical-scroll-proportion="0.73309606" vertical-offset="3188" max-vertical-offset="3750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/resolutions_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="2" selection-start="1870" selection-end="2520" vertical-scroll-proportion="0.2826087" vertical-offset="969" max-vertical-offset="1590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/registrations_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/position_papers_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/delegations_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/delegation.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="45" selection-start="131" selection-end="131" vertical-scroll-proportion="0.10204082" vertical-offset="0" max-vertical-offset="588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories/delegations.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/delegations/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="90" selection-start="1468" selection-end="1468" vertical-scroll-proportion="0.75499094" vertical-offset="244" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/delegates_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="27" selection-start="2162" selection-end="2162" vertical-scroll-proportion="0.63652176" vertical-offset="834" max-vertical-offset="1515">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/delegates_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="42" selection-start="709" selection-end="709" vertical-scroll-proportion="0.5867347" vertical-offset="0" max-vertical-offset="588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140407213112_add_deadline_position_paper_to_comittee.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="12" selection-start="79" selection-end="79" vertical-scroll-proportion="0.025510205" vertical-offset="0" max-vertical-offset="588">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="61" selection-start="9026" selection-end="9026" vertical-scroll-proportion="0.3517588" vertical-offset="2235" max-vertical-offset="2865">
-          <folding>
-            <element signature="n#style#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#4;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#6;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="104" column="182" selection-start="5779" selection-end="5779" vertical-scroll-proportion="0.4355717" vertical-offset="1320" max-vertical-offset="2865">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a28c0db/126ee1be-48a5-44fb-a594-d0100ccf641a/modelunitednations_development.public.participants">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/registrations_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="21" selection-start="2184" selection-end="2184" vertical-scroll-proportion="0.4" vertical-offset="925" max-vertical-offset="1500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/registration.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="31" selection-start="580" selection-end="580" vertical-scroll-proportion="0.5565217" vertical-offset="25" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories/users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/participant.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="6" selection-start="1160" selection-end="1326" vertical-scroll-proportion="0.6467391" vertical-offset="348" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/delegate.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="83" selection-start="493" selection-end="493" vertical-scroll-proportion="0.4536862" vertical-offset="0" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/participant_group_member.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="133" selection-start="874" selection-end="874" vertical-scroll-proportion="0.5387524" vertical-offset="0" max-vertical-offset="529">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/participant_groups/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.11881188" vertical-offset="60" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="47" selection-start="421" selection-end="421" vertical-scroll-proportion="0.2173913" vertical-offset="0" max-vertical-offset="1680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a28c0db/126ee1be-48a5-44fb-a594-d0100ccf641a/modelunitednations_development.public.users">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a28c0db/126ee1be-48a5-44fb-a594-d0100ccf641a/modelunitednations_development.public.delegates">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/conference.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="130" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.45043477" vertical-offset="386" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/participant_groups_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="41" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/participant_group_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="26" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0" vertical-offset="235" max-vertical-offset="1005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/participant_group.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="42" selection-start="687" selection-end="687" vertical-scroll-proportion="0.625" vertical-offset="0" max-vertical-offset="675">
+          <folding />
         </state>
       </provider>
     </entry>

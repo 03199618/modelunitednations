@@ -16,7 +16,9 @@ class ParticipantGroupMember < ActiveRecord::Base
   end
 
   def name
-    user.name
+    name = self.user.name
+    name = name + ", " + self.participant_group_roles.first.name.capitalize unless self.participant_group_roles.first.name == "member"
+    return name
   end
 
 end

@@ -41,7 +41,7 @@ class Conference < ActiveRecord::Base
   end
 
   def addParticipant(participant_group_member)
-    participant = Participant.new(participant_group_member_id: participant_group_member.id)
+    participant = Participant.new(participant_group_member_id: participant_group_member.id, user_id:participant_group_member.user.id,)
     self.participants << participant
   end
 
