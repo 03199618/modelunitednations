@@ -2,52 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230275e5-48d9-4aa0-bf99-afe6cd5b3d7f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140407143958_add_acronym_to_conference.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140407144500_add_topic_to_conference.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140407144559_add_website_url_to_conference.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140407144639_add_organizer_to_conference.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140407145950_add_facebook_to_users.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/templates/haml/scaffold/_form.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/public_activity/conference/_update.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/edit.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/users/omniauth_callbacks_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/sb-admin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/conferences/show.pdf.prawn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/devise/signups_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/simple_form.en.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/simple_form.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/sb-admin.css.erb" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/plugins/bootstrap/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/grayscale.css.erb" afterPath="$PROJECT_DIR$/app/assets/stylesheets/landing.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erd.pdf" afterPath="$PROJECT_DIR$/erd.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_landing.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_landing.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/shared/_links.erb" afterPath="$PROJECT_DIR$/app/views/devise/shared/_links.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_side_navigation.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_side_navigation.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/conference.rb" afterPath="$PROJECT_DIR$/app/models/conference.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/conferences_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/conferences_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/conferences_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/conferences_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/devise.rb" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/conferences/edit.html.haml" afterPath="$PROJECT_DIR$/app/views/conferences/edit.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/index.html" afterPath="$PROJECT_DIR$/app/views/welcome/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/participant_groups/invite.html.haml" afterPath="$PROJECT_DIR$/app/views/participant_groups/invite.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modelunitednations.iml" afterPath="$PROJECT_DIR$/.idea/modelunitednations.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/participant_group.rb" afterPath="$PROJECT_DIR$/app/models/participant_group.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/participant_group_spec.rb" afterPath="$PROJECT_DIR$/spec/models/participant_group_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/participant_groups_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/participant_groups_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/conferences/show.html.haml" afterPath="$PROJECT_DIR$/app/views/conferences/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/show.html.haml" afterPath="$PROJECT_DIR$/app/views/users/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/users_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/users_controller_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="modelunitednations.iws" />
@@ -772,7 +726,11 @@
       <created>1396820965659</created>
       <updated>1396820965659</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Facebook login, Layout, Intro">
+      <created>1396890699888</created>
+      <updated>1396890699888</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -832,7 +790,8 @@
     <MESSAGE value="Major changes&#10;" />
     <MESSAGE value="Changes&#10;" />
     <MESSAGE value="Invite" />
-    <option name="LAST_COMMIT_MESSAGE" value="Invite" />
+    <MESSAGE value="Facebook login, Layout, Intro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Facebook login, Layout, Intro" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
