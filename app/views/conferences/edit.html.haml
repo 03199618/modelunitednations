@@ -5,5 +5,8 @@
   = f.input :organizer
 
   = f.input :website_url
+  = f.input :public, as: :boolean
   = f.button :submit
+
+= button_to "Delete #{@conference.name}", conference_path(@conference), method: :delete, class: "btn btn-danger"
 

@@ -14,5 +14,9 @@ class Comittee < ActiveRecord::Base
     topic = Topic.find(topic.id)
     self.topics << topic
   end
+
+  def deadline_position_paper
+    return 1
+  end
 end
 

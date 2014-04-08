@@ -26,6 +26,7 @@
       .panel-body
         - @participant_group.participant_group_members.each do |member|
           = link_to member.name, user_path(member.user)
+          = button_to "remove", participant_group_member_path(member), method: :delete, class:"pull-right destroy_member_#{member.id}"
           %br
 
       .panel-footer

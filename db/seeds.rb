@@ -52,6 +52,19 @@ roles.each do |name, i|
   end
 end
 
+#Consideration
+considerations = ["delegate", "conference_manager", "teacher", "chair"]
+considerations.each do |name, i|
+  consideration = UserConsideration.new
+  consideration.name = name
+  if UserConsideration.where(name: consideration.name).blank?
+    puts "Consideration:" << consideration.name
+    consideration.save
+  else
+    puts "Skipped consideration:" << consideration.name
+  end
+end
+
 
 
 administrator = User.find_or_create_by_email :name => "Jakob Zeitler".dup, :email => "mail@jakob-zeitler.de".dup, :password => "munmunmun".dup, :password_confirmation => "munmunmun".dup

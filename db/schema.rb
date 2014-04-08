@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140408114630) do
+ActiveRecord::Schema.define(version: 20140408200029) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -87,6 +87,16 @@ ActiveRecord::Schema.define(version: 20140408114630) do
     t.integer  "ambassador_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "events", force: true do |t|
+    t.integer  "timetable_id"
+    t.datetime "starts_at"
+    t.datetime "ends_at"
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.text     "description"
   end
 
   create_table "group_registrations", force: true do |t|
@@ -224,6 +234,12 @@ ActiveRecord::Schema.define(version: 20140408114630) do
     t.integer "role_id"
   end
 
+  create_table "timetables", force: true do |t|
+    t.integer  "conference_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "topics", force: true do |t|
     t.text     "name"
     t.datetime "created_at"
@@ -231,13 +247,19 @@ ActiveRecord::Schema.define(version: 20140408114630) do
     t.text     "content"
   end
 
+  create_table "user_considerations", force: true do |t|
+    t.text     "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "users", force: true do |t|
-    t.string   "email",                  default: "",   null: false
-    t.string   "encrypted_password",     default: "",   null: false
+    t.string   "email",                        default: "",   null: false
+    t.string   "encrypted_password",           default: "",   null: false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
-    t.integer  "sign_in_count",          default: 0,    null: false
+    t.integer  "sign_in_count",                default: 0,    null: false
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
@@ -248,8 +270,14 @@ ActiveRecord::Schema.define(version: 20140408114630) do
     t.text     "surname"
     t.string   "provider"
     t.string   "uid"
-    t.boolean  "intro",                  default: true
+    t.boolean  "intro",                        default: true
     t.float    "completeness"
+    t.string   "timezone"
+    t.string   "profile_picture_file_name"
+    t.string   "profile_picture_content_type"
+    t.integer  "profile_picture_file_size"
+    t.datetime "profile_picture_updated_at"
+    t.string   "locale",                       default: "en"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree

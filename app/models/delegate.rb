@@ -16,7 +16,7 @@ class Delegate < ActiveRecord::Base
   end
 
   def username
-    name
+    return name
   end
 
   def ambassador?
@@ -24,11 +24,20 @@ class Delegate < ActiveRecord::Base
   end
 
   def name
-    return "#{comittee.name}" unless comittee.nil?
+    if !comittee.nil?
+      name = comittee.name
+      name = name + user.name unless user.nil?
+      return name
+    elsif !user.nil?
+      return user.name
+    else
+      return "Delegate of #{delegation.name}"
+    end
+
   end
 
   def position_paper_due
-    return ((position_paper.nil? || position_paper == "") && comittee.deadline_position_paper.to_i > DateTime.now.to_i)
+    return ((position_paper.nil? || position_paper == "") && comittee.deadline_position_paper.to_i > DateTime.now.to_i) unless comittee.nil?
   end
 
   private

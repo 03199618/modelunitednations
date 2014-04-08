@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 describe ConferencesController do
+  login_user
 
   describe "GET #index" do
     it "responds successfully with an HTTP 200 status code" do
@@ -19,6 +20,41 @@ describe ConferencesController do
       get :index
 
       expect(assigns(:conferences)).to match_array([conference1, conference1])
+    end
+  end
+
+  describe "GET #new" do
+    it "responds successfully with an HTTP 200 status code" do
+      get :index
+      expect(response).to be_success
+      expect(response.status).to eq(200)
+    end
+
+    it "renders the new template" do
+      get :index
+      expect(response).to render_template("new")
+    end
+  end
+
+  describe "POST #create" do
+    before :each do
+      conference = FactoryGirl.build(:conference).attributes
+      post 'create', :conference => conference
+    end
+
+    it "responds successfully with an HTTP 200 status code" do
+
+      expect(response).to be_success
+      expect(response.status).to eq(200)
+    end
+
+    it "adds me as the manager" do
+
+      page.should have_content(subject.current_user.name)
+    end
+
+    it "redirects_to conference" do
+      expect(response).to render_template("show")
     end
   end
 
@@ -59,6 +95,25 @@ describe ConferencesController do
 
     it "should have a link to update the user" do
       page.should have_link("Update")
+    end
+  end
+
+  describe "DELETE #destroy" do
+    before :each do
+      @conference = FactoryGirl.create(:conference)
+      visit edit_conference_path(@conference)
+      click_on "Delete #{@conference.name}"
+    end
+    it "responds successfully with an HTTP 200 status code" do
+
+      expect(response).to be_success
+      expect(response.status).to eq(200)
+      visit conferences_path(@conference)
+      expect { find(@conference.name)}.to raise_error
+    end
+
+    it "renders the index template" do
+      expect(response).to render_template("index")
     end
   end
 

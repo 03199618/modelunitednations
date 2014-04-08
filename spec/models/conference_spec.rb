@@ -57,5 +57,11 @@ describe Conference do
       conference.name = nil
       conference.should_not be_valid
     end
+
+    it "should return its name on missing acronym" do
+      conference = FactoryGirl.build(:conference)
+      conference.acronym = nil
+      conference.acronym.should eq conference.name
+    end
   end
 end

@@ -19,7 +19,12 @@ Modelunitednations::Application.routes.draw do
   resources :comittees
   resources :delegations
   resources :delegates
-  resources :users
+  resources :users do
+    member do
+      get 'settings'
+      get 'intro'
+    end
+  end
   resources :participants
   resources :participant_groups do
     member do
@@ -29,6 +34,7 @@ Modelunitednations::Application.routes.draw do
 
     end
   end
+  resources :participant_group_members
   resources :resolutions
   resources :position_papers
   resources :topics
@@ -45,6 +51,8 @@ Modelunitednations::Application.routes.draw do
       put 'accept'
     end
   end
+  resources :timetables
+  resources :events
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

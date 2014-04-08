@@ -17,6 +17,10 @@ class Registration < ActiveRecord::Base
     end
   end
 
+  def participant_group
+    participant_group_member.participant_group
+  end
+
   def withdraw
     self.withdrawn = true
   end
@@ -28,9 +32,8 @@ class Registration < ActiveRecord::Base
   end
 
   def name
-    name = conference.name
-    name = name + " (withdrawn)" unless !withdrawn
-    name = name + " (accepted)" unless !accepted
+    name = user.name
+    name = name + " (#{participant_group.name})" unless !participant_group
     return name
   end
 end

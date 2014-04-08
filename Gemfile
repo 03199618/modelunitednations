@@ -20,6 +20,7 @@ gem 'non-stupid-digest-assets', '~> 1.0.4'
 gem 'omniauth-facebook'
 gem 'prawn'
 gem "introjs-rails"
+gem 'datetimepicker-rails', :require => 'datetimepicker-rails', :git => 'git://github.com/zpaulovics/datetimepicker-rails.git'
 
 #MANDATORY
 gem 'google-analytics-rails'

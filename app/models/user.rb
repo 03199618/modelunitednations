@@ -15,6 +15,9 @@ class User < ActiveRecord::Base
   has_many :delegates, through: :participants
   has_many :resolutions, through: :delegates
 
+  has_attached_file :profile_picture, :styles => { :thumb => "18x18>", :circle => "50x50>" }, :default_url => "/images/:style/missing.png"
+  validates_attachment_content_type :profile_picture, :content_type => /\Aimage\/.*\Z/
+
   before_save :calculate_completeness
 
   def initial_role=(role_name)
@@ -68,7 +71,7 @@ class User < ActiveRecord::Base
   end
 
   def calculate_completeness
-    self.completeness = completeness_helper([:surname, :firstname])
+    self.completeness = completeness_helper([:surname, :firstname, :profile_picture])
   end
   private
 
@@ -105,6 +108,10 @@ class User < ActiveRecord::Base
       end
     end
     return ((counter / denominator) *100).round
+  end
+
+  def create_example_data
+
   end
 
 end

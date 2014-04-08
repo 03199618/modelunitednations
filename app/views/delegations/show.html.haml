@@ -42,7 +42,7 @@
       .panel-body
         - @delegation.delegates.each do |delegate|
           = link_to delegate.username, delegate_path(delegate)
-          = link_to "remove", delegate_path(delegate), method: :delete, class:"pull-right destroy_delegate_#{delegate.id}"
+          = button_to "remove", delegate_path(delegate), method: :delete, class:"pull-right destroy_delegate_#{delegate.id}"
 
           %br
 

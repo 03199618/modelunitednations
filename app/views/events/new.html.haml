@@ -1,0 +1,7 @@
+= simple_form_for @event do |f|
+  = f.hidden_field :timetable_id, value: params[:timetable_id] || @timetable.id
+  = f.input :name
+  = f.input :starts_at, :as => :date_picker
+  = f.input :ends_at, :as => :date_picker
+  = f.input :description
+  = f.button :submit

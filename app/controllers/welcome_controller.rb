@@ -3,13 +3,15 @@ class WelcomeController < ApplicationController
     if user_signed_in?
       gon.push({:intro => current_user.settings(:intro) })
     end
+    resource
+    resource_name
   end
 
   def theme
   end
 
   def resource_name
-    :user
+    @resource_name = :user
   end
 
   def resource

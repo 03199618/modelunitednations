@@ -40,4 +40,16 @@ describe UsersController do
       page.should have_link("Update")
     end
   end
+
+  describe "GET #settings" do
+    describe "intro" do
+      before :each do
+        user = FactoryGirl.create(:user)
+        visit settings_user_path(user)
+      end
+      it "should allow to update the intro" do
+        page.should have_content "Intro"
+      end
+    end
+  end
 end

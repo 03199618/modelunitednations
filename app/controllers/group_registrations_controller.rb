@@ -16,6 +16,7 @@ class GroupRegistrationsController < ApplicationController
   def new
     @group_registration = GroupRegistration.new
     authorize! :create, @group_registration
+
     @participant_groups = current_user.participant_groups
     @conference = Conference.find(params[:conference_id])
   end

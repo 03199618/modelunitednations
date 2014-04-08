@@ -10,12 +10,15 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
-//= require jquery_ujs
 //= require gmaps/google
 //= require gmaps/base
 //= require ckeditor/override
 //= require ckeditor/init
-// require turbolinks
-//= require_tree .
 //= require introjs
+//= require intros/intro_handler
+//= require intros/delegate
+//= require bootstrap-datetimepicker
+//= require bootstrap-datetimepicker/pickers
+//= require turbolinks
+//= require_tree .
+

@@ -15,11 +15,11 @@
  *= require ./plugins/morris/morris-0.4.3.min
  *= require ./plugins/social-buttons/social-buttons
  *= require ./plugins/timeline/timeline
- *= require ./plugins/bootstrap/bootstrap.min
 
 
  *= require ./font-awesome/css/font-awesome.min
  *= require introjs
+ *= require bootstrap-datetimepicker
  */
 
 

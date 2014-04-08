@@ -1,0 +1,29 @@
+/.timeline-badge
+/  %i.fa.fa-check
+.timeline-panel
+  .timeline-heading
+    %h4.timeline-title
+      = event.name
+    %p
+      From
+      = event.starts_at.to_formatted_s :long_ordinal
+      %br
+      To
+      = event.ends_at.to_formatted_s :long_ordinal
+  .timeline-body
+    = event.description
+    %hr
+    .btn-group
+      %button.btn.btn-primary.btn-sm.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
+        %i.fa.fa-cog
+        %span.caret
+      %ul.dropdown-menu{role: "menu"}
+        %li
+          %a{href: "#"} Action
+        %li
+          %a{href: "#"} Another action
+        %li
+          %a{href: "#"} Something else here
+        %li.divider
+        %li
+          %a{href: "#"} Separated link

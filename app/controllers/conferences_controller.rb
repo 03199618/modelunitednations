@@ -60,6 +60,12 @@ class ConferencesController < ApplicationController
   end
 
   def destroy
+    @conference = Conference.find(params[:id])
+    authorize! :destroy, @conference
+
+    @conference.destroy
+    flash[:success] = t("conference.sucessfullyDeleted")
+    redirect_to conferences_path
   end
 
   def placards

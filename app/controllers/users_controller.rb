@@ -15,12 +15,17 @@ class UsersController < ApplicationController
     authorize! :update, @user
   end
 
+  def settings
+    @user = User.find(params[:id])
+    authorize! :update, @user
+  end
+
   def update
     @user = User.find(params[:id])
     authorize! :update, @user
 
     respond_to do |format|
-      if @user.update(params[:user].permit(:surname, :firstname, :intro))
+      if @user.update(params[:user].permit(:surname, :firstname, :intro, :timezone))
         format.html { redirect_to(@user, :notice => t("user.succesfullyUpdated")) }
         format.json { @user }
       else
@@ -28,5 +33,20 @@ class UsersController < ApplicationController
         format.json { @user }
       end
     end
+  end
+
+  def intro
+    @user = User.find(params[:id])
+    authorize! :update, @user
+
+    @user.intro = true
+    respond_to do |format|
+      if @user.save
+        format.html { redirect_to root_path }
+      else
+        format.html { redirect_to root_path, notice: "Could not start tutorial."}
+      end
+    end
+
   end
 end

@@ -1,17 +1,31 @@
 class Conference < ActiveRecord::Base
   include PublicActivity::Model
-  tracked except: :create
+  tracked except: [:create, :destroy]
 
-  has_many :announcements
-  has_many :participants
-  has_many :delegations
+  has_many :announcements, dependent: :destroy
+  has_many :participants, dependent: :destroy
+  has_many :delegations, dependent: :destroy
   has_many :delegates, through: :delegations
-  has_many :comittees
+  has_many :comittees, dependent: :destroy
   has_many :participant_groups
-  has_many :registrations
-  has_many :group_registrations
+  has_many :registrations, dependent: :destroy
+  has_many :group_registrations, dependent: :destroy
+  has_many :timetables
 
-  validates :name, presence: true
+  validates_presence_of :name
+
+  def should_have_timetable
+
+  end
+  def timetable
+    result = timetables.first
+    if result.nil?
+      new_timetable = self.timetables.new
+      new_timetable.save
+      result = new_timetable
+    end
+    return result
+  end
 
   def managers
     self.participants.joins(:participant_roles).where(participant_roles: {name: "manager"} )
@@ -61,5 +75,13 @@ class Conference < ActiveRecord::Base
       start_new_page
     end
     return pdf
+  end
+
+  def acronym
+    if read_attribute(:acronym).nil?
+      return name
+    else
+      return acronym
+    end
   end
 end

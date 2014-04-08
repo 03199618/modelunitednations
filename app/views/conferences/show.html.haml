@@ -46,6 +46,33 @@
                 %a{href: "#"} Separated link
       .panel-body
         - @conference.registrations.each do |registration|
+          = link_to registration.name, registration_path(registration)
+          %br
+        = link_to "See all", registration_path(conference_id: @conference.id)
+      .panel-footer
+        = "#{pluralize(@conference.registrations.count, "registration")}"
+
+  .col-lg-4
+    .panel.panel-default
+      .panel-heading
+        = "Group Registrations"
+        .pull-right
+          .btn-group
+            %button.btn.btn-default.btn-xs.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
+              Actions
+              %span.caret
+            %ul.dropdown-menu.pull-right{role: "menu"}
+              %li
+                %a{href: new_delegation_path(conference_id: @conference.id)} Show all registrations
+              %li
+                %a{href: "#"} Another action
+              %li
+                %a{href: "#"} Something else here
+              %li.divider
+              %li
+                %a{href: "#"} Separated link
+      .panel-body
+        - @conference.group_registrations.each do |registration|
           = link_to registration.participant_group.name, registration_path(registration)
           %br
         = link_to "See all", registration_path(conference_id: @conference.id)
@@ -161,88 +188,9 @@
         = link_to "See all", participants_path(conference_id: @conference.id)
       .panel-footer
         = "#{pluralize(@conference.participants.count, "participant")}"
-
   .col-lg-8
-    .panel.panel-default
-      .panel-heading
-        %i.fa.fa-clock-o.fa-fw
-        Schedule
-      / /.panel-heading
-      .panel-body
-        %ul.timeline
-          %li
-            .timeline-badge
-              %i.fa.fa-check
-            .timeline-panel
-              .timeline-heading
-                %h4.timeline-title Comittees in Session
-                %p
-                  %small.text-muted
-                    %i.fa.fa-time
-                    11 hours ago from Secretary General
-              .timeline-body
-                %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel justo eu mi scelerisque vulputate. Aliquam in metus eu lectus aliquet egestas.
-          %li.timeline-inverted
-            .timeline-badge.warning
-              %i.fa.fa-credit-card
-            .timeline-panel
-              .timeline-heading
-                %h4.timeline-title Photo Session
-              .timeline-body
-                %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel justo eu mi scelerisque vulputate. Aliquam in metus eu lectus aliquet egestas.
-                %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel justo eu mi scelerisque vulputate. Aliquam in metus eu lectus aliquet egestas.
-          %li
-            .timeline-badge.danger
-              %i.fa.fa-credit-card
-            .timeline-panel
-              .timeline-heading
-                %h4.timeline-title Lunch
-              .timeline-body
-                %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel justo eu mi scelerisque vulputate. Aliquam in metus eu lectus aliquet egestas.
-          %li.timeline-inverted
-            .timeline-panel
-              .timeline-heading
-                %h4.timeline-title Timeline Event
-              .timeline-body
-                %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel justo eu mi scelerisque vulputate. Aliquam in metus eu lectus aliquet egestas.
-          %li
-            .timeline-badge.info
-              %i.fa.fa-save
-            .timeline-panel
-              .timeline-heading
-                %h4.timeline-title Timeline Event
-              .timeline-body
-                %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel justo eu mi scelerisque vulputate. Aliquam in metus eu lectus aliquet egestas.
-                %hr/
-                .btn-group
-                  %button.btn.btn-primary.btn-sm.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
-                    %i.fa.fa-cog
-                    %span.caret
-                  %ul.dropdown-menu{role: "menu"}
-                    %li
-                      %a{href: "#"} Action
-                    %li
-                      %a{href: "#"} Another action
-                    %li
-                      %a{href: "#"} Something else here
-                    %li.divider
-                    %li
-                      %a{href: "#"} Separated link
-          %li
-            .timeline-panel
-              .timeline-heading
-                %h4.timeline-title Timeline Event
-              .timeline-body
-                %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel justo eu mi scelerisque vulputate. Aliquam in metus eu lectus aliquet egestas.
-          %li.timeline-inverted
-            .timeline-badge.success
-              %i.fa.fa-thumbs-up
-            .timeline-panel
-              .timeline-heading
-                %h4.timeline-title Timeline Event
-              .timeline-body
-                %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel justo eu mi scelerisque vulputate. Aliquam in metus eu lectus aliquet egestas.
-      / /.panel-body
+    = render partial: "timetable", locals: {timetable: @conference.timetable}
+
   .col-lg-4
     .panel.panel-default
       .panel-heading

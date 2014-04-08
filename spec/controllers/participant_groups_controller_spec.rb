@@ -43,4 +43,26 @@ describe ParticipantGroupsController do
     end
   end
 
+  describe "member" do
+    describe "DELETE #destroy" do
+      before :each do
+        @participant_group = FactoryGirl.create(:participant_group)
+        @member = FactoryGirl.create(:participant_group_member, participant_group_id: @participant_group.id)
+        visit participant_group_path(@participant_group)
+        find(".destroy_member#{@member.id}").click
+      end
+      it "responds successfully with an HTTP 200 status code" do
+
+        expect(response).to be_success
+        expect(response.status).to eq(200)
+        visit delegation_path(@delegation)
+        expect { find(".destroy_member#{@member.id}")}.to raise_error
+      end
+
+      it "renders the show template" do
+        expect(response).to render_template("show")
+      end
+    end
+  end
+
 end

@@ -1,0 +1,15 @@
+.row
+  .col-lg-12
+    %h1.page-header
+      = @user.name
+
+.row
+  .col-lg-12
+    .panel.panel-default
+      .panel-heading
+        Settings
+      .panel-body
+        = simple_form_for @user do |f|
+          = f.time_zone_select :timezone
+          = f.button :submit
+
