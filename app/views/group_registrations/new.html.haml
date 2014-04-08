@@ -1,0 +1,12 @@
+.row
+  .col-lg-12
+    %h1.page-header
+      Register at
+      = @conference.name
+
+= simple_form_for @group_registration do |f|
+  = f.error_notification
+  = f.hidden_field :conference_id, value: params[:conference_id] || @conference.id
+
+  = f.input :participant_group_id, :collection => @participant_groups, :label_method => :name, :value_method => :id,:label => "Participant group" ,:include_blank => false
+  = f.button :submit

@@ -14,9 +14,21 @@ describe ParticipantGroup do
     it "it should be able to add a manager" do
       participant_group = FactoryGirl.create(:participant_group)
       user = FactoryGirl.create(:user)
-      participant_group_member = FactoryGirl.create(:participant_group_member, user_id: user.id)
 
-      participant_group.addManager(participant_group_member)
+
+      participant_group.addManager(user)
+
+      expect(participant_group.manager.pluck(:id)).to include(participant_group_member.id)
+
+    end
+  end
+
+  describe "member" do
+    it "it should be able to add a member" do
+      participant_group = FactoryGirl.create(:participant_group)
+      user = FactoryGirl.create(:user)
+
+      participant_group.addParticipantGroupMember(user)
 
       expect(participant_group.manager.pluck(:id)).to include(participant_group_member.id)
     end

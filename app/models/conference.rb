@@ -9,6 +9,7 @@ class Conference < ActiveRecord::Base
   has_many :comittees
   has_many :participant_groups
   has_many :registrations
+  has_many :group_registrations
 
   validates :name, presence: true
 

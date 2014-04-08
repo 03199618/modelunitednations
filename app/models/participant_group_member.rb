@@ -3,7 +3,6 @@ class ParticipantGroupMember < ActiveRecord::Base
   belongs_to :user
   has_one :participant
   has_and_belongs_to_many :participant_group_roles, join_table: "participant_group_roles_participant_group_member"
-  has_one :conference, through: :participant_group
   has_one :delegation, through: :participant
 
   def addParticipantGroupRole(participant_group_role_title)

@@ -38,6 +38,13 @@ Modelunitednations::Application.routes.draw do
       put 'accept'
     end
   end
+
+  resources :group_registrations do
+    member do
+      put 'withdraw'
+      put 'accept'
+    end
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

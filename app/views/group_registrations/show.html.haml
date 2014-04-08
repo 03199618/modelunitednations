@@ -1,0 +1,21 @@
+.row
+  .col-lg-12
+    %h1.page-header
+      Registration at
+      = @group_registration.name
+      .btn-group
+        %button.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
+          %i.fa.fa-gear.fa-fw
+          %span.caret
+        %ul.dropdown-menu.pull-right{role: "menu"}
+          %li
+            %a{href: edit_group_registration_path(@group_registration)}
+              Edit group_registration
+          - if !@group_registration.withdrawn
+            %li
+              = link_to 'Withdraw', withdraw_group_registration_path(@group_registration), {:method => :put}
+          %li
+            = link_to 'Accept', accept_group_registration_path(@group_registration), {:method => :put}
+          %li.divider
+          %li
+            %a{href: "#"} Separated link

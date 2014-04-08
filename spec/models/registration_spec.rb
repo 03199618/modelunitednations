@@ -9,10 +9,18 @@ describe Registration do
     end
   end
 
-  describe "participant group" do
-    it "should have a participant" do
+  describe "participant group member" do
+    it "should have a participant group member" do
       registration = FactoryGirl.create(:registration)
-      registration.participant_group = nil
+      registration.participant_group_member_id = nil
+      registration.should_not be_valid
+    end
+  end
+
+  describe "user" do
+    it "should have a user" do
+      registration = FactoryGirl.create(:registration)
+      registration.user_id = nil
       registration.should_not be_valid
     end
   end

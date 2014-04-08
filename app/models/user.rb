@@ -43,6 +43,10 @@ class User < ActiveRecord::Base
   end
 
 
+  def settings(name)
+    return self.send(name)
+  end
+
   def intro
     if read_attribute(:intro)
       write_attribute(:intro, false)

@@ -51,9 +51,9 @@
               %li
                 %a{href: "#"} Separated link
       .panel-body
-        - @participant_group.registrations.each do |registration|
-          = link_to registration.name, registration_path(registration)
+        - @participant_group.group_registrations.each do |registration|
+          = link_to registration.name, group_registration_path(registration)
           %br
 
       .panel-footer
-        = "#{pluralize(@participant_group.registrations.count, "registration")}"
+        = "#{pluralize(@participant_group.group_registrations.count, "registration")}"
