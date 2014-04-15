@@ -1,6 +1,7 @@
 #MANDATORY
 
 #Participant group roles
+puts "PARTICIPANT GROUP ROLES"
 roles = ["manager", "member"]
 roles.each do |name, i|
   role = ParticipantGroupRole.new
@@ -14,6 +15,7 @@ roles.each do |name, i|
 end
 
 #Resolution submitters roles
+puts "RESOLUTION SUBMITTERS ROLES"
 roles = ["mainsubmitter", "cosubmitter"]
 roles.each do |name, i|
   role = ResolutionSubmitterRole.new
@@ -27,6 +29,7 @@ roles.each do |name, i|
 end
 
 #Participant roles
+puts "PARTICIPANT ROLES"
 roles = ["manager", "chair", "delegate", "director", "ambassador"]
 roles.each do |name, i|
   role = ParticipantRole.new
@@ -40,6 +43,7 @@ roles.each do |name, i|
 end
 
 #Roles
+puts "USER ROLES"
 roles = ["administrator"]
 roles.each do |name, i|
   role = Role.new
@@ -53,6 +57,7 @@ roles.each do |name, i|
 end
 
 #Consideration
+puts "CONSIDERATIONS"
 considerations = ["delegate", "conference_manager", "teacher", "chair"]
 considerations.each do |name, i|
   consideration = UserConsideration.new
@@ -67,7 +72,7 @@ end
 
 
 
-administrator = User.find_or_create_by_email :name => "Jakob Zeitler".dup, :email => "mail@jakob-zeitler.de".dup, :password => "munmunmun".dup, :password_confirmation => "munmunmun".dup
+administrator = User.find_or_create_by_email :firstname => "Jakob Zeitler".dup, :email => "mail@jakob-zeitler.de".dup, :password => "munmunmun".dup, :password_confirmation => "munmunmun".dup
 administrator.initial_role = "administrator"
 puts 'Administrator: ' << administrator.name
 
