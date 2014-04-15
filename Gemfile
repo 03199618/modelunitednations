@@ -15,12 +15,13 @@ gem 'jbuilder', '~> 1.2'
 #Plugins being implemented
 gem 'gmaps-autocomplete-rails'
 gem 'public_activity'
-gem 'ckeditor'
+gem 'ckeditor_rails'
 gem 'non-stupid-digest-assets', '~> 1.0.4'
 gem 'omniauth-facebook'
 gem 'prawn'
 gem "introjs-rails"
 gem 'datetimepicker-rails', :require => 'datetimepicker-rails', :git => 'git://github.com/zpaulovics/datetimepicker-rails.git'
+gem "font-awesome-rails"
 
 #MANDATORY
 gem 'google-analytics-rails'
@@ -48,9 +49,9 @@ gem 'activemerchant'
 gem 'mail_form'
 gem 'recaptcha'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
 gem 'less'
-#gem 'bootstrap-sass', '~> 3.1.1'
+gem 'sass-rails', '>= 3.2'
+gem 'bootstrap-sass', '~> 3.1.1'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 gem 'gmaps4rails'

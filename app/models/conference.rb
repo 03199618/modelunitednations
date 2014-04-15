@@ -84,4 +84,22 @@ class Conference < ActiveRecord::Base
       return acronym
     end
   end
+
+  def name
+    if read_attribute(:acronym).nil?
+      return name_helper
+    else
+      return name_helper + " (#{acronym})"
+    end
+  end
+
+  private
+
+  def name_helper
+    if read_attribute(:name).nil?
+      return "#{self.managers.first.name}'s Conference"
+    else
+      return read_attribute(:name)
+    end
+  end
 end

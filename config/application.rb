@@ -22,11 +22,19 @@ module Modelunitednations
     # config.time_zone = 'Central Time (US & Canada)'
 
     config.assets.initialize_on_precompile = false
+    config.cache_store = :memory_store
 
-    config.assets.precompile = ['*.js', '*.css', '*.css.erb', '*.svg', '*.ttf', '*.woff']
-    config.assets.precompile += ['rails_admin/rails_admin.css', 'rails_admin/rails_admin.js']
-    config.autoload_paths += %W(#{config.root}/app/models/ckeditor)
-    config.assets.precompile += Ckeditor.assets
-    config.assets.precompile += %w(ckeditor/*)
+    config.assets.precompile += ['grayscale.js']
+    config.assets.precompile += ['grayscale.css']
+    config.assets.precompile += ['landing.css']
+    config.assets.precompile += ['sb-admin.css']
+    config.assets.precompile += ['dataTables.bootstrap.css']
+
+    #config.autoload_paths += %W(#{config.root}/app/models/ckeditor)
+    #config.assets.precompile += Ckeditor.assets
+    #config.assets.precompile += %w(ckeditor/*)
+
+
   end
+
 end

@@ -1,0 +1,18 @@
+.btn-group
+  %button.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
+    %i.fa.fa-gear.fa-fw
+    Edit
+    %span.caret
+  %ul.dropdown-menu.pull-right{role: "menu"}
+    %li
+      %a{href: edit_conference_path(resource)}
+        Edit
+        = resource.acronym
+    %li
+      = link_to "Print placards", placards_conference_path(resource, format: "pdf")
+
+    %li
+      %a{href: "#"} Something else here
+    %li.divider
+    %li
+      %a{href: "#"} Separated link

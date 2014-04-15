@@ -1,0 +1,15 @@
+%ul.timeline
+  - events.each_with_index do |event, i|
+    - if i.even?
+      %li
+        = render partial: "timetables/event", locals: {event: event}
+    - else
+      %li.timeline-inverted
+        = render partial: "timetables/event", locals: {event: event}
+
+  %li
+    .timeline-panel
+      .timeline-heading
+        %h4.timeline-title New Event
+      .timeline-body
+        = link_to "+ New event", new_event_path(timetable_id: timetable.id)
