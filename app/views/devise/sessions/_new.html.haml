@@ -7,8 +7,10 @@
         = form_for(:user, :url => session_path(:user)) do |f|
           %fieldset
             .form-group
+              = f.label :email, style: "color:#000"
               = f.email_field :email, :autofocus => true, class:"form-control"
             .form-group
+              = f.label :password, style: "color:#000"
               = f.password_field :password, class: "form-control"
             .checkbox
               %label

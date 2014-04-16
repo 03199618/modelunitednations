@@ -31,7 +31,11 @@ class User < ActiveRecord::Base
   end
 
   def name
-    return "#{firstname} #{surname}"
+    if firstname || surname
+      return "#{firstname} #{surname}"
+    else
+      return email
+    end
   end
 
   def self.find_for_facebook_oauth(auth)

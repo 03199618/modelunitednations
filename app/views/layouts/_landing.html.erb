@@ -31,6 +31,9 @@
         <li class="page-scroll">
           <a style="cursor: pointer" onClick="$('#sign_in_modal').modal('show');">Login</a>
         </li>
+        <li class="page-scroll">
+          <a href="#jobs">Jobs</a>
+        </li>
       </ul>
     </div>
     <!-- /.navbar-collapse -->
@@ -71,15 +74,13 @@
   <div class="download-section">
     <div class="container">
       <div class="col-lg-8 col-lg-offset-2">
-
-        <h2>Sign up</h2>
-
-        <% # render "devise/registrations/new", locals: {resource: @resource, resource_name: @resource_name} %>
-        <%= yield %>
-
+        <div class="col-lg-6 col-lg-offset-3">
+        <%= render partial: "devise/registrations/new", locals: {resource: resource, resource_name: resource_name} %>
+        <% # yield %>
+       </div>
 
 
-        <p>Sign up is and always will be free.</p>
+
 
       </div>
     </div>
@@ -92,19 +93,52 @@
       <h2>Contact</h2>
       <p>Feel free to email us to provide some feedback on our site, give us suggestions for new features or to just say hello!</p>
       <p>heythere@model-united-nations.com</p>
-      <ul class="list-inline banner-social-buttons">
+      <!--<ul class="list-inline banner-social-buttons">
         <li><a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
         </li>
         <li><a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
         </li>
         <li><a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
         </li>
-      </ul>
+      </ul>-->
     </div>
   </div>
 </section>
 
 <div id="map"></div>
+
+<section id="jobs" class="container content-section text-center">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <h1>Jobs</h1>
+      <p>We are constantly looking for opportunities to expand our team with talent!</p>
+
+      <h3>Business Operations</h3>
+      <p>Sales and Marketing Data Analyst</p>
+
+      <h3>Design</h3>
+      <p>Product Designer, Web Apps</p>
+
+      <h3>Engineering</h3>
+
+        <p>Software Architect</p>
+
+
+      <p>iOS Engineer</p>
+
+      <h3>Marketing</h3>
+        <p>Marketing Coordinator</p>
+
+      <h3>Sales</h3>
+        <p>Technical Sales Representative, North America</p>
+        <p>Account Executive</p>
+
+      <h2>If you are interested in one of the positions, just get in touch:</h2>
+      <p>jobs@model-united-nations.com</p>
+
+    </div>
+  </div>
+</section>
 
 <!-- Modal -->
 <div class="modal fade" id="sign_in_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

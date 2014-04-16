@@ -309,7 +309,6 @@
     <orderEntry type="library" scope="PROVIDED" name="capybara (v2.2.1, RVM: ruby-2.0.0-p451 [model-united-nations]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="childprocess (v0.5.2, RVM: ruby-2.0.0-p451 [model-united-nations]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="choice (v0.1.6, RVM: ruby-2.0.0-p451 [model-united-nations]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ckeditor_rails (v4.3.4, RVM: ruby-2.0.0-p451 [model-united-nations]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="climate_control (v0.0.3, RVM: ruby-2.0.0-p451 [model-united-nations]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="cocaine (v0.5.4, RVM: ruby-2.0.0-p451 [model-united-nations]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coderay (v1.1.0, RVM: ruby-2.0.0-p451 [model-united-nations]) [gem]" level="application" />

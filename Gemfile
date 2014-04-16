@@ -15,7 +15,7 @@ gem 'jbuilder', '~> 1.2'
 #Plugins being implemented
 gem 'gmaps-autocomplete-rails'
 gem 'public_activity'
-gem 'ckeditor_rails'
+#gem 'ckeditor_rails'
 gem 'non-stupid-digest-assets', '~> 1.0.4'
 gem 'omniauth-facebook'
 gem 'prawn'

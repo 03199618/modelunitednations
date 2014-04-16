@@ -11,19 +11,19 @@
 // about supported directives.
 //
 
-//= require bootstrap
+// require bootstrap
 
 //= require gmaps/google
 //= require gmaps/base
 
-//= require introjs
-//= require intros/intro_handler
-//= require intros/delegate
+// require introjs
+// require intros/intro_handler
+// require intros/delegate
 
 // require bootstrap-datetimepicker
 // require bootstrap-datetimepicker/pickers
 
 //= require turbolinks
 
-//= require ckeditor-jquery
+// require ckeditor-jquery
 
