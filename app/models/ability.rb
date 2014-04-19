@@ -8,21 +8,37 @@ class Ability
 
     user ||= User.new # guest user
 
+    log_test "Checking abilites for user"
+    log_test user.inspect
+
     if user.has_role? :administrator
+      log_test "ADMINISTRATOR"
       can :manage, :all
       can :access, :rails_admin       # only allow admin users to access Rails Admin
       can :dashboard                  # allow access to dashboard
 
-    elsif user.has_role? :delegate
+    elsif !user.id.nil? #logged in
+      log_test "USER"
 
-    elsif user.has_role? :director
-
-    else
-
-      can :manage, :all
-      can :create, Conference do
-        !user.id.nil?
+      can :create, Conference do |conference|
+        true
       end
+
+      can :read, Conference do |conference|
+        conference.participant?(user) || conference.public?
+      end
+
+      can :update, Conference do |conference|
+        conference.manager?(user)
+      end
+
+      can :destroy, Conference do |conference|
+        conference.manager?(user)
+      end
+
+
+    else #Guest
+      log_test "GUEST"
       can :read, Conference do |conference|
         conference.public?
       end

@@ -35,6 +35,18 @@ class Conference < ActiveRecord::Base
     self.participants.joins(:participant_roles).where(participant_roles: {name: "delegate"} )
   end
 
+  def manager?(user)
+    return self.participants.joins(:participant_roles).where(participant_roles: {name: "manager"} ).map(&:user_id).include? user.id
+  end
+
+  def delegate?(user)
+    return self.participants.joins(:participant_roles).where(participant_roles: {name: "delegate"} ).map(&:user_id).include? user.id
+  end
+
+  def participant?(user)
+    return self.participants.map(&:user_id).include? user.id
+  end
+
   def addManager(user)
     participant = Participant.new(user_id: user.id)
     participant.addParticipantRole("manager")
@@ -91,6 +103,10 @@ class Conference < ActiveRecord::Base
     else
       return name_helper + " (#{acronym})"
     end
+  end
+
+  def public?
+    return public
   end
 
   private

@@ -49,15 +49,29 @@ RSpec.configure do |config|
   config.include FactoryGirl::Syntax::Methods
 
   # Clean the database after each test-instance
-  config.before(:suite) do
-    DatabaseCleaner.strategy = :truncation, {:except => %w[roles, participant_roles]}
-    DatabaseCleaner.clean_with(:truncation, {:except => %w[roles, participant_roles]})
-    #load "#{Rails.root}/db/seeds.rb"
+    config.before(:suite) do
+      DatabaseCleaner.clean_with(:truncation)
+      load "#{Rails.root}/db/seeds.rb"
+    end
+
+    config.before(:each) do
+      DatabaseCleaner.strategy = :transaction
+    end
+
+    config.before(:each, :js => true) do
+      DatabaseCleaner.strategy = :truncation
+    end
+
+    config.before(:each) do
+      DatabaseCleaner.start
+    end
+
+    config.after(:each) do
+      DatabaseCleaner.clean_with(:truncation)
+    end
+
   end
-  config.before(:each) do
-    DatabaseCleaner.start
-  end
-  config.after(:each) do
-    DatabaseCleaner.clean
-  end
+
+def log_test(message)
+  Rails.logger.debug(message)
 end

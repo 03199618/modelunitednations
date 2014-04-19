@@ -72,7 +72,7 @@ end
 
 
 
-administrator = User.find_or_create_by_email :firstname => "Jakob Zeitler".dup, :email => "mail@jakob-zeitler.de".dup, :password => "munmunmun".dup, :password_confirmation => "munmunmun".dup
+administrator = User.find_or_create_by_email :firstname => "Jakob".dup, :surname => "Zeitler".dup, :email => "mail@jakob-zeitler.de".dup, :password => "munmunmun".dup, :password_confirmation => "munmunmun".dup
 administrator.initial_role = "administrator"
 puts 'Administrator: ' << administrator.name
 
