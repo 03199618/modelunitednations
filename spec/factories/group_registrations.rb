@@ -3,7 +3,7 @@
 FactoryGirl.define do
   factory :group_registration do
     conference_id 1
-    participant_group_id 1
+    participant_group
     withdrawn false
     accepted false
     rejected false

@@ -24,7 +24,9 @@ class GroupRegistration < ActiveRecord::Base
   end
 
   def name
-    name = conference.name
+    name = participant_group.name
+    name = name + " at "
+    name = name + conference.acronym
     name = name + " (withdrawn)" unless !withdrawn
     name = name + " (accepted)" unless !accepted
     return name

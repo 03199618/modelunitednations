@@ -3,9 +3,9 @@
     .panel-heading
       %h3.panel-title Sign up
     .panel-body
-      .btn.btn-block.btn-social.btn-facebook{href: user_omniauth_authorize_path(:facebook)}
+      %a.btn.btn-block.btn-social.btn-facebook{href: user_omniauth_authorize_path(:facebook)}
         %i.fa.fa-facebook
-        Sign in with Faceboob
+        Sign in with Facebook
       = form_for(resource, :as => resource_name, :url => user_registration_path) do |f|
         %h4{ style: "color:#000; font-size: 12px;"}
           = devise_error_messages!

@@ -8,17 +8,17 @@ class Ability
 
     user ||= User.new # guest user
 
-    log_test "Checking abilites for user"
-    log_test user.inspect
+    log_test "Checking abilites for user" if Rails.env.test?
+    log_test user.inspect if Rails.env.test?
 
     if user.has_role? :administrator
-      log_test "ADMINISTRATOR"
+      log_test "ADMINISTRATOR" if Rails.env.test?
       can :manage, :all
       can :access, :rails_admin       # only allow admin users to access Rails Admin
       can :dashboard                  # allow access to dashboard
 
     elsif !user.id.nil? #logged in
-      log_test "USER"
+      log_test "USER" if Rails.env.test?
 
       can :create, Conference do |conference|
         true
@@ -36,9 +36,38 @@ class Ability
         conference.manager?(user)
       end
 
+      can :create, Registration do
+        true
+      end
+
+      can :read, Registration do |registration|
+        if registration.user_id == user.id || registration.conference.manager?(user)
+          true
+        elsif !registration.participant_group.nil? && registration.participant_group.manager?(user)
+          true
+        else
+          false
+        end
+      end
+
+      can [:reject, :accept], Registration do |registration|
+        registration.conference.manager?(user)
+      end
+
+      can :create, Registration do
+        true
+      end
+
+      can :read, GroupRegistration do |registration|
+        registration.participant_group.member?(user) || registration.conference.manager?(user)
+      end
+
+      can [:reject, :accept], GroupRegistration do |registration|
+        registration.conference.manager?(user)
+      end
 
     else #Guest
-      log_test "GUEST"
+      log_test "GUEST" if Rails.env.test?
       can :read, Conference do |conference|
         conference.public?
       end

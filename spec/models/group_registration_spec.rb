@@ -15,4 +15,6 @@ describe GroupRegistration do
       group_registration.registrations.count.should be 3
     end
   end
+
+
 end

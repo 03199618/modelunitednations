@@ -1,0 +1,16 @@
+.row
+  .col-lg-12
+    %h1.page-header
+      Registrations at
+.row
+  - @conferences.each do |conference|
+    .col-lg-4
+    .panel.panel-default
+      .panel-heading
+        = conference.name
+      .panel-body
+        = conference.description
+      .panel-footer
+        = link_to "Go to #{conference.name}", conference_path(conference)
+        ,
+        = link_to "Register at #{conference.name}", new_group_registration_path(conference_id: conference.id)

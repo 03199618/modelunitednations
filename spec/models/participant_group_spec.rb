@@ -32,6 +32,16 @@ describe ParticipantGroup do
 
       expect(participant_group.manager.pluck(:id)).to include(participant_group_member.id)
     end
+
+    it "it should check a user for participation" do
+      participant_group = FactoryGirl.create(:participant_group)
+      user = FactoryGirl.create(:user)
+
+      participant_group.addParticipantGroupMember(user)
+
+      expect(participant_group.member?(user)).to be true
+    end
+
   end
 
   describe "join" do
@@ -70,4 +80,6 @@ describe ParticipantGroup do
 
     end
   end
+
+
 end

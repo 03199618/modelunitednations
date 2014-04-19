@@ -29,4 +29,6 @@ Modelunitednations::Application.configure do
 
   #As pointed out by devise install
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
+  config.ember.variant = :development
 end

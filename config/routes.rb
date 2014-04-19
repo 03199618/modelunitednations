@@ -16,7 +16,11 @@ Modelunitednations::Application.routes.draw do
       get 'placards'
     end
   end
-  resources :comittees
+  resources :comittees do
+    member do
+      get 'session'
+    end
+  end
   resources :delegations
   resources :delegates
   resources :users do
@@ -42,6 +46,7 @@ Modelunitednations::Application.routes.draw do
     member do
       put 'withdraw'
       put 'accept'
+      put 'reject'
     end
   end
 
@@ -49,11 +54,20 @@ Modelunitednations::Application.routes.draw do
     member do
       put 'withdraw'
       put 'accept'
+      put 'reject'
     end
   end
   resources :timetables
   resources :events
+
+  namespace :api do
+    namespace :v1 do
+      resources :comittees
+    end
+  end
+
   # The priority is based upon order of creation: first created -> highest priority.
+
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"

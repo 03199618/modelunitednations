@@ -11,11 +11,28 @@ describe User, "abilities" do
     let(:manager) { FactoryGirl.create(:user) }
     let(:delegate) { FactoryGirl.create(:user) }
     let(:conference) { FactoryGirl.create(:conference)}
+    let(:registration) { FactoryGirl.create(:registration)}
 
     context "when manager" do
       before { conference.addManager(manager) }
+
       subject(:ability) { Ability.new(manager) }
+
       it { should be_able_to(:update, conference) }
+
+      context "registration" do
+        let(:registration) { FactoryGirl.create(:registration, conference: conference, user_id: delegate.id)}
+        it { should be_able_to(:reject, registration) }
+        it { should be_able_to(:read, registration) }
+        it { should be_able_to(:accept, registration) }
+      end
+
+      context "group registration" do
+        let(:group_registration) { FactoryGirl.create(:group_registration, conference: conference)}
+        it { should be_able_to(:reject, group_registration) }
+        it { should be_able_to(:read, group_registration) }
+        it { should be_able_to(:accept, group_registration) }
+      end
     end
     context "when delegate" do
       before { conference.addDelegate(delegate) }

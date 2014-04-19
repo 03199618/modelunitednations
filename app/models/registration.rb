@@ -5,9 +5,12 @@ class Registration < ActiveRecord::Base
   belongs_to :conference
   belongs_to :group_registration
 
-  scope :open, -> { where(withdrawn: false) }
+  scope :open, -> { where(withdrawn: false, rejected: false, accepted: false) }
+  scope :accepted, -> { where(accepted: true) }
+  scope :rejected, -> { where(rejected: true) }
+  scope :withdrawn, -> { where(withdrawn: true) }
 
-  validates_presence_of :conference_id, :participant_group_member_id, :user_id
+  validates_presence_of :conference_id, :user_id
 
   validate :uniqueness
 
@@ -26,14 +29,22 @@ class Registration < ActiveRecord::Base
   end
 
   def accept
-    self.accepted = true
-    conference.addParticipantGroup(participant_group)
-
+    if conference.participant?(self.user)
+      errors[:base] << "This person is already participating at #{conference.name}."
+      return false
+    else
+      self.accepted = true
+      conference.addParticipant(self.user)
+      return true
+    end
   end
 
   def name
     name = user.name
-    name = name + " (#{participant_group.name})" unless !participant_group
+    name = name + " at "
+    name = name + conference.acronym
+    name = name + " (withdrawn)" unless !withdrawn
+    name = name + " (accepted)" unless !accepted
     return name
   end
 end

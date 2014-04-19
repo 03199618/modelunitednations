@@ -1,0 +1,25 @@
+.panel.panel-default
+  .panel-heading
+    = "Group registrations"
+    .pull-right
+      .btn-group
+        %button.btn.btn-default.btn-xs.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
+          Actions
+          %span.caret
+        %ul.dropdown-menu.pull-right{role: "menu"}
+          %li
+            %a{href: new_delegation_path(conference_id: conference.id)} Show all registrations
+          %li
+            %a{href: "#"} Another action
+          %li
+            %a{href: "#"} Something else here
+          %li.divider
+          %li
+            %a{href: "#"} Separated link
+  .panel-body
+    - conference.group_registrations.each do |registration|
+      = link_to registration.name, group_registration_path(registration)
+      %br
+    = link_to "See all", group_registration_path(conference_id: conference.id)
+  .panel-footer
+    = "#{pluralize(conference.group_registrations.count, "registration")}"

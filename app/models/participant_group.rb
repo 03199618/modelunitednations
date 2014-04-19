@@ -44,4 +44,8 @@ class ParticipantGroup < ActiveRecord::Base
       return true
     end
   end
+
+  def member?(user)
+    return self.participant_group_members.map(&:user_id).include? user.id
+  end
 end

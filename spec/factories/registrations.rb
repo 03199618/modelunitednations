@@ -2,7 +2,7 @@
 
 FactoryGirl.define do
   factory :registration do
-    conference_id 1
-    participant_group_member_id 1
+    user
+    conference
   end
 end

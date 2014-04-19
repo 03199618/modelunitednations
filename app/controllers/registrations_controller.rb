@@ -73,7 +73,7 @@ class RegistrationsController < ApplicationController
 
   def accept
     @registration = Registration.find(params[:id])
-    authorize! :withdraw, @registration
+    authorize! :accept, @registration
 
     @registration.accept
 
@@ -87,6 +87,7 @@ class RegistrationsController < ApplicationController
     else
       puts @registration.errors.inspect
       flash[:warning] = t("general.registrationUnsuccesfullyAccepted")
+      flash[:warning] += @registration.errors
     end
   end
 

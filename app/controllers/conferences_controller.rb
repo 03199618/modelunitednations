@@ -22,18 +22,19 @@ class ConferencesController < ApplicationController
   end
 
   def create
-    @conference = Conference.new(params[:conference].permit(:name, :description))
+    @conference = Conference.new(params[:conference].permit(:name, :acronym, :description, :topic, :website_url, :public))
+
     authorize! :create, @conference
 
     @conference.addManager(current_user)
 
     if @conference.save
       flash[:success] = t("general.conferenceCreated")
-        respond_to do |format|
-          format.xml {render :xml => @conference}
-          format.json {render :json => @conference}
-          format.html {redirect_to conference_path(id: @conference.id)}
-        end
+      respond_to do |format|
+        format.xml {render :xml => @conference}
+        format.json {render :json => @conference}
+        format.html {redirect_to conference_path(id: @conference.id)}
+      end
     else
       render 'new'
     end
@@ -49,7 +50,7 @@ class ConferencesController < ApplicationController
     authorize! :update, @conference
 
     respond_to do |format|
-      if @conference.update(params[:conference].permit(:name, :acronym))
+      if @conference.update(params[:conference].permit(:id, :name, :acronym, :description, :topic, :website_url, :public))
         format.html { redirect_to(@conference, :notice => t("conference.succesfullyUpdated")) }
         format.json { @conference }
       else
@@ -75,6 +76,12 @@ class ConferencesController < ApplicationController
     respond_to do |format|
       format.pdf { send_data @conference.placards.render, :filename => "x.pdf", :type => "application/pdf" }
     end
+  end
+
+  private
+
+  def permitted_paramaters
+
   end
 
 end

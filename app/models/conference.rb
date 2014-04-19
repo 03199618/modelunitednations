@@ -10,13 +10,10 @@ class Conference < ActiveRecord::Base
   has_many :participant_groups
   has_many :registrations, dependent: :destroy
   has_many :group_registrations, dependent: :destroy
-  has_many :timetables
+  has_many :timetables, dependent: :destroy
 
-  validates_presence_of :name
+  #validates_presence_of :name
 
-  def should_have_timetable
-
-  end
   def timetable
     result = timetables.first
     if result.nil?
@@ -63,12 +60,17 @@ class Conference < ActiveRecord::Base
 
   def addParticipantGroup(participant_group)
     participant_group.participant_group_members.each do |participant_group_member|
-      addParticipant(participant_group_member)
+      addParticipantGroupMember(participant_group_member)
     end
   end
 
-  def addParticipant(participant_group_member)
-    participant = Participant.new(participant_group_member_id: participant_group_member.id, user_id:participant_group_member.user.id,)
+  def addParticipantGroupMember(participant_group_member)
+    participant = Participant.new(participant_group_member_id: participant_group_member.id, user_id: participant_group_member.user.id,)
+    self.participants << participant
+  end
+
+  def addParticipant(user)
+    participant = Participant.new(user: user)
     self.participants << participant
   end
 
@@ -80,11 +82,11 @@ class Conference < ActiveRecord::Base
   def placards
     pdf = Prawn::Document.new
     delegates.each do |delegate|
-      move 100,100
-      pdf.text "#{delegate.delegation.name}", rotate: 90
-      move 200,200
-      pdf.text "#{delegate.delegation.name}", rotate: -90
-      start_new_page
+      #pdf.move 100,100
+      pdf.text "#{delegate.delegation.name}", rotate: 90 unless delegate.delegation.nil?
+      #pdf.move 200,200
+      pdf.text "#{delegate.delegation.name}", rotate: -90 unless delegate.delegation.nil?
+      #pdf.start_new_page
     end
     return pdf
   end
@@ -107,6 +109,10 @@ class Conference < ActiveRecord::Base
 
   def public?
     return public
+  end
+
+  def goIntoSession
+    in_session = true
   end
 
   private

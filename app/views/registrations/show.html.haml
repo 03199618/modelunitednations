@@ -1,21 +1,22 @@
 .row
   .col-lg-12
     %h1.page-header
-      Registration at
+      Registration:
       = @registration.name
-      .btn-group
-        %button.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
-          %i.fa.fa-gear.fa-fw
-          %span.caret
-        %ul.dropdown-menu.pull-right{role: "menu"}
-          %li
-            %a{href: edit_registration_path(@registration)}
-              Edit registration
-          - if !@registration.withdrawn
-            %li
-              = link_to 'Withdraw', withdraw_registration_path(@registration), {:method => :put}
-          %li
-            = link_to 'Accept', accept_registration_path(@registration), {:method => :put}
-          %li.divider
-          %li
-            %a{href: "#"} Separated link
+
+      - if !@registration.withdrawn
+        .btn-group
+          %button.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
+            %i.fa.fa-gear.fa-fw
+            %span.caret
+          %ul.dropdown-menu.pull-right{role: "menu"}
+            - if can? :withdraw, @registration
+              %li
+                = button_to 'Withdraw', withdraw_registration_path(@registration), :method => :put
+            - if can? :accept, @registration
+              %li
+                = button_to  'Accept', accept_registration_path(@registration), :method => :put
+            - if can? :reject, @registration
+              %li
+                = button_to 'Reject', reject_registration_path(@registration), :method => :put
+

@@ -2,24 +2,27 @@
   .col-lg-12
     = render partial: "layouts/page_header", locals:{resource: @conference, title: @conference.name, button_group: "button_group_title"}
 
-
-
+%h2.page-header
+  Tasks
 .row
-  %h2.page-header
-    Registrations
-  .col-lg-4
+  Assign delegates etc.
+
+
+
+%h2.page-header
+  Registrations
+.row
+
+  .col-lg-6
     = render partial: "registrations/registrations", locals: {conference: @conference}
 
-  .col-lg-4
-
-  .col-lg-4
-    = render partial: "layouts/notifications"
-
+  .col-lg-6
+    = render partial: "group_registrations/group_registrations", locals: {conference: @conference}
 
 %h2.page-header
   Discussions
 .row
-  .col-lg-4
+  .col-lg-6
     .panel.panel-default
       .panel-heading
         = "Delegations"
@@ -47,7 +50,7 @@
 
       .panel-footer
         = "#{pluralize(@conference.delegations.count, "delegation")}"
-  .col-lg-4
+  .col-lg-6
     .panel.panel-default
       .panel-heading
         = "Comittees"
@@ -77,7 +80,7 @@
 %h2.page-header
   Participants
 .row
-  .col-lg-4
+  .col-lg-6
     .panel.panel-default
       .panel-heading
         = "Participant groups"
@@ -105,7 +108,7 @@
       .panel-footer
         = "#{pluralize(@conference.participant_groups.count, "groups")}"
 
-  .col-lg-4
+  .col-lg-6
     .panel.panel-default
       .panel-heading
         = "Participants"
@@ -139,3 +142,6 @@
       Timetable
     = render partial: "timetables/timetable", locals: {timetable: @conference.timetable}
 
+
+  .col-lg-12
+    = render partial: "layouts/notifications"

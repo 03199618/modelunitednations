@@ -24,4 +24,18 @@ describe Registration do
       registration.should_not be_valid
     end
   end
+
+  describe "#accept" do
+    it "should accept a user" do
+      registration = FactoryGirl.create(:registration)
+      registration.accept
+      expect(registration.conference.participant?(registration.user)).to eq true
+    end
+
+    it "should not accept a user that is already participating" do
+      registration = FactoryGirl.create(:registration)
+      registration.accept #First time
+      expect(registration.accept).to eq false #Second time
+    end
+  end
 end

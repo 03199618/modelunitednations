@@ -11,7 +11,7 @@
 // about supported directives.
 //
 
-// require bootstrap
+//= require bootstrap
 
 //= require gmaps/google
 //= require gmaps/base
@@ -27,3 +27,12 @@
 
 // require ckeditor-jquery
 
+//= require handlebars
+//= require ember
+//= require ember-data
+//= require modelunitednations
+//= require_self
+
+
+// for more details see: http://emberjs.com/guides/application/
+Modelunitednations = Ember.Application.create();

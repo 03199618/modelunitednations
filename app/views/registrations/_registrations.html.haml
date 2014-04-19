@@ -17,9 +17,21 @@
           %li
             %a{href: "#"} Separated link
   .panel-body
-    - conference.registrations.each do |registration|
+    - conference.registrations.open.each do |registration|
       = link_to registration.name, registration_path(registration)
       %br
-    = link_to "See all", registration_path(conference_id: conference.id)
+    = link_to "See all", registrations_path(conference_id: conference.id)
   .panel-footer
     = "#{pluralize(conference.registrations.count, "registration")}"
+    - if conference.registrations.accepted.any?
+      =", "
+      = "#{conference.registrations.accepted.count} accepted"
+    - if conference.registrations.open.any?
+      =", "
+      = "#{conference.registrations.open-count} open"
+    - if conference.registrations.withdrawn.any?
+      =", "
+      = "#{conference.registrations.withdrawn.count} withdrawn"
+    - if conference.registrations.rejected.any?
+      =", "
+      = "#{conference.registrations.rejected.count} rejected"

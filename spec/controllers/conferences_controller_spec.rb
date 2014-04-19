@@ -60,8 +60,9 @@ describe ConferencesController do
 
   describe "POST #update" do
     before :each do
-      conference = FactoryGirl.create(:conference)
-      post :conference
+      @conference = FactoryGirl.create(:conference)
+      @attr = { :name => "New name", :acronym => "EPICMUN" }
+      put :update, :id => @conference.id, :conference => @attr
     end
     it "responds successfully with an HTTP 200 status code" do
 
@@ -71,6 +72,13 @@ describe ConferencesController do
 
     it "redirects_to conference" do
       expect(response).to render_template("show")
+    end
+
+    it "allows an conference to be updated" do
+
+      @conference.reload
+      @conference.name.should == @attr[:name]
+      @conference.acronym.should == @attr[:acronym]
     end
   end
 

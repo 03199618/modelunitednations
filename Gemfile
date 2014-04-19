@@ -22,6 +22,8 @@ gem 'prawn'
 gem "introjs-rails"
 gem 'datetimepicker-rails', :require => 'datetimepicker-rails', :git => 'git://github.com/zpaulovics/datetimepicker-rails.git'
 gem "font-awesome-rails"
+gem 'ember-rails'
+gem 'ember-source'
 
 #MANDATORY
 gem 'google-analytics-rails'
