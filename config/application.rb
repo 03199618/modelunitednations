@@ -25,6 +25,7 @@ module Modelunitednations
     config.cache_store = :memory_store
 
     config.assets.precompile += ['grayscale.js']
+    config.assets.precompile += ['google_analytics.js']
     config.assets.precompile += ['grayscale.css']
     config.assets.precompile += ['landing.css']
     config.assets.precompile += ['sb-admin.css']
