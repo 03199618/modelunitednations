@@ -24,6 +24,7 @@ gem 'datetimepicker-rails', :require => 'datetimepicker-rails', :git => 'git://g
 gem "font-awesome-rails"
 gem 'ember-rails'
 gem 'ember-source'
+gem 'jquery-tokeninput-rails'
 
 #MANDATORY
 gem 'google-analytics-rails'

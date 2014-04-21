@@ -21,6 +21,21 @@ describe ConferencesController do
 
       expect(assigns(:conferences)).to match_array([conference1, conference1])
     end
+    it "should filter by name" do
+      conference1 = FactoryGirl.create(:conference, name: "SWAGMUN")
+      conference2 = FactoryGirl.create(:conference, name: "FAGMUN")
+      get :index, :search => "SWAG"
+
+      expect(assigns(:conferences)).to match_array([conference1])
+    end
+
+    it "should not display not public conferences" do
+      conference1 = FactoryGirl.create(:conference, name: "SWAGMUN")
+      conference2 = FactoryGirl.create(:conference, name: "FAGMUN", public: false)
+      get :index
+
+      expect(assigns(:conferences)).to match_array([conference1])
+    end
   end
 
   describe "GET #new" do

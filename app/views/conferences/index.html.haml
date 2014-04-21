@@ -1,9 +1,17 @@
 #map{ style:'height: 400px; margin-left:-30px; margin-right: -30px;'}
 
 .row
-  .col-lg-12
-    %h1.page-header
-      Conferences
+  = form_tag conferences_path, :method => :get, class:"form-search", style: "margin-top:-225px;", id:"search" do
+    .col-md-6.col-md-offset-3.input-group.input-group-lg.margin-top-20
+      = text_field_tag :search, params[:search], :placeholder => "Conference, Location", :class => "form-control", data: {"pre" =>  Conference.all.map(&:name).to_json }
+      .input-group-btn
+        = submit_tag "Search", class: "btn btn-success btn-lg", type:"submit"
+
+
+.row
+
+  %h1.page-header
+    Conferences
 .row
   - @conferences.each do |conference|
     .col-lg-4
@@ -56,20 +64,11 @@
 
   var map = new google.maps.Map(document.getElementById('map'), myOptions);
   //map.addMarkers(#{raw @hash.to_json });
-  alert(map);
-  marker = new google.maps.Marker({
-                  position: new google.maps.LatLng(23.72, 72.100),
-                  map: map,
-              });
-  map.map.addMarkers([
-                           {
-                             "lat": 0,
-                             "lng": 0,
-                             "picture": {
-                               "url": "https://addons.cdn.mozilla.net/img/uploads/addon_icons/13/13028-64.png",
-                               "width":  36,
-                               "height": 36
-                             },
-                             "infowindow": "hello!"
-                           }
-                         ]);
+
+  /*$(function() {
+    $("#search").tokenInput(".json", {
+      crossDomain: false,
+      prePopulate: $("#search").data("pre"),
+      theme: "mac"
+    });
+  });*/

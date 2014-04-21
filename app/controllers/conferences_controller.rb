@@ -15,6 +15,12 @@ class ConferencesController < ApplicationController
     @conferences = Conference.all
     authorize! :index, Conference
 
+    if !params[:search].nil? && params[:search] != ""
+      @conferences = @conferences.where("name ilike ?", "%#{params[:search]}%")
+    end
+
+    @conferences = @conferences.where(public: true)
+
     @markers = Gmaps4rails.build_markers(@conference) do |conference, marker|
       marker.lat user.latitude
       marker.lng user.longitude
