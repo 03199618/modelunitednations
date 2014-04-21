@@ -13,7 +13,12 @@ class ConferencesController < ApplicationController
 
   def index
     @conferences = Conference.all
-    authorize! :show, @conferences
+    authorize! :index, Conference
+
+    @markers = Gmaps4rails.build_markers(@conference) do |conference, marker|
+      marker.lat user.latitude
+      marker.lng user.longitude
+    end
   end
 
   def new

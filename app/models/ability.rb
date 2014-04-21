@@ -24,9 +24,11 @@ class Ability
         true
       end
 
-      can :read, Conference do |conference|
+      can :show, Conference do |conference|
         conference.participant?(user) || conference.public?
       end
+
+      can :index, Conference
 
       can :update, Conference do |conference|
         conference.manager?(user)
@@ -67,6 +69,7 @@ class Ability
       end
 
     else #Guest
+      can :index, Conference
       log_test "GUEST" if Rails.env.test?
       can :read, Conference do |conference|
         conference.public?

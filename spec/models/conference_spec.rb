@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 describe Conference do
+  subject(:conference) {FactoryGirl.create(:conference)}
   describe "manager" do
     it "it should be able to add a manager" do
       conference = FactoryGirl.create(:conference)
@@ -89,7 +90,7 @@ describe Conference do
 
   describe "participant" do
 
-    it "it should check a user for participation" do
+    it "should check a user for participation" do
       conference = FactoryGirl.create(:conference)
       participant = FactoryGirl.create(:user)
 
@@ -100,6 +101,23 @@ describe Conference do
       expect(conference.participant?(participant)).to be true
     end
 
+
+
+  end
+
+  describe "location" do
+    it { should respond_to :latitude}
+    it { should respond_to :longitude}
+
+    it { should respond_to :street}
+    it { should respond_to :city}
+    it { should respond_to :zipcode}
+    it { should respond_to :state}
+    it { should respond_to :country}
+
+    it { should respond_to :full_address}
+    let(:full_address) {subject.street + ", " + subject.city + ", " +subject.zipcode + ", " +subject.state + ", " +subject.country}
+    it { expect{ subject.full_address}.to eq full_address }
 
 
   end

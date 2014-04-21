@@ -66,7 +66,10 @@ describe User, "abilities" do
 
     end
 
-    describe
+    describe "index" do
+      subject(:ability) { Ability.new(nil) }
+      it { should be_able_to(:index, conference) }
+    end
   end
 
 end

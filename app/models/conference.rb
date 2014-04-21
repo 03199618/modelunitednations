@@ -12,7 +12,10 @@ class Conference < ActiveRecord::Base
   has_many :group_registrations, dependent: :destroy
   has_many :timetables, dependent: :destroy
 
-  #validates_presence_of :name
+  validates_presence_of :name
+
+  geocoded_by :full_address
+  after_validation :geocode, if: ->(obj){ obj.street.present? and obj.street_changed? }
 
   def timetable
     result = timetables.first
@@ -115,6 +118,10 @@ class Conference < ActiveRecord::Base
     in_session = true
   end
 
+  def full_address
+    [street, city, zipcode, state, country].compact.join(', ')
+  end
+
   private
 
   def name_helper
@@ -124,4 +131,6 @@ class Conference < ActiveRecord::Base
       return read_attribute(:name)
     end
   end
+
+
 end
