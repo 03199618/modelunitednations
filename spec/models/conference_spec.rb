@@ -77,6 +77,7 @@ describe Conference do
   describe "name" do
     it "should require a name" do
       conference = FactoryGirl.build(:conference)
+      conference.addManager(FactoryGirl.create(:user))
       conference.name = nil
       conference.should_not be_valid
     end

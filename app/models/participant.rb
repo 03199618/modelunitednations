@@ -43,7 +43,7 @@ class Participant < ActiveRecord::Base
   def name
 
     if user.nil?
-      return "UNKNOWN"
+      return self.participant_roles.first.name.capitalize
     else
       name = self.user.name
       name = name + ", " + self.participant_roles.first.name.capitalize unless self.participant_roles.first.name == "delegate"

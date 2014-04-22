@@ -15,14 +15,14 @@ describe User do
   describe "completeness" do
     it "it should return a profile completeness" do
       user = FactoryGirl.create(:user)
-      expect(user.completeness).to eq 1
+      expect(user.completeness).to eq 100
     end
 
     it "it should return a profile incompleteness" do
       user = FactoryGirl.create(:user)
       user.surname = nil
       user.save
-      expect(user.completeness).to eq 0.66
+      expect(user.completeness).to eq 75
     end
 
   end

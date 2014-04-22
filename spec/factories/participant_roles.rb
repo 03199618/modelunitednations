@@ -2,6 +2,6 @@
 
 FactoryGirl.define do
   factory :participant_role do
-    name "MyText"
+    name "Role"
   end
 end

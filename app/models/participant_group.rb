@@ -10,7 +10,7 @@ class ParticipantGroup < ActiveRecord::Base
   end
 
   def manager
-    self.participant_group_members.join(:participant_group_role).where(participant_group_role: {name: "manager"}).first.user
+    self.participant_group_members.join(:participant_group_role).where(participant_group_roles: {name: "manager"}).first.user
   end
 
   def addManager(user)
