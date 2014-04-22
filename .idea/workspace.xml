@@ -2,29 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230275e5-48d9-4aa0-bf99-afe6cd5b3d7f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/abilites_spec.rb" afterPath="$PROJECT_DIR$/spec/models/abilites_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/ability.rb" afterPath="$PROJECT_DIR$/app/models/ability.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/conference.rb" afterPath="$PROJECT_DIR$/app/models/conference.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/conference_spec.rb" afterPath="$PROJECT_DIR$/spec/models/conference_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/events_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/events_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/group_registration.rb" afterPath="$PROJECT_DIR$/app/models/group_registration.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/group_registration_spec.rb" afterPath="$PROJECT_DIR$/spec/models/group_registration_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/group_registrations.rb" afterPath="$PROJECT_DIR$/spec/factories/group_registrations.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/group_registrations_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/group_registrations_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/group_registrations_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/group_registrations_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modelunitednations.iml" afterPath="$PROJECT_DIR$/.idea/modelunitednations.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/events/new.html.haml" afterPath="$PROJECT_DIR$/app/views/events/new.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/participant_group.rb" afterPath="$PROJECT_DIR$/app/models/participant_group.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/participant_group_spec.rb" afterPath="$PROJECT_DIR$/spec/models/participant_group_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/participant_groups.rb" afterPath="$PROJECT_DIR$/spec/factories/participant_groups.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/registration_spec.rb" afterPath="$PROJECT_DIR$/spec/models/registration_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/group_registrations/show.html.haml" afterPath="$PROJECT_DIR$/app/views/group_registrations/show.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="modelunitednations.iws" />
@@ -884,7 +861,11 @@
       <created>1398104280457</created>
       <updated>1398104280457</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Abilites, Timetable">
+      <created>1398168457413</created>
+      <updated>1398168457413</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -962,7 +943,8 @@
     <MESSAGE value="Conference: Search" />
     <MESSAGE value="Google Analytics" />
     <MESSAGE value="Assets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assets" />
+    <MESSAGE value="Abilites, Timetable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abilites, Timetable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
