@@ -15,6 +15,13 @@ class GroupRegistration < ActiveRecord::Base
 
   def withdraw
     self.withdrawn = true
+    self.registrations.each do |registration|
+      registration.withdraw
+
+      if !registration.save
+        errors[:base] << "Registration of #{registration.user.name} could not be withdrawn."
+      end
+    end
   end
 
   def accept
@@ -36,8 +43,7 @@ class GroupRegistration < ActiveRecord::Base
 
   def register_participant_group_members
     participant_group.participant_group_members.each do |m|
-      registration = Registration.new(user_id: m.user_id, participant_group_member_id: m.id, conference_id: self.conference.id, group_registration_id: self.id)
-      registration.save
+      self.conference.addRegistration(m.user, m, self)
     end
   end
 

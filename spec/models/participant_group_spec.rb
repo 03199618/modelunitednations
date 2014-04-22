@@ -21,6 +21,15 @@ describe ParticipantGroup do
       expect(participant_group.manager.pluck(:id)).to include(participant_group_member.id)
 
     end
+
+    it "it should check a user for management" do
+      participant_group = FactoryGirl.create(:participant_group)
+      user = FactoryGirl.create(:user)
+
+      participant_group.addManager(user)
+
+      expect(participant_group.manager?(user)).to be true
+    end
   end
 
   describe "member" do

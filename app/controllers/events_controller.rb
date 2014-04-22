@@ -15,13 +15,14 @@ class EventsController < ApplicationController
   end
 
   def new
-    @event = Event.new
+    @timetable = Timetable.find(params[:timetable_id])
+    @event = @timetable.events.new
     authorize! :create, @event
   end
 
   def create
     @timetable = Timetable.find(params[:event][:timetable_id])
-    @event = @timetable.events.new(params[:event].permit(:name, :starts_at, :ends_at, :description))
+    @event = @timetable.events.new(params[:event].permit(:name, :starts_at, :ends_at, :description, :timetable_id))
     authorize! :create, @event
 
     if @event.save

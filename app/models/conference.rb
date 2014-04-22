@@ -47,6 +47,13 @@ class Conference < ActiveRecord::Base
     return self.participants.map(&:user_id).include? user.id
   end
 
+  def addRegistration(user, participant_group_member = nil, group_registration = nil)
+    registration = Registration.new(user: user, conference_id: self.id)
+    registration.participant_group_member = participant_group_member unless participant_group_member.nil?
+    registration.group_registration = group_registration unless participant_group_member.nil?
+    registration.save
+  end
+
   def addManager(user)
     participant = Participant.new(user_id: user.id)
     participant.addParticipantRole("manager")

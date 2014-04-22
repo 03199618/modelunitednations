@@ -15,9 +15,6 @@ class ParticipantGroup < ActiveRecord::Base
 
   def addManager(user)
     return addParticipantGroupMember(user, "manager")
-    participant_group_member = ParticipantGroupMember.new(user_id: user.id, participant_group_id: self.id)
-    participant_group_member.addParticipantGroupRole("manager")
-    participant_group_member.save
   end
 
   def key(email)
@@ -47,5 +44,9 @@ class ParticipantGroup < ActiveRecord::Base
 
   def member?(user)
     return self.participant_group_members.map(&:user_id).include? user.id
+  end
+
+  def manager?(user)
+    return self.participant_group_members.joins(:participant_group_roles).where(participant_group_roles: {name: "manager"} ).map(&:user_id).include? user.id
   end
 end

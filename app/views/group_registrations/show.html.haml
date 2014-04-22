@@ -8,14 +8,12 @@
           %i.fa.fa-gear.fa-fw
           %span.caret
         %ul.dropdown-menu.pull-right{role: "menu"}
-          %li
-            %a{href: edit_group_registration_path(@group_registration)}
-              Edit group_registration
-          - if !@group_registration.withdrawn
+          - if can? :withdraw, @group_registration
             %li
-              = link_to 'Withdraw', withdraw_group_registration_path(@group_registration), {:method => :put}
-          %li
-            = link_to 'Accept', accept_group_registration_path(@group_registration), {:method => :put}
-          %li.divider
-          %li
-            %a{href: "#"} Separated link
+              = button_to 'Withdraw', withdraw_group_registration_path(@group_registration), :method => :put
+          - if can? :accept, @group_registration
+            %li
+              = button_to  'Accept', accept_group_registration_path(@group_registration), :method => :put
+          - if can? :reject, @group_registration
+            %li
+              = button_to 'Reject', reject_group_registration_path(@group_registration), :method => :put

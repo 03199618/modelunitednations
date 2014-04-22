@@ -20,8 +20,7 @@
 // require intros/intro_handler
 // require intros/delegate
 
-// require bootstrap-datetimepicker
-// require bootstrap-datetimepicker/pickers
+//= require bootstrap-datetimepicker
 
 //= require turbolinks
 

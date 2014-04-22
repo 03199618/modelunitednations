@@ -61,19 +61,17 @@ class GroupRegistrationsController < ApplicationController
 
     if @group_registration.save
       flash[:success] = t("general.group_registrationSuccessfullyWithdrawn")
-      respond_to do |format|
-        format.xml {render :xml => @group_registration}
-        format.json {render :json => @group_registration}
-        format.html {redirect_to group_registration_path(id: @group_registration.id)}
-      end
+      redirect_to group_registration_path(@group_registration)
+
     else
-      flash[:warning] = t("general.group_registrationUnsuccessfullyWithdrawn")
+      flash[:alert] = t("general.group_registrationUnsuccessfullyWithdrawn")
+      redirect_to group_registration_path(@group_registration)
     end
 
   end
 
   def accept
-    @group_registration = group_registration.find(params[:id])
+    @group_registration = GroupRegistration.find(params[:id])
     authorize! :withdraw, @group_registration
 
     @group_registration.accept

@@ -38,4 +38,12 @@ describe Registration do
       expect(registration.accept).to eq false #Second time
     end
   end
+
+  describe "#withdraw" do
+    it "should withdraw a registration" do
+      registration = FactoryGirl.create(:registration)
+      registration.withdraw
+      expect(registration.withdrawn).to eq true
+    end
+  end
 end

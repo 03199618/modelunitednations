@@ -121,4 +121,31 @@ describe Conference do
 
 
   end
+
+  describe "registration" do
+
+    it "should register a user" do
+      conference = FactoryGirl.create(:conference)
+      applicant = FactoryGirl.create(:user)
+
+
+
+      conference.addRegistration(applicant)
+
+      expect(conference.registrations.pluck(:user_id)).to eq([applicant.id])
+
+    end
+
+    it "should not register a user twice" do
+      conference = FactoryGirl.create(:conference)
+      applicant = FactoryGirl.create(:user)
+
+
+
+      conference.addRegistration(applicant)
+
+      expect(conference.addRegistration(applicant)).to be false
+
+    end
+  end
 end

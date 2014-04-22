@@ -20,6 +20,8 @@ class Ability
     elsif !user.id.nil? #logged in
       log_test "USER" if Rails.env.test?
 
+
+      #Conference
       can :create, Conference do |conference|
         true
       end
@@ -37,6 +39,8 @@ class Ability
       can :destroy, Conference do |conference|
         conference.manager?(user)
       end
+
+      #Registration
 
       can :create, Registration do
         true
@@ -60,6 +64,20 @@ class Ability
         true
       end
 
+      #Event
+
+      can :create, Event do |event|
+
+        puts event.inspect
+        event.timetable.conference.manager?(user)
+      end
+
+      #GroupRegistration
+
+      can :create, GroupRegistration do
+        true
+      end
+
       can :read, GroupRegistration do |registration|
         registration.participant_group.member?(user) || registration.conference.manager?(user)
       end
@@ -67,6 +85,33 @@ class Ability
       can [:reject, :accept], GroupRegistration do |registration|
         registration.conference.manager?(user)
       end
+
+      can :withdraw, GroupRegistration do |registration|
+        registration.participant_group.manager?(user) && !registration.withdrawn
+      end
+
+      #ParticipantGroup
+
+      can :create, ParticipantGroup do
+        true
+      end
+
+      can :read, ParticipantGroup do |group|
+        group.member?(user)
+      end
+
+      can :index, ParticipantGroup do |group|
+        false
+      end
+
+      can :update, ParticipantGroup do |group|
+        group.manager?(user)
+      end
+
+      can :destroy, ParticipantGroup do |group|
+        group.manager?(user)
+      end
+
 
     else #Guest
       can :index, Conference

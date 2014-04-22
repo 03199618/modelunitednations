@@ -20,11 +20,11 @@ gem 'non-stupid-digest-assets', '~> 1.0.4'
 gem 'omniauth-facebook'
 gem 'prawn'
 gem "introjs-rails"
-gem 'datetimepicker-rails', :require => 'datetimepicker-rails', :git => 'git://github.com/zpaulovics/datetimepicker-rails.git'
 gem "font-awesome-rails"
 gem 'ember-rails'
 gem 'ember-source'
 gem 'jquery-tokeninput-rails'
+gem 'bootstrap-datetimepicker-rails'
 
 #MANDATORY
 gem 'google-analytics-rails'
