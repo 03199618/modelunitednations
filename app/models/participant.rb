@@ -3,13 +3,14 @@ class Participant < ActiveRecord::Base
   tracked except: [:create, :destroy]
 
   has_and_belongs_to_many :participant_roles, join_table: "participants_participant_roles"
-  has_and_belongs_to_many :comittees
 
   belongs_to :conference
   belongs_to :participant_group_member
   belongs_to :user
   has_one :delegate
   has_many :resolutions, through: :delegate
+  has_many :committee_members
+  has_many :committees, through: :committee_members
   has_one :delegation, through: :delegate
 
 

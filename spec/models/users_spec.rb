@@ -26,4 +26,19 @@ describe User do
     end
 
   end
+
+  describe "familiartiy" do
+    it "it should return common conferences" do
+      user = FactoryGirl.create(:user)
+      familiar_user = FactoryGirl.create(:user)
+
+      conference = FactoryGirl.create(:conference)
+      conference.addParticipant(user)
+      conference.addParticipant(familiar_user)
+
+      user.common_conferences(familiar_user).should eq [conference]
+      user.common_conferences(familiar_user).any?.should eq true
+    end
+
+  end
 end

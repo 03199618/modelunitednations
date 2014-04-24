@@ -53,7 +53,7 @@
   .col-lg-6
     .panel.panel-default
       .panel-heading
-        = "Comittees"
+        = "Committees"
         .pull-right
           .btn-group
             %button.btn.btn-default.btn-xs.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
@@ -75,7 +75,7 @@
           %br
         = link_to "+ Add comittee", new_comittee_path(conference_id: @conference.id)
       .panel-footer
-        = "#{pluralize(@conference.comittees.count, "comittees")}"
+        = "#{pluralize(@conference.comittees.count, "committees")}"
 
 %h2.page-header
   Participants

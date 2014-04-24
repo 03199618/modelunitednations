@@ -33,7 +33,7 @@ class ConferencesController < ApplicationController
   end
 
   def create
-    @conference = Conference.new(params[:conference].permit(:name, :acronym, :description, :topic, :website_url, :public))
+    @conference = Conference.new(params[:conference].permit(:name, :acronym, :description, :topic, :website_url, :public, :organizer, :starts_at, :ends_at, :size))
 
     authorize! :create, @conference
 
@@ -41,11 +41,8 @@ class ConferencesController < ApplicationController
 
     if @conference.save
       flash[:success] = t("general.conferenceCreated")
-      respond_to do |format|
-        format.xml {render :xml => @conference}
-        format.json {render :json => @conference}
-        format.html {redirect_to conference_path(id: @conference.id)}
-      end
+      redirect_to conference_path(id: @conference.id)
+
     else
       render 'new'
     end
@@ -61,7 +58,7 @@ class ConferencesController < ApplicationController
     authorize! :update, @conference
 
     respond_to do |format|
-      if @conference.update(params[:conference].permit(:id, :name, :acronym, :description, :topic, :website_url, :public))
+      if @conference.update(params[:conference].permit(:id, :name, :acronym, :description, :topic, :website_url, :public,  :starts_at, :ends_at, :size))
         format.html { redirect_to(@conference, :notice => t("conference.succesfullyUpdated")) }
         format.json { @conference }
       else

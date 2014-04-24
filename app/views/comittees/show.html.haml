@@ -21,6 +21,26 @@
             %a{href: "#"} Separated link
 
 .row
+  - if can? :create, @comittee.comittee_sessions.new
+    .col-lg-4
+      .panel.panel-primary
+        .panel-heading
+          = "Session"
+        .panel-body
+          %p
+            In a session you can appoint speakers, hold votings and impose breaks.
+          = button_to 'Go into Session', new_comittee_session_path(committee_id: @comittee.id), class: "btn btn-primary"
+
+  - if true #can? :create, @comittee.anouncements.new
+    .col-lg-4
+      .panel.panel-info
+        .panel-heading
+          = "Announcement"
+        .panel-body
+          %p
+            An announcement will be passed to all delegates.
+          = button_to 'Create announcement', new_comittee_session_path(committee_id: @comittee.id), class: "btn btn-info"
+
   - if @comittee.description
 
     .col-lg-4
@@ -68,3 +88,5 @@
 
       .panel-footer
         = "#{pluralize(@comittee.delegates.count, "delegate")}"
+
+

@@ -54,5 +54,40 @@ describe GroupRegistration do
     end
   end
 
+  describe "status" do
+    before :each do
+      participant_group = FactoryGirl.create(:participant_group)
+      1.upto(3) do
+        participant_group.addParticipantGroupMember(FactoryGirl.create(:user))
+      end
+      conference = FactoryGirl.create(:conference)
+      @group_registration = FactoryGirl.build(:group_registration, conference_id: conference.id, participant_group: participant_group)
+      @group_registration.save
+    end
+
+    describe "it should return its status" do
+      it "should be withdrawn" do
+
+        @group_registration.withdraw
+        @group_registration.save
+        @group_registration.status.should eq "withdrawn"
+      end
+
+      it "should be rejected" do
+
+        @group_registration.reject
+        @group_registration.save
+        @group_registration.status.should eq "rejected"
+      end
+
+      it "should be accepted" do
+
+        @group_registration.accept
+        @group_registration.save
+        @group_registration.status.should eq "accepted"
+      end
+    end
+  end
+
 
 end

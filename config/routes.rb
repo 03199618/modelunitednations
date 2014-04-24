@@ -21,6 +21,7 @@ Modelunitednations::Application.routes.draw do
       get 'session'
     end
   end
+  resources :comittee_sessions
   resources :delegations
   resources :delegates
   resources :users do

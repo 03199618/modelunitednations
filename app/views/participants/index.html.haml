@@ -1,0 +1,42 @@
+.row
+  .col-lg-12
+    = render partial: "layouts/page_header", locals:{resource: nil, title: "Participants", button_group: nil}
+
+.row
+  .col-lg-12
+
+    .table-responsive
+      %table.table.table-striped.table-bordered.table-hover
+        %thead
+          %tr
+            %th First Name
+            %th Last Name
+            %th Role
+            %th Delegation
+            %th Group
+            %th Committee
+        %tbody
+          - @participants.each do |participant|
+            %tr
+              %td
+                = participant.user.firstname
+              %td
+                = participant.user.surname
+              %td
+                = participant.participant_roles.first.name.capitalize
+              %td
+                - if !participant.delegation.nil?
+                  = participant.delegation.name
+                - else
+                  = "not assigned"
+              %td
+                - if !participant.participant_group_member.nil?
+                  = participant.participant_group_member.participant_group.name
+                - else
+                  = "none"
+              %td
+                - if false # !participant.committee_members.any?
+                  - participant.committees.each do |committee|
+                    = committee.name
+                - else
+                  = "not assigned"

@@ -12,6 +12,9 @@ class Conference < ActiveRecord::Base
   has_many :group_registrations, dependent: :destroy
   has_many :timetables, dependent: :destroy
 
+  has_attached_file :logo, :styles => { :thumb => "18x18>", :circle => "50x50>" }, :default_url => "/images/conferences/:style/missing.png"
+  validates_attachment_content_type :logo, :content_type => /\Aimage\/.*\Z/
+
   validates_presence_of :name
 
   geocoded_by :full_address
@@ -105,7 +108,7 @@ class Conference < ActiveRecord::Base
     if read_attribute(:acronym).nil?
       return name
     else
-      return acronym
+      return read_attribute(:acronym)
     end
   end
 
@@ -113,7 +116,7 @@ class Conference < ActiveRecord::Base
     if read_attribute(:acronym).nil?
       return name_helper
     else
-      return name_helper + " (#{acronym})"
+      return read_attribute(:name)
     end
   end
 
@@ -133,7 +136,7 @@ class Conference < ActiveRecord::Base
 
   def name_helper
     if read_attribute(:name).nil?
-      return "#{self.managers.first.name}'s Conference"
+      return read_attribute(:name) #"#{self.managers.first.name}'s Conference"
     else
       return read_attribute(:name)
     end

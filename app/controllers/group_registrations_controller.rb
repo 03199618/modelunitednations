@@ -65,6 +65,7 @@ class GroupRegistrationsController < ApplicationController
 
     else
       flash[:alert] = t("general.group_registrationUnsuccessfullyWithdrawn")
+      flash[:alert] += @group_registration.errors.full_messages.to_sentence
       redirect_to group_registration_path(@group_registration)
     end
 

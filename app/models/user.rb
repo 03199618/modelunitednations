@@ -77,6 +77,11 @@ class User < ActiveRecord::Base
   def calculate_completeness
     self.completeness = completeness_helper([:surname, :firstname, :profile_picture])
   end
+
+  def common_conferences(user)
+    Conference.find((user.conferences.pluck(:id) & self.conferences.pluck(:id)))
+  end
+
   private
 
   def completeness_helper(attributes)
@@ -117,5 +122,7 @@ class User < ActiveRecord::Base
   def create_example_data
 
   end
+
+
 
 end

@@ -25,9 +25,21 @@
       .panel-heading
         Information
       .panel-body
-        Email:
-        = @user.email
-        %br
-        Joined
-        = time_ago_in_words(@user.created_at)
-        ago
+        - if can? :read_full_profile, @user
+          = @user.name
+          goes to
+          - if current_user.common_conferences(@user).any?
+            - current_user.common_conferences(@user).each do |conference|
+              = link_to conference_path(conference) do
+                = "#{conference.name}"
+              = ","
+            too.
+            %br
+            %br
+
+          Email:
+          = @user.email
+          %br
+          Joined
+          = time_ago_in_words(@user.created_at)
+          ago

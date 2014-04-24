@@ -14,7 +14,8 @@ class ComitteesController < ApplicationController
   end
 
   def new
-    @comittee = Comittee.new
+    @conference = Conference.find(params[:conference_id])
+    @comittee = @conference.comittees.new
     authorize! :create, @comittee
   end
 

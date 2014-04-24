@@ -20,9 +20,14 @@
         <a href="<%= conferences_path %>" id="step-side-navigation-conferences"><i class="fa fa-bar-chart-o fa-fw"></i> Conferences<!--<span class="fa arrow"></span>--></a>
         <ul class="nav nav-second-level">
           <% current_user.conferences.distinct.each do |conference|%>
-            <li>
-              <%= link_to conference.name, conference_path(id: conference.id) %>
-            </li>
+              <li>
+                <%= link_to conference_path(id: conference.id) do %>
+                    <%= conference.name %>
+                    <% if conference.manager?(current_user)%>
+                    <%= "(Manager)"%>
+                    <%end %>
+                <% end %>
+              </li>
            <% end %>
           <li>
             <%= link_to "+ New conference", new_conference_path%>
@@ -48,7 +53,13 @@
         <ul class="nav nav-second-level">
           <% current_user.participant_groups.distinct.each do |participant_group|%>
               <li>
-                <%= link_to participant_group.name, participant_group_path(id: participant_group.id) %>
+
+                <%= link_to participant_group_path(id: participant_group.id) do %>
+                    <%= participant_group.name %>
+                    <% if participant_group.manager?(current_user)%>
+                        <%= "(Manager)"%>
+                    <% end %>
+                <% end %>
               </li>
           <% end %>
           <li>

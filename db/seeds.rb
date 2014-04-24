@@ -14,6 +14,20 @@ roles.each do |name, i|
   end
 end
 
+#Committee roles
+puts "COMMITTEE ROLES"
+roles = ["chair", "delegate", "director"]
+roles.each do |name, i|
+  role = CommitteeRole.new
+  role.name = name
+  if CommitteeRole.where(name: role.name).blank?
+    puts "Role:" << role.name
+    role.save
+  else
+    puts "Skipped role:" << role.name
+  end
+end
+
 #Resolution submitters roles
 puts "RESOLUTION SUBMITTERS ROLES"
 roles = ["mainsubmitter", "cosubmitter"]
@@ -67,6 +81,20 @@ considerations.each do |name, i|
     consideration.save
   else
     puts "Skipped consideration:" << consideration.name
+  end
+end
+
+#ConferenceCategory
+puts "CONFERENCE CATEGORIES"
+categories = ["highschool", "university", "military", "elementary"]
+categories.each do |name, i|
+  category = ConferenceCategory.new
+  category.name = name
+  if ConferenceCategory.where(name: category.name).blank?
+    puts "Category:" << category.name
+    category.save
+  else
+    puts "Skipped catgeory:" << category.name
   end
 end
 

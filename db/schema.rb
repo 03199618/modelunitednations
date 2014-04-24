@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140421110513) do
+ActiveRecord::Schema.define(version: 20140424114952) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -41,6 +41,13 @@ ActiveRecord::Schema.define(version: 20140421110513) do
     t.integer  "conference_id"
   end
 
+  create_table "comittee_sessions", force: true do |t|
+    t.integer  "comittee_id"
+    t.datetime "ended_at"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "comittees", force: true do |t|
     t.text     "name"
     t.text     "description"
@@ -60,11 +67,36 @@ ActiveRecord::Schema.define(version: 20140421110513) do
     t.integer "comittee_id"
   end
 
+  create_table "committee_members", force: true do |t|
+    t.integer  "comittee_id"
+    t.integer  "participant_id"
+    t.integer  "committee_role_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "committee_members_committee_roles", id: false, force: true do |t|
+    t.integer "committee_role_id"
+    t.integer "committee_member_id"
+  end
+
+  create_table "committee_roles", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "conference_categories", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "conferences", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
     t.text     "name"
-    t.boolean  "public",      default: true
+    t.boolean  "public",            default: true
     t.text     "description"
     t.text     "acronym"
     t.text     "topic"
@@ -77,6 +109,13 @@ ActiveRecord::Schema.define(version: 20140421110513) do
     t.text     "state"
     t.text     "country"
     t.text     "street"
+    t.datetime "starts_at"
+    t.datetime "ends_at"
+    t.integer  "size"
+    t.string   "logo_file_name"
+    t.string   "logo_content_type"
+    t.integer  "logo_file_size"
+    t.datetime "logo_updated_at"
   end
 
   create_table "delegates", force: true do |t|

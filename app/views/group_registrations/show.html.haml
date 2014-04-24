@@ -1,19 +1,82 @@
 .row
   .col-lg-12
     %h1.page-header
-      Registration at
-      = @group_registration.conference.name
-      .btn-group
-        %button.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
-          %i.fa.fa-gear.fa-fw
-          %span.caret
-        %ul.dropdown-menu.pull-right{role: "menu"}
-          - if can? :withdraw, @group_registration
-            %li
-              = button_to 'Withdraw', withdraw_group_registration_path(@group_registration), :method => :put
-          - if can? :accept, @group_registration
-            %li
-              = button_to  'Accept', accept_group_registration_path(@group_registration), :method => :put
-          - if can? :reject, @group_registration
-            %li
-              = button_to 'Reject', reject_group_registration_path(@group_registration), :method => :put
+      Registration of
+      = @group_registration.participant_group.name
+      at
+      = @group_registration.conference.acronym
+      = "(#{@group_registration.status})"
+.row
+  .col-lg-4
+    .panel.panel-default
+      .panel-heading
+        = "As delegate"
+      .panel-body
+        - @group_registration.participant_group.participant_group_members.each do |member|
+          = link_to member.name, user_path(member.user)
+          %br
+
+      .panel-footer
+        = "#{pluralize(@group_registration.participant_group.participant_group_members.count, "registrant")}"
+  .col-lg-4
+    .panel.panel-default
+      .panel-heading
+        = "As chair"
+      .panel-body
+        - @group_registration.participant_group.participant_group_members.each do |member|
+          = link_to member.name, user_path(member.user)
+          %br
+
+      .panel-footer
+        = "#{pluralize(@group_registration.participant_group.participant_group_members.count, "registrant")}"
+  .col-lg-4
+    .panel.panel-default
+      .panel-heading
+        = "As director"
+      .panel-body
+        - @group_registration.participant_group.participant_group_members.each do |member|
+          = link_to member.name, user_path(member.user)
+          %br
+
+      .panel-footer
+        = "#{pluralize(@group_registration.participant_group.participant_group_members.count, "registrant")}"
+
+.row
+
+  - if can? :withdraw, @group_registration
+    .col-lg-4
+      .panel.panel-warning
+        .panel-heading
+          = "Withdraw this registration"
+        .panel-body
+          By withdrawing your registration to
+          = @group_registration.conference.name
+          its conference manager will not any more be able to accept you the conference.
+
+          = button_to 'Withdraw', withdraw_group_registration_path(@group_registration), :method => :put, class: "btn btn-warning"
+
+
+  - if can? :accept, @group_registration
+    .col-lg-4
+      .panel.panel-success
+        .panel-heading
+          = "Accept this registration"
+        .panel-body
+          By accepting
+          = @group_registration.participant_group.name
+          to your conference all members will be added to your conference. You can then assign the group a whole delegation, so they can decide their positions on their own or you can assign them on your own.
+          = button_to  'Accept', accept_group_registration_path(@group_registration), :method => :put, class: "btn btn-success"
+
+  - if can? :reject, @group_registration
+    .col-lg-4
+      .panel.panel-danger
+        .panel-heading
+          = "Reject this group"
+        .panel-body
+          By rejecting the registration of
+          = @group_registration.participant_group.name
+          to your conference this group will be informed of their rejection.
+
+          = button_to 'Reject', reject_group_registration_path(@group_registration), :method => :put, class: "btn btn-danger"
+
+

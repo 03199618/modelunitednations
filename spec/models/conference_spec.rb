@@ -77,7 +77,6 @@ describe Conference do
   describe "name" do
     it "should require a name" do
       conference = FactoryGirl.build(:conference)
-      conference.addManager(FactoryGirl.create(:user))
       conference.name = nil
       conference.should_not be_valid
     end
@@ -86,6 +85,39 @@ describe Conference do
       conference = FactoryGirl.build(:conference)
       conference.acronym = nil
       conference.acronym.should eq conference.name
+    end
+  end
+
+  describe "date" do
+    it "should require a start date" do
+      conference = FactoryGirl.build(:conference)
+      conference.starts_at = nil
+      conference.should_not be_valid
+    end
+
+    it "should require a start date" do
+      conference = FactoryGirl.build(:conference)
+      conference.ends_at = nil
+      conference.should_not be_valid
+    end
+  end
+
+  describe "size" do
+    it "should have a size" do
+      conference = FactoryGirl.build(:conference)
+      conference.should respond_to :size
+    end
+  end
+
+  describe "public" do
+    it "should have be public" do
+      conference = FactoryGirl.build(:conference)
+      conference.public?.should eq true
+    end
+
+    it "should have be not public" do
+      conference = FactoryGirl.build(:conference, public: false)
+      conference.public?.should eq false
     end
   end
 

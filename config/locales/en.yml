@@ -20,4 +20,9 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  conference:
+    category:
+      highschool: "High school"
+      military: "Military"
+      university: "University"
+      elementary: "Elementary school"

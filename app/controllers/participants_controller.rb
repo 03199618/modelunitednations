@@ -11,7 +11,11 @@ class ParticipantsController < ApplicationController
   end
 
   def index
-    redirect_to root_path
+    @conference = Conference.find(params[:conference_id])
+
+    authorize! :index_participants, @conference
+
+    @participants = @conference.participants
   end
 
   def new

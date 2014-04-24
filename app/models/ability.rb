@@ -21,10 +21,26 @@ class Ability
       log_test "USER" if Rails.env.test?
 
 
-      #Conference
-      can :create, Conference do |conference|
-        true
+      #User
+      can :read, User
+
+      can :read_full_profile, User do |u|
+        u.id == user.id || user.common_conferences(u).any?
       end
+
+
+      cannot :index, User
+
+      can :update, User do |u|
+        u.id == user.id
+      end
+
+      can :destroy, User do |u|
+        u.id == user.id
+      end
+
+      #Conference
+      can :create, Conference
 
       can :show, Conference do |conference|
         conference.participant?(user) || conference.public?
@@ -32,12 +48,52 @@ class Ability
 
       can :index, Conference
 
+      can :index_participants, Conference do |conference|
+        conference.manager?(user)
+      end
+
       can :update, Conference do |conference|
         conference.manager?(user)
       end
 
       can :destroy, Conference do |conference|
         conference.manager?(user)
+      end
+
+      #Comittee
+
+      can :create, Comittee do |comittee|
+        comittee.conference.manager?(user)
+      end
+
+      can :read, Comittee do |comittee|
+        comittee.conference.public? || comittee.conference.participant?(user)
+      end
+
+      can :update, Comittee do |comittee|
+        comittee.conference.manager?(user)
+      end
+
+      can :destroy, Comittee do |comittee|
+        comittee.conference.manager?(user)
+      end
+
+      #Comittee session
+
+      can :create, ComitteeSession do |session|
+        session.conference.manager?(user)
+      end
+
+      can :read, ComitteeSession do |session|
+        false
+      end
+
+      can :update, ComitteeSession do |session|
+        false
+      end
+
+      can :destroy, ComitteeSession do |session|
+        false
       end
 
       #Registration

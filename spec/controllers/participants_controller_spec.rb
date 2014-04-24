@@ -25,19 +25,22 @@ describe ParticipantsController do
   end
 
   describe "GET #index" do
+    before :each do
+      @conference = FactoryGirl.create(:conference)
+      get :index, conference_id:@conference.id
+    end
     it "responds successfully with an HTTP 200 status code" do
-      get :index
+
       expect(response).to be_success
       expect(response.status).to eq(200)
     end
 
     it "renders the index template" do
-      get :index
       expect(response).to render_template("index")
     end
 
-    it "should redirect to root_path" do
-      page.should have_content "Dashboard"
+    it "should show all participants" do
+      page.should have_content "Participants"
     end
   end
 

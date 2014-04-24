@@ -8,7 +8,7 @@ class GroupRegistration < ActiveRecord::Base
   validate :uniqueness
 
   def uniqueness
-    if GroupRegistration.where(participant_group_id: self.participant_group_id, conference_id: self.conference_id).any? && !accepted
+    if self.new_record? && GroupRegistration.where(participant_group_id: self.participant_group_id, conference_id: self.conference_id).any? && !accepted
       errors[:base] << "You have already registered at #{conference.name}."
     end
   end
@@ -37,6 +37,13 @@ class GroupRegistration < ActiveRecord::Base
     name = name + " (withdrawn)" unless !withdrawn
     name = name + " (accepted)" unless !accepted
     return name
+  end
+
+  def status
+    return "withdrawn" unless !withdrawn
+    return "rejected" unless !rejected
+    return "accepted" unless !accepted
+    return "pending"
   end
 
   private
