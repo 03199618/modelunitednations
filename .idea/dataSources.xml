@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2918939752">
+    <data-source source="LOCAL" name="Rails model-united-nations-rails: development" uuid="5ebed0e2-f5a9-434e-88d7-a4bcbff816a2">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:modelunitednations_development</jdbc-url>
+      <user-name>modelunitednations</user-name>
+      <user-password>df9bdf98df99df9edf9fdf9cdf9ddf92</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails model-united-nations-rails: test" uuid="333cd53e-1ef2-4107-a339-ee560518341c">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:modelunitednations_test</jdbc-url>
+      <user-name>modelunitednations</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails model-united-nations-rails: production" uuid="2dfd438e-5418-4409-a512-c72ee2271fb3">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:modelunitednations_production</jdbc-url>
+      <user-name>modelunitednations</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails model-united-nations-rails: cucumber" uuid="f3a9ba4e-ce13-4d72-8cb7-df496755bc8c">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:modelunitednations_test</jdbc-url>
+      <user-name>modelunitednations</user-name>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
