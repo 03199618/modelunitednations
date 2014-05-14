@@ -1,11 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="230275e5-48d9-4aa0-bf99-afe6cd5b3d7f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modelunitednations.iml" />
+    <list default="true" id="e49ce9e0-cad6-4e83-aab6-7e25d5c88ced" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140425201436_create_announcements.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/announcements_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/controllers/announcements_controller_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/announcements_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/helpers/announcements_helper_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/announcements/new.html.haml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modelunitednations.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__modelunitednations.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Production__modelunitednations.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/spec__modelunitednations.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/test__modelunitednations.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20140329154140_create_announcements.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/timetables/_timetable.html.haml" afterPath="$PROJECT_DIR$/app/views/timetables/_timetable.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/abilites_spec.rb" afterPath="$PROJECT_DIR$/spec/models/abilites_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/ability.rb" afterPath="$PROJECT_DIR$/app/models/ability.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/announcement.rb" afterPath="$PROJECT_DIR$/app/models/announcement.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/announcement_spec.rb" afterPath="$PROJECT_DIR$/spec/models/announcement_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/announcements.rb" afterPath="$PROJECT_DIR$/spec/factories/announcements.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/comittee.rb" afterPath="$PROJECT_DIR$/app/models/comittee.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/group_registration.rb" afterPath="$PROJECT_DIR$/app/models/group_registration.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/group_registrations_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/group_registrations_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/group_registrations_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/group_registrations_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/model-united-nations-rails.iml" afterPath="$PROJECT_DIR$/.idea/model-united-nations-rails.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/participant_group.rb" afterPath="$PROJECT_DIR$/app/models/participant_group.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/participant_group_spec.rb" afterPath="$PROJECT_DIR$/spec/models/participant_group_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/participant_groups_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/participant_groups_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/participant_groups_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/participant_groups_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/comittees/show.html.haml" afterPath="$PROJECT_DIR$/app/views/comittees/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/conferences/show.html.haml" afterPath="$PROJECT_DIR$/app/views/conferences/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/group_registrations/show.html.haml" afterPath="$PROJECT_DIR$/app/views/group_registrations/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/show.html.haml" afterPath="$PROJECT_DIR$/app/views/users/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <ignored path="modelunitednations.iws" />
+    <ignored path="model-united-nations-rails.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,150 +52,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities_participant_group_when_manager_group_registration__modelunitednations.coverage" NAME="User abilities participant group when manager group registration: modelunitednations Coverage Results" MODIFIED="1398164877998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroup_manager__modelunitednations.coverage" NAME="ParticipantGroup manager: modelunitednations Coverage Results" MODIFIED="1396453144324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ConferencesController_POST__update_allows_an_conference_to_be_updated__modelunitednations.coverage" NAME="ConferencesController POST #update allows an conference to be updated: modelunitednations Coverage Results" MODIFIED="1397914435191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Conference_participant__modelunitednations.coverage" NAME="Conference participant: modelunitednations Coverage Results" MODIFIED="1397901215613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Comittee__modelunitednations.coverage" NAME="Comittee: modelunitednations Coverage Results" MODIFIED="1398341610444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities_conferences_when_manager_events__modelunitednations.coverage" NAME="User abilities conferences when manager events: modelunitednations Coverage Results" MODIFIED="1398167617481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@WelcomeController_GET__index__modelunitednations.coverage" NAME="WelcomeController GET #index: modelunitednations Coverage Results" MODIFIED="1396629941068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ConferencesController_POST__create__modelunitednations.coverage" NAME="ConferencesController POST #create: modelunitednations Coverage Results" MODIFIED="1398198282936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities_users_when_user__modelunitednations.coverage" NAME="User abilities users when user: modelunitednations Coverage Results" MODIFIED="1398201506909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Delegate_associations__modelunitednations.coverage" NAME="Delegate associations: modelunitednations Coverage Results" MODIFIED="1396392060762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroupsController_should_have_a_current_user__modelunitednations.coverage" NAME="ParticipantGroupsController should have a current_user: modelunitednations Coverage Results" MODIFIED="1396819624087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroup_manager_it_should_be_able_to_add_a_manager__modelunitednations.coverage" NAME="ParticipantGroup manager it should be able to add a manager: modelunitednations Coverage Results" MODIFIED="1396453598139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Comittee_chair_it_should_return_all_managers__modelunitednations.coverage" NAME="Comittee chair it should return all managers: modelunitednations Coverage Results" MODIFIED="1398341140900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Comittee_delegate__modelunitednations.coverage" NAME="Comittee delegate: modelunitednations Coverage Results" MODIFIED="1398341330897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Conference_registration_should_register_a_user__modelunitednations.coverage" NAME="Conference registration should register a user: modelunitednations Coverage Results" MODIFIED="1398163724980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroup_name__modelunitednations.coverage" NAME="ParticipantGroup name: modelunitednations Coverage Results" MODIFIED="1396957898591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Registrations__modelunitednations.coverage" NAME="Registrations: modelunitednations Coverage Results" MODIFIED="1396552081834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Conference_location__modelunitednations.coverage" NAME="Conference location: modelunitednations Coverage Results" MODIFIED="1398079223120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@assets_clobber__modelunitednations.coverage" NAME="assets:clobber: modelunitednations Coverage Results" MODIFIED="1397027581259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Comittee_name_should_have_a_name__modelunitednations.coverage" NAME="Comittee name should have a name: modelunitednations Coverage Results" MODIFIED="1396447012180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ComitteesController_GET__show___modelunitednations.coverage" NAME="ComitteesController GET #show': modelunitednations Coverage Results" MODIFIED="1398337594769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@GroupRegistrationsController__modelunitednations.coverage" NAME="GroupRegistrationsController: modelunitednations Coverage Results" MODIFIED="1398165574704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroupsController_GET__invite__modelunitednations.coverage" NAME="ParticipantGroupsController GET #invite: modelunitednations Coverage Results" MODIFIED="1396820796019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Participant_name__modelunitednations.coverage" NAME="Participant name: modelunitednations Coverage Results" MODIFIED="1396473082477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Run_spec__abilites_spec___modelunitednations.coverage" NAME="Run spec 'abilites_spec': modelunitednations Coverage Results" MODIFIED="1397664301283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Comittee_chair__modelunitednations.coverage" NAME="Comittee chair: modelunitednations Coverage Results" MODIFIED="1398339299783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ConferencesController_POST__update__modelunitednations.coverage" NAME="ConferencesController POST #update: modelunitednations Coverage Results" MODIFIED="1397914471414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities_conferences_index__modelunitednations.coverage" NAME="User abilities conferences index: modelunitednations Coverage Results" MODIFIED="1398076532914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@UsersController_GET__edit__modelunitednations.coverage" NAME="UsersController GET #edit: modelunitednations Coverage Results" MODIFIED="1396878949726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@registrations_controller.coverage" NAME="registrations_controller Coverage Results" MODIFIED="1396877937796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers/devise" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities_conferences_when_manager_comittee_sessions__modelunitednations.coverage" NAME="User abilities conferences when manager comittee sessions: modelunitednations Coverage Results" MODIFIED="1398338318992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_familiartiy__modelunitednations.coverage" NAME="User familiartiy: modelunitednations Coverage Results" MODIFIED="1398203339007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroupsController_GET__join__modelunitednations.coverage" NAME="ParticipantGroupsController GET #join: modelunitednations Coverage Results" MODIFIED="1396820233332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@RegistrationsController_GET__index__modelunitednations.coverage" NAME="RegistrationsController GET #index: modelunitednations Coverage Results" MODIFIED="1397926455455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@db_create__modelunitednations.coverage" NAME="db:create: modelunitednations Coverage Results" MODIFIED="1396183160282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Conference_name_should_return_its_name_on_missing_acronym__modelunitednations.coverage" NAME="Conference name should return its name on missing acronym: modelunitednations Coverage Results" MODIFIED="1398191519296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Comittee_chair_it_should_check_a_user_for_chairing__modelunitednations.coverage" NAME="Comittee chair it should check a user for chairing: modelunitednations Coverage Results" MODIFIED="1398341422780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroup_join__modelunitednations.coverage" NAME="ParticipantGroup join: modelunitednations Coverage Results" MODIFIED="1396820151460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@db_drop__modelunitednations.coverage" NAME="db:drop: modelunitednations Coverage Results" MODIFIED="1396559037890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@spec__modelunitednations.coverage" NAME="spec: modelunitednations Coverage Results" MODIFIED="1398172697070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/model-united-nations-rails@Development__model_united_nations_rails.coverage" NAME="Development: model-united-nations-rails Coverage Results" MODIFIED="1398358296663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Delegate_ambassador_should_be_able_to_return_its_ambassador_status__modelunitednations.coverage" NAME="Delegate ambassador should be able to return its ambassador status: modelunitednations Coverage Results" MODIFIED="1396448755242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Conference_delegate_it_should_check_a_user_for_being_a_delegate__modelunitednations.coverage" NAME="Conference delegate it should check a user for being a delegate: modelunitednations Coverage Results" MODIFIED="1397754938560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@GroupRegistration_withdrawel_should_withdraw_all_registrations_as_well__modelunitednations.coverage" NAME="GroupRegistration withdrawel should withdraw all registrations as well: modelunitednations Coverage Results" MODIFIED="1398166649365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities_conferences_not_public_comittees__modelunitednations.coverage" NAME="User abilities conferences not public comittees: modelunitednations Coverage Results" MODIFIED="1398270990433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Conference__modelunitednations.coverage" NAME="Conference: modelunitednations Coverage Results" MODIFIED="1397755193626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Conference_delegate_it_should_be_able_to_add_a_delegate__modelunitednations.coverage" NAME="Conference delegate it should be able to add a delegate: modelunitednations Coverage Results" MODIFIED="1397755111611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ComitteeSession_comittee_should_have_a_comittee__modelunitednations.coverage" NAME="ComitteeSession comittee should have a comittee: modelunitednations Coverage Results" MODIFIED="1398338109924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ConferencesController_GET__index_should_not_display_not_public_conferences__modelunitednations.coverage" NAME="ConferencesController GET #index should not display not public conferences: modelunitednations Coverage Results" MODIFIED="1398083556843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Comittee_topics__modelunitednations.coverage" NAME="Comittee topics: modelunitednations Coverage Results" MODIFIED="1396540096738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Participant_participant_role_it_should_raise_an_error_on_incorrect_participant_role__modelunitednations.coverage" NAME="Participant participant role it should raise an error on incorrect participant role: modelunitednations Coverage Results" MODIFIED="1396301522420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities_conferences_when_delegate__modelunitednations.coverage" NAME="User abilities conferences when delegate: modelunitednations Coverage Results" MODIFIED="1397911282346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@db_reset__modelunitednations.coverage" NAME="db:reset: modelunitednations Coverage Results" MODIFIED="1396109202351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities_group_registrations__modelunitednations.coverage" NAME="User abilities group registrations: modelunitednations Coverage Results" MODIFIED="1398165172326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@db_schema_dump__modelunitednations.coverage" NAME="db:schema:dump: modelunitednations Coverage Results" MODIFIED="1396187167970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Conference_registration_should_not_register_a_user_twice__modelunitednations.coverage" NAME="Conference registration should not register a user twice: modelunitednations Coverage Results" MODIFIED="1398164071535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities_participant_group_when_member__modelunitednations.coverage" NAME="User abilities participant group when member: modelunitednations Coverage Results" MODIFIED="1398105756999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities_conferences_when_manager_comittees__modelunitednations.coverage" NAME="User abilities conferences when manager comittees: modelunitednations Coverage Results" MODIFIED="1398270843812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities_users__modelunitednations.coverage" NAME="User abilities users: modelunitednations Coverage Results" MODIFIED="1398202848430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Participant__modelunitednations.coverage" NAME="Participant: modelunitednations Coverage Results" MODIFIED="1396300786623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_completeness__modelunitednations.coverage" NAME="User completeness: modelunitednations Coverage Results" MODIFIED="1396903825725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ConferencesController_GET__index_should_filter_by_name__modelunitednations.coverage" NAME="ConferencesController GET #index should filter by name: modelunitednations Coverage Results" MODIFIED="1398083509851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Development__modelunitednations.coverage" NAME="Development: modelunitednations Coverage Results" MODIFIED="1398324508189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ComitteesController_Get__new__modelunitednations.coverage" NAME="ComitteesController Get #new: modelunitednations Coverage Results" MODIFIED="1398269687524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@group_registrations_show_html_haml_displays_the_group_members__modelunitednations.coverage" NAME="group_registrations/show.html.haml displays the group members: modelunitednations Coverage Results" MODIFIED="1398188588380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@db_structure_dump__modelunitednations.coverage" NAME="db:structure:dump: modelunitednations Coverage Results" MODIFIED="1396109320459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@GroupRegistration_registraions_should_register_the_members_of_the_group__modelunitednations.coverage" NAME="GroupRegistration registraions should register the members of the group: modelunitednations Coverage Results" MODIFIED="1396957621888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@GroupRegistration_registrations_should_register_the_members_of_the_group__modelunitednations.coverage" NAME="GroupRegistration registrations should register the members of the group: modelunitednations Coverage Results" MODIFIED="1398166452607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroup_member_it_should_check_a_user_for_participation__modelunitednations.coverage" NAME="ParticipantGroup member it should check a user for participation: modelunitednations Coverage Results" MODIFIED="1397917029302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities_conferences_when_manager_group_registration__modelunitednations.coverage" NAME="User abilities conferences when manager group registration: modelunitednations Coverage Results" MODIFIED="1397917309611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Rails_console__modelunitednations.coverage" NAME="Rails console: modelunitednations Coverage Results" MODIFIED="1398202049775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Comittee_topics_it_should_be_able_to_add_a_topic__modelunitednations.coverage" NAME="Comittee topics it should be able to add a topic: modelunitednations Coverage Results" MODIFIED="1396540031216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroup_join_it_should_not_be_possible_to_join_the_group_twice__modelunitednations.coverage" NAME="ParticipantGroup join it should not be possible to join the group twice: modelunitednations Coverage Results" MODIFIED="1396907175709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@db_rollback__modelunitednations.coverage" NAME="db:rollback: modelunitednations Coverage Results" MODIFIED="1396107046024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ConferencesController_GET__index_shoudl_not_display_not_public_conferences__modelunitednations.coverage" NAME="ConferencesController GET #index shoudl not display not public conferences: modelunitednations Coverage Results" MODIFIED="1398083315586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Production__modelunitednations.coverage" NAME="Production: modelunitednations Coverage Results" MODIFIED="1398097806827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Conference_delegate__modelunitednations.coverage" NAME="Conference delegate: modelunitednations Coverage Results" MODIFIED="1396302485513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Delegation_name__modelunitednations.coverage" NAME="Delegation name: modelunitednations Coverage Results" MODIFIED="1396390377009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@db_migrate__modelunitednations.coverage" NAME="db:migrate: modelunitednations Coverage Results" MODIFIED="1396988211174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@erd__modelunitednations.coverage" NAME="erd: modelunitednations Coverage Results" MODIFIED="1396955266163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Conference_name_should_require_a_name__modelunitednations.coverage" NAME="Conference name should require a name: modelunitednations Coverage Results" MODIFIED="1398191466063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Conference_manager_it_should_check_a_user_for_management__modelunitednations.coverage" NAME="Conference manager it should check a user for management: modelunitednations Coverage Results" MODIFIED="1397754876411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities_conferences_not_public__modelunitednations.coverage" NAME="User abilities conferences not public: modelunitednations Coverage Results" MODIFIED="1398104803643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Delegation_name_should_have_a_ambassador__modelunitednations.coverage" NAME="Delegation name should have a ambassador: modelunitednations Coverage Results" MODIFIED="1396389389119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Registration_accept__modelunitednations.coverage" NAME="Registration#accept: modelunitednations Coverage Results" MODIFIED="1398162951522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Conference_date__modelunitednations.coverage" NAME="Conference date: modelunitednations Coverage Results" MODIFIED="1398198295059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities_conferences_when_manager__modelunitednations.coverage" NAME="User abilities conferences when manager: modelunitednations Coverage Results" MODIFIED="1398269006280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroup__modelunitednations.coverage" NAME="ParticipantGroup: modelunitednations Coverage Results" MODIFIED="1396958141395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@All_specs_in_models__modelunitednations.coverage" NAME="All specs in models: modelunitednations Coverage Results" MODIFIED="1398173129190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_completeness_it_should_return_a_profile_completeness__modelunitednations.coverage" NAME="User completeness it should return a profile completeness: modelunitednations Coverage Results" MODIFIED="1396903968845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@rails_admin_install__modelunitednations.coverage" NAME="rails_admin:install: modelunitednations Coverage Results" MODIFIED="1396109070911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ResolutionsController__modelunitednations.coverage" NAME="ResolutionsController: modelunitednations Coverage Results" MODIFIED="1396635311731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroupsController_member__modelunitednations.coverage" NAME="ParticipantGroupsController member: modelunitednations Coverage Results" MODIFIED="1396984036098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities_conferences_when_delegate_registration__modelunitednations.coverage" NAME="User abilities conferences when delegate registration: modelunitednations Coverage Results" MODIFIED="1398105015200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroupsController__modelunitednations.coverage" NAME="ParticipantGroupsController: modelunitednations Coverage Results" MODIFIED="1396983989481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@DelegatesController_DELETE__destroy__modelunitednations.coverage" NAME="DelegatesController DELETE #destroy: modelunitednations Coverage Results" MODIFIED="1396905897025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities_conferences_when_manager_timetable__modelunitednations.coverage" NAME="User abilities conferences when manager timetable: modelunitednations Coverage Results" MODIFIED="1398167470581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroup_key__modelunitednations.coverage" NAME="ParticipantGroup key: modelunitednations Coverage Results" MODIFIED="1396875827311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ResolutionsController_GET__show__modelunitednations.coverage" NAME="ResolutionsController GET #show: modelunitednations Coverage Results" MODIFIED="1396638167340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Registration_accept_should_not_accept_a_user_that_is_already_participating__modelunitednations.coverage" NAME="Registration#accept should not accept a user that is already participating: modelunitednations Coverage Results" MODIFIED="1398105045570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities_conferences_when_manager_participants__modelunitednations.coverage" NAME="User abilities conferences when manager participants: modelunitednations Coverage Results" MODIFIED="1398342149153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_intro__modelunitednations.coverage" NAME="User intro: modelunitednations Coverage Results" MODIFIED="1396902748462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Conference_public__modelunitednations.coverage" NAME="Conference public: modelunitednations Coverage Results" MODIFIED="1398269239177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Conference_manager_it_should_return_all_managers__modelunitednations.coverage" NAME="Conference manager it should return all managers: modelunitednations Coverage Results" MODIFIED="1396302284139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Run_spec__index_html_haml_spec___modelunitednations.coverage" NAME="Run spec 'index.html.haml_spec': modelunitednations Coverage Results" MODIFIED="1396629377913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities_widgets__modelunitednations.coverage" NAME="User abilities widgets: modelunitednations Coverage Results" MODIFIED="1397753100066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@db_setup__modelunitednations.coverage" NAME="db:setup: modelunitednations Coverage Results" MODIFIED="1396559150152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities_participant_group__modelunitednations.coverage" NAME="User abilities participant group: modelunitednations Coverage Results" MODIFIED="1398162789355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Topic_resolution__modelunitednations.coverage" NAME="Topic resolution: modelunitednations Coverage Results" MODIFIED="1396638742909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ConferencesController_DELETE__destroy__modelunitednations.coverage" NAME="ConferencesController DELETE #destroy: modelunitednations Coverage Results" MODIFIED="1396980774907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Registrations_conferences_should_have_a_conference__modelunitednations.coverage" NAME="Registrations conferences should have a conference: modelunitednations Coverage Results" MODIFIED="1396552004792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@users_settings_html_haml__modelunitednations.coverage" NAME="users/settings.html.haml: modelunitednations Coverage Results" MODIFIED="1396969909547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantGroup_manager_it_should_check_a_user_for_management__modelunitednations.coverage" NAME="ParticipantGroup manager it should check a user for management: modelunitednations Coverage Results" MODIFIED="1398105736707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ConferencesController_GET__index__modelunitednations.coverage" NAME="ConferencesController GET #index: modelunitednations Coverage Results" MODIFIED="1396189787895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@db_seed__modelunitednations.coverage" NAME="db:seed: modelunitednations Coverage Results" MODIFIED="1396978293580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@UsersController_GET__settings__modelunitednations.coverage" NAME="UsersController GET #settings: modelunitednations Coverage Results" MODIFIED="1396971442822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ConferencesController_GET__edit__modelunitednations.coverage" NAME="ConferencesController GET #edit: modelunitednations Coverage Results" MODIFIED="1396881543614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Conference_manager_it_should_be_able_to_add_a_manager__modelunitednations.coverage" NAME="Conference manager it should be able to add a manager: modelunitednations Coverage Results" MODIFIED="1398268997276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities_users_when_going_to_the_same_conference__modelunitednations.coverage" NAME="User abilities users when going to the same conference: modelunitednations Coverage Results" MODIFIED="1398203398774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Comittee_chair_it_should_be_able_to_add_a_chair__modelunitednations.coverage" NAME="Comittee chair it should be able to add a chair: modelunitednations Coverage Results" MODIFIED="1398341012666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ConferencesController_GET__index_filter_by_name__modelunitednations.coverage" NAME="ConferencesController GET #index filter by name: modelunitednations Coverage Results" MODIFIED="1398083101197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Delegation_conference_should_have_a_conference__modelunitednations.coverage" NAME="Delegation conference should have a conference: modelunitednations Coverage Results" MODIFIED="1396552434558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities__modelunitednations.coverage" NAME="User abilities: modelunitednations Coverage Results" MODIFIED="1398162906153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Conference_manager__modelunitednations.coverage" NAME="Conference manager: modelunitednations Coverage Results" MODIFIED="1397834888738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities_conferences_public__modelunitednations.coverage" NAME="User abilities conferences public: modelunitednations Coverage Results" MODIFIED="1397908234170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@CommitteeMember__modelunitednations.coverage" NAME="CommitteeMember: modelunitednations Coverage Results" MODIFIED="1398340985101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@EventsController_POST__create__modelunitednations.coverage" NAME="EventsController POST #create: modelunitednations Coverage Results" MODIFIED="1396988603793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Conference_name__modelunitednations.coverage" NAME="Conference name: modelunitednations Coverage Results" MODIFIED="1396302141609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ResolutionsController_GET__index__modelunitednations.coverage" NAME="ResolutionsController GET #index: modelunitednations Coverage Results" MODIFIED="1396633542267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@ParticipantsController_GET__index__modelunitednations.coverage" NAME="ParticipantsController GET #index: modelunitednations Coverage Results" MODIFIED="1398341904201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@GroupRegistration_status__modelunitednations.coverage" NAME="GroupRegistration status: modelunitednations Coverage Results" MODIFIED="1398188943795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@welcome_index_html_erb__modelunitednations.coverage" NAME="welcome/index.html.erb: modelunitednations Coverage Results" MODIFIED="1396629251995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Comittee_name__modelunitednations.coverage" NAME="Comittee name: modelunitednations Coverage Results" MODIFIED="1398339150463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@User_abilities_conferences_when_delegate_comittees__modelunitednations.coverage" NAME="User abilities conferences when delegate comittees: modelunitednations Coverage Results" MODIFIED="1398338162152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@GroupRegistration_registraions__modelunitednations.coverage" NAME="GroupRegistration registraions: modelunitednations Coverage Results" MODIFIED="1398163925650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@assets_precompile__modelunitednations.coverage" NAME="assets:precompile: modelunitednations Coverage Results" MODIFIED="1397028641338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Registration_withdraw__modelunitednations.coverage" NAME="Registration#withdraw: modelunitednations Coverage Results" MODIFIED="1398166639243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Delegate_ambassador__modelunitednations.coverage" NAME="Delegate ambassador: modelunitednations Coverage Results" MODIFIED="1396448274943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@GroupRegistration_withdrawel__modelunitednations.coverage" NAME="GroupRegistration withdrawel: modelunitednations Coverage Results" MODIFIED="1398166506143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@participant_groups_controller.coverage" NAME="participant_groups_controller Coverage Results" MODIFIED="1396820159355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@conference.coverage" NAME="conference Coverage Results" MODIFIED="1398191516313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/models" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@group_registrations_show_html_haml_status__modelunitednations.coverage" NAME="group_registrations/show.html.haml status: modelunitednations Coverage Results" MODIFIED="1398191244268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Participant_participant_role_it_should_be_able_to_add_a_participant_role__modelunitednations.coverage" NAME="Participant participant role it should be able to add a participant role: modelunitednations Coverage Results" MODIFIED="1396301286273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
-    <SUITE FILE_PATH="coverage/modelunitednations@Registration__modelunitednations.coverage" NAME="Registration: modelunitednations Coverage Results" MODIFIED="1396955605726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="modelunitednations" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@Development__model_united_nations_rails.coverage" NAME="Development: model-united-nations-rails Coverage Results" MODIFIED="1400075905144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -168,18 +62,15 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="modelunitednations" />
+    <favorites_list name="model-united-nations-rails" />
   </component>
   <component name="FileEditorManager">
     <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
-      <setting name="OPEN_NEW_TAB" value="false" />
+      <setting name="OPEN_NEW_TAB" value="true" />
     </FindUsagesManager>
-  </component>
-  <component name="GeneratorOptions">
-    <option name="ENVIRONMENT" value="development" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -187,57 +78,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/models/registration_spec.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="dbtable:/1c2424db/126ee1be-48a5-44fb-a594-d0100ccf641a/modelunitednations_development.public.timetables" />
-        <option value="$PROJECT_DIR$/app/controllers/events_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/events/new.html.haml" />
-        <option value="$PROJECT_DIR$/app/models/participant_group.rb" />
-        <option value="$PROJECT_DIR$/spec/factories/participant_roles.rb" />
-        <option value="$PROJECT_DIR$/app/views/devise/registrations/_new.html.haml" />
-        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/spec/models/group_registration_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/views/group_registrations/show.html.haml_spec.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/group_registrations_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/group_registration.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
-        <option value="$PROJECT_DIR$/config/locales/en.yml" />
-        <option value="$PROJECT_DIR$/app/models/conference_category.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_side_navigation.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/group_registrations/show.html.haml" />
-        <option value="$PROJECT_DIR$/db/migrate/20140422212924_add_logo_to_conference.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/spec/models/users_spec.rb" />
-        <option value="$PROJECT_DIR$/app/views/conferences/new.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/conferences/edit.html.haml" />
-        <option value="$PROJECT_DIR$/app/controllers/conferences_controller.rb" />
-        <option value="dbtable:/1c2424db/126ee1be-48a5-44fb-a594-d0100ccf641a/modelunitednations_development.public.conferences" />
-        <option value="$PROJECT_DIR$/app/views/conferences/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/models/conference.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/comittees_controller.rb" />
-        <option value="$PROJECT_DIR$/spec/controllers/comittees_controller_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/models/conference_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/models/comittee_session_spec.rb" />
-        <option value="$PROJECT_DIR$/app/models/comittee_session.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/comittees/show.html.haml" />
         <option value="$PROJECT_DIR$/app/views/conferences/show.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/users/show.html.haml" />
-        <option value="$PROJECT_DIR$/db/migrate/20140424114952_committee_member_to_committee_role.rb" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/spec/models/committee_member_spec.rb" />
-        <option value="$PROJECT_DIR$/app/models/committee_role.rb" />
-        <option value="$PROJECT_DIR$/app/models/committee_member.rb" />
-        <option value="$PROJECT_DIR$/spec/models/comittee_spec.rb" />
-        <option value="$PROJECT_DIR$/app/models/comittee.rb" />
-        <option value="$PROJECT_DIR$/spec/controllers/participants_controller_spec.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/participants_controller.rb" />
-        <option value="$PROJECT_DIR$/spec/models/abilites_spec.rb" />
-        <option value="$PROJECT_DIR$/app/models/ability.rb" />
-        <option value="$PROJECT_DIR$/app/models/participant.rb" />
-        <option value="$PROJECT_DIR$/app/views/participants/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/timetables/_timetable.html.haml" />
       </list>
     </option>
   </component>
@@ -254,33 +96,14 @@
     <option name="width" value="1769" />
     <option name="height" value="939" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Rails</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>RailsParamDefResolve</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -299,7 +122,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -318,41 +141,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model-united-nations-rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model-united-nations-rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model-united-nations-rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model-united-nations-rails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,233 +151,13 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets/stylesheets" />
-    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../brokenmusic/Development" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
-    <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistory" value="" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="220" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="221" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="225" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1018" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="220" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="221" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="225" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1018" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/app/assets/images/conferences/original" />
-      <recent name="$PROJECT_DIR$/app/assets/javascripts" />
-      <recent name="$PROJECT_DIR$/app/views/registrations" />
-      <recent name="$PROJECT_DIR$/app/views/events" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/images/conferences/circle" />
-      <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="$PROJECT_DIR$/app/assets/images/conferences/circle" />
-      <recent name="$PROJECT_DIR$/app/assets/images/conferences/original" />
-      <recent name="$PROJECT_DIR$/app/assets/images" />
-    </key>
   </component>
   <component name="RunManager" selected="Rails.Development: model-united-nations-rails">
-    <configuration default="false" name="Comittee delegate: modelunitednations" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="modelunitednations" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/comittee_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Comittee delegate" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Comittee chair it should check a user for chairing: modelunitednations" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="modelunitednations" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/comittee_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Comittee chair it should check a user for chairing" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Comittee: modelunitednations" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="modelunitednations" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/comittee_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Comittee" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ParticipantsController GET #index: modelunitednations" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="modelunitednations" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/participants_controller_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ParticipantsController GET #index" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="User abilities conferences when manager participants: modelunitednations" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="modelunitednations" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/abilites_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="User abilities conferences when manager participants" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -637,341 +208,47 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
-      <module name="" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="IrbRunConfigurationType" factoryName="IRB console">
-      <module name="" />
-      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="" />
-      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
-      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="ANSICON" value="" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method />
-    </configuration>
     <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
       <option name="VM_PARAMETERS" value="" />
       <option name="USER_CFG_CLASS" />
       <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
-    <list size="13">
-      <item index="0" class="java.lang.String" itemvalue="Rake.test: modelunitednations" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.spec: modelunitednations" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Production: modelunitednations" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Development: modelunitednations" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.test: model-united-nations-rails" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.spec: model-united-nations-rails" />
-      <item index="6" class="java.lang.String" itemvalue="Rails.Production: model-united-nations-rails" />
-      <item index="7" class="java.lang.String" itemvalue="Rails.Development: model-united-nations-rails" />
-      <item index="8" class="java.lang.String" itemvalue="RSpec.Comittee delegate: modelunitednations" />
-      <item index="9" class="java.lang.String" itemvalue="RSpec.Comittee chair it should check a user for chairing: modelunitednations" />
-      <item index="10" class="java.lang.String" itemvalue="RSpec.Comittee: modelunitednations" />
-      <item index="11" class="java.lang.String" itemvalue="RSpec.ParticipantsController GET #index: modelunitednations" />
-      <item index="12" class="java.lang.String" itemvalue="RSpec.User abilities conferences when manager participants: modelunitednations" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Rake.test: model-united-nations-rails" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.spec: model-united-nations-rails" />
+      <item index="2" class="java.lang.String" itemvalue="Rails.Production: model-united-nations-rails" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Development: model-united-nations-rails" />
     </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.User abilities conferences when manager participants: modelunitednations" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.ParticipantsController GET #index: modelunitednations" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.Comittee: modelunitednations" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.Comittee chair it should check a user for chairing: modelunitednations" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.Comittee delegate: modelunitednations" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" myUseAcceleration="nothing">
+  <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="230275e5-48d9-4aa0-bf99-afe6cd5b3d7f" name="Default" comment="" />
-      <created>1396100618302</created>
-      <updated>1396100618302</updated>
+      <changelist id="e49ce9e0-cad6-4e83-aab6-7e25d5c88ced" name="Default" comment="" />
+      <created>1398528483741</created>
+      <updated>1398528483741</updated>
     </task>
-    <task id="LOCAL-00001" summary="Bootstrap theme SB admin v2&#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;# On branch master&#10;# Your branch is up-to-date with 'origin/master'.&#10;#&#10;# Changes to be committed:&#10;#&#9;modified:   .idea/.generators&#10;#&#9;modified:   .idea/.rakeTasks&#10;#&#9;modified:   .idea/dataSources.ids&#10;#&#9;modified:   .idea/dataSources.xml&#10;#&#9;modified:   .idea/modelunitednations.iml&#10;#&#9;new file:   .idea/runConfigurations/Development__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/Production__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/spec__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/test__modelunitednations.xml&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#9;modified:   Gemfile&#10;#&#9;modified:   Gemfile.lock&#10;#&#9;modified:   app/assets/javascripts/application.js&#10;#&#9;new file:   app/assets/javascripts/bootstrap.min.js&#10;#&#9;new file:   app/assets/javascripts/conference.js&#10;#&#9;new file:   app/assets/javascripts/conferences.js&#10;#&#9;new file:   app/assets/javascripts/jquery-1.10.2.js&#10;#&#9;new file:   app/assets/javascripts/plugins/dataTables/dataTables.bootstrap.js&#10;#&#9;new file:   app/assets/javascripts/plugins/dataTables/jquery.dataTables.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/dashboard-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/flot-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/morris-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/excanvas.min.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.pie.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.resize.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.tooltip.min.js&#10;#&#9;new file:   app/assets/javascripts/plugins/metisMenu/jquery.metisMenu.js&#10;#&#9;new file:   app/assets/javascripts/plugins/morris/morris.js&#10;#&#9;new file:   app/assets/javascripts/plugins/morris/raphael-2.1.0.min.js&#10;#&#9;new file:   app/assets/javascripts/sb-admin.js&#10;#&#9;modified:   app/assets/stylesheets/application.css&#10;#&#9;new file:   app/assets/stylesheets/bootstrap.min.css&#10;#&#9;new file:   app/assets/stylesheets/conference.css.scss&#10;#&#9;new file:   app/assets/stylesheets/conferences.css.scss&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/css/font-awesome.css&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/css/font-awesome.min.css&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/FontAwesome.otf&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.eot&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.svg&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.ttf&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.woff&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.eot&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.svg&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.ttf&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.woff&#10;#&#9;new file:   app/assets/stylesheets/plugins/dataTables/dataTables.bootstrap.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/morris/morris-0.4.3.min.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/social-buttons/social-buttons.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/timeline/timeline.css&#10;#&#9;new file:   app/assets/stylesheets/sb-admin.css&#10;#&#9;modified:   app/controllers/application_controller.rb&#10;#&#9;new file:   app/controllers/conferences_controller.rb&#10;#&#9;modified:   app/controllers/welcome_controller.rb&#10;#&#9;new file:   app/helpers/conferences_helper.rb&#10;#&#9;new file:   app/models/ability.rb&#10;#&#9;new file:   app/models/announcement.rb&#10;#&#9;new file:   app/models/comittee.rb&#10;#&#9;new file:   app/models/conference.rb&#10;#&#9;new file:   app/models/delegation.rb&#10;#&#9;new file:   app/models/pariticipant_role.rb&#10;#&#9;new file:   app/models/participant.rb&#10;#&#9;new file:   app/models/participant_group.rb&#10;#&#9;new file:   app/models/role.rb&#10;#&#9;modified:   app/models/user.rb&#10;#&#9;new file:   app/views/conferences/create.html.haml&#10;#&#9;new file:   app/views/conferences/destroy.html.haml&#10;#&#9;new file:   app/views/conferences/edit.html.haml&#10;#&#9;new file:   app/views/conferences/index.html.haml&#10;#&#9;new file:   app/views/conferences/new.html.haml&#10;#&#9;new file:   app/views/conferences/update.html.haml&#10;#&#9;modified:   app/views/devise/sessions/new.html.erb&#10;#&#9;new file:   app/views/layouts/_content.html.erb&#10;#&#9;new file:   app/views/layouts/_navigation.html.erb&#10;#&#9;new file:   app/views/layouts/_side_navigation.html.erb&#10;#&#9;modified:   app/views/layouts/application.html.erb&#10;#&#9;new file:   app/views/welcome/index.html&#10;#&#9;deleted:    app/views/welcome/index.html.erb&#10;#&#9;new file:   app/views/welcome/theme.html&#10;#&#9;new file:   config/initializers/rails_admin.rb&#10;#&#9;modified:   config/routes.rb&#10;#&#9;new file:   db/migrate/20140329151251_create_conferences.rb&#10;#&#9;new file:   db/migrate/20140329151539_create_comittees.rb&#10;#&#9;new file:   db/migrate/20140329152006_add_name_to_conference.rb&#10;#&#9;new file:   db/migrate/20140329152410_create_participants.rb&#10;#&#9;new file:   db/migrate/20140329152611_create_roles.rb&#10;#&#9;new file:   db/migrate/20140329152838_add_conference_id_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329153310_create_participant_groups.rb&#10;#&#9;new file:   db/migrate/20140329153428_participant_to_participant_group.rb&#10;#&#9;new file:   db/migrate/20140329153818_add_name_to_participant_group.rb&#10;#&#9;new file:   db/migrate/20140329154140_create_announcements.rb&#10;#&#9;new file:   db/migrate/20140329154206_add_conference_id_to_announcements.rb&#10;#&#9;new file:   db/migrate/20140329154915_create_delegations.rb&#10;#&#9;new file:   db/migrate/20140329155449_add_delegation_id_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329155654_add_name_to_users.rb&#10;#&#9;new file:   db/migrate/20140329155859_add_surname_to_users.rb&#10;#&#9;new file:   db/migrate/20140329161931_comittee_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329182641_create_pariticipant_roles.rb&#10;#&#9;new file:   db/migrate/20140329182848_participant_roles_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329183025_user_to_roles.rb&#10;#&#9;modified:   db/schema.rb&#10;#&#9;modified:   db/seeds.rb&#10;#&#9;new file:   db/structure.sql&#10;#&#9;new file:   erd.pdf&#10;#&#9;new file:   spec/controllers/conferences_controller_spec.rb&#10;#&#9;new file:   spec/factories/announcements.rb&#10;#&#9;new file:   spec/factories/chairs.rb&#10;#&#9;new file:   spec/factories/comittees.rb&#10;#&#9;new file:   spec/factories/conference_managers.rb&#10;#&#9;new file:   spec/factories/conferences.rb&#10;#&#9;new file:   spec/factories/delegates.rb&#10;#&#9;new file:   spec/factories/delegations.rb&#10;#&#9;new file:   spec/factories/pariticipant_roles.rb&#10;#&#9;new file:   spec/factories/participant_groups.rb&#10;#&#9;new file:   spec/factories/participants.rb&#10;#&#9;new file:   spec/factories/roles.rb&#10;#&#9;new file:   spec/helpers/conferences_helper_spec.rb&#10;#&#9;new file:   spec/models/announcement_spec.rb&#10;#&#9;new file:   spec/models/chair_spec.rb&#10;#&#9;new file:   spec/models/comittee_spec.rb&#10;#&#9;new file:   spec/models/conference_manager_spec.rb&#10;#&#9;new file:   spec/models/conference_spec.rb&#10;#&#9;new file:   spec/models/delegate_spec.rb&#10;#&#9;new file:   spec/models/delegation_spec.rb&#10;#&#9;new file:   spec/models/pariticipant_role_spec.rb&#10;#&#9;new file:   spec/models/participant_group_spec.rb&#10;#&#9;new file:   spec/models/participant_spec.rb&#10;#&#9;new file:   spec/models/role_spec.rb&#10;#&#9;new file:   spec/views/conferences/create.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/destroy.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/edit.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/index.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/new.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/update.html.haml_spec.rb&#10;#&#10;">
-      <created>1396192500657</created>
-      <updated>1396192500657</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Bootstrap theme SB admin v2&#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;# On branch master&#10;# Your branch is up-to-date with 'origin/master'.&#10;#&#10;# Changes to be committed:&#10;#&#9;modified:   .idea/.generators&#10;#&#9;modified:   .idea/.rakeTasks&#10;#&#9;modified:   .idea/dataSources.ids&#10;#&#9;modified:   .idea/dataSources.xml&#10;#&#9;modified:   .idea/modelunitednations.iml&#10;#&#9;new file:   .idea/runConfigurations/Development__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/Production__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/spec__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/test__modelunitednations.xml&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#9;modified:   Gemfile&#10;#&#9;modified:   Gemfile.lock&#10;#&#9;modified:   app/assets/javascripts/application.js&#10;#&#9;new file:   app/assets/javascripts/bootstrap.min.js&#10;#&#9;new file:   app/assets/javascripts/conference.js&#10;#&#9;new file:   app/assets/javascripts/conferences.js&#10;#&#9;new file:   app/assets/javascripts/jquery-1.10.2.js&#10;#&#9;new file:   app/assets/javascripts/plugins/dataTables/dataTables.bootstrap.js&#10;#&#9;new file:   app/assets/javascripts/plugins/dataTables/jquery.dataTables.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/dashboard-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/flot-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/morris-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/excanvas.min.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.pie.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.resize.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.tooltip.min.js&#10;#&#9;new file:   app/assets/javascripts/plugins/metisMenu/jquery.metisMenu.js&#10;#&#9;new file:   app/assets/javascripts/plugins/morris/morris.js&#10;#&#9;new file:   app/assets/javascripts/plugins/morris/raphael-2.1.0.min.js&#10;#&#9;new file:   app/assets/javascripts/sb-admin.js&#10;#&#9;modified:   app/assets/stylesheets/application.css&#10;#&#9;new file:   app/assets/stylesheets/bootstrap.min.css&#10;#&#9;new file:   app/assets/stylesheets/conference.css.scss&#10;#&#9;new file:   app/assets/stylesheets/conferences.css.scss&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/css/font-awesome.css&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/css/font-awesome.min.css&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/FontAwesome.otf&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.eot&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.svg&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.ttf&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.woff&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.eot&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.svg&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.ttf&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.woff&#10;#&#9;new file:   app/assets/stylesheets/plugins/dataTables/dataTables.bootstrap.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/morris/morris-0.4.3.min.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/social-buttons/social-buttons.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/timeline/timeline.css&#10;#&#9;new file:   app/assets/stylesheets/sb-admin.css&#10;#&#9;modified:   app/controllers/application_controller.rb&#10;#&#9;new file:   app/controllers/conferences_controller.rb&#10;#&#9;modified:   app/controllers/welcome_controller.rb&#10;#&#9;new file:   app/helpers/conferences_helper.rb&#10;#&#9;new file:   app/models/ability.rb&#10;#&#9;new file:   app/models/announcement.rb&#10;#&#9;new file:   app/models/comittee.rb&#10;#&#9;new file:   app/models/conference.rb&#10;#&#9;new file:   app/models/delegation.rb&#10;#&#9;new file:   app/models/pariticipant_role.rb&#10;#&#9;new file:   app/models/participant.rb&#10;#&#9;new file:   app/models/participant_group.rb&#10;#&#9;new file:   app/models/role.rb&#10;#&#9;modified:   app/models/user.rb&#10;#&#9;new file:   app/views/conferences/create.html.haml&#10;#&#9;new file:   app/views/conferences/destroy.html.haml&#10;#&#9;new file:   app/views/conferences/edit.html.haml&#10;#&#9;new file:   app/views/conferences/index.html.haml&#10;#&#9;new file:   app/views/conferences/new.html.haml&#10;#&#9;new file:   app/views/conferences/update.html.haml&#10;#&#9;modified:   app/views/devise/sessions/new.html.erb&#10;#&#9;new file:   app/views/layouts/_content.html.erb&#10;#&#9;new file:   app/views/layouts/_navigation.html.erb&#10;#&#9;new file:   app/views/layouts/_side_navigation.html.erb&#10;#&#9;modified:   app/views/layouts/application.html.erb&#10;#&#9;new file:   app/views/welcome/index.html&#10;#&#9;deleted:    app/views/welcome/index.html.erb&#10;#&#9;new file:   app/views/welcome/theme.html&#10;#&#9;new file:   config/initializers/rails_admin.rb&#10;#&#9;modified:   config/routes.rb&#10;#&#9;new file:   db/migrate/20140329151251_create_conferences.rb&#10;#&#9;new file:   db/migrate/20140329151539_create_comittees.rb&#10;#&#9;new file:   db/migrate/20140329152006_add_name_to_conference.rb&#10;#&#9;new file:   db/migrate/20140329152410_create_participants.rb&#10;#&#9;new file:   db/migrate/20140329152611_create_roles.rb&#10;#&#9;new file:   db/migrate/20140329152838_add_conference_id_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329153310_create_participant_groups.rb&#10;#&#9;new file:   db/migrate/20140329153428_participant_to_participant_group.rb&#10;#&#9;new file:   db/migrate/20140329153818_add_name_to_participant_group.rb&#10;#&#9;new file:   db/migrate/20140329154140_create_announcements.rb&#10;#&#9;new file:   db/migrate/20140329154206_add_conference_id_to_announcements.rb&#10;#&#9;new file:   db/migrate/20140329154915_create_delegations.rb&#10;#&#9;new file:   db/migrate/20140329155449_add_delegation_id_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329155654_add_name_to_users.rb&#10;#&#9;new file:   db/migrate/20140329155859_add_surname_to_users.rb&#10;#&#9;new file:   db/migrate/20140329161931_comittee_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329182641_create_pariticipant_roles.rb&#10;#&#9;new file:   db/migrate/20140329182848_participant_roles_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329183025_user_to_roles.rb&#10;#&#9;modified:   db/schema.rb&#10;#&#9;modified:   db/seeds.rb&#10;#&#9;new file:   db/structure.sql&#10;#&#9;new file:   erd.pdf&#10;#&#9;new file:   spec/controllers/conferences_controller_spec.rb&#10;#&#9;new file:   spec/factories/announcements.rb&#10;#&#9;new file:   spec/factories/chairs.rb&#10;#&#9;new file:   spec/factories/comittees.rb&#10;#&#9;new file:   spec/factories/conference_managers.rb&#10;#&#9;new file:   spec/factories/conferences.rb&#10;#&#9;new file:   spec/factories/delegates.rb&#10;#&#9;new file:   spec/factories/delegations.rb&#10;#&#9;new file:   spec/factories/pariticipant_roles.rb&#10;#&#9;new file:   spec/factories/participant_groups.rb&#10;#&#9;new file:   spec/factories/participants.rb&#10;#&#9;new file:   spec/factories/roles.rb&#10;#&#9;new file:   spec/helpers/conferences_helper_spec.rb&#10;#&#9;new file:   spec/models/announcement_spec.rb&#10;#&#9;new file:   spec/models/chair_spec.rb&#10;#&#9;new file:   spec/models/comittee_spec.rb&#10;#&#9;new file:   spec/models/conference_manager_spec.rb&#10;#&#9;new file:   spec/models/conference_spec.rb&#10;#&#9;new file:   spec/models/delegate_spec.rb&#10;#&#9;new file:   spec/models/delegation_spec.rb&#10;#&#9;new file:   spec/models/pariticipant_role_spec.rb&#10;#&#9;new file:   spec/models/participant_group_spec.rb&#10;#&#9;new file:   spec/models/participant_spec.rb&#10;#&#9;new file:   spec/models/role_spec.rb&#10;#&#9;new file:   spec/views/conferences/create.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/destroy.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/edit.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/index.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/new.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/update.html.haml_spec.rb&#10;#&#10;">
-      <created>1396192516575</created>
-      <updated>1396192516575</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Design">
-      <created>1396200623125</created>
-      <updated>1396200623125</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Major changes">
-      <created>1396477460459</created>
-      <updated>1396477460459</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Major changes&#10;">
-      <created>1396477478210</created>
-      <updated>1396477478210</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Major changes&#10;">
-      <created>1396477504193</created>
-      <updated>1396477504193</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Changes&#10;">
-      <created>1396544684903</created>
-      <updated>1396544684903</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Changes&#10;">
-      <created>1396544728994</created>
-      <updated>1396544728994</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Changes&#10;">
-      <created>1396816893407</created>
-      <updated>1396816893407</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Invite">
-      <created>1396820965659</created>
-      <updated>1396820965659</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Facebook login, Layout, Intro">
-      <created>1396890699888</created>
-      <updated>1396890699888</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Workplace Rubymine">
-      <created>1396891090882</created>
-      <updated>1396891090882</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Test&#10;">
-      <created>1396907363695</created>
-      <updated>1396907363695</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Registrations, Intro">
-      <created>1396959125613</created>
-      <updated>1396959125613</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Timetable, Landing, Locale">
-      <created>1396991760925</created>
-      <updated>1396991760925</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Assets">
-      <created>1397563586538</created>
-      <updated>1397563586538</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Seeds">
-      <created>1397564130485</created>
-      <updated>1397564130485</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Jobs">
-      <created>1397652776360</created>
-      <updated>1397652776360</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Landing: About">
-      <created>1397653151714</created>
-      <updated>1397653151714</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Spec: Abilites">
-      <created>1397912285869</created>
-      <updated>1397912285869</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Ember">
-      <created>1397926769240</created>
-      <updated>1397926769240</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Conference: location, Assets">
-      <created>1398080650454</created>
-      <updated>1398080650454</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Conference: Search">
-      <created>1398083835557</created>
-      <updated>1398083835557</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Google Analytics">
-      <created>1398104271775</created>
-      <updated>1398104271775</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Assets">
-      <created>1398104280457</created>
-      <updated>1398104280457</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Abilites, Timetable">
-      <created>1398168457413</created>
-      <updated>1398168457413</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Testing">
-      <created>1398173264025</created>
-      <updated>1398173264025</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Committee: Session">
-      <created>1398357872711</created>
-      <updated>1398357872711</updated>
-    </task>
-    <option name="localTasksCounter" value="29" />
     <servers />
-  </component>
-  <component name="TodoView" selected-index="0">
-    <todo-panel id="selected-file">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="false" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="false" />
-    </todo-panel>
-    <todo-panel id="default-changelist">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="false" />
-    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="125" y="82" width="1769" height="939" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34478673" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819906" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30110016" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30689055" sideWeight="0.5011765" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3312102" sideWeight="0.49882352" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30341634" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39479905" sideWeight="0.5002895" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3957346" sideWeight="0.49971047" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3613744" sideWeight="0.49971047" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32928312" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34858134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806805" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886723" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -989,386 +266,56 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Bootstrap theme SB admin v2&#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;# On branch master&#10;# Your branch is up-to-date with 'origin/master'.&#10;#&#10;# Changes to be committed:&#10;#&#9;modified:   .idea/.generators&#10;#&#9;modified:   .idea/.rakeTasks&#10;#&#9;modified:   .idea/dataSources.ids&#10;#&#9;modified:   .idea/dataSources.xml&#10;#&#9;modified:   .idea/modelunitednations.iml&#10;#&#9;new file:   .idea/runConfigurations/Development__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/Production__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/spec__modelunitednations.xml&#10;#&#9;new file:   .idea/runConfigurations/test__modelunitednations.xml&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#9;modified:   Gemfile&#10;#&#9;modified:   Gemfile.lock&#10;#&#9;modified:   app/assets/javascripts/application.js&#10;#&#9;new file:   app/assets/javascripts/bootstrap.min.js&#10;#&#9;new file:   app/assets/javascripts/conference.js&#10;#&#9;new file:   app/assets/javascripts/conferences.js&#10;#&#9;new file:   app/assets/javascripts/jquery-1.10.2.js&#10;#&#9;new file:   app/assets/javascripts/plugins/dataTables/dataTables.bootstrap.js&#10;#&#9;new file:   app/assets/javascripts/plugins/dataTables/jquery.dataTables.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/dashboard-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/flot-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/demo/morris-demo.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/excanvas.min.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.pie.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.resize.js&#10;#&#9;new file:   app/assets/javascripts/plugins/flot/jquery.flot.tooltip.min.js&#10;#&#9;new file:   app/assets/javascripts/plugins/metisMenu/jquery.metisMenu.js&#10;#&#9;new file:   app/assets/javascripts/plugins/morris/morris.js&#10;#&#9;new file:   app/assets/javascripts/plugins/morris/raphael-2.1.0.min.js&#10;#&#9;new file:   app/assets/javascripts/sb-admin.js&#10;#&#9;modified:   app/assets/stylesheets/application.css&#10;#&#9;new file:   app/assets/stylesheets/bootstrap.min.css&#10;#&#9;new file:   app/assets/stylesheets/conference.css.scss&#10;#&#9;new file:   app/assets/stylesheets/conferences.css.scss&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/css/font-awesome.css&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/css/font-awesome.min.css&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/FontAwesome.otf&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.eot&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.svg&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.ttf&#10;#&#9;new file:   app/assets/stylesheets/font-awesome/fonts/fontawesome-webfont.woff&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.eot&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.svg&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.ttf&#10;#&#9;new file:   app/assets/stylesheets/fonts/glyphicons-halflings-regular.woff&#10;#&#9;new file:   app/assets/stylesheets/plugins/dataTables/dataTables.bootstrap.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/morris/morris-0.4.3.min.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/social-buttons/social-buttons.css&#10;#&#9;new file:   app/assets/stylesheets/plugins/timeline/timeline.css&#10;#&#9;new file:   app/assets/stylesheets/sb-admin.css&#10;#&#9;modified:   app/controllers/application_controller.rb&#10;#&#9;new file:   app/controllers/conferences_controller.rb&#10;#&#9;modified:   app/controllers/welcome_controller.rb&#10;#&#9;new file:   app/helpers/conferences_helper.rb&#10;#&#9;new file:   app/models/ability.rb&#10;#&#9;new file:   app/models/announcement.rb&#10;#&#9;new file:   app/models/comittee.rb&#10;#&#9;new file:   app/models/conference.rb&#10;#&#9;new file:   app/models/delegation.rb&#10;#&#9;new file:   app/models/pariticipant_role.rb&#10;#&#9;new file:   app/models/participant.rb&#10;#&#9;new file:   app/models/participant_group.rb&#10;#&#9;new file:   app/models/role.rb&#10;#&#9;modified:   app/models/user.rb&#10;#&#9;new file:   app/views/conferences/create.html.haml&#10;#&#9;new file:   app/views/conferences/destroy.html.haml&#10;#&#9;new file:   app/views/conferences/edit.html.haml&#10;#&#9;new file:   app/views/conferences/index.html.haml&#10;#&#9;new file:   app/views/conferences/new.html.haml&#10;#&#9;new file:   app/views/conferences/update.html.haml&#10;#&#9;modified:   app/views/devise/sessions/new.html.erb&#10;#&#9;new file:   app/views/layouts/_content.html.erb&#10;#&#9;new file:   app/views/layouts/_navigation.html.erb&#10;#&#9;new file:   app/views/layouts/_side_navigation.html.erb&#10;#&#9;modified:   app/views/layouts/application.html.erb&#10;#&#9;new file:   app/views/welcome/index.html&#10;#&#9;deleted:    app/views/welcome/index.html.erb&#10;#&#9;new file:   app/views/welcome/theme.html&#10;#&#9;new file:   config/initializers/rails_admin.rb&#10;#&#9;modified:   config/routes.rb&#10;#&#9;new file:   db/migrate/20140329151251_create_conferences.rb&#10;#&#9;new file:   db/migrate/20140329151539_create_comittees.rb&#10;#&#9;new file:   db/migrate/20140329152006_add_name_to_conference.rb&#10;#&#9;new file:   db/migrate/20140329152410_create_participants.rb&#10;#&#9;new file:   db/migrate/20140329152611_create_roles.rb&#10;#&#9;new file:   db/migrate/20140329152838_add_conference_id_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329153310_create_participant_groups.rb&#10;#&#9;new file:   db/migrate/20140329153428_participant_to_participant_group.rb&#10;#&#9;new file:   db/migrate/20140329153818_add_name_to_participant_group.rb&#10;#&#9;new file:   db/migrate/20140329154140_create_announcements.rb&#10;#&#9;new file:   db/migrate/20140329154206_add_conference_id_to_announcements.rb&#10;#&#9;new file:   db/migrate/20140329154915_create_delegations.rb&#10;#&#9;new file:   db/migrate/20140329155449_add_delegation_id_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329155654_add_name_to_users.rb&#10;#&#9;new file:   db/migrate/20140329155859_add_surname_to_users.rb&#10;#&#9;new file:   db/migrate/20140329161931_comittee_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329182641_create_pariticipant_roles.rb&#10;#&#9;new file:   db/migrate/20140329182848_participant_roles_to_participant.rb&#10;#&#9;new file:   db/migrate/20140329183025_user_to_roles.rb&#10;#&#9;modified:   db/schema.rb&#10;#&#9;modified:   db/seeds.rb&#10;#&#9;new file:   db/structure.sql&#10;#&#9;new file:   erd.pdf&#10;#&#9;new file:   spec/controllers/conferences_controller_spec.rb&#10;#&#9;new file:   spec/factories/announcements.rb&#10;#&#9;new file:   spec/factories/chairs.rb&#10;#&#9;new file:   spec/factories/comittees.rb&#10;#&#9;new file:   spec/factories/conference_managers.rb&#10;#&#9;new file:   spec/factories/conferences.rb&#10;#&#9;new file:   spec/factories/delegates.rb&#10;#&#9;new file:   spec/factories/delegations.rb&#10;#&#9;new file:   spec/factories/pariticipant_roles.rb&#10;#&#9;new file:   spec/factories/participant_groups.rb&#10;#&#9;new file:   spec/factories/participants.rb&#10;#&#9;new file:   spec/factories/roles.rb&#10;#&#9;new file:   spec/helpers/conferences_helper_spec.rb&#10;#&#9;new file:   spec/models/announcement_spec.rb&#10;#&#9;new file:   spec/models/chair_spec.rb&#10;#&#9;new file:   spec/models/comittee_spec.rb&#10;#&#9;new file:   spec/models/conference_manager_spec.rb&#10;#&#9;new file:   spec/models/conference_spec.rb&#10;#&#9;new file:   spec/models/delegate_spec.rb&#10;#&#9;new file:   spec/models/delegation_spec.rb&#10;#&#9;new file:   spec/models/pariticipant_role_spec.rb&#10;#&#9;new file:   spec/models/participant_group_spec.rb&#10;#&#9;new file:   spec/models/participant_spec.rb&#10;#&#9;new file:   spec/models/role_spec.rb&#10;#&#9;new file:   spec/views/conferences/create.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/destroy.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/edit.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/index.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/new.html.haml_spec.rb&#10;#&#9;new file:   spec/views/conferences/update.html.haml_spec.rb&#10;#&#10;" />
-    <MESSAGE value="Design" />
-    <MESSAGE value="Major changes" />
-    <MESSAGE value="Major changes&#10;" />
-    <MESSAGE value="Changes&#10;" />
-    <MESSAGE value="Invite" />
-    <MESSAGE value="Facebook login, Layout, Intro" />
-    <MESSAGE value="Workplace Rubymine" />
-    <MESSAGE value="Test&#10;" />
-    <MESSAGE value="Registrations, Intro" />
-    <MESSAGE value="Timetable, Landing, Locale" />
-    <MESSAGE value="Seeds" />
-    <MESSAGE value="Jobs" />
-    <MESSAGE value="Landing: About" />
-    <MESSAGE value="Spec: Abilites" />
-    <MESSAGE value="Ember" />
-    <MESSAGE value="Conference: location, Assets" />
-    <MESSAGE value="Conference: Search" />
-    <MESSAGE value="Google Analytics" />
-    <MESSAGE value="Assets" />
-    <MESSAGE value="Abilites, Timetable" />
-    <MESSAGE value="Testing" />
-    <MESSAGE value="Committee: Session" />
-    <option name="LAST_COMMIT_MESSAGE" value="Committee: Session" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90936553" vertical-offset="944" max-vertical-offset="2010">
-          <caret line="83" column="2" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/users_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52034885" vertical-offset="406" max-vertical-offset="750">
-          <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/conferences/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1875" vertical-offset="0" max-vertical-offset="320">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/events/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46875" vertical-offset="0" max-vertical-offset="320">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/timetables/_event.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39087948" vertical-offset="0" max-vertical-offset="510">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/conferences/edit.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39087948" vertical-offset="0" max-vertical-offset="345">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/conferences/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45070422" vertical-offset="713" max-vertical-offset="2910">
-          <caret line="71" column="102" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/conferences_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31982943" vertical-offset="750" max-vertical-offset="1515">
-          <caret line="60" column="122" selection-start-line="60" selection-start-column="122" selection-end-line="60" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/conferences_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4364896" vertical-offset="1536" max-vertical-offset="2235">
-          <caret line="115" column="55" selection-start-line="115" selection-start-column="6" selection-end-line="115" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/group_registrations/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7867299" vertical-offset="898" max-vertical-offset="1320">
-          <caret line="82" column="9" selection-start-line="43" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/factories/comittee_sessions.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10321101" vertical-offset="0" max-vertical-offset="436">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140424111132_create_comittee_sessions.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03267974" vertical-offset="0" max-vertical-offset="459">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/comittee_session_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19607843" vertical-offset="0" max-vertical-offset="459">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/comittee_session.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19607843" vertical-offset="0" max-vertical-offset="459">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/comittees_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36307055" vertical-offset="35" max-vertical-offset="1320">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/comittees_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4477612" vertical-offset="60" max-vertical-offset="1050">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4477612" vertical-offset="135" max-vertical-offset="1995">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/comittees/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61538464" vertical-offset="315" max-vertical-offset="1470">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/participant_group.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7761194" vertical-offset="266" max-vertical-offset="870">
-          <caret line="42" column="9" selection-start-line="15" selection-start-column="2" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140424114729_create_committee_roles.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03440367" vertical-offset="0" max-vertical-offset="436">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140404182117_resolution_to_delegate.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.036319613" vertical-offset="0" max-vertical-offset="413">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140424114641_create_committee_members.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03440367" vertical-offset="0" max-vertical-offset="436">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140403163329_user_to_participant_group_member.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="436">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140424114952_committee_member_to_committee_role.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/announcement.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09803922" vertical-offset="0" max-vertical-offset="459">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64044946" vertical-offset="255" max-vertical-offset="765">
-          <caret line="36" column="48" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33182845" vertical-offset="1368" max-vertical-offset="4785">
-          <caret line="101" column="24" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/participant_group_member_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/participant_group_member.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140425201436_create_announcements.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23542601" vertical-offset="0" max-vertical-offset="446">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/participant_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8408072" vertical-offset="0" max-vertical-offset="795">
-          <caret line="25" column="7" selection-start-line="3" selection-start-column="2" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4618834" vertical-offset="1219" max-vertical-offset="2340">
-          <caret line="95" column="50" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/committee_role.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.033632286" vertical-offset="0" max-vertical-offset="446">
-          <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/committee_member.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47085202" vertical-offset="0" max-vertical-offset="446">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/committee_member_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59641254" vertical-offset="19" max-vertical-offset="465">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/conference_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0149255" vertical-offset="30" max-vertical-offset="2850">
-          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/conference.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35181236" vertical-offset="435" max-vertical-offset="2280">
-          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/comittee.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58848614" vertical-offset="294" max-vertical-offset="1020">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/comittee_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.9424307" vertical-offset="0" max-vertical-offset="1620">
-          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/participant_group_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76759064" vertical-offset="240" max-vertical-offset="1500">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/theme.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61813843" vertical-offset="33566" max-vertical-offset="41145">
-          <caret line="2255" column="37" selection-start-line="2210" selection-start-column="16" selection-end-line="2255" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.75541127" vertical-offset="24776" max-vertical-offset="41145">
+          <caret line="1675" column="35" selection-start-line="1646" selection-start-column="28" selection-end-line="1675" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/ability.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/timetables/_timetable.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6300448" vertical-offset="499" max-vertical-offset="2805">
-          <caret line="52" column="40" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/abilites_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5044843" vertical-offset="210" max-vertical-offset="3630">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.2994012" vertical-offset="0" max-vertical-offset="501">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/conferences/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2280">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7185629" vertical-offset="0" max-vertical-offset="2325">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/participants_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21784233" vertical-offset="285" max-vertical-offset="2190">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/participants_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52904564" vertical-offset="0" max-vertical-offset="795">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/participant.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12793177" vertical-offset="0" max-vertical-offset="915">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/participants/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64044946" vertical-offset="0" max-vertical-offset="720">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="21435">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/cucumber.rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
 

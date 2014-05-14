@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140424114952) do
+ActiveRecord::Schema.define(version: 20140425201436) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -34,11 +34,14 @@ ActiveRecord::Schema.define(version: 20140424114952) do
   add_index "activities", ["trackable_id", "trackable_type"], name: "index_activities_on_trackable_id_and_trackable_type", using: :btree
 
   create_table "announcements", force: true do |t|
-    t.text     "title"
-    t.text     "content"
+    t.string   "title"
+    t.string   "content"
+    t.integer  "announced_at_id"
+    t.string   "announced_at_type"
+    t.integer  "announcer_id"
+    t.string   "announcer_type"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "conference_id"
   end
 
   create_table "comittee_sessions", force: true do |t|

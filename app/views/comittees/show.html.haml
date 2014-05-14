@@ -39,7 +39,7 @@
         .panel-body
           %p
             An announcement will be passed to all delegates.
-          = button_to 'Create announcement', new_comittee_session_path(committee_id: @comittee.id), class: "btn btn-info"
+          = link_to 'Create announcement', new_announcement_path(comittee_id: @comittee.id), class: "btn btn-info"
 
   - if @comittee.description
 
@@ -59,6 +59,19 @@
             = link_to "#{topic.name}", topic_path(topic)
             %br
           = link_to "+ Add topic", new_topic_path(comittee_id: @comittee.id)
+  - if @comittee.announcements
+    .col-lg-4
+      .panel.panel-default
+        .panel-heading
+          Announcements
+        .panel-body
+          - @comittee.announcements.each do |announcement|
+            = link_to "#{announcement.title}", announcement_path(announcement)
+            %small
+              = time_ago_in_words announcement.created_at
+              ago
+            %br
+          = link_to "Show all", announcements_path(comittee_id: @comittee.id)
 
 
 

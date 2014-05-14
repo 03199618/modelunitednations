@@ -2,27 +2,39 @@
   .col-lg-12
     = render partial: "layouts/page_header", locals:{resource: @conference, title: @conference.name, button_group: "button_group_title"}
 
-%h2.page-header
-  Tasks
-.row
-  Assign delegates etc.
+%ul.nav.nav-tabs
+  %li.active
+    %a{"data-toggle" => "tab", href: "#tasks"} Tasks
+  %li
+    %a{"data-toggle" => "tab", href: "#registrations"} Registrations
+  %li
+    %a{"data-toggle" => "tab", href: "#discussions"} Discussions
+  %li
+    %a{"data-toggle" => "tab", href: "#participants"} Participants
+  %li
+    %a{"data-toggle" => "tab", href: "#settings"} Settings
+/ Tab panes
+.tab-content
+  #tasks.tab-pane.fade.in.active
+    /%h4 Tasks
+    %p Assign delegates etc.
+    .col-md-12
+    %h2.page-header
+      Timetable
 
+    = render partial: "timetables/timetable", locals: {timetable: @conference.timetable}
+    = render partial: "layouts/notifications"
+  #registrations.tab-pane.fade
+    %br
+    /%h4 Registrations
 
-
-%h2.page-header
-  Registrations
-.row
-
-  .col-lg-6
     = render partial: "registrations/registrations", locals: {conference: @conference}
 
-  .col-lg-6
-    = render partial: "group_registrations/group_registrations", locals: {conference: @conference}
 
-%h2.page-header
-  Discussions
-.row
-  .col-lg-6
+    = render partial: "group_registrations/group_registrations", locals: {conference: @conference}
+  #discussions.tab-pane.fade
+    %br
+    /%h4 Discussions
     .panel.panel-default
       .panel-heading
         = "Delegations"
@@ -50,7 +62,7 @@
 
       .panel-footer
         = "#{pluralize(@conference.delegations.count, "delegation")}"
-  .col-lg-6
+
     .panel.panel-default
       .panel-heading
         = "Committees"
@@ -76,11 +88,9 @@
         = link_to "+ Add comittee", new_comittee_path(conference_id: @conference.id)
       .panel-footer
         = "#{pluralize(@conference.comittees.count, "committees")}"
-
-%h2.page-header
-  Participants
-.row
-  .col-lg-6
+  #participants.tab-pane.fade
+    /%h4 Participants
+    %br
     .panel.panel-default
       .panel-heading
         = "Participant groups"
@@ -108,7 +118,7 @@
       .panel-footer
         = "#{pluralize(@conference.participant_groups.count, "groups")}"
 
-  .col-lg-6
+
     .panel.panel-default
       .panel-heading
         = "Participants"
@@ -134,14 +144,7 @@
         = link_to "See all", participants_path(conference_id: @conference.id)
       .panel-footer
         = "#{pluralize(@conference.participants.count, "participant")}"
-  .col-lg-8
-.row
-
-  .col-md-12
-    %h2.page-header
-      Timetable
-    = render partial: "timetables/timetable", locals: {timetable: @conference.timetable}
-
-
-  .col-lg-12
-    = render partial: "layouts/notifications"
+  #settings.tab-pane.fade
+    /%h4 Settings
+    %br
+    Settings

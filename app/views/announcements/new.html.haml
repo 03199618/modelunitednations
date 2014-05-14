@@ -1,0 +1,6 @@
+= simple_form_for @announcement do |f|
+  = f.hidden_field :announced_at_id, value: @announced_at.id
+  = f.hidden_field :announced_at_type, value: @announced_at.class.name
+  = f.input :title
+  = f.input :content
+  = f.button :submit

@@ -3,11 +3,11 @@ require "cancan/matchers"
 
 describe User, "abilities" do
   subject(:ability) { Ability.new(user) }
-
+  let(:user) { FactoryGirl.build(:user) }
 
   describe "conferences" do
     let(:guest) { FactoryGirl.build(:user) }
-    let(:user) { FactoryGirl.build(:user) }
+
     let(:manager) { FactoryGirl.create(:user) }
     let(:delegate) { FactoryGirl.create(:user) }
     let(:conference) { FactoryGirl.create(:conference)}
@@ -36,6 +36,20 @@ describe User, "abilities" do
         it { should be_able_to(:reject, group_registration) }
         it { should be_able_to(:read, group_registration) }
         it { should be_able_to(:accept, group_registration) }
+
+        context "withdrawn" do
+          let(:group_registration) { FactoryGirl.create(:group_registration, conference: conference, withdrawn: true)}
+          it { should_not be_able_to(:reject, group_registration) }
+          it { should be_able_to(:read, group_registration) }
+          it { should_not be_able_to(:accept, group_registration) }
+        end
+
+        context "accepted" do
+          let(:group_registration) { FactoryGirl.create(:group_registration, conference: conference, accepted: true)}
+          it { should_not be_able_to(:reject, group_registration) }
+          it { should be_able_to(:read, group_registration) }
+          it { should_not be_able_to(:accept, group_registration) }
+        end
       end
       context "events" do
 
@@ -133,15 +147,19 @@ describe User, "abilities" do
     let(:member) { FactoryGirl.create(:user) }
     let(:participant_group) { FactoryGirl.create(:participant_group)}
 
+    subject(:ability) { Ability.new(user) }
+    it { should be_able_to(:join, participant_group) }
+    it { should be_able_to(:new_group_registration, participant_group) }
     context "when manager" do
       before { participant_group.addManager(manager) }
 
       subject(:ability) { Ability.new(manager) }
 
       it { should be_able_to(:update, participant_group) }
+      it { should be_able_to(:invite, participant_group) }
 
       context "group registration" do
-        it { should be_able_to(:create, GroupRegistration) }
+        it { should be_able_to(:create, participant_group.group_registrations.new) }
 
         let(:group_registration) { FactoryGirl.create(:group_registration, participant_group: participant_group)}
 

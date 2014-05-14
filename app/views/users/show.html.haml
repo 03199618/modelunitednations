@@ -26,13 +26,12 @@
         Information
       .panel-body
         - if can? :read_full_profile, @user
-          = @user.name
-          goes to
-          - if current_user.common_conferences(@user).any?
+          - if current_user.common_conferences(@user).any? && current_user.id != @user.id
+            = @user.name
+            goes to
             - current_user.common_conferences(@user).each do |conference|
-              = link_to conference_path(conference) do
-                = "#{conference.name}"
-              = ","
+              = succeed ',' do
+                = link_to conference.name, conference_path(conference)
             too.
             %br
             %br

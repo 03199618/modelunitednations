@@ -60,12 +60,15 @@ Modelunitednations::Application.routes.draw do
   end
   resources :timetables
   resources :events
+  resources :announcements
 
   namespace :api do
     namespace :v1 do
       resources :comittees
     end
   end
+
+
 
   # The priority is based upon order of creation: first created -> highest priority.
 

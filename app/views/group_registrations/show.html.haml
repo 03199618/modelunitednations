@@ -49,9 +49,10 @@
         .panel-heading
           = "Withdraw this registration"
         .panel-body
-          By withdrawing your registration to
-          = @group_registration.conference.name
-          its conference manager will not any more be able to accept you the conference.
+          %p
+            By withdrawing your registration to
+            = @group_registration.conference.name
+            its conference manager will not any more be able to accept you to the conference.
 
           = button_to 'Withdraw', withdraw_group_registration_path(@group_registration), :method => :put, class: "btn btn-warning"
 
@@ -62,9 +63,10 @@
         .panel-heading
           = "Accept this registration"
         .panel-body
-          By accepting
-          = @group_registration.participant_group.name
-          to your conference all members will be added to your conference. You can then assign the group a whole delegation, so they can decide their positions on their own or you can assign them on your own.
+          %p
+            By accepting
+            = @group_registration.participant_group.name
+            to your conference all members of this group will be added to your conference. You can then assign the group a whole delegation, so they can decide their positions on their own or you can assign their positions yourself.
           = button_to  'Accept', accept_group_registration_path(@group_registration), :method => :put, class: "btn btn-success"
 
   - if can? :reject, @group_registration
@@ -73,9 +75,10 @@
         .panel-heading
           = "Reject this group"
         .panel-body
-          By rejecting the registration of
-          = @group_registration.participant_group.name
-          to your conference this group will be informed of their rejection.
+          %p
+            By rejecting the registration of
+            = @group_registration.participant_group.name
+            to your conference this group will be informed of their rejection.
 
           = button_to 'Reject', reject_group_registration_path(@group_registration), :method => :put, class: "btn btn-danger"
 

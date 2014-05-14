@@ -2,7 +2,7 @@
 
 FactoryGirl.define do
   factory :announcement do
-    title "MyText"
-    content "MyText"
+    title "Title of an Announcement"
+    content "Content of an Announcement"
   end
 end

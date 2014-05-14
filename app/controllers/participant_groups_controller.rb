@@ -52,7 +52,7 @@ class ParticipantGroupsController < ApplicationController
 
   def invite
     @participant_group = ParticipantGroup.find(params[:id])
-    authorize! :join, @participant_groupend
+    authorize! :invite, @participant_group
 
     if !params[:email].nil?
       @key = @participant_group.key(params[:email])

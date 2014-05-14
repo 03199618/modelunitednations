@@ -6,21 +6,17 @@
     / Nav tabs
     %ul.nav.nav-tabs
       %li.active
-        %a{"data-toggle" => "tab", href: "#home"} Day 1
+        %a{"data-toggle" => "tab", href: "#day1"} Day 1
       %li
-        %a{"data-toggle" => "tab", href: "#profile"} Day 2
+        %a{"data-toggle" => "tab", href: "#day2"} Day 2
       %li
-        %a{"data-toggle" => "tab", href: "#messages"} Day 3
-      %li
-        %a{"data-toggle" => "tab", href: "#settings"} Day 4
+        %a{"data-toggle" => "tab", href: "#day3"} Day 3
     / Tab panes
     .tab-content
-      #home.tab-pane.fade.in.active
+      #day1.tab-pane.fade.in.active
         = render partial: "timetables/day", locals: {events: timetable.events, timetable: timetable}
-      #profile.tab-pane.fade
+      #day2.tab-pane.fade
         = render partial: "timetables/day", locals: {events: timetable.events, timetable: timetable}
-      #messages.tab-pane.fade
-        = render partial: "timetables/day", locals: {events: timetable.events, timetable: timetable}
-      #settings.tab-pane.fade
+      #day3.tab-pane.fade
         = render partial: "timetables/day", locals: {events: timetable.events, timetable: timetable}
 

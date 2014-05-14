@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2918939752">
-    <data-source source="LOCAL" name="Rails model-united-nations-rails: development" uuid="5ebed0e2-f5a9-434e-88d7-a4bcbff816a2">
+  <component name="DataSourceManagerImpl" format="xml" hash="3825626346">
+    <data-source source="LOCAL" name="Rails model-united-nations-rails: development" uuid="8846fc63-d695-4a94-8a99-ac7b997638c3">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:modelunitednations_development</jdbc-url>
@@ -9,21 +9,21 @@
       <user-password>df9bdf98df99df9edf9fdf9cdf9ddf92</user-password>
       <libraries />
     </data-source>
-    <data-source source="LOCAL" name="Rails model-united-nations-rails: test" uuid="333cd53e-1ef2-4107-a339-ee560518341c">
+    <data-source source="LOCAL" name="Rails model-united-nations-rails: test" uuid="e7e3e470-e19e-4ea0-9d98-ec2ccc9bc382">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:modelunitednations_test</jdbc-url>
       <user-name>modelunitednations</user-name>
       <libraries />
     </data-source>
-    <data-source source="LOCAL" name="Rails model-united-nations-rails: production" uuid="2dfd438e-5418-4409-a512-c72ee2271fb3">
+    <data-source source="LOCAL" name="Rails model-united-nations-rails: production" uuid="4c904e36-fac3-4044-981e-eeacf680fa44">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:modelunitednations_production</jdbc-url>
       <user-name>modelunitednations</user-name>
       <libraries />
     </data-source>
-    <data-source source="LOCAL" name="Rails model-united-nations-rails: cucumber" uuid="f3a9ba4e-ce13-4d72-8cb7-df496755bc8c">
+    <data-source source="LOCAL" name="Rails model-united-nations-rails: cucumber" uuid="d820dae2-d0c7-47ec-8189-d7e07801ae96">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:modelunitednations_test</jdbc-url>

@@ -9,6 +9,8 @@ class Comittee < ActiveRecord::Base
   has_many :comittee_sessions
   has_many :committee_members
 
+  has_many :announcements, as: :announced_at
+
   has_and_belongs_to_many :topics
   has_and_belongs_to_many :participants
 

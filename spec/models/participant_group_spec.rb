@@ -18,7 +18,7 @@ describe ParticipantGroup do
 
       participant_group.addManager(user)
 
-      expect(participant_group.manager.pluck(:id)).to include(participant_group_member.id)
+      expect(participant_group.managers.pluck(:user_id)).to include(user.id)
 
     end
 
@@ -29,6 +29,15 @@ describe ParticipantGroup do
       participant_group.addManager(user)
 
       expect(participant_group.manager?(user)).to be true
+    end
+
+    it "it should return all groups managed by a user" do
+      participant_group = FactoryGirl.create(:participant_group)
+      manager = FactoryGirl.create(:user)
+
+      participant_group.addManager(manager)
+
+      expect(ParticipantGroup.managed_by(manager)).to match([participant_group])
     end
   end
 

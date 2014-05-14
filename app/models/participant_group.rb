@@ -5,12 +5,18 @@ class ParticipantGroup < ActiveRecord::Base
 
   validates_presence_of :name
 
-  def conferences
-    return Conference.join(:group_registrations).where(group_registrations: {participant_group_id: self.id, accepted: true})
+  def self.managed_by(user)
+    #ParticipantGroupMember.joins(:participant_group_roles).where(participant_group_roles: {name: "manager"}, user_id: user.id).participant_groups
+    #ParticipantGroupMember.all
+
   end
 
-  def manager
-    self.participant_group_members.join(:participant_group_role).where(participant_group_roles: {name: "manager"}).first.user
+  def conferences
+    return Conference.joins(:group_registrations).where(group_registrations: {participant_group_id: self.id, accepted: true})
+  end
+
+  def managers
+    return self.participant_group_members.joins(:participant_group_roles).where(participant_group_roles: {name: "manager"})
   end
 
   def addManager(user)

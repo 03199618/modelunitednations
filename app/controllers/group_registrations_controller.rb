@@ -15,7 +15,7 @@ class GroupRegistrationsController < ApplicationController
 
   def new
     @group_registration = GroupRegistration.new
-    authorize! :create, @group_registration
+    authorize! :new_group_registration, @group_registration
 
     @participant_groups = current_user.participant_groups
     @conference = Conference.find(params[:conference_id])
@@ -23,7 +23,8 @@ class GroupRegistrationsController < ApplicationController
 
   def create
     @conference = Conference.find(params[:group_registration][:conference_id])
-    @group_registration = @conference.group_registrations.new(params[:group_registration].permit(:participant_group_id, :conference_id))
+    @participant_group = ParticipantGroup.find(params[:group_registration][:participant_group_id])
+    @group_registration = @participant_group.group_registrations.new(params[:group_registration].permit(:participant_group_id, :conference_id))
     authorize! :create, @group_registration
 
     if @group_registration.save
@@ -73,7 +74,7 @@ class GroupRegistrationsController < ApplicationController
 
   def accept
     @group_registration = GroupRegistration.find(params[:id])
-    authorize! :withdraw, @group_registration
+    authorize! :accept, @group_registration
 
     @group_registration.accept
 
@@ -82,7 +83,7 @@ class GroupRegistrationsController < ApplicationController
       respond_to do |format|
         format.xml {render :xml => @group_registration}
         format.json {render :json => @group_registration}
-        format.html {redirect_to group_registration_path(id: @group_registration.id)}
+        format.html {render @group_registration}
       end
     else
       puts @group_registration.errors.inspect

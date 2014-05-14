@@ -130,8 +130,12 @@ class Ability
 
       #GroupRegistration
 
-      can :create, GroupRegistration do
+      can :new_group_registration, GroupRegistration do |registration|
         true
+      end
+
+      can :create, GroupRegistration do |registration|
+        registration.participant_group.manager?(user)
       end
 
       can :read, GroupRegistration do |registration|
@@ -139,7 +143,7 @@ class Ability
       end
 
       can [:reject, :accept], GroupRegistration do |registration|
-        registration.conference.manager?(user)
+        registration.conference.manager?(user) && !registration.withdrawn && !registration.accepted
       end
 
       can :withdraw, GroupRegistration do |registration|
@@ -148,7 +152,7 @@ class Ability
 
       #ParticipantGroup
 
-      can :create, ParticipantGroup do
+      can :create, ParticipantGroup do |group|
         true
       end
 
@@ -162,6 +166,15 @@ class Ability
 
       can :update, ParticipantGroup do |group|
         group.manager?(user)
+      end
+
+      can :invite, ParticipantGroup do |group|
+        puts group.participant_group_members
+        group.manager?(user)
+      end
+
+      can :join, ParticipantGroup do |group|
+        true
       end
 
       can :destroy, ParticipantGroup do |group|
