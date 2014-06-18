@@ -4,12 +4,12 @@ describe Resolution do
   describe "submitter" do
     it "it should be able to add a submitter" do
       resolution = FactoryGirl.create(:resolution)
-      delegation = FactoryGirl.create(:delegation)
+      delegate = FactoryGirl.create(:delegate)
 
-      topic.addDelegate(resolution)
-      topic.save
+      resolution.addSubmitter(delegate)
+      resolution.save
 
-      expect(topic.resolutions).to include(resolution)
+      expect(resolution.submitters).to include(delegate)
     end
 
   end

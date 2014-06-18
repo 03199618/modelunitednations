@@ -1,6 +1,6 @@
 .panel.panel-default
   .panel-heading
-    = "Registrations"
+    = "Single Registrations"
     .pull-right
       .btn-group
         %button.btn.btn-default.btn-xs.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
@@ -20,7 +20,7 @@
     - conference.registrations.open.each do |registration|
       = link_to registration.name, registration_path(registration)
       %br
-    = link_to "See all", registrations_path(conference_id: conference.id)
+    = link_to "Show all", participants_path(conference_id: conference.id)
   .panel-footer
     = "#{pluralize(conference.registrations.count, "registration")}"
     - if conference.registrations.accepted.any?

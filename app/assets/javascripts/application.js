@@ -11,27 +11,29 @@
 // about supported directives.
 //
 
+// require ckeditor-jquery
+
+
+
+
+
+//= require jquery
+//= require jquery_ujs
+//= require jquery.ui.all
 //= require bootstrap
+
+//=require introjs
+//=require_tree ./intros
 
 //= require gmaps/google
 //= require gmaps/base
-
-// require introjs
-// require intros/intro_handler
-// require intros/delegate
-
-//= require bootstrap-datetimepicker
-
 //= require turbolinks
-
-// require ckeditor-jquery
-
 //= require handlebars
 //= require ember
 //= require ember-data
-//= require modelunitednations
 //= require_self
-
+//= require modelunitednations
 
 // for more details see: http://emberjs.com/guides/application/
 Modelunitednations = Ember.Application.create();
+

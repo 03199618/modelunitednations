@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 describe DelegationsController do
+  login_admin
 
   describe "GET 'show'" do
     it "returns http success" do
@@ -16,12 +17,26 @@ describe DelegationsController do
     end
   end
 
-  describe "GET 'new'" do
-    it "returns http success" do
-      get 'new'
-      response.should be_success
+  describe "GET #new" do
+    before :each do
+      @conference = FactoryGirl.create(:conference)
+      visit new_delegation_path(conference_id: @conference.id)
+    end
+    it "responds successfully with an HTTP 200 status code" do
+
+      expect(response).to be_success
+      expect(response.status).to eq(200)
+    end
+
+    it "renders the edit template" do
+      expect(response).to render_template("edit")
+    end
+
+    it "loads the new delegation in the @delegation variable" do
+      expect(assigns(:delegation)).to match(@conference.delegations.new)
     end
   end
+
 
   describe "GET 'create'" do
     it "returns http success" do

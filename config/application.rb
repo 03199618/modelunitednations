@@ -21,8 +21,10 @@ module Modelunitednations
     # Run "rake -D time" for a list of tasks for finding time zone names. Default is UTC.
     # config.time_zone = 'Central Time (US & Canada)'
 
-    config.assets.initialize_on_precompile = false
-    config.cache_store = :memory_store
+    I18n.enforce_available_locales = false
+
+    ##config.assets.initialize_on_precompile = false
+    ##config.cache_store = :memory_store
 
     config.assets.precompile += ['grayscale.js']
     config.assets.precompile += ['google_analytics.js']

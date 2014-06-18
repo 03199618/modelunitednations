@@ -25,7 +25,7 @@
         .panel-body
           - @resolutions.each do |resolution|
             //= link_to resolution.main_submitter, delegation_path(delegation)
-            = link_to "#{resolution.topic.name} in #{resolution.topic.comittee.name} of #{resolution.topic.comittee.conference.name}" , resolution_path(resolution)
+            = link_to "#{resolution.topic.name} in #{resolution.topic.committee.name} of #{resolution.topic.committee.conference.name}" , resolution_path(resolution)
             updated
             = time_ago_in_words(resolution.updated_at)
             ago

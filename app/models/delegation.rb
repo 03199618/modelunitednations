@@ -1,6 +1,6 @@
-class Delegation < ActiveRecord::Base
+class Delegation < Group
   belongs_to :conference
-  has_many :delegates
+  has_many :delegation_members
 
   validates_presence_of :name, :conference_id
 

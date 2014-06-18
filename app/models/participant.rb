@@ -7,11 +7,10 @@ class Participant < ActiveRecord::Base
   belongs_to :conference
   belongs_to :participant_group_member
   belongs_to :user
-  has_one :delegate
-  has_many :resolutions, through: :delegate
+  has_many :delegation_members
+
   has_many :committee_members
   has_many :committees, through: :committee_members
-  has_one :delegation, through: :delegate
 
 
   before_save :role

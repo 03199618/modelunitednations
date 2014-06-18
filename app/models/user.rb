@@ -11,8 +11,8 @@ class User < ActiveRecord::Base
 
   has_many :participant_group_members
   has_many :participants
-  has_many :delegations, through: :participants
-  has_many :delegates, through: :participants
+  has_many :delegations, through: :delegation_members
+  has_many :delegation_members, through: :participants
   has_many :resolutions, through: :delegates
 
   has_attached_file :profile_picture, :styles => { :thumb => "18x18>", :circle => "50x50>" }, :default_url => "/images/:style/missing.png"
@@ -67,6 +67,7 @@ class User < ActiveRecord::Base
   end
 
   def position_papers_due
+    return 99999
     return position_papers_due_helper(delegates)
   end
 

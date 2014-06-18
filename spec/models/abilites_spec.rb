@@ -3,7 +3,7 @@ require "cancan/matchers"
 
 describe User, "abilities" do
   subject(:ability) { Ability.new(user) }
-  let(:user) { FactoryGirl.build(:user) }
+  let(:user) { FactoryGirl.create(:user) }
 
   describe "conferences" do
     let(:guest) { FactoryGirl.build(:user) }
@@ -57,18 +57,34 @@ describe User, "abilities" do
 
       end
 
-      context "comittees" do
-        let(:comittee) { FactoryGirl.create(:comittee, conference: conference)}
-        it { should be_able_to(:create, conference.comittees.new) }
-        it { should be_able_to(:read, comittee) }
-        it { should be_able_to(:update, comittee) }
-        it { should be_able_to(:destroy, comittee) }
+      context "committees" do
+        let(:committee) { FactoryGirl.create(:committee, conference: conference)}
+        it { should be_able_to(:create, conference.committees.new) }
+        it { should be_able_to(:read, committee) }
+        it { should be_able_to(:update, committee) }
+        it { should be_able_to(:destroy, committee) }
       end
 
-      context "comittee sessions" do
-        let(:comittee) { FactoryGirl.create(:comittee, conference: conference)}
-        let(:comittee_session) { FactoryGirl.create(:comittee_session, comittee: comittee)}
-        it { should be_able_to(:create, comittee.comittee_sessions.new) }
+      context "delegations" do
+        let(:delegation) { FactoryGirl.create(:delegation, conference: conference)}
+        it { should be_able_to(:create, conference.delegations.new) }
+        it { should be_able_to(:read, delegation) }
+        it { should be_able_to(:update, delegation) }
+        it { should be_able_to(:destroy, delegation) }
+      end
+
+      context "committee_member" do
+        let(:delegate) { FactoryGirl.create(:delegation, conference: conference)}
+        it { should be_able_to(:create, conference.delegations.new) }
+        it { should be_able_to(:read, delegation) }
+        it { should be_able_to(:update, delegation) }
+        it { should be_able_to(:destroy, delegation) }
+      end
+
+      context "committee sessions" do
+        let(:committee) { FactoryGirl.create(:committee, conference: conference)}
+        let(:committee_session) { FactoryGirl.create(:committee_session, committee: committee)}
+        it { should be_able_to(:create, committee.committee_sessions.new) }
       end
     end
     context "when delegate" do
@@ -83,19 +99,19 @@ describe User, "abilities" do
         it { should_not be_able_to(:accept, registration) }
       end
 
-      context "comittees" do
-        let(:comittee) { FactoryGirl.create(:comittee, conference: conference)}
-        it { should_not be_able_to(:create, conference.comittees.new) }
-        it { should be_able_to(:read, comittee) }
-        it { should_not be_able_to(:update, comittee) }
-        it { should_not be_able_to(:destroy, comittee) }
-        it { should_not be_able_to(:destroy, comittee) }
+      context "committees" do
+        let(:committee) { FactoryGirl.create(:committee, conference: conference)}
+        it { should_not be_able_to(:create, conference.committees.new) }
+        it { should be_able_to(:read, committee) }
+        it { should_not be_able_to(:update, committee) }
+        it { should_not be_able_to(:destroy, committee) }
+        it { should_not be_able_to(:destroy, committee) }
       end
 
-      context "comittee sessions" do
-        let(:comittee) { FactoryGirl.create(:comittee, conference: conference)}
-        let(:comittee_session) { FactoryGirl.create(:comittee_session, comittee: comittee)}
-        it { should_not be_able_to(:create, comittee.comittee_sessions.new) }
+      context "committee sessions" do
+        let(:committee) { FactoryGirl.create(:committee, conference: conference)}
+        let(:committee_session) { FactoryGirl.create(:committee_session, committee: committee)}
+        it { should_not be_able_to(:create, committee.committee_sessions.new) }
       end
     end
     context "not public" do
@@ -123,13 +139,13 @@ describe User, "abilities" do
         it { should_not be_able_to(:read, conference) }
       end
 
-      context "comittees" do
-        let(:comittee) { FactoryGirl.create(:comittee, conference: conference)}
+      context "committees" do
+        let(:committee) { FactoryGirl.create(:committee, conference: conference)}
         before { conference.addDelegate(delegate) }
         subject(:ability) { Ability.new(delegate) }
-        it { should be_able_to(:read, comittee) }
+        it { should be_able_to(:read, committee) }
         subject(:ability) { Ability.new(guest) }
-        it { should_not be_able_to(:read, comittee) }
+        it { should_not be_able_to(:read, committee) }
       end
 
     end
@@ -142,14 +158,15 @@ describe User, "abilities" do
 
   describe "participant group" do
     let(:guest) { FactoryGirl.build(:user) }
-    let(:user) { FactoryGirl.build(:user) }
+    let(:user) { FactoryGirl.create(:user) }
     let(:manager) { FactoryGirl.create(:user) }
     let(:member) { FactoryGirl.create(:user) }
     let(:participant_group) { FactoryGirl.create(:participant_group)}
 
     subject(:ability) { Ability.new(user) }
+    it { puts user.inspect}
     it { should be_able_to(:join, participant_group) }
-    it { should be_able_to(:new_group_registration, participant_group) }
+    it { should be_able_to(:new, GroupRegistration) }
     context "when manager" do
       before { participant_group.addManager(manager) }
 

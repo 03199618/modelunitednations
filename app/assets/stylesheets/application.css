@@ -1,0 +1,52 @@
+/*@import "bootstrap";*/
+@import "font-awesome";
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+ * require jquery-ui-1.8.16.custom.css
+
+ *= require jquery.ui.all
+
+ *= require dataTables.bootstrap
+ *= require ./plugins/morris/morris-0.4.3.min
+ *= require ./plugins/social-buttons/social-buttons
+ *= require timeline
+
+
+
+ *= require introjs
+
+ *= require bootstrap-datetimepicker
+
+ *= require_self
+
+ */
+
+.tutorial-tile {
+    list-style: none;
+    float:left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.tutorial-tile:hover {
+    background-color: #f9f9f9;
+}
+
+@import "bootstrap";
+@import "font-awesome";
+
+
+
+
+

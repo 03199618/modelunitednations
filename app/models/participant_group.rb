@@ -1,4 +1,4 @@
-class ParticipantGroup < ActiveRecord::Base
+class ParticipantGroup < Group
 
   has_many :participant_group_members
   has_many :group_registrations
@@ -6,9 +6,7 @@ class ParticipantGroup < ActiveRecord::Base
   validates_presence_of :name
 
   def self.managed_by(user)
-    #ParticipantGroupMember.joins(:participant_group_roles).where(participant_group_roles: {name: "manager"}, user_id: user.id).participant_groups
-    #ParticipantGroupMember.all
-
+    ParticipantGroup.joins(:participant_group_members, :participant_group_roles).where(participant_group_member: {user_id: user.id, participant_group_roles: {name: "manager"}})
   end
 
   def conferences

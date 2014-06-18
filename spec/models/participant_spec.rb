@@ -40,7 +40,7 @@ describe Participant do
       participant_role = FactoryGirl.create(:participant_role)
       participant.addParticipantRole(participant_role.name)
 
-      participant.name.should eq user.name
+      participant.name.should eq "#{user.name}, #{participant_role.name}"
     end
   end
 

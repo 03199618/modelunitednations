@@ -15,7 +15,7 @@ class GroupRegistrationsController < ApplicationController
 
   def new
     @group_registration = GroupRegistration.new
-    authorize! :new_group_registration, @group_registration
+    authorize! :new, @group_registration
 
     @participant_groups = current_user.participant_groups
     @conference = Conference.find(params[:conference_id])
@@ -83,7 +83,7 @@ class GroupRegistrationsController < ApplicationController
       respond_to do |format|
         format.xml {render :xml => @group_registration}
         format.json {render :json => @group_registration}
-        format.html {render @group_registration}
+        format.html {redirect_to conference_path(id: @group_registration.conference.id)}
       end
     else
       puts @group_registration.errors.inspect

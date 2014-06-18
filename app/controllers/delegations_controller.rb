@@ -14,7 +14,8 @@ class DelegationsController < ApplicationController
   end
 
   def new
-    @delegation = Delegation.new
+    @conference = Conference.find(params[:conference_id])
+    @delegation = @conference.delegations.new
     authorize! :create, @delegation
   end
 

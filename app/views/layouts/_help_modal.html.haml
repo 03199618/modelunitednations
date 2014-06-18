@@ -1,0 +1,52 @@
+.modal.fade{:style => "display: none;", :id => "help_modal"}
+  .modal-dialog
+    .modal-content
+
+      .modal-header
+        %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", type: "button"} ×
+        %h4.modal-title.text-center
+          .row
+            %h3
+              How can I help you?
+        %ul.nav.nav-pills{style: "width: 55%; margin: 0 auto;"}
+          %li.active
+            = link_to "#faq", class: "", :data => {:toggle => "tab"} do
+              %i.fa.fa-comment.fa-fw
+              FAQ
+          %li
+            = link_to "#support", class: "", :data => {:toggle => "tab"} do
+              %i.fa.fa-comment-o.fa-fw
+              Support
+
+          %li
+            = link_to "#contact", class: "", :data => {:toggle => "tab"} do
+              %i.fa.fa-comments.fa-fw
+              Contact
+      .modal-body
+        .row
+
+          .tab-content
+            #faq.tab-pane.fade.in.active
+              .col-md-12.text-center
+                FAQs
+
+
+            #support.tab-pane.fade
+              .col-md-12.text-center
+                Email
+
+
+            #contact.tab-pane.fade
+              .col-md-12.text-center
+                Contact-Form
+
+
+
+      /.modal-footer
+      /  .row.text-center
+      /    %em
+      /      Still no clue? Let me help you:
+      /    %br
+      /    jakob@model-united-nations.com
+      /
+      /    /= link_to "Save", "#", class: "btn btn-primary pull-right", :data => {:dismiss => "modal"}

@@ -173,12 +173,15 @@
                       <li class="divider"></li>
                         <!--<li><a href="<%= intro_user_path(current_user)%>"><i class="fa fa-play-circle fa-fw"></i> Tutorial</a>
                         </li>-->
-                        <li><a href="#" onClick="$('#tutorial_modal').modal('show');"><i class="fa fa-play-circle fa-fw"></i> Tutorial</a>
+                        <li><a href="#tutorial" onClick="$('#tutorial_modal').modal('show');"><i class="fa fa-play-circle fa-fw"></i> Tutorial</a>
                         </li>
 
-                        <li><a href="#"><i class="fa fa-question fa-fw"></i> Help</a>
+                        <li><a href="#help" onClick="$('#help_modal').modal('show');"><i class="fa fa-question fa-fw"></i> Help</a>
                         </li>
-                        <li class="divider"></li>
+                      <li class="divider"></li>
+                        <li><a href="#about" onClick="$('#about_modal').modal('show');"><i class="fa fa-info fa-fw"></i> About</a>
+                        </li>
+                      <li class="divider"></li>
                         <li><a data-no-turbolink='true' href="<%= destroy_user_session_path %>"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
 
                         </li>

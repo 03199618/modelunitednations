@@ -1,0 +1,62 @@
+.modal.fade{:style => "display: none;", :id => "tutorial_modal"}
+  .modal-dialog
+    .modal-content
+
+      .modal-header
+        %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", type: "button"} ×
+        %h4.modal-title.text-center
+          .row
+            %h3
+              What do you consider yourself?
+        %ul.nav.nav-pills{style: "width: 80%; margin: 0 auto;"}
+          %li.active
+            = link_to "#delegate", class: "", :data => {:toggle => "tab"} do
+              %i.fa.fa-comment.fa-fw
+              Delegate
+          %li
+            = link_to "#conference_manager", class: "", :data => {:toggle => "tab"} do
+              %i.fa.fa-comment-o.fa-fw
+              Conference Manager
+
+          %li
+            = link_to "#group_manager", class: "", :data => {:toggle => "tab"} do
+              %i.fa.fa-comments.fa-fw
+              Group Manager
+      .modal-body
+        .row
+
+          .tab-content
+            #delegate.tab-pane.fade.in.active
+              .col-md-12.text-center
+                You are a student at a High School or University or just somebody who is interested in taking part in a Model United Nations conference as a delegate.
+
+              - tutorials(:delegate).keys.each do |tutorial|
+                %li.tutorial-tile
+                  %a{href: "#tutorial", onclick: "tutorial('delegate','#{tutorials(:delegate)[tutorial]}')"} #{tutorial}
+
+
+            #conference_manager.tab-pane.fade
+              .col-md-12.text-center
+                You manage a conference with all its registrations and committees.
+              - tutorials(:conference_manager).each do |tutorial|
+                %li.tutorial-tile
+                  %a{href: "#tutorial"} #{tutorial}
+
+
+            #group_manager.tab-pane.fade
+              .col-md-12.text-center
+                You lead a club or society of ambitious delegates.
+              - tutorials(:group_manager).each do |tutorial|
+                %li.tutorial-tile
+                  %a{href: "#tutorial"} #{tutorial}
+
+
+      .modal-footer
+        .row.text-center
+          %em
+            Still no clue? Let me help you.
+          %br
+            %a{href:"#help" ,onClick:"$('#tutorial_modal').modal('hide');$('#help_modal').modal('show');"}
+              Help!
+
+          /= link_to "Save", "#", class: "btn btn-primary pull-right", :data => {:dismiss => "modal"}

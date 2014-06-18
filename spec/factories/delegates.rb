@@ -4,6 +4,6 @@ FactoryGirl.define do
   factory :delegate do
     participant_id 1
     delegation_id 1
-    comittee_id 1
+    committee_id 1
   end
 end

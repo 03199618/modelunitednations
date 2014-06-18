@@ -11,5 +11,16 @@ FactoryGirl.define do
     email
     password "changeme"
     password_confirmation "changeme"
+
+
+  end
+
+  factory :admin, class: User do
+    firstname Faker::Name.first_name
+    surname Faker::Name.last_name
+    email
+    password "changeme"
+    password_confirmation "changeme"
+    initial_role = "administrator"
   end
 end

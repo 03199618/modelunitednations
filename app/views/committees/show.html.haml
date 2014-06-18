@@ -1,0 +1,115 @@
+.row
+  .col-lg-12
+    %h1.page-header
+      = @committee.conference.name
+      = @committee.name
+      .btn-group
+        %button.btn.btn-default.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
+          %i.fa.fa-gear.fa-fw
+          %span.caret
+        %ul.dropdown-menu.pull-right{role: "menu"}
+          %li
+            %a{href: edit_committee_path(@committee)}
+              Edit
+              = @committee.name
+          %li
+            %a{href: "#"} Another action
+          %li
+            %a{href: "#"} Something else here
+          %li.divider
+          %li
+            %a{href: "#"} Separated link
+
+.row
+  - if can? :create, @committee.committee_sessions.new
+    .col-lg-4
+      .panel.panel-primary
+        .panel-heading
+          = "Session"
+        .panel-body
+          %p
+            In a session you can appoint speakers, hold votings and impose breaks.
+          = button_to 'Go into Session', new_committee_session_path(committee_id: @committee.id), class: "btn btn-primary"
+          %h1
+            Sessions
+
+          %script{type:"text/x-handlebars"}
+            {{ view App.ListCommitteeSessionsView }}
+
+          %script{type:"text/javascript"}
+            $(function() {
+            App.contactsController.loadAll(#{@committee.committee_sessions.to_json.html_safe});
+            });
+
+  - if true #can? :create, @committee.anouncements.new
+    .col-lg-4
+      .panel.panel-info
+        .panel-heading
+          = "Announcement"
+        .panel-body
+          %p
+            An announcement will be passed to all delegates.
+          = link_to 'Create announcement', new_announcement_path(committee_id: @committee.id), class: "btn btn-info"
+
+  - if @committee.description
+
+    .col-lg-4
+      .panel.panel-default
+        .panel-heading
+          Description
+        .panel-body
+          = @committee.description
+  - if @committee.topics
+    .col-lg-4
+      .panel.panel-default
+        .panel-heading
+          Topics
+        .panel-body
+          - @committee.topics.each do |topic|
+            = link_to "#{topic.name}", topic_path(topic)
+            %br
+          = link_to "+ Add topic", new_topic_path(comittee_id: @committee.id)
+  - if @committee.announcements
+    .col-lg-4
+      .panel.panel-default
+        .panel-heading
+          Announcements
+        .panel-body
+          - @committee.announcements.each do |announcement|
+            = link_to "#{announcement.title}", announcement_path(announcement)
+            %small
+              = time_ago_in_words announcement.created_at
+              ago
+            %br
+          = link_to "Show all", announcements_path(comittee_id: @committee.id)
+
+
+
+  .col-lg-4
+    .panel.panel-default
+      .panel-heading
+        = "Delegates"
+        .pull-right
+          .btn-group
+            %button.btn.btn-default.btn-xs.dropdown-toggle{"data-toggle" => "dropdown", type: "button"}
+              Actions
+              %span.caret
+            %ul.dropdown-menu.pull-right{role: "menu"}
+              %li
+                %a{href: new_delegate_path(comittee_id: @committee.id)} Add delegate
+              %li
+                %a{href: "#"} Another action
+              %li
+                %a{href: "#"} Something else here
+              %li.divider
+              %li
+                %a{href: "#"} Separated link
+      .panel-body
+        - @committee.delegates.each do |delegate|
+          = link_to "#{delegate.title}", delegate_path(delegate)
+          %br
+
+      .panel-footer
+        = "#{pluralize(@committee.delegates.count, "delegate")}"
+
+

@@ -2,44 +2,360 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e49ce9e0-cad6-4e83-aab6-7e25d5c88ced" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140425201436_create_announcements.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/announcements_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/controllers/announcements_controller_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/announcements_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/helpers/announcements_helper_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/announcements/new.html.haml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modelunitednations.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__modelunitednations.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Production__modelunitednations.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/spec__modelunitednations.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/test__modelunitednations.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20140329154140_create_announcements.rb" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140607191927_rename_comittee_to_committee.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140611172849_drop_delegates.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140611175017_create_delegation_members.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140611175348_create_create_delegation_member_roles.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140611175450_delegation_member_to_delegation_member_role.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140611175912_rename_create_delegation_member_roles_to_delegation_member_roles.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140611180123_rename_delegation_member_roles_to_delegation_member_role.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140611203922_add_delegation_id_to_delegate_member.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_about_modal.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_help_modal.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_tutorial_modal.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/models/committee_session.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/committee_session_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/committee_sessions_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/controllers/committee_sessions_controller_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/committee_sessions_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/helpers/committee_sessions_helper_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/committees_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/committees_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/intros/roles/conference_manager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/create_delegation_member_roles.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/delegation_member_role.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/delegation_member_role_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/delegation_member_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/delegation_members.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/committees/edit.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/group.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/templates/committee_sessions/list.handlebars" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/views/committee_sessions/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/templates/committee_sessions/show.handlebars" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/views/committee_sessions/show.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/tutorial_helper.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/comittees_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/comittees_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/comittees/edit.html.haml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/FontAwesome-8b64729a70fdae39b0f8fabf309c3954.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-044a447d583245394bf924b88278e7e6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-044a447d583245394bf924b88278e7e6.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-e1736acd6492cd1506271806def54b64.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-e1736acd6492cd1506271806def54b64.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-147f3f6e098736e89ffab2c15cfbef06.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-38ab34013ba10653660d52a9cf85d53e.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-41eac767e76e3241f42674b78614369e.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-777bc40741c377d9f064d1ed31041f79.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/conferences/circle/missing-e87a154403da3135ed1f6e24bd7a80d6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/conferences/circle/missing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/conferences/original/missing-e87a154403da3135ed1f6e24bd7a80d6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/conferences/original/missing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/dataTables.bootstrap-73549ecc4bf8c9432749c2dd158b94f1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/dataTables.bootstrap-73549ecc4bf8c9432749c2dd158b94f1.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/dataTables.bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/dataTables.bootstrap.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/first-4edf7693277d66e873f83192dc378b75.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/first.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/flash-message-487ea0a24a779878dda7b35cd36de9b9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/flash-message.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/flash-notice-3ec4791fa578ac6d2fdd2d6b47eb473a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/flash-notice.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/flash-warning-4fec79f16a406d114d2eeb695dcd22bc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/flash-warning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/font-awesome/fonts/FontAwesome-8b64729a70fdae39b0f8fabf309c3954.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/font-awesome/fonts/fontawesome-webfont-3b53a5ecdb9473016ee097f74f4f16c0.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/font-awesome/fonts/fontawesome-webfont-51b69bdec08f19b3142dcd085ba6238a.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/font-awesome/fonts/fontawesome-webfont-69b0f4550dbb8738458172d11513538d.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/font-awesome/fonts/fontawesome-webfont-9a3b8f90662fe9149f07a059f1a4c782.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-3b53a5ecdb9473016ee097f74f4f16c0.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-51b69bdec08f19b3142dcd085ba6238a.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-69b0f4550dbb8738458172d11513538d.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-9a3b8f90662fe9149f07a059f1a4c782.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular-1837a54d175259b84d7e0a0481535bb5.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular-1b3690c46cea789082015677ba9e5db2.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular-db16ef179f96cbd0198908c13e47d5e1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular-fb71914b40d1e1c20cc23982e6bce1c8.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/google_analytics-6003f9be4d134f13f4abfaed6696f7d8.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/google_analytics-6003f9be4d134f13f4abfaed6696f7d8.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/google_analytics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/google_analytics.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/grayscale-51fda0c710b467e56da1812954220225.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/grayscale-51fda0c710b467e56da1812954220225.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/grayscale-cc604f3c4f3c97faebd07d9348c31168.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/grayscale-cc604f3c4f3c97faebd07d9348c31168.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/grayscale.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/grayscale.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/grayscale.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/grayscale.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/animated-overlay-1ea36e0a81ec37df2a859f044bee843f.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_flat_0_aaaaaa_40x100-25753503a153b3fa406b76e693d38504.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_flat_75_ffffff_40x100-1241dfcfad33da62cc0579340964f3ca.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_glass_55_fbf9ee_1x400-a3c72e365b1d15a71dbb061e4abd8bca.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_glass_65_ffffff_1x400-51803a9c2a0917db6dfb23f2e4f7ecc2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_glass_75_dadada_1x400-6448b82ed9ccfca7a9e75c403e8647ab.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_glass_75_e6e6e6_1x400-ead158650be76961f5aa25931dd8f313.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_glass_95_fef1ec_1x400-96df88786187fbe85b7f04efb8c19449.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_highlight-soft_75_cccccc_1x100-3282f577e4b7dfe0d56f64401cb1e0b5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_222222_256x240-ff1d25c02810e7f2a74931623172f18c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_2e83ff_256x240-e1c24b4966791d493e489ffa4af95e4e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_454545_256x240-c3a7543a928803bf07bcc7be527b1c0d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_888888_256x240-0550f411aaf01bc79fcf948ebcbcbe39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_cd0a0a_256x240-3c02c2c372cd1bea530fb0916fe1dabe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/landing-e33ced321e16e7827ff787d9819f18dd.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/landing-e33ced321e16e7827ff787d9819f18dd.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/landing.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/landing.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/manifest-0f5f361635f24f100f0706364eb8c1b5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/aristo/images/bg_fallback-57fca52d1eecc0e77296c0b10db04a29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/aristo/images/bg_fallback.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/aristo/images/icon_sprite-c4488aa9aee7222448061ff31f0124a1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/aristo/images/icon_sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/aristo/images/progress_bar-1d45c60c00d2cfb083988aac65b9e35a.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/aristo/images/progress_bar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/aristo/images/slider_handles-be112206749d7d16f3cc866b1606c1b0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/aristo/images/slider_handles.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/aristo/images/ui-icons_222222_256x240-3100386bb80aab545335949bade06205.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/aristo/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/aristo/images/ui-icons_454545_256x240-8c934c018cfd99c2b60080c8ce676159.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/aristo/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/base/README-6041b56ce96ac4c7b8d4c25e7c7dd75b.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/base/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/glyphicons-halflings-a3875d6fa4c73109ea7a83fca7134081.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/glyphicons-halflings-white-8fd6c4a985974c6ff0c0c244f325c81a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/bootstrap/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/bullet_black-50e214e1b62ced9a3a93fe93b2ae8b0a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/bullet_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/bullet_white-9185f8dafb3cdb86cd852242b257c78a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/bullet_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/calendar-04f720ebf39ce6c1e90e48748f332784.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/calendar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/clock-f3bd5318f472ed4759850705eab5637c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/clock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_background-17cb9f39d9c77d1dfbb4b361422c722e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_hex-3ab7557ccc1204ded800e74b1892e4d1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_hex.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_hsb_b-cf347db1da3f948968b9bce468ef21e0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_hsb_b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_hsb_h-9b4977526136dbf350157fc724d1c063.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_hsb_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_hsb_s-d640ad6464a48fb39ef7e081f812b065.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_hsb_s.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_indic-0f1570ca68184e729fadbbaea047082d.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_indic.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_overlay-891086a1600eb9b41ba5a6541313ca9c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_rgb_b-cf347db1da3f948968b9bce468ef21e0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_rgb_b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_rgb_g-cc6d4d8643ff9af80627507c8d236ece.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_rgb_g.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_rgb_r-0380abf11702a642169be86b260b8704.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_rgb_r.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_select-992e573dbf04e706c60a0ef704658be1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_select.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_submit-1f51b99024cea5e5549b4c3fce0cc5a6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/colorpicker_submit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_background-24be2da4de6e22539d236b4fcc324169.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_hex-2e4bfd4d7fbd7f4d27cee0bc9c5f7fae.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_hex.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_hsb_b-89920c9340a8b6fc4dde46d6ef3df646.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_hsb_b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_hsb_h-2b6453b61897058b4f54587b2cf21db8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_hsb_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_hsb_s-fcbd6a6122280de063722bf874828a9c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_hsb_s.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_indic-dce18af1c7d769f742f8f438940848e1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_indic.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_rgb_b-a4fcb463c5c7cc83bd3f39d84dcfb115.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_rgb_b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_rgb_g-61c278ffbe4b81db63890305ab7a93e3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_rgb_g.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_rgb_r-23826ea597ba1a9fdb83af2f50be0459.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_rgb_r.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_submit-0e6cf891afa6b79b42c21614468a27a0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/custom_submit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/select-87296efa2b1eb41e6f630d93c821054f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/select.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/select2-a8d8cd4c3a966578c5af084eaa83b4b6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/select2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/slider-8f22c9f1ed6a654c597bd46bf4eab779.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/colorpicker/slider.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/jquery.colorpicker-42add35c57085c956cb7b2cc18d33ddb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/jquery.colorpicker-42add35c57085c956cb7b2cc18d33ddb.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/jquery.colorpicker-8b2a2ba8ed0450de56285a03bfaffd40.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/jquery.colorpicker-8b2a2ba8ed0450de56285a03bfaffd40.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/jquery.colorpicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/jquery.colorpicker.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/jquery.colorpicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/jquery.colorpicker.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/logo-43fdd17078b7479f23e1bae853778b1f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/magnifier-7913795c2b452abf9ae085a84b45543c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/magnifier.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/multiselect/icon_sprite-c4488aa9aee7222448061ff31f0124a1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/multiselect/icon_sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/multiselect/ui-icon-circle-triangle-n-dark-06702337e7963c6e32d7d18574d168cb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/multiselect/ui-icon-circle-triangle-n-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/multiselect/ui-icon-circle-triangle-n-light-7b5bb696ccfd259124a255a85d475465.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/multiselect/ui-icon-circle-triangle-n-light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/multiselect/ui-icon-circle-triangle-s-dark-5f392c779857d9d52453d0300ebee415.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/multiselect/ui-icon-circle-triangle-s-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/multiselect/ui-icon-circle-triangle-s-light-055b4c9e41e2c8eaa9606659ba861c00.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/multiselect/ui-icon-circle-triangle-s-light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/rails_admin-0325dc330b3c8e34bf04be494b081080.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/rails_admin-0325dc330b3c8e34bf04be494b081080.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/rails_admin-6d55d4d9d07d6c0b23b4100e49ec71a0.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/rails_admin-6d55d4d9d07d6c0b23b4100e49ec71a0.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/rails_admin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/rails_admin.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/rails_admin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails_admin/rails_admin.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sb-admin-23d713eb94960678a9a4fefd8c0977a4.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sb-admin-23d713eb94960678a9a4fefd8c0977a4.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sb-admin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sb-admin.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/second-ea5273e1ce362effdab7b21f219ad8bf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/second.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/models/comittee_session_spec.rb" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/javascripts/comittees.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/committees.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/javascripts/intros/conference_manager.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/controllers/committee_sessions.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/javascripts/intros/delegate.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/intros/roles/delegate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/javascripts/intros/introduction.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/intros/general/introduction.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/comittees.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/committees.css.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/comittee.rb" afterPath="$PROJECT_DIR$/app/models/committee.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/comittee_session.rb" afterPath="$PROJECT_DIR$/app/models/committee_session.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/delegate.rb" afterPath="$PROJECT_DIR$/app/models/delegation_member.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/comittees/create.html.haml" afterPath="$PROJECT_DIR$/app/views/committees/create.html.haml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/comittees/destroy.html.haml" afterPath="$PROJECT_DIR$/app/views/committees/destroy.html.haml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/comittees/index.html.haml" afterPath="$PROJECT_DIR$/app/views/committees/index.html.haml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/comittees/new.html.haml" afterPath="$PROJECT_DIR$/app/views/committees/new.html.haml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/comittees/show.html.haml" afterPath="$PROJECT_DIR$/app/views/committees/show.html.haml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/comittees/update.html.haml" afterPath="$PROJECT_DIR$/app/views/committees/update.html.haml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/public_activity/comittee/_comittee_added.html.haml" afterPath="$PROJECT_DIR$/app/views/public_activity/committee/_committee_added.html.haml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/public_activity/comittee/_create.html.haml" afterPath="$PROJECT_DIR$/app/views/public_activity/committee/_create.html.haml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/public_activity/comittee/_update.html.haml" afterPath="$PROJECT_DIR$/app/views/public_activity/committee/_update.html.haml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/controllers/comittees_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/committees_controller_spec.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/factories/comittee_sessions.rb" afterPath="$PROJECT_DIR$/spec/factories/committee_sessions.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/factories/comittees.rb" afterPath="$PROJECT_DIR$/spec/factories/committees.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/helpers/comittees_helper_spec.rb" afterPath="$PROJECT_DIR$/spec/helpers/committees_helper_spec.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/models/comittee_spec.rb" afterPath="$PROJECT_DIR$/spec/models/committee_spec.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/views/comittees/create.html.haml_spec.rb" afterPath="$PROJECT_DIR$/spec/views/committees/create.html.haml_spec.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/views/comittees/destroy.html.haml_spec.rb" afterPath="$PROJECT_DIR$/spec/views/committees/destroy.html.haml_spec.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/views/comittees/edit.html.haml_spec.rb" afterPath="$PROJECT_DIR$/spec/views/committees/edit.html.haml_spec.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/views/comittees/index.html.haml_spec.rb" afterPath="$PROJECT_DIR$/spec/views/committees/index.html.haml_spec.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/views/comittees/new.html.haml_spec.rb" afterPath="$PROJECT_DIR$/spec/views/committees/new.html.haml_spec.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/views/comittees/show.html.haml_spec.rb" afterPath="$PROJECT_DIR$/spec/views/committees/show.html.haml_spec.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/views/comittees/update.html.haml_spec.rb" afterPath="$PROJECT_DIR$/spec/views/committees/update.html.haml_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/timetables/_timetable.html.haml" afterPath="$PROJECT_DIR$/app/views/timetables/_timetable.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20140329161931_comittee_to_participant.rb" afterPath="$PROJECT_DIR$/db/migrate/20140329161931_comittee_to_participant.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20140403150050_comittee_to_topic.rb" afterPath="$PROJECT_DIR$/db/migrate/20140403150050_comittee_to_topic.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Production__model_united_nations_rails.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Production__model_united_nations_rails.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/registrations/_registrations.html.haml" afterPath="$PROJECT_DIR$/app/views/registrations/_registrations.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/abilites_spec.rb" afterPath="$PROJECT_DIR$/spec/models/abilites_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/ability.rb" afterPath="$PROJECT_DIR$/app/models/ability.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/announcement.rb" afterPath="$PROJECT_DIR$/app/models/announcement.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/announcement_spec.rb" afterPath="$PROJECT_DIR$/spec/models/announcement_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/announcements.rb" afterPath="$PROJECT_DIR$/spec/factories/announcements.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/comittee.rb" afterPath="$PROJECT_DIR$/app/models/comittee.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/announcements_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/announcements_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/comittees_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/comittees_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/committee_member.rb" afterPath="$PROJECT_DIR$/app/models/committee_member.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/committee_members.rb" afterPath="$PROJECT_DIR$/spec/factories/committee_members.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/conference.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/conference.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/conference.rb" afterPath="$PROJECT_DIR$/app/models/conference.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/conference_spec.rb" afterPath="$PROJECT_DIR$/spec/models/conference_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/conferences.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/conferences.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/conferences_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/conferences_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/support/controller_macros.rb" afterPath="$PROJECT_DIR$/spec/support/controller_macros.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/group_registration.rb" afterPath="$PROJECT_DIR$/app/models/group_registration.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/delegates.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/delegates.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/delegates.rb" afterPath="$PROJECT_DIR$/spec/factories/delegates.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/delegates_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/delegates_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/delegation.rb" afterPath="$PROJECT_DIR$/app/models/delegation.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/delegations.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/delegations.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/delegations_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/delegations_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/delegations_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/delegations_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/events.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/events.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/group_registrations.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/group_registrations.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/group_registrations_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/group_registrations_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/group_registrations_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/group_registrations_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/resolutions/index.html.haml" afterPath="$PROJECT_DIR$/app/views/resolutions/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/intros/intro_handler.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/intros/intro_handler.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/model-united-nations-rails.iml" afterPath="$PROJECT_DIR$/.idea/model-united-nations-rails.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/participant.rb" afterPath="$PROJECT_DIR$/app/models/participant.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/participant_group.rb" afterPath="$PROJECT_DIR$/app/models/participant_group.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/participant_group_member.rb" afterPath="$PROJECT_DIR$/app/models/participant_group_member.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/participant_group_members.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/participant_group_members.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/participant_group_spec.rb" afterPath="$PROJECT_DIR$/spec/models/participant_group_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/participant_groups_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/participant_groups_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/participant_groups_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/participant_groups_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/participant_groups.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/participant_groups.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/participant_spec.rb" afterPath="$PROJECT_DIR$/spec/models/participant_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/participants.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/participants.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/position_papers.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/position_papers.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/registrations.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/registrations.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/resolution.rb" afterPath="$PROJECT_DIR$/app/models/resolution.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/resolution_spec.rb" afterPath="$PROJECT_DIR$/spec/models/resolution_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/resolution_submitter.rb" afterPath="$PROJECT_DIR$/app/models/resolution_submitter.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/resolutions.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/resolutions.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/resolutions.rb" afterPath="$PROJECT_DIR$/spec/factories/resolutions.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/sb-admin.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/sb-admin.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/comittees/show.html.haml" afterPath="$PROJECT_DIR$/app/views/comittees/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/conferences/show.html.haml" afterPath="$PROJECT_DIR$/app/views/conferences/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/group_registrations/show.html.haml" afterPath="$PROJECT_DIR$/app/views/group_registrations/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/show.html.haml" afterPath="$PROJECT_DIR$/app/views/users/show.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/delegates/show.html.haml_spec.rb" afterPath="$PROJECT_DIR$/spec/views/delegates/show.html.haml_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/spec__model_united_nations_rails.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/spec__model_united_nations_rails.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/topic.rb" afterPath="$PROJECT_DIR$/app/models/topic.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/topics.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/topics.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/topics_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/topics_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/users.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/users.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories/users.rb" afterPath="$PROJECT_DIR$/spec/factories/users.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/welcome.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/welcome.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="model-united-nations-rails.iws" />
@@ -52,7 +368,39 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/model-united-nations-rails@Development__model_united_nations_rails.coverage" NAME="Development: model-united-nations-rails Coverage Results" MODIFIED="1400075905144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@assets_clobber__model_united_nations_rails.coverage" NAME="assets:clobber: model-united-nations-rails Coverage Results" MODIFIED="1402952260646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@participant_group.coverage" NAME="participant_group Coverage Results" MODIFIED="1402503632971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/models" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@Run_spec__abilites_spec___model_united_nations_rails.coverage" NAME="Run spec 'abilites_spec': model-united-nations-rails Coverage Results" MODIFIED="1400260571387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@ComitteesController__model_united_nations_rails.coverage" NAME="ComitteesController: model-united-nations-rails Coverage Results" MODIFIED="1400264837335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@Conference_location__model_united_nations_rails.coverage" NAME="Conference location: model-united-nations-rails Coverage Results" MODIFIED="1402337174007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@Conference__model_united_nations_rails.coverage" NAME="Conference: model-united-nations-rails Coverage Results" MODIFIED="1402336787921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@User_abilities_conferences_when_manager_delegations__model_united_nations_rails.coverage" NAME="User abilities conferences when manager delegations: model-united-nations-rails Coverage Results" MODIFIED="1400261209092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@ParticipantGroup__model_united_nations_rails.coverage" NAME="ParticipantGroup: model-united-nations-rails Coverage Results" MODIFIED="1402503057353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@spec__model_united_nations_rails.coverage" NAME="spec: model-united-nations-rails Coverage Results" MODIFIED="1402170788513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@ConferencesController__model_united_nations_rails.coverage" NAME="ConferencesController: model-united-nations-rails Coverage Results" MODIFIED="1402172143439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@User_abilities_conferences_not_public_when_non_participant__model_united_nations_rails.coverage" NAME="User abilities conferences not public when non participant: model-united-nations-rails Coverage Results" MODIFIED="1402338225060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@Delegation__model_united_nations_rails.coverage" NAME="Delegation: model-united-nations-rails Coverage Results" MODIFIED="1400260833354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@ConferencesController_GET__index_loads_all_of_the_conferences_into__conferences__model_united_nations_rails.coverage" NAME="ConferencesController GET #index loads all of the conferences into @conferences: model-united-nations-rails Coverage Results" MODIFIED="1402171691733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@DelegationsController__model_united_nations_rails.coverage" NAME="DelegationsController: model-united-nations-rails Coverage Results" MODIFIED="1400261964824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@Development__model_united_nations_rails.coverage" NAME="Development: model-united-nations-rails Coverage Results" MODIFIED="1403026238349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@db_migrate__model_united_nations_rails.coverage" NAME="db:migrate: model-united-nations-rails Coverage Results" MODIFIED="1402741610100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@DelegationsController_GET__new__model_united_nations_rails.coverage" NAME="DelegationsController GET #new: model-united-nations-rails Coverage Results" MODIFIED="1400261605776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@assets_clean_keep___model_united_nations_rails.coverage" NAME="assets:clean[keep]: model-united-nations-rails Coverage Results" MODIFIED="1402949664454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@DelegationsController_GET__show__returns_http_success__model_united_nations_rails.coverage" NAME="DelegationsController GET 'show' returns http success: model-united-nations-rails Coverage Results" MODIFIED="1400264838592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@GroupRegistration__model_united_nations_rails.coverage" NAME="GroupRegistration: model-united-nations-rails Coverage Results" MODIFIED="1402505280004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@User_abilities__model_united_nations_rails.coverage" NAME="User abilities: model-united-nations-rails Coverage Results" MODIFIED="1402337317444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@tmp_clear__model_united_nations_rails.coverage" NAME="tmp:clear: model-united-nations-rails Coverage Results" MODIFIED="1402853061910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@Production__model_united_nations_rails.coverage" NAME="Production: model-united-nations-rails Coverage Results" MODIFIED="1402741556938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@ParticipantGroup_manager_it_should_return_all_groups_managed_by_a_user__model_united_nations_rails.coverage" NAME="ParticipantGroup manager it should return all groups managed by a user: model-united-nations-rails Coverage Results" MODIFIED="1402503638805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@All_specs_in_spec__model_united_nations_rails.coverage" NAME="All specs in spec: model-united-nations-rails Coverage Results" MODIFIED="1402333862241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@All_specs_in_models__model_united_nations_rails.coverage" NAME="All specs in models: model-united-nations-rails Coverage Results" MODIFIED="1402337190180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@conference.coverage" NAME="conference Coverage Results" MODIFIED="1402336842420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/models" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@User_abilities_conferences_not_public_when_manager__model_united_nations_rails.coverage" NAME="User abilities conferences not public when manager: model-united-nations-rails Coverage Results" MODIFIED="1402338236780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@GroupRegistrationsController__model_united_nations_rails.coverage" NAME="GroupRegistrationsController: model-united-nations-rails Coverage Results" MODIFIED="1400261826992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@User_abilities_conferences_not_public_when_delegate__model_united_nations_rails.coverage" NAME="User abilities conferences not public when delegate: model-united-nations-rails Coverage Results" MODIFIED="1402338249021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@User_abilities_conferences_not_public_comittees__model_united_nations_rails.coverage" NAME="User abilities conferences not public comittees: model-united-nations-rails Coverage Results" MODIFIED="1402337888228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@User_abilities_conferences_not_public_committees__model_united_nations_rails.coverage" NAME="User abilities conferences not public committees: model-united-nations-rails Coverage Results" MODIFIED="1402338400964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
+    <SUITE FILE_PATH="coverage/model-united-nations-rails@User_abilities_participant_group__model_united_nations_rails.coverage" NAME="User abilities participant group: model-united-nations-rails Coverage Results" MODIFIED="1402503019673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="model-united-nations-rails" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -72,14 +420,67 @@
       <setting name="OPEN_NEW_TAB" value="true" />
     </FindUsagesManager>
   </component>
+  <component name="GeneratorOptions">
+    <option name="VCS_SHOW_CONFIRMATION" value="true" />
+    <option name="ENVIRONMENT" value="development" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/conferences/show.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/timetables/_timetable.html.haml" />
+        <option value="$PROJECT_DIR$/spec/models/resolution_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/committee_session.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/group_registrations_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/ability.rb" />
+        <option value="$PROJECT_DIR$/app/models/participant_group_member.rb" />
+        <option value="dbtable:/52db00cf/8846fc63-d695-4a94-8a99-ac7b997638c3/modelunitednations_development.public.users" />
+        <option value="dbtable:/52db00cf/8846fc63-d695-4a94-8a99-ac7b997638c3/modelunitednations_development.public.participants" />
+        <option value="$PROJECT_DIR$/app/controllers/committees_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/models/abilites_spec.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140611172849_drop_delegates.rb" />
+        <option value="$PROJECT_DIR$/app/models/resolution_submitter.rb" />
+        <option value="$PROJECT_DIR$/app/models/delegate.rb" />
+        <option value="$PROJECT_DIR$/app/models/create_delegation_member_roles.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140611175450_delegation_member_to_delegation_member_role.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140611175348_create_create_delegation_member_roles.rb" />
+        <option value="$PROJECT_DIR$/app/models/delegation_member_roles.rb" />
+        <option value="$PROJECT_DIR$/app/models/delegation_member.rb" />
+        <option value="$PROJECT_DIR$/app/models/delegation_member_role.rb" />
+        <option value="$PROJECT_DIR$/app/models/participant.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140611203922_add_delegation_id_to_delegate_member.rb" />
+        <option value="$PROJECT_DIR$/lib/group.rb" />
+        <option value="$PROJECT_DIR$/app/models/participant_group.rb" />
+        <option value="$PROJECT_DIR$/app/models/delegation.rb" />
+        <option value="$PROJECT_DIR$/app/models/committee.rb" />
+        <option value="$PROJECT_DIR$/app/models/group.rb" />
+        <option value="$PROJECT_DIR$/app/models/conference.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/sb-admin.css" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
+        <option value="$PROJECT_DIR$/app/controllers/committee_sessions_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/committee_sessions/list.handlebars" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/committee_sessions/show.handlebars" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/committees/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/modelunitednations.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/controllers/committee_sessions.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/models/committee_session.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/views/committee_sessions/show.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/views/committee_sessions/list.js" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/helpers/tutorial_helper.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/intros/roles/delegate.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/intros/intro_handler.js" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_tutorial_modal.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_help_modal.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_about_modal.html.haml" />
       </list>
     </option>
   </component>
@@ -91,10 +492,27 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="125" />
-    <option name="y" value="82" />
-    <option name="width" value="1769" />
-    <option name="height" value="939" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Rails</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>RailsParamDefResolve</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -122,7 +540,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -141,9 +558,78 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model-united-nations-rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model-united-nations-rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model-united-nations-rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model-united-nations-rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model-united-nations-rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model-united-nations-rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model-united-nations-rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model-united-nations-rails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,13 +637,171 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../brokenmusic/Development" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="FullScreen" value="false" />
+    <property name="FullScreen" value="true" />
+    <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
+    <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/layouts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/javascripts/intros/roles" />
+      <recent name="$PROJECT_DIR$/app/assets/javascripts/intros/general" />
+    </key>
   </component>
   <component name="RunManager" selected="Rails.Development: model-united-nations-rails">
+    <configuration default="false" name="GroupRegistration: model-united-nations-rails" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="model-united-nations-rails" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/group_registration_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="GroupRegistration" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="db:migrate: model-united-nations-rails" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="model-united-nations-rails" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="production" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="assets:clean[keep]: model-united-nations-rails" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="model-united-nations-rails" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="development" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="assets:clean" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tmp:clear: model-united-nations-rails" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="model-united-nations-rails" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="tmp:clear" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="assets:clobber: model-united-nations-rails" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="model-united-nations-rails" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="development" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="assets:clobber" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -208,18 +852,150 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method />
     </configuration>
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
     <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
       <option name="VM_PARAMETERS" value="" />
       <option name="USER_CFG_CLASS" />
       <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="9">
       <item index="0" class="java.lang.String" itemvalue="Rake.test: model-united-nations-rails" />
       <item index="1" class="java.lang.String" itemvalue="Rake.spec: model-united-nations-rails" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: model-united-nations-rails" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: model-united-nations-rails" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.GroupRegistration: model-united-nations-rails" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.db:migrate: model-united-nations-rails" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.assets:clean[keep]: model-united-nations-rails" />
+      <item index="7" class="java.lang.String" itemvalue="Rake.tmp:clear: model-united-nations-rails" />
+      <item index="8" class="java.lang.String" itemvalue="Rake.assets:clobber: model-united-nations-rails" />
     </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Rake.assets:clobber: model-united-nations-rails" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.assets:clean[keep]: model-united-nations-rails" />
+        <item index="2" class="java.lang.String" itemvalue="Rake.tmp:clear: model-united-nations-rails" />
+        <item index="3" class="java.lang.String" itemvalue="Rake.db:migrate: model-united-nations-rails" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.GroupRegistration: model-united-nations-rails" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -231,25 +1007,46 @@
       <created>1398528483741</created>
       <updated>1398528483741</updated>
     </task>
+    <task id="LOCAL-00001" summary="Announcement, conference#show design">
+      <created>1400077062064</created>
+      <updated>1400077062065</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="125" y="82" width="1769" height="939" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32928312" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329602" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34858134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904148" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1881259" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18955651" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806805" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18849841" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46766168" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37064677" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55472636" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886723" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33008525" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904148" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55472636" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18849841" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46766168" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886723" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1881259" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18955651" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37064677" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -266,52 +1063,427 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Announcement, conference#show design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Announcement, conference#show design" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140611175450_delegation_member_to_delegation_member_role.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3451883" vertical-offset="0" max-vertical-offset="478">
+          <caret line="11" column="70" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/announcement.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140611180123_rename_delegation_member_roles_to_delegation_member_role.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.032967035" vertical-offset="0" max-vertical-offset="455">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140425201436_create_announcements.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/delegation_member_role.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.09414226" vertical-offset="0" max-vertical-offset="478">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/delegation_member.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43933055" vertical-offset="0" max-vertical-offset="735">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://RailsDependency/#model-united-nations-rails">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>RailsDependency</ID>
+          <OriginalElement>#model-united-nations-rails</OriginalElement>
+          <nodes>
+            <node x="" y="">User</node>
+            <node x="" y="">GroupRegistration</node>
+            <node x="" y="">Registration</node>
+            <node x="" y="">DelegationMember</node>
+            <node x="" y="">DelegationMemberRole</node>
+            <node x="" y="">ParticipantGroupRole</node>
+            <node x="" y="">ResolutionSubmitter</node>
+            <node x="" y="">ParticipantRole</node>
+            <node x="" y="">ParticipantGroup</node>
+            <node x="" y="">CommitteeMember</node>
+            <node x="" y="">ParticipantGroupMember</node>
+            <node x="" y="">Topic</node>
+            <node x="" y="">ResolutionSubmitterRole</node>
+            <node x="" y="">Ability</node>
+            <node x="" y="">PariticipantRole</node>
+            <node x="" y="">CommitteeSession</node>
+            <node x="" y="">Conference</node>
+            <node x="" y="">Timetable</node>
+            <node x="" y="">Committee</node>
+            <node x="" y="">Resolution</node>
+            <node x="" y="">Event</node>
+            <node x="" y="">Participant</node>
+            <node x="" y="">Announcement</node>
+            <node x="" y="">Activity</node>
+            <node x="" y="">CommitteeRole</node>
+            <node x="" y="">UserConsideration</node>
+            <node x="" y="">Role</node>
+            <node x="" y="">Delegation</node>
+            <node x="" y="">ConferenceCategory</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8797735711879606" x="1009.0" y="229.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/abilites_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56485355" vertical-offset="855" max-vertical-offset="2565">
+          <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140611203922_add_delegation_id_to_delegate_member.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15690376" vertical-offset="0" max-vertical-offset="478">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28242677" vertical-offset="0" max-vertical-offset="2025">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/participant.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27824268" vertical-offset="47" max-vertical-offset="900">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_side_navigation.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3325301" vertical-offset="447" max-vertical-offset="1905">
+          <caret line="39" column="52" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/theme.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75541127" vertical-offset="24776" max-vertical-offset="41145">
-          <caret line="1675" column="35" selection-start-line="1646" selection-start-column="28" selection-end-line="1675" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/timetables/_timetable.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2994012" vertical-offset="0" max-vertical-offset="501">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="41145">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/conferences/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7185629" vertical-offset="0" max-vertical-offset="2325">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.65824467" vertical-offset="0" max-vertical-offset="2325">
+          <caret line="33" column="111" selection-start-line="4" selection-start-column="0" selection-end-line="33" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/committee.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/delegation.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="478">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/participant_group.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03931848" vertical-offset="0" max-vertical-offset="930">
+          <caret line="2" column="96" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/conference.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.031380754" vertical-offset="0" max-vertical-offset="2610">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/group.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2580645" vertical-offset="0" max-vertical-offset="1980">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/topics_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="478">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/sb-admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9372385" vertical-offset="6362" max-vertical-offset="6900">
+          <caret line="454" column="0" selection-start-line="454" selection-start-column="0" selection-end-line="454" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/development.log">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43933055" vertical-offset="180" max-vertical-offset="720">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="478">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/assets/ember/development/ember.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38543898" vertical-offset="0" max-vertical-offset="651120">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451@model-united-nations/gems/devise-3.2.4/app/controllers/devise/sessions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50341684" vertical-offset="154" max-vertical-offset="2040">
+          <caret line="25" column="59" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/committee_sessions/show.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06960557" vertical-offset="0" max-vertical-offset="431">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/committee_sessions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68619245" vertical-offset="392" max-vertical-offset="915">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/committees/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3215859" vertical-offset="0" max-vertical-offset="1815">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/modelunitednations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3451883" vertical-offset="0" max-vertical-offset="478">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/controllers/committee_sessions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06276151" vertical-offset="0" max-vertical-offset="478">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/models/committee_session.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="478">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/views/committee_sessions/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="478">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/views/committee_sessions/show.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12552302" vertical-offset="0" max-vertical-offset="478">
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/committee_sessions/list.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2973568" vertical-offset="0" max-vertical-offset="454">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/conferences/circle/missing.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/conferences/original/missing.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8117155" vertical-offset="137" max-vertical-offset="615">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3318584" vertical-offset="165" max-vertical-offset="1620">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9372385" vertical-offset="47" max-vertical-offset="870">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/intros/general/introduction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5376569" vertical-offset="30" max-vertical-offset="1065">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/intros/roles/delegate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31380752" vertical-offset="0" max-vertical-offset="478">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/intros/welcome/index.js.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13215859" vertical-offset="0" max-vertical-offset="454">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/intros/intro_handler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4079498" vertical-offset="0" max-vertical-offset="478">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/intros/roles/conference_manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="478">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/tutorial_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18828452" vertical-offset="0" max-vertical-offset="480">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6530612" vertical-offset="2457" max-vertical-offset="3030">
+          <caret line="183" column="47" selection-start-line="183" selection-start-column="47" selection-end-line="183" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59183675" vertical-offset="999" max-vertical-offset="1470">
+          <caret line="84" column="53" selection-start-line="84" selection-start-column="47" selection-end-line="84" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43933055" vertical-offset="0" max-vertical-offset="510">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_tutorial_modal.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6938776" vertical-offset="564" max-vertical-offset="1005">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_help_modal.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26431718" vertical-offset="315" max-vertical-offset="855">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_about_modal.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65986395" vertical-offset="99" max-vertical-offset="810">
+          <caret line="26" column="89" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="76" />
           <folding />
         </state>
       </provider>

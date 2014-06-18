@@ -37,9 +37,8 @@ gem 'gon'
 # Use postgresql as the database for Active Record
 gem 'pg'
 gem 'devise'
-#gem 'jquery-rails'
-#gem 'jquery-ui-rails'
-#gem 'jquery-fileupload-rails'
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
 gem 'wicked'
 gem 'soundcloud'
 gem "figaro", ">= 0.5.3"

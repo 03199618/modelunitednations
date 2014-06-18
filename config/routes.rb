@@ -16,12 +16,12 @@ Modelunitednations::Application.routes.draw do
       get 'placards'
     end
   end
-  resources :comittees do
+  resources :committees do
     member do
       get 'session'
     end
   end
-  resources :comittee_sessions
+  resources :committee_sessions
   resources :delegations
   resources :delegates
   resources :users do
@@ -64,7 +64,7 @@ Modelunitednations::Application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      resources :comittees
+      resources :committees
     end
   end
 

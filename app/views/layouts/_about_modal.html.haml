@@ -1,0 +1,49 @@
+.modal.fade{:style => "display: none;", :id => "about_modal"}
+  .modal-dialog
+    .modal-content
+
+      .modal-header
+        %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", type: "button"} ×
+        %h4.modal-title.text-center
+          .row
+            %h3
+              About Model United Nations
+      .modal-body
+        .text-center
+          %h4
+            I create this website to solve a problem:
+          %p
+            It is the 21st century and, still, most Model United Nations conferences are managed with crude tools. Tools that with today's technology can be enhanced, drastically. Organizing a conference will be fun again.
+            %br
+            %br
+          %h4
+            But there is more to this than just this little problem.
+          %p
+            I knew that someday somebody would try to solve this problem as well.
+            And I knew that they would want to make money out of it.
+            Make it a business about money, not about people.
+            %br
+            %br
+            And I also knew that it would kill the love of many conferences.
+            %br
+            So I created this website.
+            %br
+            For you.
+            %br
+            %br
+
+            Because I do not care about money.
+
+            %br
+            %br
+            %em
+              I care about you.
+
+      .modal-footer
+        .row.text-center
+          %em
+            Wanna talk?
+          %br
+          jakob@model-united-nations.com
+
+          /= link_to "Save", "#", class: "btn btn-primary pull-right", :data => {:dismiss => "modal"}

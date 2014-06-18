@@ -1,5 +1,5 @@
 class CommitteeMember < ActiveRecord::Base
-  belongs_to :comittee
+  belongs_to :committee
   belongs_to :participant
   has_and_belongs_to_many :committee_roles, join_table: "committee_members_committee_roles"
 

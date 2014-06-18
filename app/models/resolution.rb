@@ -1,6 +1,6 @@
 class Resolution < ActiveRecord::Base
   has_and_belongs_to_many :topics
-  belongs_to :comittee
+  belongs_to :committee
   has_many :resolution_submitters, class_name: "ResolutionSubmitter", foreign_key: "resolution_id"
 
   def main_submitter

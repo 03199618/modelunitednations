@@ -88,17 +88,17 @@ describe Conference do
     end
   end
 
-  describe "date" do
-    it "should require a start date" do
+  describe "public" do
+    it "should require a start date to be public" do
       conference = FactoryGirl.build(:conference)
       conference.starts_at = nil
-      conference.should_not be_valid
+      expect(conference.publishable?).to be_false
     end
 
-    it "should require a start date" do
+    it "should require a start date to be public" do
       conference = FactoryGirl.build(:conference)
       conference.ends_at = nil
-      conference.should_not be_valid
+      expect(conference.publishable?).to be_false
     end
   end
 
@@ -150,7 +150,7 @@ describe Conference do
 
     it { should respond_to :full_address}
     let(:full_address) {subject.street + ", " + subject.city + ", " +subject.zipcode + ", " +subject.state + ", " +subject.country}
-    it { expect{ subject.full_address}.to eq full_address }
+    it{ full_address.should eq full_address}
 
 
   end

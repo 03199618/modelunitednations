@@ -1,12 +1,11 @@
-class Conference < ActiveRecord::Base
+class Conference < Group
   include PublicActivity::Model
   tracked except: [:create, :destroy]
 
   has_many :announcements, dependent: :destroy
   has_many :participants, dependent: :destroy
   has_many :delegations, dependent: :destroy
-  has_many :delegates, through: :delegations
-  has_many :comittees, dependent: :destroy
+  has_many :committees, dependent: :destroy
   has_many :participant_groups
   has_many :registrations, dependent: :destroy
   has_many :group_registrations, dependent: :destroy
@@ -129,7 +128,30 @@ class Conference < ActiveRecord::Base
   end
 
   def full_address
-    [street, city, zipcode, state, country].compact.join(', ')
+    "#{[street, city, zipcode, state, country].compact.join(', ')}"
+  end
+
+  def missing_required_attributes
+    required_attributes = [:starts_at, :ends_at, :acronym, :size, :name, :description, :city]
+    missing_attributes = []
+    required_attributes.each do |attribute|
+      if self.send(attribute).nil?
+        missing_attributes << attribute
+      end
+    end
+
+    if !logo?
+      missing_attributes << :logo
+    end
+    return missing_attributes
+  end
+
+  def publishable?
+    if missing_required_attributes.any?
+      return false
+    else
+      return true
+    end
   end
 
   private

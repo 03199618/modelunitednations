@@ -3,7 +3,7 @@ class AnnouncementsController < ApplicationController
 
   def new
     if !params[:comittee_id].nil?
-      @announced_at = Comittee.find(params[:comittee_id])
+      @announced_at = Committee.find(params[:comittee_id])
     elsif !params[:conference_id].nil?
       @announced_at = Conference.find(params[:conference_id])
     elsif !params[:participant_group_id].nil?

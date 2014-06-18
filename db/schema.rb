@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140425201436) do
+ActiveRecord::Schema.define(version: 20140611203922) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -44,34 +44,8 @@ ActiveRecord::Schema.define(version: 20140425201436) do
     t.datetime "updated_at"
   end
 
-  create_table "comittee_sessions", force: true do |t|
-    t.integer  "comittee_id"
-    t.datetime "ended_at"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "comittees", force: true do |t|
-    t.text     "name"
-    t.text     "description"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.integer  "conference_id"
-    t.datetime "deadline_position_paper"
-  end
-
-  create_table "comittees_participants", id: false, force: true do |t|
-    t.integer "comittee_id"
-    t.integer "participant_id"
-  end
-
-  create_table "comittees_topics", id: false, force: true do |t|
-    t.integer "topic_id"
-    t.integer "comittee_id"
-  end
-
   create_table "committee_members", force: true do |t|
-    t.integer  "comittee_id"
+    t.integer  "committee_id"
     t.integer  "participant_id"
     t.integer  "committee_role_id"
     t.datetime "created_at"
@@ -87,6 +61,32 @@ ActiveRecord::Schema.define(version: 20140425201436) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "committee_sessions", force: true do |t|
+    t.integer  "committee_id"
+    t.datetime "ended_at"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "committees", force: true do |t|
+    t.text     "name"
+    t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "conference_id"
+    t.datetime "deadline_position_paper"
+  end
+
+  create_table "committees_participants", id: false, force: true do |t|
+    t.integer "committee_id"
+    t.integer "participant_id"
+  end
+
+  create_table "committees_topics", id: false, force: true do |t|
+    t.integer "topic_id"
+    t.integer "committee_id"
   end
 
   create_table "conference_categories", force: true do |t|
@@ -121,13 +121,17 @@ ActiveRecord::Schema.define(version: 20140425201436) do
     t.datetime "logo_updated_at"
   end
 
-  create_table "delegates", force: true do |t|
-    t.integer  "participant_id"
-    t.integer  "delegation_id"
-    t.integer  "comittee_id"
+  create_table "delegation_member_roles", force: true do |t|
+    t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.text     "position_paper"
+  end
+
+  create_table "delegation_members", force: true do |t|
+    t.integer  "participant_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "delegation_id"
   end
 
   create_table "delegations", force: true do |t|
@@ -257,7 +261,7 @@ ActiveRecord::Schema.define(version: 20140425201436) do
 
   create_table "resolutions", force: true do |t|
     t.text     "content"
-    t.integer  "comittee_id"
+    t.integer  "committee_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

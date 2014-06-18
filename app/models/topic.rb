@@ -1,6 +1,6 @@
 class Topic < ActiveRecord::Base
   has_and_belongs_to_many :resolutions
-  has_and_belongs_to_many :comittees
+  has_and_belongs_to_many :committees
   validates_presence_of :name
 
   def addResolution(resolution)

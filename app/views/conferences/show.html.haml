@@ -73,7 +73,7 @@
               %span.caret
             %ul.dropdown-menu.pull-right{role: "menu"}
               %li
-                %a{href: new_comittee_path(conference_id: @conference.id)} Add comittee
+                %a{href: new_committee_path(conference_id: @conference.id)} Add committee
               %li
                 %a{href: "#"} Another action
               %li
@@ -82,12 +82,12 @@
               %li
                 %a{href: "#"} Separated link
       .panel-body
-        - @conference.comittees.each do |comittee|
-          = link_to comittee.name, comittee_path(comittee)
+        - @conference.committees.each do |committee|
+          = link_to committee.name, committee_path(committee)
           %br
-        = link_to "+ Add comittee", new_comittee_path(conference_id: @conference.id)
+        = link_to "+ Add committee", new_committee_path(conference_id: @conference.id)
       .panel-footer
-        = "#{pluralize(@conference.comittees.count, "committees")}"
+        = "#{pluralize(@conference.committees.count, "committees")}"
   #participants.tab-pane.fade
     /%h4 Participants
     %br
@@ -101,7 +101,7 @@
               %span.caret
             %ul.dropdown-menu.pull-right{role: "menu"}
               %li
-                %a{href: new_comittee_path(conference_id: @conference.id)} Add comittee
+                %a{href: new_committee_path(conference_id: @conference.id)} Add committee
               %li
                 %a{href: "#"} Another action
               %li
@@ -113,7 +113,7 @@
         - @conference.participant_groups.each do |participant_group|
           = link_to participant_group.name, participant_group_path(participant_group)
           %br
-        = link_to "+ Add participant group", new_comittee_path(conference_id: @conference.id)
+        = link_to "+ Add participant group", new_committee_path(conference_id: @conference.id)
 
       .panel-footer
         = "#{pluralize(@conference.participant_groups.count, "groups")}"

@@ -100,7 +100,8 @@ end
 
 
 
-administrator = User.find_or_create_by_email :firstname => "Jakob".dup, :surname => "Zeitler".dup, :email => "mail@jakob-zeitler.de".dup, :password => "munmunmun".dup, :password_confirmation => "munmunmun".dup
+administrator = User.find_or_create_by( :email => "mail@jakob-zeitler.de".dup)
+administrator.update(:firstname => "Jakob".dup, :surname => "Zeitler".dup, :password => "munmunmun".dup, :password_confirmation => "munmunmun".dup)
 administrator.initial_role = "administrator"
 puts 'Administrator: ' << administrator.name
 
@@ -120,7 +121,7 @@ if Rails.env.development? || Rails.env.test?
     puts 'STUDIOS'
     1.upto(110) do |i|
 
-      u = User.find_or_create_by_email :name => Faker::Name.name.dup, :email => "user#{i}#{DateTime.now.to_s}@broken-music.de".dup, :password => "12345678".dup, :password_confirmation => "12345678".dup, :confirmed_at => Time.now
+      u = User.create( :name => Faker::Name.name.dup, :email => "user#{i}#{DateTime.now.to_s}@broken-music.de".dup, :password => "12345678".dup, :password_confirmation => "12345678".dup, :confirmed_at => Time.now)
       u.initial_role = "Studio"
       puts 'U: ' << u.name
       u.save

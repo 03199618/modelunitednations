@@ -1,4 +1,4 @@
-wrequire 'spec_helper'
+require 'spec_helper'
 
 describe "delegates/show.html.haml" do
   pending "add some examples to (or delete) #{__FILE__}"

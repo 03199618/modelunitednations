@@ -30,7 +30,7 @@ class DelegatesController < ApplicationController
     authorize! :create, @delegate
 
     if params[:delegate][:comittee_id]
-      @delegate.comittee = Comittee.find(params[:delegate][:comittee_id])
+      @delegate.comittee = Committee.find(params[:delegate][:comittee_id])
     end
     if params[:delegate][:participant_id]
       @delegate.participant = Participant.find(params[:delegate][:participant_id])
@@ -87,7 +87,7 @@ class DelegatesController < ApplicationController
     if params[:delegation_id]
       @conference_resource = Delegation.find(params[:delegation_id])
     elsif params[:comittee_id]
-      Comittee.find(params[:comittee_id])
+      Committee.find(params[:comittee_id])
     else
       nil
     end

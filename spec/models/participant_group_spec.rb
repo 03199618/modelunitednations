@@ -48,7 +48,7 @@ describe ParticipantGroup do
 
       participant_group.addParticipantGroupMember(user)
 
-      expect(participant_group.manager.pluck(:id)).to include(participant_group_member.id)
+      expect(participant_group.participant_group_members.pluck(:user_id)).to include(user.id)
     end
 
     it "it should check a user for participation" do

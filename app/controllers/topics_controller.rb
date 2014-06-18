@@ -19,14 +19,14 @@ class TopicsController < ApplicationController
   end
 
   def create
-    @comittee = Comittee.find(params[:topic][:comittee_id])
-    @topic = @comittee.topics.new(params[:topic].permit(:name, :content))
+    @committee = Committee.find(params[:topic][:comittee_id])
+    @topic = @committee.topics.new(params[:topic].permit(:name, :content))
     authorize! :create, @topic
 
 
 
     if @topic.save
-      @comittee.addTopic(@topic)
+      @committee.addTopic(@topic)
       flash[:success] = t("general.topicCreated")
       respond_to do |format|
         format.xml {render :xml => @topic}

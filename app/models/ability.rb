@@ -3,6 +3,7 @@ class Ability
   include CanCan::Ability
 
   def initialize(user)
+    puts "ABILITY IS: "
     #index, show, new, create, edit, update, destroy
     alias_action :create, :read, :update, :destroy, :to => :crud
 
@@ -12,13 +13,13 @@ class Ability
     log_test user.inspect if Rails.env.test?
 
     if user.has_role? :administrator
-      log_test "ADMINISTRATOR" if Rails.env.test?
+      puts "ADMINISTRATOR"
       can :manage, :all
       can :access, :rails_admin       # only allow admin users to access Rails Admin
       can :dashboard                  # allow access to dashboard
 
     elsif !user.id.nil? #logged in
-      log_test "USER" if Rails.env.test?
+      puts "USER"
 
 
       #User
@@ -60,39 +61,59 @@ class Ability
         conference.manager?(user)
       end
 
-      #Comittee
+      #committee
 
-      can :create, Comittee do |comittee|
-        comittee.conference.manager?(user)
+      can :create, Committee do |committee|
+        committee.conference.manager?(user)
       end
 
-      can :read, Comittee do |comittee|
-        comittee.conference.public? || comittee.conference.participant?(user)
+      can :read, Committee do |committee|
+        puts committee.conference.participants.inspect
+        puts user.inspect
+        committee.conference.public? || committee.conference.participant?(user)
       end
 
-      can :update, Comittee do |comittee|
-        comittee.conference.manager?(user)
+      can :update, Committee do |committee|
+        committee.conference.manager?(user)
       end
 
-      can :destroy, Comittee do |comittee|
-        comittee.conference.manager?(user)
+      can :destroy, Committee do |committee|
+        committee.conference.manager?(user)
       end
 
-      #Comittee session
+      #Delegation
 
-      can :create, ComitteeSession do |session|
+      can :create, Delegation do |delegation|
+        delegation.conference.manager?(user)
+      end
+
+      can :read, Delegation do |delegation|
+        delegation.conference.public? || delegation.conference.participant?(user)
+      end
+
+      can :update, Delegation do |delegation|
+        delegation.conference.manager?(user)
+      end
+
+      can :destroy, Delegation do |delegation|
+        delegation.conference.manager?(user)
+      end
+
+      #committee session
+
+      can :create, CommitteeSession do |session|
         session.conference.manager?(user)
       end
 
-      can :read, ComitteeSession do |session|
+      can :read, CommitteeSession do |session|
         false
       end
 
-      can :update, ComitteeSession do |session|
+      can :update, CommitteeSession do |session|
         false
       end
 
-      can :destroy, ComitteeSession do |session|
+      can :destroy, CommitteeSession do |session|
         false
       end
 
@@ -130,12 +151,8 @@ class Ability
 
       #GroupRegistration
 
-      can :new_group_registration, GroupRegistration do |registration|
-        true
-      end
-
       can :create, GroupRegistration do |registration|
-        registration.participant_group.manager?(user)
+        true
       end
 
       can :read, GroupRegistration do |registration|
@@ -173,7 +190,7 @@ class Ability
         group.manager?(user)
       end
 
-      can :join, ParticipantGroup do |group|
+      can :join, ParticipantGroup do
         true
       end
 
@@ -183,8 +200,9 @@ class Ability
 
 
     else #Guest
+      puts "GUEST"
       can :index, Conference
-      log_test "GUEST" if Rails.env.test?
+
       can :read, Conference do |conference|
         conference.public?
       end

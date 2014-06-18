@@ -22,6 +22,22 @@ RSpec.configure do |config|
   # config.mock_with :flexmock
   # config.mock_with :rr
 
+  Geocoder.configure(:lookup => :test)
+
+  Geocoder::Lookup::Test.set_default_stub(
+      [
+          {
+              'latitude'     => 40.7143528,
+              'longitude'    => -74.0059731,
+              'address'      => 'New York, NY, USA',
+              'state'        => 'New York',
+              'state_code'   => 'NY',
+              'country'      => 'United States',
+              'country_code' => 'US'
+          }
+      ]
+  )
+
   config.include Devise::TestHelpers, :type => :controller
   config.extend ControllerMacros, :type => :controller
 
@@ -75,4 +91,8 @@ RSpec.configure do |config|
 
 def log_test(message)
   Rails.logger.debug(message)
+end
+
+class ActionController::TestCase
+  include Devise::TestHelpers
 end

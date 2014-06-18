@@ -1,0 +1,19 @@
+- if activity.trackable.nil?
+  %a{href: root_path}
+    %div
+      %i.fa.fa-comments.fa-fw
+      This committee has since been deleted.
+      %span.pull-right.text-muted.small
+        = time_ago_in_words(activity.created_at)
+- else
+  %a{href: committee_path(activity.trackable)}
+    %div
+      %i.fa.fa-comments.fa-fw
+      - if activity.trackable
+        = activity.trackable.conference.name
+        added the comittee
+        = activity.trackable.name
+      - else
+        added a committee which has since been removed.
+      %span.pull-right.text-muted.small
+        = time_ago_in_words(activity.created_at)
